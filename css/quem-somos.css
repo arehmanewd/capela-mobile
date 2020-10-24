@@ -1,0 +1,82 @@
+@font-face{
+    font-family: "Gotham-Medium";
+    src:url("../fonts/Gotham Medium Regular.ttf");
+}
+
+.QuemHeading {
+    font-family: "Gotham-Medium";
+    width: 680px;
+    padding: 0.5em 0;
+    color: #666666;
+    text-align: left;
+    border-bottom: #666666;
+   
+}
+.main-photo {
+    float: center;
+    width: 100%;
+    
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.firstP {
+    opacity: .5;
+    margin-bottom: 30px;;
+}
+.head1{
+    color: #408ac7; 
+    font-family: "Gotham-Medium;"
+}
+.firstP1 {
+    opacity: .5;
+    padding-top:15px;
+    text-align:center;
+    font-size: 12px;
+     font-family: "Gotham-Medium";
+   
+}
+.paraimg{
+    width: 173px; height: 170px;
+}
+.paraimg1{
+    width: 167px; height: 170px;
+}
+.SSps{
+    border-top:1px solid #828282;
+    padding-top:10px;
+}
+.SSps  .sspsu{
+    font-family: "Gotham-Medium";
+     margin-bottom: 20px; margin-top: 10px;
+     color:#666666
+}
+.leftimg {
+    width: 50%;
+}
+.rightimg {
+    width: 50%;
+}
+.Destaques{
+    padding-top:15px;
+    padding-bottom:15px;
+    color: #3884c1;
+     font: 23px;
+}
+#overall-container{
+    padding-left:15px;
+    padding-right :15px;
+}
+.setlist{
+  
+    font-family: "Gotham-Medium";
+    font-size:11px;
+    margin-bottom: 0px;
+    opacity:.5;
+}
+.listp{
+
+}
+.bordlist{
+    border-bottom:1px solid #828282;
+    margin-top: 20px;
+}
