@@ -69,3 +69,10 @@ font-size: 20px;
     }
 }
 
+#overall-container{
+    z-index: 50;
+}
+#nav-container{
+    z-index: 99999999;
+    position: relative;
+}
