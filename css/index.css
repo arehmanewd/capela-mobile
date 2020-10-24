@@ -98,7 +98,7 @@ font-size: 20px;
     border: 1px solid #d2d2d2;
     background-color: #fff;
     max-width: 443px;
-    max-height: 495px;
+    max-height: 415px;
   }
   .h-100 {
     height: 100%;
@@ -134,7 +134,7 @@ font-size: 20px;
     font-size: 25px;
     text-align: center;
     /* color: white; */
-    bottom: -10px;
+    /* bottom: -10px; */
     /* padding: 5px; */
     /* background-color: red; */
     font-weight: bolder;
@@ -163,9 +163,7 @@ font-size: 20px;
   }
 
   /* Position the image container (needed to position the left and right arrows) */
-  .container {
-    /* position: relative; */
-  }
+ 
 
   /* Hide the images by default */
   .mySlides {
@@ -259,15 +257,55 @@ font-size: 20px;
   .demo:hover {
     opacity: 1;
   }
-  .carousel-slide{
-      border: 1px solid red;
+  .carousel-container{
+      margin-top: 20px;
   }
+
   .carousel-slide-img{
       /* border: 1px solid green; */
       width: 100%;
   }
   .content-label{
     background-color: #3a89c5;
-    color: white;
+    color: white !important;
     text-align: center;
   }
+  .circle{
+    height: 30px;
+    border-radius: 100px;
+    width: 30px;
+  }
+  .hrl{
+      width: 100%;
+      border: 1px solid lightgray;
+      margin-bottom: 10px;
+      margin-top: 10px;
+  }
+  .semana-heading{
+    color: #3884c1 !important;
+    font-weight: 600;
+  }
+  .semana-container{
+      margin-top: 10px;
+  }
+  .flex{
+      display: flex;
+      border-bottom: 2px solid lightgray;
+  }
+  .flex-img{
+      width: 20%;
+      padding: 5px;
+  }
+  .semana-flex-heading{
+      padding-left: 10px;
+  }
+  .postDate{
+    text-align: left;
+    font-size: 12px;
+}
+.destaques-heading{
+  margin-top: 10px;
+  text-align: left;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 10px;
+}
