@@ -36,10 +36,10 @@
    
 }
 .paraimg{
-    width: 173px; height: 170px;
+    width: 162px; height: 150px;
 }
 .paraimg1{
-    width: 167px; height: 170px;
+    width: 167px; height: 150px;
 }
 .SSps{
     border-top:1px solid #828282;
@@ -73,10 +73,10 @@
     margin-bottom: 0px;
     opacity:.5;
 }
-.listp{
 
-}
 .bordlist{
     border-bottom:1px solid #828282;
     margin-top: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
 }

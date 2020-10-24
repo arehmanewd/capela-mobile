@@ -63,7 +63,7 @@ font-size: 20px;
         margin-top: 8px     ;
         /* border: 1px solid red !important; */
     }
-    #nav-container{
+    .container{
         padding-right: 0px;
         padding-left: 0px;
     }
@@ -73,6 +73,6 @@ font-size: 20px;
     z-index: 50;
 }
 #nav-container{
-    z-index: 99999999;
     position: relative;
+    z-index: 99999999;
 }
