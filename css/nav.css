@@ -37,6 +37,7 @@ a{
     color: white;
     margin-left: -4.5%;
     margin-right: -4.3%;
+    z-index: 10;
 }
 .nav-pills{
     color: white !important;

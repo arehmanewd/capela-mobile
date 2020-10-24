@@ -1,8 +1,7 @@
 
 .pageBody{
-    border: 1px solid red;
-    width: 100vw;
-    height: 100vh;
+
+  
     text-align: center;
     padding-top: 10px;
 }
@@ -11,13 +10,37 @@
     padding-top: 17px;
 }
 .postImage{
-    width:90%
+    width:90%;
+    margin-top: 15px;
 }
 .postDetails{
     margin-left: 18px;
     margin-top: 10px;
-    float: left;
+    text-align: left;
+    width: 90%;
+    border-bottom: 1px solid #666666;
 }
 .post{
     
+}
+.postDate{
+    text-align: left;
+    font-size: 12px;
+}
+.postParagraph{
+    font-size: 14px;
+    position: relative;
+    top: -8px;
+}
+.postButton{
+    background-image: linear-gradient(#5ca9e3, #04518b);
+    width: 100px;
+    margin-top: -20px;
+    height: 30px;
+    border-radius: 6px;
+    border:none;
+    color: white !important;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
 }

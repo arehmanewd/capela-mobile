@@ -11,7 +11,7 @@
     src: url("../fonts/Gotham\ Bold.otf");
 }
 @font-face {
-    font-family: "Gotham-Book";
+    font-family: "Gotham-Book-Regular";
     src: url("../fonts/Gotham\ Book\ Regular.otf");
 }
 @font-face {
@@ -30,5 +30,13 @@
     }
     .GB{
     font-family: 'Gotham-Bold';
+    color: #666666;
+    }
+    .GBI{
+    font-family: 'Gotham-Book-Italic';
+    color: #666666;
+    }
+    .GBR{
+    font-family: 'Gotham-Book-Regular';
     color: #666666;
     }
