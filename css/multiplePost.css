@@ -1,0 +1,23 @@
+
+.pageBody{
+    border: 1px solid red;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.multiplePosts{
+    padding-top: 17px;
+}
+.postImage{
+    width:90%
+}
+.postDetails{
+    margin-left: 18px;
+    margin-top: 10px;
+    float: left;
+}
+.post{
+    
+}
