@@ -1,8 +1,7 @@
 
 .pageBody{
-    border: 1px solid red;
-    width: 100vw;
-    height: 100vh;
+    
+  
     text-align: center;
     padding-top: 10px;
 }
@@ -16,8 +15,18 @@
 .postDetails{
     margin-left: 18px;
     margin-top: 10px;
-    float: left;
+    text-align: left;
+    width: 90%;
 }
 .post{
     
+}
+.postDate{
+    text-align: left;
+    font-size: 12px;
+}
+.postParagraph{
+    font-size: 14px;
+    position: relative;
+    top: -8px;
 }
