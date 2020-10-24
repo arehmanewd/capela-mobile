@@ -16,13 +16,140 @@
 
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="conatiner">
+    <div class="sky-background">
+
+
+
+        
+        <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6">Hii</div>
-                <div class="col-md-6 col-sm-6">Hii</div>
+                <div class="col-md-12 col-sm-6">
+                    <video src="./img/BANNER_PRINCIPAL.mp4" width="100%"></video>
+                </div>
+                <hr>    
+                <div class="col-md-6 col-sm-6">
+                    <div class="photo-container h-100" id="banner" style="border: 7px solid white;">
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="col-sm-12">
+                    <!-- caroseul Start -->
+                <div class="container carousel-container">
+                    <div class="mySlides">
+                      <img
+                        src="./img/Capela Santissima Trindade_1.jpg"
+                        style="width: 100%"
+                      />
+                    </div>
+  
+                    <div class="mySlides">
+                      <img
+                        src="./img/Capela Santissima Trindade_2.jpg"
+                        style="width: 100%"
+                      />
+                    </div>
+  
+                    <div class="mySlides">
+                      <img
+                        src="./img/Capela Santissima Trindade_4.jpg"
+                        style="width: 100%"
+                      />
+                    </div>
+  
+                    <div class="mySlides">
+                      <img
+                        src="./img/Capela Santissima Trindade_7.jpg"
+                        style="width: 100%"
+                      />
+                    </div>
+  
+                    <div class="mySlides">
+                      <img
+                        src="./img/Capela Santissima Trindade_9.jpg"
+                        style="width: 100%"
+                      />
+                    </div>
+  
+                    <div class="prev" onclick="plusSlides(-1)">❮</div>
+                    <div class="next" onclick="plusSlides(1)">❯</div>
+  
+                  
+                  </div>
+                  <!-- carousel Ends -->
+                </div>
             </div>
         </div>
     </div>
 </body>
 </html>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+  
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+  
+    function currentSlide(n) {
+      showSlides((slideIndex = n));
+    }
+  
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
+<script src="./post-data-json.js"></script>
+<script src="./Semana_Anterior.js"></script>
+
+<script src="./banner.js"></script>
+<script>
+
+    var date = new Date();
+    let day = date.getDate()
+  
+    document.getElementById("banner").innerHTML += `<div class="main-banner-div" id="main-banner-div" style="background-image: url(./img/${october[day].image}.jpg); background-size: cover; height:400px;">
+                    <div class="main-banner-heading-div ${october[day].footer}">
+                      <p class="intecao-heading" id="intecao-heading">
+                        Intenção Missionária
+                      </p>
+                      <p class="intecao-sub-heading " id=" intecao-sub-heading">
+                        <i  >
+                          ${october[day].heading}
+                        </i>
+                      </p>
+                      <p>
+                      </p>
+                    </div>
+                    <div class="intecao-detail ${october[day].footer} " id="intecao-detail">
+                      <p>
+                        <i>
+                          ${october[day].details}
+                        </i>
+                      </p>
+                    </div>
+                        <p class="continent" id="continent">
+                          ${october[day].footer}
+                        </p>
+                  </div>`
+  </script>
