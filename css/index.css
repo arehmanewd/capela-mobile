@@ -266,3 +266,8 @@ font-size: 20px;
       /* border: 1px solid green; */
       width: 100%;
   }
+  .content-label{
+    background-color: #3a89c5;
+    color: white;
+    text-align: center;
+  }
