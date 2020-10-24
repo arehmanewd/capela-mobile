@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: "Myriad Pro Regular";
+    src: url("./fonts/MYRIADPRO-REGULAR.OTF");
+  }
+
+.navbar{
+    background-color: #01244e;
+    /* display: flex; */
+}
+.nav-link{
+    font-family: "Myriad Pro Regular";
+}
+.navLogo{
+    width: 78%;
+    position: relative;
+    left: -16px;
+}
+
+body{
+    margin: 0px;
+}
+#nav{
+  height: 50px;
+}
+li{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#navbarNav{
+    background-color: #01244e;
+    height: 50px;
+    text-align: center;
+    color: white;
+    margin-left: -4.5%;
+    margin-right: -4.3%;
+}
+.nav-pills{
+    color: white !important;
+}
+.nav-item{
+padding: 5px;
+flex: 1 1 auto;
+/* border: 1px solid red; */
+text-align: center;
+padding-left: 12px;
+font-size: 20px;
+}
+.navbar-toggler{
+    border: 1px solid white;
+    margin-top: -3px;
+}
+@media only screen and (max-width:990px){
+    .nav-item{
+        border-bottom: 1px solid white;
+    }
+    #navbarNav{
+        height: auto;
+        margin-top: 8px     ;
+        /* border: 1px solid red !important; */
+    }
+    .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
