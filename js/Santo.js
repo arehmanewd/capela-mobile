@@ -25,16 +25,16 @@ function onLoad() {
             // let url = "oracoes-missionarias-september/capela-virtual-oracoes-missionarias-" + sep + ".html";
             // http.open("HEAD", url, false);
             // http.send();
-            if (mainData.oracoesMissionarias.October[oct]) {
+            if (mainData.santoData.October[oct]) {
                 if (counter % 7 == 0 && counter != 0) {
                     postDiv = postDiv + 1
                 }
 
                 ++counter;
-                if (Array.isArray(mainData.oracoesMissionarias.October[oct])) {
+                if (Array.isArray(mainData.santoData.October[oct])) {
 
-                    console.log(mainData.oracoesMissionarias.October[oct])
-                    mainData.oracoesMissionarias.October[oct].map((post, index) => {
+                    console.log(mainData.santoData.October[oct])
+                    mainData.santoData.October[oct].map((post, index) => {
                         console.log(post)
 
                         div.innerHTML += `  <div class="post">
@@ -55,15 +55,15 @@ function onLoad() {
 
                 else {
                     div.innerHTML += `<div class="post">
-               <img src="${mainData.oracoesMissionarias.October[oct].img}" class="postImage" alt="">
+               <img src="${mainData.santoData.October[oct].img}" class="postImage" alt="">
                <div class="postDetails">
-                   <h5 class="GM">${mainData.oracoesMissionarias.October[oct].title}</h5>
-                   <p class="postDate GBI"><i class="fa fa-calendar"></i> ${mainData.oracoesMissionarias.October[oct].date}</p>
+                   <h5 class="GM">${mainData.santoData.October[oct].title}</h5>
+                   <p class="postDate GBI"><i class="fa fa-calendar"></i> ${mainData.santoData.October[oct].date}</p>
                    <hr>
                    <p class="postParagraph GBR">
-                   ${mainData.oracoesMissionarias.October[oct].details}
+                   ${mainData.santoData.October[oct].details}
                    </p>
-                   <a href="${mainData.oracoesMissionarias.October[oct].route}" id='santo-link'><button class="postButton GM">LEIA MAIS</button></a>
+                   <a href="${mainData.santoData.October[oct].route}" id='santo-link'><button class="postButton GM">LEIA MAIS</button></a>
                </div>
                </div>`
 
@@ -80,23 +80,23 @@ function onLoad() {
             // let url2 = "oracoes-missionarias-September/capela-virtual-oracoes-missionarias-" + sep + ".html";
             // http2.open("HEAD", url2, false);
             // http2.send();
-            if (mainData.oracoesMissionarias.September[sep]) {
+            if (mainData.santoData.September[sep]) {
                 if (counter % 7 == 0) {
                     postDiv = postDiv + 1
                 }
                 // let div = document.getElementById("card-outer-" + postDiv);
                 ++counter;
-                // console.log(mainData.oracoesMissionarias.September[sep].img+"-------------------------")
+                // console.log(mainData.santoData.September[sep].img+"-------------------------")
                 div.innerHTML += `<div class="post">
-            <img src="${mainData.oracoesMissionarias.September[sep].img}" class="postImage" alt="">
+            <img src="${mainData.santoData.September[sep].img}" class="postImage" alt="">
             <div class="postDetails">
-                <h5 class="GM">${mainData.oracoesMissionarias.September[sep].title}</h5>
-                <p class="postDate GBI"><i class="fa fa-calendar"></i> ${mainData.oracoesMissionarias.September[sep].date}</p>
+                <h5 class="GM">${mainData.santoData.September[sep].title}</h5>
+                <p class="postDate GBI"><i class="fa fa-calendar"></i> ${mainData.santoData.September[sep].date}</p>
                 <hr>
                 <p class="postParagraph GBR">
-                ${mainData.oracoesMissionarias.September[sep].details}
+                ${mainData.santoData.September[sep].details}
                 </p>
-                <a href="${mainData.oracoesMissionarias.September[sep].route}" id='santo-link'><button class="postButton GM">LEIA MAIS</button></a>
+                <a href="${mainData.santoData.September[sep].route}" id='santo-link'><button class="postButton GM">LEIA MAIS</button></a>
             </div>
             </div>`
             }

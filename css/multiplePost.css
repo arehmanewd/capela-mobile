@@ -3,7 +3,11 @@
 
   
     text-align: center;
-    padding-top: 10px;
+    padding-top: 25px;
+}
+.pageTitle{
+    border-bottom: 1px solid #666666;
+    padding-bottom: 13px;
 }
 
 .multiplePosts{
