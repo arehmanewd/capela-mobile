@@ -62,7 +62,7 @@ font-size: 20px;
         margin-top: 8px     ;
         /* border: 1px solid red !important; */
     }
-    .container{
+    #nav-container{
         padding-right: 0px;
         padding-left: 0px;
     }

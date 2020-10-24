@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Myriad Pro Regular";
+    src: url("./fonts/MYRIADPRO-REGULAR.OTF");
+  }
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url("../fonts/Gotham\ Medium\ Regular.ttf");
+}
+@font-face {
+    font-family: "Gotham-Bold";
+    src: url("../fonts/Gotham\ Bold.otf");
+}
+@font-face {
+    font-family: "Gotham-Book";
+    src: url("../fonts/Gotham\ Book\ Regular.otf");
+}
+@font-face {
+    font-family: "Gotham-Light";
+    src: url("../fonts/Gotham\ Light\ Regular.otf");
+}
+@font-face {
+    font-family: "Gotham-Book-Italic";
+    src: url("../fonts/Gotham\ Book\ Italic.ttf");
+}
+
+
+    .GM{
+    font-family: 'Gotham-Medium';
+    color: #666666;
+    }
+    .GB{
+    font-family: 'Gotham-Bold';
+    color: #666666;
+    }
