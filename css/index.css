@@ -33,7 +33,6 @@ li{
 }
 a{
     text-decoration: none;
-    color: white;
 }
 #navbarNav{
     background-color: #01244e;
@@ -298,6 +297,7 @@ font-size: 20px;
   }
   .semana-flex-heading{
       padding-left: 10px;
+      color: #666666;
   }
   .postDate{
     text-align: left;
