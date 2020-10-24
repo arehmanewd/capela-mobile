@@ -1884,35 +1884,22 @@ for (var category in mainData) {
         //MAIN
         // console.log(showhtml)
 
-        showhtml2 += `<div class="Video-Post ${categoryname}1 sortpost1 "  data-event-date="${postdateSort}">
-        
-<div class="Video-Thumbnail">
-  <img src="${postImage}" alt="" class="Video-Image" />
-</div>
-<div class="Video-Description">
-  <a href="${postRoute}">
-    <h5 style="color: #666666; font-family: Gotham Medium;">${postTitle}</h5>
-    <p class="date-text" style="color: #666666; font-family: Gotham Book italic;">
-      <span class="cal-icon fa fa-calendar date-text"></span>
-      <i>
-        ${postDate}
+        showhtml2 +=  `<div class="post ${categoryname}1" data-event-date="${postdateSort}">
+        <img src="${postImage}" class="postImage" alt="">
+        <div class="postDetails">
+            <h5 class="GM">${postTitle}</h5>
+            <p class="postDate GBI"><i class="fa fa-calendar"></i>    ${postDate}</p>
+            <hr>
+            <p class="postParagraph GBR">
+                ${postDetails}
+            </p>
+            <a href="${postRoute}">
+            <button class="postButton GM">LEIA MAIS</button>
+            </a>
+        </div>
 
-      </i>
-    </p>
-    <div class="bottom-line"></div>
-
-    <p class="description">
-      ${postDetails}
-    </p>
-    <button class="btn-leia-mais">
-      <span>LEIA MAIS </span>
-
-      <span class="right-arrow">
-        <i class="fa fa-angle-right"></i>
-  </a> </span>
-  </button>
-</div>
-</div>`;
+    </div> 
+      `;
       }
 
       counter++;
@@ -1947,7 +1934,7 @@ window.setTimeout(function () {
     });
 
   jQuery("#destaquesMain")
-    .find(".Video-Post")
+    .find(".post")
     .each(function (i) {
       if (i > 6) {
         jQuery(this).remove();

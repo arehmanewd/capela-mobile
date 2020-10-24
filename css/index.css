@@ -303,3 +303,9 @@ font-size: 20px;
     text-align: left;
     font-size: 12px;
 }
+.destaques-heading{
+  margin-top: 10px;
+  text-align: left;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 10px;
+}
