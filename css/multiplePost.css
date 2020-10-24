@@ -50,3 +50,27 @@
     position: relative;
     top: -10px;
 }
+
+
+.flex{
+    display: flex;
+    border-bottom: 2px solid lightgray;
+}
+.flex-img{
+    width: 20%;
+    padding: 5px;
+}
+.semana-flex-heading{
+    padding-left: 10px;
+    color: #666666;
+}
+.weeklyPost{
+    margin-left: 18px;
+    width: 86%;
+    text-align: left;
+}
+.destaques-heading{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #3884c1 !important;
+}

@@ -1668,26 +1668,16 @@ if (currentDay == "Thursday") {
 // </a>\
 // </div>'
 
-let tercoHTML =
-  '<div class="CV-Video-Link-Post sortpost tercoData ">\
-<a href=' +
-  tercoData[dayTerco].route +
-  '>\
-<img src="' +
-  tercoData[dayTerco].img +
-  '" alt="" class="thubmailVideo-Image" />\
-<p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
-' +
-  tercoData[dayTerco].title +
-  '\
-</p>\
-<p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-<span class="cal-icon fa fa-calendar date-text"></span>  ' +
-  tercoDate +
-  " \
-</p>\
-</a>\
-</div>";
+let tercoHTML =`<a href="${ tercoData[dayTerco].route}"><div class="flex sortpost tercoData" >
+ <div class="flex-img">
+   <img src="${tercoData[dayTerco].img}" width="100%" alt="" />
+ </div>
+ <div class="semana-flex-heading">
+   <h6>${tercoData[dayTerco].title}</h6>
+   <p class="postDate GBI">
+     <i class="fa fa-calendar"></i> ${tercoDate}</p>
+ </div>
+ </div></a>`;
 
 let tercoHTML2 = `<div class="Video-Post tercoPost">
         
@@ -1856,30 +1846,18 @@ for (var category in mainData) {
         }
         var postdateSort = "2020-" + months[monthname] + "-" + dayname;
         // console.log(mypost)
+  
         showhtml +=
-          '<div class="CV-Video-Link-Post sortpost ' +
-          categoryname +
-          '" data-event-date="' +
-          postdateSort +
-          '">\
-<a href=' +
-          postRoute +
-          '>\
-<img src="' +
-          postImage +
-          '" alt="" class="thubmailVideo-Image" />\
-<p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
-' +
-          postTitleShort +
-          '\
-</p>\
-<p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-<span class="cal-icon fa fa-calendar date-text"></span>  ' +
-          postDate +
-          " \
-</p>\
-</a>\
-</div>";
+        `<a href="${postRoute}"><div class="flex sortpost ${categoryname}" data-event-date="${postdateSort}">
+        <div class="flex-img">
+          <img src="${postImage}" width="100%" alt="" />
+        </div>
+        <div class="semana-flex-heading">
+          <h6>${postTitleShort}</h6>
+          <p class="postDate GBI">
+            <i class="fa fa-calendar"></i> ${postDate}</p>
+        </div>
+        </div></a>`
 
         //MAIN
         // console.log(showhtml)

@@ -183,16 +183,7 @@ for (var category in mainData) {
         // </p>\
         // </a>\
         // </div>";
-        showPrevious += `<a href="${postRoute}"><div class="flex sortpost ${categoryname}" data-event-date="${postdateSort}">
-<div class="flex-img">
-  <img src="${postImage}" width="100%" alt="" />
-</div>
-<div class="semana-flex-heading">
-  <h6>${postTitleShort}</h6>
-  <p class="postDate GBI">
-    <i class="fa fa-calendar"></i> ${postDate}</p>
-</div>
-</div></a>`;
+        showPrevious += `Santos do Mês`;
 
         counter++;
       }
