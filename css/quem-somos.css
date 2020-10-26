@@ -5,11 +5,14 @@
 
 .QuemHeading {
     font-family: "Gotham-Medium";
-
-    padding: 0.5em 0;
+    /* width: 680px; */
+    padding-bottom: 13px;
+    font-weight: 600;
+    padding-top: 10px;
     color: #666666;
-    text-align: left;
-    border-bottom: #666666;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
    
 }
 .main-photo {
