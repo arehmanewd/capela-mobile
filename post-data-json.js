@@ -1,4 +1,4 @@
-let host = "http://" + window.location.host;
+let host = "http://" + window.location.host+'/capelaMobile';
 let mainData = {
   santoData: {
     August: {
