@@ -1,0 +1,62 @@
+.GM {
+    font-family: "Gotham-Medium";
+}
+    .flex-div1-img {
+    width: 30%;
+    height: 10%;
+    padding-bottom: 4%;
+}
+.Provincia {
+    color: #007bc5;
+    font-weight: 700;
+    margin: auto;
+}
+.Stella {
+    color: #007bc5;
+    font-weight: 700;
+    font-size: 20px;
+}
+.convento {
+    font-size: 18px;
+    font-weight: 700;
+    color: #666666;
+    text-align: center;
+}
+.contact {
+    font-size: 15px;
+    font-weight: 500;
+    color: #666666;
+    text-align: center;
+    line-height: 0.5;
+    opacity:.9;
+}
+.contactcep{
+    padding-top:10px;
+    font-size: 14px;
+    font-weight: 600;
+    color:black;
+    text-align: center;
+    line-height: 0.5;
+    opacity:.8;
+}
+.setcon{
+    margin-top:-49px;padding: 20px;;
+}
+.hr {
+    background: #666666;
+    height: 2px;
+    width: 235px;
+    position: relative;
+    left: 13%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.btom-div-img {
+    width: 140px;
+    height: 90px;
+}
+.bottomcontent{
+    padding-top:35px;
+    margin-left:-25px;
+    opacity:.8;
+}
