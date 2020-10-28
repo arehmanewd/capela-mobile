@@ -9,8 +9,18 @@ margin-bottom: 5%;
 .fpara{
     font-size: 20px;
     color:#971842;
-    font-family: 'Gotham-Bold';
+   
     font-weight: bold;
+}
+.koib{
+margin-top:20px;
+}
+.spara{
+    font-family: 'Gotham-Medium';
+    color:#971842;
+}
+.lpara{
+    color:#971842;  
 }
 .GB{
     font-family: 'Gotham-Bold';
