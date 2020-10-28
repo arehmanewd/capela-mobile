@@ -116,8 +116,18 @@
                     <button class="PREENCHER" >PREENCHER <i class="fa fa-chevron-right"></i> </button>
                   </p>
                   <hr style="margin-top:15%;">
+                  
                  
                 </div>
+                <div id="recentPost"></div>
+                  <div id="recentVideo"></div>
+                </div>
+                <div>
+                  <p class="blog-heading GM">
+                    Publicações Anteriores
+                  </p>
+                  <div class="hr3"></div>
+                        <div id="postdiv"></div>
                 </div>
               </div>
                 <div class="background-img">
@@ -226,8 +236,8 @@ function chat_order1() {
           var showdiv ="";
           var showVideo="";
           let latestPost=1;
-          for (var category in mainData['missaoData']) {
-          var specificCat = mainData['missaoData'];
+          for (var category in mainData['vocoesData']) {
+          var specificCat = mainData['vocoesData'];
           var objec = specificCat[category];
           for(var getdays in objec){
           var dayname = getdays;
@@ -238,82 +248,66 @@ function chat_order1() {
 
             if(date1<date2){
 
-           showhtml += '<div class="CV-Video-Link-Post myNewVideo sortpost" data-event-date="'+postdateSort+'">\
-          <a href='+objec[getdays].route+'>\
-          <img src="'+objec[getdays].img+'" alt="" class="thubmailVideo-Image" />\
-          <p class="add-mt-15-CV-Video GM" style="font-size: 13px; font-family:">\
-          '+objec[getdays].title.substr(0,23)+'...'+'\
-          </p>\
-          <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-         <span class="cal-icon fa fa-calendar date-text"></span> '+objec[getdays].date+' \
-          </p>\
-          </a>\
-          </div>';
+           showhtml += 
+
+          `<a href="${objec[getdays].route}"><div class="flex sortpost " data-event-date="${postdateSort}">
+        <div class="flex-img">
+          <img src="${objec[getdays].img}" width="100%" alt="" />
+        </div>
+        <div class="semana-flex-heading">
+          <h6>${objec[getdays].title.substr(0,23)+'...'}</h6>
+          <p class="postDate GBI">
+            <i class="fa fa-calendar"></i> ${objec[getdays].date}</p>
+        </div>
+        </div></a>`
 
 
         
 
         // for displaying Posts
         if(!objec[getdays].video==true){
-         showdiv+='<div class="Video-Post myClassVideo sortpost1" data-event-date="'+postdateSort+'">\
-          <div class="Video-Thumbnail">\
-            <img src="'+objec[getdays].img+'" alt="" class="Video-Image" id="arth-img" />\
-          </div>\
-          <div class="Video-Description">\
-            <p class="title">'+objec[getdays].title+'\
-            </p>\
-            <p class="date">\
-              <span class="cal-icon fa fa-calendar"></span>\
-              <i><span style="color: #666666;">\
-                  <span style="color: #666666;" id="artigo-date"></span>\
-                  '+objec[getdays].date+'\
-                </span></i>\
-            </p>\
-            <p class="description" id="decription">\
-              '+objec[getdays].details+'\
-            </p>\
-            <a href='+objec[getdays].route+'>\
-              <button class="btn-leia-mais">\
-                LEIA MAIS\
-                <span class="right-arrow">\
-                  <i class="fa fa-angle-right">\
-                    </i>\
-                </span></button>\
-                </a>\
-          </div>\
-        </div>'; 
+         showdiv+=
+        `<div class="post1 ${categoryname}1 sortpost1" data-event-date="${postdateSort}">
+        <img src="${objec[getdays].img}" class="postImage1" alt="">
+        <div class="postDetails1">
+            <h5 class="GM postTitle">${objec[getdays].title}</h5>
+            <p class="postDate GBI"><i class="fa fa-calendar"></i>    ${objec[getdays].date}</p>
+            <hr>
+            <p class="postParagraph GBR">
+                ${objec[getdays].details}
+            </p>
+            <a href="${objec[getdays].route}">
+            <button class="postButton GM">LEIA MAIS</button>
+            </a>
+        </div>
+
+    </div> 
+      `
         }
         
 
         // for displaying Video
         if(objec[getdays].video==true){
 
-          showVideo+='<div class="Video-Post myClassVideo1 sortpost2" data-event-date="'+postdateSort+'">\
-          <div class="Video-Thumbnail">\
-            <img src="'+objec[getdays].img+'" alt="" class="Video-Image" id="arth-img" />\
-          </div>\
-          <div class="Video-Description">\
-            <p class="title">'+objec[getdays].title+'\
-            </p>\
-            <p class="date">\
-              <span class="cal-icon fa fa-calendar"></span>\
-              <i><span style="color: #666666;">\
-                  <span style="color: #666666;" id="artigo-date"></span>\
-                  '+objec[getdays].date+'\
-                </span></i>\
-            </p>\
-            <p class="description" id="decription">\
-              '+objec[getdays].details+'\
-            </p>\
-            <a href='+objec[getdays].route+' id="video1">\
-            <button style="width: 28%; border: 0; height: 40px; background-color: #fff;">\
-          <img src="./img/video-logo.png" style="width: 140px;" alt="">\
-          <!-- <span style="position: relative; top: -33px;">\
-            VIDEO\
-          </span> -->\
-          </button></a>\
-                    </div>\
-                    </div>';
+          showVideo+=
+                    `<div class="post2 ${categoryname}2 sortpost2" data-event-date="${postdateSort}">
+        <img src="${objec[getdays].img}" class="postImage1" alt="">
+        <div class="postDetails1">
+            <h5 class="GM postTitle">${objec[getdays].title}</h5>
+            <p class="postDate GBI"><i class="fa fa-calendar"></i>    ${objec[getdays].date}</p>
+            <hr>
+            <p class="postParagraph GBR">
+                ${objec[getdays].details}
+            </p>
+            <a href="${objec[getdays].route}">
+              
+          <img src="./img/video-logo.png" style="width: 110px;" alt="">
+          </a>
+            </a>
+        </div>
+
+    </div> 
+      `
         }
 
   }
@@ -327,15 +321,15 @@ function chat_order1() {
           document.getElementById("recentPost").innerHTML = showdiv;
           // chat_order1();
           // chat_order3("postdiv", "myNewVideo");
-          chat_order3("recentPost", "sortpost1");
+          chat_order3("recentPost", `${categoryname}1`);
           var ul = $('#postdiv');
           ul.children().each(function(i,div){ul.prepend(div)});
-          jQuery("#postdiv").find(".CV-Video-Link-Post").each(function(i){
+          jQuery("#postdiv").find(".sortpost").each(function(i){
             if(i>6){
               jQuery(this).remove();
             } 
           });
-          jQuery("#recentPost").find(".myClassVideo").each(function(i){
+          jQuery("#recentPost").find(".post1").each(function(i){
             if(i>=1){
               jQuery(this).remove();
             } 
@@ -344,7 +338,7 @@ function chat_order1() {
           
           document.getElementById("recentVideo").innerHTML = showVideo;
           chat_order3("recentVideo", "sortpost2");
-          jQuery("#recentVideo").find(".myClassVideo1").each(function(i){
+          jQuery("#recentVideo").find(".post2").each(function(i){
             if(i>=1){
               jQuery(this).remove();
             } 
