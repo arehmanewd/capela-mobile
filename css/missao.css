@@ -10,9 +10,9 @@
     font-family: "Gotham-Medium";
     
     padding: 0.5em 0;
-    color: #301818;
+    color: #666666;
     text-align: left;
-    border-bottom: #666666;
+    border-bottom:2px solid  #666666;
     opacity: .9;
    
 }
