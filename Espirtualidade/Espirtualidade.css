@@ -1,0 +1,110 @@
+
+.pageBody{
+
+    text-align: center;
+    padding-top: 25px;
+}
+.pageTitle{
+    border-bottom: 1px solid #666666;
+   padding-bottom: 13px;
+	/* width: 80%; */
+    margin: 20px;
+    text-align: justify;    
+}
+
+
+.GB_image
+{
+	width: 90%;
+    margin:20px
+    /*text-align: justify;*/
+}
+.GB_image img{
+	width: 100%;
+}
+
+.postContent
+{
+	margin: 20px;
+    text-align: justify;
+    margin-top: 5%;    
+}
+.description_detail
+{
+	
+    margin: 20px;
+    text-align:justify;
+    margin-top: 5%; 
+}
+
+.last_imagesection
+{
+	width: 80%;
+    margin-left: 8%;
+    display:flex;
+}
+.last_image
+{	
+	width: 100%;
+}
+.last_image img
+{
+	width: 100%;
+}
+.last_content
+{
+	font-size: 11px;
+    text-align: start;
+    margin-left: 11px;
+}
+
+.last_btn
+{
+	width: 80%;
+    margin-left: 8%;
+    /*text-align:justify;*/
+    margin-top: 5%; 
+}
+
+
+.postDate{
+    text-align: left;
+    font-size: 12px;
+}
+.postButton{
+   background-image: linear-gradient(#5ca9e3, #04518b);
+    width: 120px;
+     /*margin-top: -20px; */
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    color: white !important;
+    font-size: 12px;
+    position: relative;
+    top: -3px;
+    left: -93px;
+}
+
+
+.flex{
+    display: flex;
+    border-bottom: 2px solid lightgray;
+}
+.flex-img{
+    width: 20%;
+    padding: 5px;
+}
+.semana-flex-heading{
+    padding-left: 10px;
+    color: #666666;
+}
+.weeklyPost{
+    margin-left: 18px;
+    width: 86%;
+    text-align: left;
+}
+.destaques-heading{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #3884c1 !important;
+}
