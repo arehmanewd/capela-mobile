@@ -40,7 +40,7 @@ function onLoad() {
                         div.innerHTML += `  <div class="post">
                 <img src="${post.img}" class="postImage" alt="">
                 <div class="postDetails">
-                    <h5 class="GM">${post.title}</h5>
+                    <h5 class="GM">${post.title.substr(0,20)+"..."}</h5>
                     <p class="postDate GBI"><i class="fa fa-calendar"></i> ${post.date}</p>
                     <hr>
                     <p class="postParagraph GBR">
@@ -258,7 +258,7 @@ var months = {
             <img src="${objec[getdays].img}" width="100%" alt="" />
           </div>
           <div class="semana-flex-heading">
-            <h6>${objec[getdays].title}</h6>
+            <h6>${objec[getdays].title.substr(0,20)+"..."}</h6>
             <p class="postDate GBI">
               <i class="fa fa-calendar"></i> ${objec[getdays].date}</p>
           </div>
