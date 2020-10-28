@@ -38,6 +38,10 @@
     position: relative;
     top: -10px;
 }
+.iframe{
+    width: 100%;
+    padding-bottom: 24px;
+}
 
 
 .flex{
