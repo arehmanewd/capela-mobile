@@ -43,7 +43,7 @@ var months = {
 
   }
   var categoryDate_title = {};
-  var showhtml = "";
+  var showhtml = "";  
   let latestPost = 1;
   for (var category in mainData['missaoData']) {
     var specificCat = mainData['missaoData'];
