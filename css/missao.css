@@ -23,6 +23,7 @@
 .imgsection{
     border:1px solid lightgray;
     background-color: #f9f9f9;
+    margin-top: 15px;
 }
 .imgsectionhead{
     text-align: center;
@@ -72,6 +73,7 @@
     font-family: "Gotham-Medium";
   
     padding: 0.5em 0;
+    font-weight: 600;
     color: #666666;
     text-align: left;
    /* opacity: .8; */

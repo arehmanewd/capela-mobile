@@ -1572,7 +1572,7 @@ let mainData = {
         route: host + "/Missao-October/missao-6.html",
       },
       27: {
-        img: host + "/imagens/TM_Irma Ashrita Soreng.jpg",
+        img: host + "/img/TM_Irma Ashrita Soreng.jpg",
         title: "Testemunho Missionário - Ir. Ashrita",
         details: `Ir. Ashrita Soreng é da Índia e está no Brasil como missionária. Trabalha na formação de jovens e na animação vocacional.`,
         date: "27 de outubro de 2020",

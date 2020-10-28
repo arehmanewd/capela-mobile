@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="./css/missao.css" />
     <link rel="stylesheet" href="./css/multiplePost.css" />
     <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
     <div class="container">
@@ -116,11 +117,49 @@
         </div>
       </div>
       <div class="col-md-12 col-sm-6">
-        <h4 class="head2 pb-0">Testemunho Missionário</h4>
+        <h5 class="head2 pb-0">Testemunho Missionário</h5>
         <div id="recentPost"></div>
         <div id="recentVideo"></div>
       </div>
+      <div>
+        <p class="blog-heading GM">
+          Publicações Anteriores
+        </p>
+        <div class="hr3"></div>
+              <div id="postdiv"></div>
+      </div>
     </div>
+    <div class="background-img">
+      <div>
+          <p
+              style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
+              Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11)
+              5547-7222
+          </p>
+          <div class="icons">
+              <span><img src="./img/Icone_Facebook.png" alt=""></span>
+              <span><img src="./img/Icone_Twitter.png" alt=""></span>
+              <span><img src="./img/Icone_Insta.png" alt=""></span>
+              <span><img src="./img/Icone_Blog.png" alt=""></span>
+              <span><img src="./img/Icone_Youtube.png" alt=""></span>
+              <span><img src="./img/Icone_Site.png" alt=""></span>
+          </div>
+      </div>
+      <hr>
+      <div>
+          <p
+              style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
+              Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR
+              |<br /> Tel. (42) 3326 4091
+          </p>
+          <div class="icons">
+              <span><img src="./img/Icone_Facebook.png" alt=""></span>
+              <span><img src="./img/Icone_Blog.png" alt=""></span>
+              <span><img src="./img/Icone_Youtube.png" alt=""></span>
+              <span><img src="./img/Icone_Site.png" alt=""></span>
+          </div>
+      </div>
+  </div>
   </body>
 </html>
 <script src="./post-data-json.js"></script>
@@ -129,231 +168,183 @@
 
 <script>
   var months = {
-    January: "01",
-    February: "02",
-    March: "03",
-    April: "04",
-    May: "05",
-    June: "06",
-    July: "07",
-    August: "08",
-    September: "09",
-    October: "10",
-    November: "11",
-    December: "12",
-  };
+  'January' : '01',
+  'February' : '02',
+  'March' : '03',
+  'April' : '04',
+  'May' : '05',
+  'June' : '06',
+  'July' : '07',
+  'August' : '08',
+  'September' : '09',
+  'October' : '10',
+  'November' : '11',
+  'December' : '12'
+  }
   function chat_order3(pid, pcls) {
-    var container = $("#" + pid);
-    var items = $("." + pcls);
+  var container = $("#" + pid);
+  var items = $("." + pcls);
 
-    items.each(function (i) {
-      // Convert the string in 'data-event-date' attribute to a more
-      // standardized date format
-      var BCDate = $(this).attr("data-event-date");
-      /*console.log(BCDate);
+  items.each(function (i) {
+    // Convert the string in 'data-event-date' attribute to a more
+    // standardized date format
+    var BCDate = $(this).attr("data-event-date");
+    /*console.log(BCDate);
     var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
-      var standartDate = new Date(BCDate).getTime();
-      $(this).attr("data-event-date", standartDate);
-      // console.log(standartDate);
+    var standartDate = new Date(BCDate).getTime();
+    $(this).attr("data-event-date", standartDate);
+    // console.log(standartDate);
+  });
+
+  items
+    .sort(function (a, b) {
+      a = parseFloat($(a).attr("data-event-date"));
+      b = parseFloat($(b).attr("data-event-date"));
+      return a > b ? -1 : a < b ? 1 : 0;
+    })
+    .each(function () {
+      container.append(this);
     });
+}
+function chat_order1() {
+  var container = $("#postdiv");
+  var items = $(".sortpost" + pcls);
 
-    items
-      .sort(function (a, b) {
-        a = parseFloat($(a).attr("data-event-date"));
-        b = parseFloat($(b).attr("data-event-date"));
-        return a > b ? -1 : a < b ? 1 : 0;
-      })
-      .each(function () {
-        container.append(this);
-      });
-  }
-  function chat_order1() {
-    var container = $("#postdiv");
-    var items = $(".sortpost" + pcls);
-
-    items.each(function (i) {
-      // Convert the string in 'data-event-date' attribute to a more
-      // standardized date format
-      var BCDate = $(this).attr("data-event-date");
-      /*console.log(BCDate);
+  items.each(function (i) {
+    // Convert the string in 'data-event-date' attribute to a more
+    // standardized date format
+    var BCDate = $(this).attr("data-event-date");
+    /*console.log(BCDate);
     var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
-      var standartDate = new Date(BCDate).getTime();
-      $(this).attr("data-event-date", standartDate);
-      // console.log(standartDate);
+    var standartDate = new Date(BCDate).getTime();
+    $(this).attr("data-event-date", standartDate);
+    // console.log(standartDate);
+  });
+
+  items
+    .sort(function (a, b) {
+      a = parseFloat($(a).attr("data-event-date"));
+      b = parseFloat($(b).attr("data-event-date"));
+      return a > b ? -1 : a < b ? 1 : 0;
+    })
+    .each(function () {
+      container.append(this);
     });
+}
 
-    items
-      .sort(function (a, b) {
-        a = parseFloat($(a).attr("data-event-date"));
-        b = parseFloat($(b).attr("data-event-date"));
-        return a > b ? -1 : a < b ? 1 : 0;
-      })
-      .each(function () {
-        container.append(this);
-      });
-  }
 
-  var categoryDate_title = {};
-  var showhtml = "";
-  var showdiv = "";
-  var showVideo = "";
-  let latestPost = 1;
-  for (var category in mainData["missaoData"]) {
-    var specificCat = mainData["missaoData"];
-    var objec = specificCat[category];
-    for (var getdays in objec) {
-      var dayname = getdays;
-      var postdateShow = getdays + "/" + months[category] + "/2020";
-      var postdateSort = "2020-" + months[category] + "-" + getdays;
-      const date1 = new Date(postdateSort).getTime();
-      const date2 = new Date().getTime();
+            
+          var categoryDate_title = {};
+          var showhtml = "";
+          var showdiv ="";
+          var showVideo="";
+          let latestPost=1;
+          for (var category in mainData['missaoData']) {
+          var specificCat = mainData['missaoData'];
+          var objec = specificCat[category];
+          for(var getdays in objec){
+          var dayname = getdays;
+          var postdateShow = getdays+"/"+months[category]+"/2020";
+          var postdateSort = "2020-"+months[category]+"-"+getdays;
+          const date1 = new Date(postdateSort).getTime();
+            const date2 = new Date().getTime();
 
-      if (date1 < date2) {
-        showhtml +=
-          '<div class="CV-Video-Link-Post myNewVideo sortpost" data-event-date="' +
-          postdateSort +
-          '">\
-          <a href=' +
-          objec[getdays].route +
-          '>\
-          <img src="' +
-          objec[getdays].img +
-          '" alt="" class="thubmailVideo-Image" />\
-          <p class="add-mt-15-CV-Video GM" style="font-size: 13px; font-family:">\
-          ' +
-          objec[getdays].title.substr(0, 23) +
-          "..." +
-          '\
-          </p>\
-          <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-         <span class="cal-icon fa fa-calendar date-text"></span> ' +
-          objec[getdays].date +
-          " \
-          </p>\
-          </a>\
-          </div>";
+            if(date1<date2){
+
+           showhtml += 
+
+          `<a href="${objec[getdays].route}"><div class="flex sortpost ${categoryname}" data-event-date="${postdateSort}">
+        <div class="flex-img">
+          <img src="${objec[getdays].route}" width="100%" alt="" />
+        </div>
+        <div class="semana-flex-heading">
+          <h6>${objec[getdays].title.substr(0,23)+'...'}</h6>
+          <p class="postDate GBI">
+            <i class="fa fa-calendar"></i> ${objec[getdays].date}</p>
+        </div>
+        </div></a>`
+
+
+        
 
         // for displaying Posts
-        if (!objec[getdays].video == true) {
-          showdiv +=
-            '<div class="Video-Post myClassVideo sortpost1" data-event-date="' +
-            postdateSort +
-            '">\
-          <div class="Video-Thumbnail">\
-            <img src="' +
-            objec[getdays].img +
-            '" alt="" class="Video-Image" id="arth-img" />\
-          </div>\
-          <div class="Video-Description">\
-            <p class="title">' +
-            objec[getdays].title +
-            '\
-            </p>\
-            <p class="date">\
-              <span class="cal-icon fa fa-calendar"></span>\
-              <i><span style="color: #666666;">\
-                  <span style="color: #666666;" id="artigo-date"></span>\
-                  ' +
-            objec[getdays].date +
-            '\
-                </span></i>\
-            </p>\
-            <p class="description" id="decription">\
-              ' +
-            objec[getdays].details +
-            "\
-            </p>\
-            <a href=" +
-            objec[getdays].route +
-            '>\
-              <button class="btn-leia-mais">\
-                LEIA MAIS\
-                <span class="right-arrow">\
-                  <i class="fa fa-angle-right">\
-                    </i>\
-                </span></button>\
-                </a>\
-          </div>\
-        </div>';
+        if(!objec[getdays].video==true){
+         showdiv+=
+        `<div class="post1 ${categoryname}1 sortpost1" data-event-date="${postdateSort}">
+        <img src="${objec[getdays].img}" class="postImage" alt="">
+        <div class="postDetails">
+            <h5 class="GM">${objec[getdays].title}</h5>
+            <p class="postDate GBI"><i class="fa fa-calendar"></i>    ${objec[getdays].date}</p>
+            <hr>
+            <p class="postParagraph GBR">
+                ${objec[getdays].details}
+            </p>
+            <a href="${objec[getdays].route}">
+            <button class="postButton GM">LEIA MAIS</button>
+            </a>
+        </div>
+
+    </div> 
+      `
         }
+        
 
         // for displaying Video
-        if (objec[getdays].video == true) {
-          showVideo +=
-            '<div class="Video-Post myClassVideo1 sortpost2" data-event-date="' +
-            postdateSort +
-            '">\
-          <div class="Video-Thumbnail">\
-            <img src="' +
-            objec[getdays].img +
-            '" alt="" class="Video-Image" id="arth-img" />\
-          </div>\
-          <div class="Video-Description">\
-            <p class="title">' +
-            objec[getdays].title +
-            '\
-            </p>\
-            <p class="date">\
-              <span class="cal-icon fa fa-calendar"></span>\
-              <i><span style="color: #666666;">\
-                  <span style="color: #666666;" id="artigo-date"></span>\
-                  ' +
-            objec[getdays].date +
-            '\
-                </span></i>\
-            </p>\
-            <p class="description" id="decription">\
-              ' +
-            objec[getdays].details +
-            "\
-            </p>\
-            <a href=" +
-            objec[getdays].route +
-            ' id="video1">\
-            <button style="width: 28%; border: 0; height: 40px; background-color: #fff;">\
-          <img src="./img/video-logo.png" style="width: 140px;" alt="">\
-          <!-- <span style="position: relative; top: -33px;">\
-            VIDEO\
-          </span> -->\
-          </button></a>\
-                    </div>\
-                    </div>';
+        if(objec[getdays].video==true){
+
+          showVideo+=
+                    `<div class="post2 ${categoryname}2 sortpost2" data-event-date="${postdateSort}">
+        <img src="${objec[getdays].img}" class="postImage" alt="">
+        <div class="postDetails">
+            <h5 class="GM">${objec[getdays].title}</h5>
+            <p class="postDate GBI"><i class="fa fa-calendar"></i>    ${objec[getdays].date}</p>
+            <hr>
+            <p class="postParagraph GBR">
+                ${objec[getdays].details}
+            </p>
+            <a href="${objec[getdays].route}">
+              <button style="width: 28%; border: 0; height: 40px; background-color: #fff;">
+          <img src="./img/video-logo.png" style="width: 140px;" alt="">
+          </button></a>
+            </a>
+        </div>
+
+    </div> 
+      `
         }
-      }
-    }
+
   }
 
-  document.getElementById("postdiv").innerHTML = showhtml;
-  document.getElementById("recentPost").innerHTML = showdiv;
-  // chat_order1();
-  // chat_order3("postdiv", "myNewVideo");
-  chat_order3("recentPost", "sortpost1");
-  var ul = $("#postdiv");
-  ul.children().each(function (i, div) {
-    ul.prepend(div);
-  });
-  jQuery("#postdiv")
-    .find(".CV-Video-Link-Post")
-    .each(function (i) {
-      if (i > 6) {
-        jQuery(this).remove();
-      }
-    });
-  jQuery("#recentPost")
-    .find(".myClassVideo")
-    .each(function (i) {
-      if (i >= 1) {
-        jQuery(this).remove();
-      }
-    });
+  
+          }
+  
+          }
 
-  document.getElementById("recentVideo").innerHTML = showVideo;
-  chat_order3("recentVideo", "sortpost2");
-  jQuery("#recentVideo")
-    .find(".myClassVideo1")
-    .each(function (i) {
-      if (i >= 1) {
-        jQuery(this).remove();
-      }
-    });
-</script>
+          document.getElementById("postdiv").innerHTML = showhtml;
+          document.getElementById("recentPost").innerHTML = showdiv;
+          // chat_order1();
+          // chat_order3("postdiv", "myNewVideo");
+          chat_order3("recentPost", `${categoryname}1`);
+          var ul = $('#postdiv');
+          ul.children().each(function(i,div){ul.prepend(div)});
+          jQuery("#postdiv").find(".CV-Video-Link-Post").each(function(i){
+            if(i>6){
+              jQuery(this).remove();
+            } 
+          });
+          jQuery("#recentPost").find(".post1").each(function(i){
+            if(i>=1){
+              jQuery(this).remove();
+            } 
+          });
+          
+          
+          document.getElementById("recentVideo").innerHTML = showVideo;
+          chat_order3("recentVideo", "sortpost2");
+          jQuery("#recentVideo").find(".post2").each(function(i){
+            if(i>=1){
+              jQuery(this).remove();
+            } 
+          });
+  
+  </script>
