@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url("../fonts/Gotham\ Medium\ Regular.ttf");
+}
+.firstimage{
+width:344px;
+margin-bottom: 5%;
+}
+.fpara{
+    font-size: 20px;
+    color:#971842;
+    font-family: 'Gotham-Bold';
+    font-weight: bold;
+}
+.GB{
+    font-family: 'Gotham-Bold';
+}
+.paraborder{
+    border:1px solid #FF2487;
+}
+.colors{
+    color:#971842;
+    font-family: 'Gotham-Bold';
+}
+.secimage{
+    width:42vh;
+}
+.PREENCHER {
+    float: right;
+    background: #ff1583;
+    color: white;
+    border: none;
+    /* margin-top: 30px; */
+    border-radius: 2px;
+    margin-top:10px;
+    width: 131px;
+    height: 29px;
+    border-radius: 5px;
+}
+.thirdimage{
+    width:42vh;
+}
+.heading{
+    opacity:.8;
+    font-family: "Gotham-Medium";
+    font-weight: bold;
+}
+.right-arrow {
+    font-size: 18px;
+    
+}
+.btnbg{
+    background-color: #0D5A94;
+    color:white;
+    border-radius:10px;
+    width:100px;
+}
+.fthimage{
+    width:42vh;
+}
