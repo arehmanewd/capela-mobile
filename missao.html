@@ -121,10 +121,10 @@
         <div id="recentPost"></div>
         <div id="recentVideo"></div>
       </div>
-      <div>
-        <p class="blog-heading GM">
+      <div class="pub-container">
+        <h5 class="Publicações-heading GM">
           Publicações Anteriores
-        </p>
+      </h5>
         <div class="hr3"></div>
               <div id="postdiv"></div>
       </div>
@@ -253,9 +253,9 @@ function chat_order1() {
 
            showhtml += 
 
-          `<a href="${objec[getdays].route}"><div class="flex sortpost ${categoryname}" data-event-date="${postdateSort}">
+          `<a href="${objec[getdays].route}"><div class="flex sortpost " data-event-date="${postdateSort}">
         <div class="flex-img">
-          <img src="${objec[getdays].route}" width="100%" alt="" />
+          <img src="${objec[getdays].img}" width="100%" alt="" />
         </div>
         <div class="semana-flex-heading">
           <h6>${objec[getdays].title.substr(0,23)+'...'}</h6>
@@ -271,9 +271,9 @@ function chat_order1() {
         if(!objec[getdays].video==true){
          showdiv+=
         `<div class="post1 ${categoryname}1 sortpost1" data-event-date="${postdateSort}">
-        <img src="${objec[getdays].img}" class="postImage" alt="">
-        <div class="postDetails">
-            <h5 class="GM">${objec[getdays].title}</h5>
+        <img src="${objec[getdays].img}" class="postImage1" alt="">
+        <div class="postDetails1">
+            <h5 class="GM postTitle">${objec[getdays].title}</h5>
             <p class="postDate GBI"><i class="fa fa-calendar"></i>    ${objec[getdays].date}</p>
             <hr>
             <p class="postParagraph GBR">
@@ -294,18 +294,18 @@ function chat_order1() {
 
           showVideo+=
                     `<div class="post2 ${categoryname}2 sortpost2" data-event-date="${postdateSort}">
-        <img src="${objec[getdays].img}" class="postImage" alt="">
-        <div class="postDetails">
-            <h5 class="GM">${objec[getdays].title}</h5>
+        <img src="${objec[getdays].img}" class="postImage1" alt="">
+        <div class="postDetails1">
+            <h5 class="GM postTitle">${objec[getdays].title}</h5>
             <p class="postDate GBI"><i class="fa fa-calendar"></i>    ${objec[getdays].date}</p>
             <hr>
             <p class="postParagraph GBR">
                 ${objec[getdays].details}
             </p>
             <a href="${objec[getdays].route}">
-              <button style="width: 28%; border: 0; height: 40px; background-color: #fff;">
-          <img src="./img/video-logo.png" style="width: 140px;" alt="">
-          </button></a>
+              
+          <img src="./img/video-logo.png" style="width: 110px;" alt="">
+          </a>
             </a>
         </div>
 
@@ -327,7 +327,7 @@ function chat_order1() {
           chat_order3("recentPost", `${categoryname}1`);
           var ul = $('#postdiv');
           ul.children().each(function(i,div){ul.prepend(div)});
-          jQuery("#postdiv").find(".CV-Video-Link-Post").each(function(i){
+          jQuery("#postdiv").find(".sortpost").each(function(i){
             if(i>6){
               jQuery(this).remove();
             } 

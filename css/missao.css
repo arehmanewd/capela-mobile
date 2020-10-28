@@ -88,3 +88,23 @@
 .paras{
     opacity: .8;
 }
+.postParagraph{
+    color: #666666 !important;
+}
+.postTitle{
+    color: #666666;
+}
+.postDate{
+    
+    color: #666666;
+}
+.Publicações-heading{
+    color: #008dcc;
+    margin-top: 10px;
+
+}
+.pub-container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+}
