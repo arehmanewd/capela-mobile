@@ -51,6 +51,11 @@ margin-top:20px;
     border-bottom: 1px solid lightgray;
     padding-bottom: 10px;
 }
+.blog-heading{
+  color: #008dcc;
+  margin-top: 20px;
+
+}
 .thirdimage{
     width:42vh;
 }
