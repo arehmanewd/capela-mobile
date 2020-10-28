@@ -255,8 +255,8 @@
 
   document.getElementById(
     "banner"
-  ).innerHTML += `<div class="main-banner-div" id="main-banner-div" style="background-image: url(./img/${october[day].image}.jpg); background-size: cover; height:400px;">
-                    <div class="main-banner-heading-div ${october[day].footer}">
+  ).innerHTML += `<div class="main-banner-div  ${october[day].footer}" id="main-banner-div" style="background-image: url(./img/${october[day].image}.jpg); background-size: cover; height:400px;">
+                    <div class="main-banner-heading-div">
                       <p class="intecao-heading" id="intecao-heading">
                         Intenção Missionária
                       </p>
@@ -275,7 +275,7 @@
                         </i>
                       </p>
                     </div>
-                        <p class="continent" id="continent">
+                        <p class="continent " id="continent">
                           ${october[day].footer}
                         </p>
                   </div>`;
