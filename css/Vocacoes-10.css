@@ -1,9 +1,12 @@
 .head{
-    opacity:.8;
+    color:#666666;
     font-weight: bold;
 }
 .btnlg{
     background-color:#529FD9;
     border-radius: 8px;
     color: white;
+}
+p{
+    color:#666666;
 }
