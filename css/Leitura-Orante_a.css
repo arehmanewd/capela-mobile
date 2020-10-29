@@ -2,9 +2,12 @@
     font-family: "Gotham-Medium";
 }
 .checkhead{
-    font-size:30px;
+    /* font-size:30px; */
     font-weight: bolder;
-    opacity: .8;;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    /* opacity: .8;; */
 }
    
 .hr {
@@ -17,8 +20,8 @@
     margin-top: 20px;
 }
 .myContainer-heading {
-    padding-left: 2%;
-    margin-top: 5px;
+    /* padding-left: 2%; */
+    margin-top: 15px;
     
     /* padding-top: 1%; */
     /* font-family: 'Gotham Medium'; */
@@ -26,7 +29,7 @@
 .myContainer-date {
     line-height: .97;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 15px;
     font-weight: 500;
     color: #666666;
     font-family: "Gotham-Medium";
@@ -96,9 +99,10 @@
 }
 .tagpara{
 font-family: "Gotham-Medium";
-font-size: 22px;
+font-size: 14px;
 font-weight: bold;
-opacity:.8;
+/* opacity:.8; */
+color: #666666;
 text-align: left;}
 
 .modal{
@@ -113,12 +117,16 @@ text-align: left;}
     width:100% !important;
   }
 .para{
-    opacity:.7;
-    font-size: 12px;
+    /* opacity:.7; */
+    color: #666666;
+    font-size: 14px;
 }
 .headings{
-    font-size:18px;
+    font-size:15px;
 }
 .sheading{
     font-size: 15px;
+}
+.mb-0{
+    margin-bottom: 5px !important;
 }
