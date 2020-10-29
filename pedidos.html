@@ -27,7 +27,7 @@
 
 </head>
 
-<body onload="onLoad()">
+<body onload="onLoad()" style="background-image: url('./img/parapin\ -\ Copy.jpg') ">
     <div>
         <!-- navbar starts -->
         <div class="container" id="nav-container">
@@ -39,35 +39,33 @@
                 </button>
                 <img src="./img/navlogo.png" class="navLogo" />
                 <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  ><img src="./img/home-icon.png" alt="" width="25px" />
-                  <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="quemSomos">Quem Somos</a>
-              </li>
-              <li class="nav-item">
-                 <a class="nav-link" id="oracoes">Orações Missionárias</a>
-              </li>
-              <li class="nav-item">
-                 <a class="nav-link" id="sant">Santo do Dia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="vocoes">Vocações</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="missao">Missão</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="espirual-link">Espiritualidade</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="contatos">Contatos</a>
-              </li>
-            </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" id='indexPage'><img src="./img/home-icon.png" alt="" width="25px" />
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="quemSomos">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="oracoes">Orações Missionárias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="sant">Santo do Dia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="vocoes">Vocações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="missao">Missão</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="espirual-link">Espiritualidade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contatos">Contatos</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
@@ -75,38 +73,52 @@
 
         <div class="container pageBody">
 
-            <h4 class="GB pageTitle">Orientação Espiritual</h4>
+            <h4 class="GB pedidos_pageTitle">Pedidos de Orações</h4>
             <div class="pageBody">
-                <div class="formBody">
-                    <h5 class="destaques-heading GB" id="form_display">Formulario</h5>
+                <div class="pedidos_formBody">
+                    <p class="GB pedidos_detail">
+                        "Tudo o que pedires com fé, em oração, vós <br>o recebereis." <span class="verse"><i>Mt
+                                11,21</i> </span>
+                        <br>
+                        <br>
+                        Colonque suas intenções e acenda a sua vela.
+                    </p>
                     <div id="form_outer"></div>
                     <form class="formFields" id="form_Fields" enctype="multipart/form-data">
+
                         <input placeholder="Nome" class="form-field" required id="name">
                         <input placeholder="Email" class="form-field" required id="email">
-                        <input placeholder="Whatsapp" class="form-field" required id="whatsapp">
-                        <input placeholder="Endereço" class="form-field" required id="address">
+                        <input placeholder="UF" class="form-field" required id="state">
                         <input placeholder="Cidade" class="form-field" required id="city">
-                        <input placeholder="Estado" class="form-field" required id="state">
-                        <input placeholder="CEP" class="form-field" required id="zip">
-                        <input placeholder="Data de nascimento (dd/mm/aaaa)" class="form-field" required id="dob">
+                        <input placeholder="Brasil" class="form-field" required id="address">
                         <input placeholder="Profissão" class="form-field" required id="profession">
-                        <h6 class="destaques-heading GB"> Mande uma mensagem para a irmã</h6>
+
                         <textarea name="" id="mainMsg" required cols="30" rows="4"></textarea>
-                        <span class="formInstructions GM">Prometemos não utilizar suas informações de contato para
-                            enviar qualquer tipo de SPAM * campo obrigatório</span>
+                        <div class="checkBoxes">
+                            <div class="conditon GM">
+                                <input type="checkbox"> <span>Não permitir que outras pessoas vejam minhas intenções</span>
+                            </div>
+                            <div class="conditon1 GM">
+                                <input type="checkbox"> <span>Desejo receber orações das Missionárias Servas do Espírito
+                                    Santo</span>
+                            </div>
+                            <div class="conditon2 GM">
+                                <input type="checkbox"> <span>Envie uma vela para alguém </span>
+                            </div>
+                        </div>
+                       
+
                         <br>
-                        <button class="button GB" name="submit">ENVIAR</button>
+                        
+                        <button class="pedidos_button GB" name="submit">Acender vela</button>
+                        <button class="pedidos_button2 GB" name="submit">VELAS ACESAS</button>
+                        
 
                     </form>
                 </div>
 
             </div>
-            <div class="weeklyPost">
-                <h4 class="GB destaques-heading">Destaques</h4>
-                <div id="destaquesPortion">
 
-                </div>
-            </div>
 
 
         </div>
@@ -146,60 +158,95 @@
 </body>
 <script src="./post-data-json.js"></script>
 <script>
+  
+
     form_Fields.onsubmit = async (e) => {
-    e.preventDefault();
-    
-    let name = document.getElementById("name").value
-    let email = document.getElementById("email").value
-    let whatsapp = document.getElementById("whatsapp").value
-    let address = document.getElementById("address").value
-    let city = document.getElementById("city").value
-    let state = document.getElementById("state").value
-    let zip = document.getElementById("zip").value
-    let dob = document.getElementById("dob").value
-    let profession = document.getElementById("profession").value
-    let mainMsg = document.getElementById("mainMsg").value
-    let sendTo = "martarnhold@gmail.com"
-    let obj = {
-              html: ` <b> Name : </b> <span> ${name} </span>
-    <br> <b> Email : </b> <span> ${email} </span>
-    <br> <b> Whatsapp Number : </b> <span> ${whatsapp} </span>
-    <br> <b> Address : </b> <span> ${address} </span>
-    <br> <b> City : </b> <span> ${city} </span>
-    <br> <b> State : </b> <span> ${state} </span>
-    <br> <b> Zip Code : </b> <span> ${zip} </span>
-    <br> <b> Date of Birth : </b> <span> ${dob} </span>
-    <br> <b> Profession : </b> <span> ${profession} </span>
-    <br> <b> Message : </b> <p>${mainMsg}</p>`,
-              sendTo: sendTo,
-            };
-    
-    let data = JSON.stringify(obj)
-    
-    
-    let response = await fetch('https://capela-mail.herokuapp.com/send_mail', {
-    method: 'POST',
-    headers: new Headers({
-    'Content-Type': 'application/json'
-    }),
-    body: data
-    });
-    
-    let result = await response.json();
-    
-    if (result == "Mail Sent.") {
-    form_Fields.style.display = "none"
-    form_display.style.display = "none"
-    
-    let element = document.createElement("h3")
-    let textNode = document.createTextNode("O correio foi enviado.")
-    element.appendChild(textNode)
-    element.classList.add("mail_sent")
-    document.getElementById('form_outer').append(element)
-    }
-    
-    };
-    
-    </script>
+          e.preventDefault();
+  
+  let name = document.getElementById("name").value
+  let email = document.getElementById("email").value
+  let address = document.getElementById("address").value
+  let city = document.getElementById("city").value
+  let state = document.getElementById("state").value
+  let mainMsg = document.getElementById("mainMsg").value
+  let sendTo="saad@ewdtech.com" ;
+  
+  
+  // if (state.toUpperCase() == "RS" || state.toUpperCase() == "PR" || state.toUpperCase() == "MT" || state.toUpperCase() == "AC" || state.toUpperCase() == "AM" || state.toUpperCase() == "AP" ||
+  // state.toUpperCase() == "PI" ) {
+  //   console.log('sd')
+  //       // sendTo = "teste@thunderbees.com"
+  //       sendTo = "armelinda.col@gmail.com"
+  
+  //     } else if (state.toUpperCase() == "SC" || state.toUpperCase() == "MS" || state.toUpperCase() == "RO" || state.toUpperCase() == "PA" || state.toUpperCase() == "RR" || state.toUpperCase() == "PB" ||
+  //       state.toUpperCase() == "CE") {
+  //       sendTo = "martarnhold@gmail.com"
+  //       // sendTo = "galante@thunderbees.com"
+  //     }
+  // else if (state.toUpperCase() == "SP" || state.toUpperCase() == "MG" || state.toUpperCase() == "RJ" || state.toUpperCase() == "ES" || state.toUpperCase() == "AL" || state.toUpperCase() == "MA" ||
+  // state.toUpperCase() == "CE" ) {
+  //         sendTo = "monika.kopf@ssps.org.br"
+  //     }
+  // else if (state.toUpperCase() == "TO" || state.toUpperCase() == "DF" || state.toUpperCase() == "GO" || state.toUpperCase() == "BA" || state.toUpperCase() == "SE" || state.toUpperCase() == "PE" ||
+  // state.toUpperCase() == "RN" ) {
+  //         sendTo = "terecol@gmail.com"
+  //     }
+  //     else if(state.toUpperCase() != "SC" || state.toUpperCase() != "MS" || state.toUpperCase() != "RO" || state.toUpperCase() != "PA" || state.toUpperCase() != "RR" || state.toUpperCase() != "PB" ||
+  // state.toUpperCase() != "CE" || state.toUpperCase() != "SP" || state.toUpperCase() != "MG" || state.toUpperCase() != "RJ" || state.toUpperCase() != "ES" || state.toUpperCase() != "AL" || state.toUpperCase() != "MA" ||
+  // state.toUpperCase() != "CE" || state.toUpperCase() != "TO" || state.toUpperCase() != "DF" || state.toUpperCase() != "GO" || state.toUpperCase() != "BA" || state.toUpperCase() != "SE" || state.toUpperCase() != "PE" ||
+  // state.toUpperCase() != "RN" ){
+  //   alert("Escolha o estado correto e reenvie.")
+  // }
+  
+  
+  
+  
+  // let obj = { 
+  //   "name": name,
+  // "email": email,
+  // "city": city,
+  // "state": state,
+  // "mainMsg": mainMsg, 
+  // "address":address,
+  // "sendTo": sendTo,
+  
+  // }
+  let obj = {
+            html: ` <b> Name : </b> <span> ${name} </span>
+                    <br> <b> Email : </b> <span> ${email} </span>
+                    <br> <b> Address : </b> <span> ${address} </span>
+                    <br> <b> City : </b> <span> ${city} </span>
+                    <br> <b> State : </b> <span> ${state} </span>
+                    <br> <b> Message : </b> <p>${mainMsg}</p>`,
+            sendTo: sendTo,
+          };
+  let data = JSON.stringify(obj)
+  
+  
+  let response = await fetch('https://capela-mail.herokuapp.com/send_mail', {
+          method: 'POST',
+  headers: new Headers({
+          'Content-Type': 'application/json'
+  }),
+  body: data
+  });
+  let result = await response.json();
+  console.log(result)
+  
+  if (result === "Mail Sent.") {
+          form_Fields.style.display = "none"
+  // formHeading.style.display = "none"
+  line.style.display = "none"
+  let element = document.createElement("h3")
+  let textNode = document.createTextNode("O correio foi enviado.")
+  element.appendChild(textNode)
+  element.classList.add("mail_sent")
+  form_outer.append(element)
+  console.log('test')
+  }
+  
+  };
+  
+  </script>
 
 </html>
