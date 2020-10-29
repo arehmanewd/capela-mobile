@@ -19,51 +19,46 @@
     font-size: 12px;
     color: #008aca !important;
 }
-.nunDiv{
+.formBody{
+    width: 100%;
+    height: 900px;
     text-align: left;
-    padding-top: 10px;
+    padding: 16px;
+    background-color: #daf4ff;
+    border-radius: 15px;
 }
-.nunPic{
-    width: 100px;
-    margin-right: 10px;
+
+.form-field{
+    width: 100%;
+    border: none;
+    height: 43px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
 }
-.nunDetails{
-    font-size: 11px;
+#mainMsg{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.formInstructions{
+    color: #3884c1 !important;
+    font-size: 10px;
     line-height: 1;
 }
-
-.postDetails{
-    text-align: justify;
-    margin-top: 20px;
-}
-.postImage{
+.button{
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
     width: 100%;
-    padding-bottom: 10px;
-}
-.nun{
-    width: 100%;
-    display: flex;
-    margin-top: 20px;
-    height:100px;
-}
-
-.postDate{
-    text-align: left;
-    font-size: 10px;
-}
-.postButton{
     background-image: linear-gradient(#5ca9e3, #04518b);
-    width: 100px;
-    margin-top: -20px;
-    height: 30px;
-    border-radius: 6px;
-    border:none;
-    color: white !important;
-    font-size: 12px;
-    position: relative;
-    top: -10px;
 }
-
+input:focus{
+    outline: none;
+}
 
 .flex{
     display: flex;

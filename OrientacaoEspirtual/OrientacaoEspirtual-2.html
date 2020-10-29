@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="../css/nav.css" />
     <link rel="stylesheet" href="../css/font.css" />
-    <link rel="stylesheet" href="../css/orientacaoEspirtual.css" />
+    <link rel="stylesheet" href="../css/Forms.css" />
     <link rel="stylesheet" href="../css/multiplePost.css" />
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -77,86 +77,35 @@
 
             <h4 class="GB pageTitle">Orientação Espiritual</h4>
             <div class="pageBody">
-                <img class="postImage" src="../img/capa_orientacao_espiritual.jpg" />
-                <div class="blueText">
-                    <p class="GB">Você já sentiu vontade de conversar com alguém sobre sua experiência de oração?</p>
-                    <p class="GB">Ou quem sabe, você está passando por algum momento difícil e gostaria de partilhá-lo e
-                        receber apoio
-                        espiritual...</p>
-                    <p class="GB">Ou ainda, você gostaria de melhorar sua vida espiritual e não sabe por onde começar…
-                    </p>
-                    <p class="GB">ou tem alguma dúvida sobre a sua fé e gostaria de esclarecimentos…</p>
-                    <p class="GB">ou simplesmente necessita conversar com alguém a partir de uma perspectiva de fé…</p>
-                    <p class="GB">Seja qual for a sua situação ou a sua necessidade, colocamos aqui quatro irmãs bem
-                        experien tes na
-                        vida religiosa e na caminhada de fé que estarão à disposição para ouvir e conversar com você.
-                    </p>
+                <div class="formBody">
+                    <h5 class="destaques-heading GB" id="form_display">Formulario</h5>
+                    <div id="form_outer"></div>
+                    <form class="formFields" id="form_Fields" enctype="multipart/form-data">
+                        <input placeholder="Nome" class="form-field" required id="name">
+                        <input placeholder="Email" class="form-field" required id="email">
+                        <input placeholder="Whatsapp" class="form-field" required id="whatsapp">
+                        <input placeholder="Endereço" class="form-field" required id="address">
+                        <input placeholder="Cidade" class="form-field" required id="city">
+                        <input placeholder="Estado" class="form-field" required id="state">
+                        <input placeholder="CEP" class="form-field" required id="zip">
+                        <input placeholder="Data de nascimento (dd/mm/aaaa)" class="form-field" required id="dob">
+                        <input placeholder="Profissão" class="form-field" required id="profession">
+                        <h6 class="destaques-heading GB"> Mande uma mensagem para a irmã</h6>
+                        <textarea name="" id="mainMsg" required cols="30" rows="4"></textarea>
+                        <span class="formInstructions GM">Prometemos não utilizar suas informações de contato para
+                            enviar qualquer tipo de SPAM * campo obrigatório</span>
+                        <br>
+                        <button class="button GB" name="submit">ENVIAR</button>
 
-                </div>
-                <div class="nunDiv">
-                    <h5 class="GB">Escolha uma delas e envie a sua mensagem para dar início a uma conversa.</h5>
-                    <a href='/OrientacaoEspirtual-1.html'>
-                        <div class="nun">
-                            <img class="nunPic" src="../img/Ir_Armelinda.jpg" />
-                            <div class="nunDetails">
-                                <p class="GB">Ir. Armelinda</p>
-                                <p class="GBR">
-                                    Educadora <br>
-                                    e marca presença<br>
-                                    junto aos <br>Missionários Leigos<br>
-                                    do Deus Uno e Trino
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="OrientacaoEspirtual-2.html">
-                        <div class="nun">
-                            <img class="nunPic" src="../img/Ir_Marta.jpg" />
-                            <div class="nunDetails">
-                                <p class="GB">Ir. Marta Maria</p>
-                                <p class="GBR">
-                                    Especialista em <br>
-                                    Espiritualidade
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="OrientacaoEspirtual-3.html">
-                        <div class="nun">
-                            <img class="nunPic" src="../img/Ir_Monika.jpg" />
-                            <div class="nunDetails">
-                                <p class="GB">Ir. Monika</p>
-                                <p class="GBR">
-                                    Experiência na pastoral, <br>
-                                    movimentos populares e <br>
-                                    estudo bíblico nas <br>comunidades.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="OrientacaoEspirtual-4.html">
-                        <div class="nun">
-                            <img class="nunPic" src="../img/Ir_Terezinha.jpg" />
-                            <div class="nunDetails">
-                                <p class="GB">Ir. Terezinha</p>
-                                <p class="GBR">
-                                    Educadora, atuou durante <br>
-                                    muitos anos na Catequese <br>
-                                    e acompanha o grupo <br>
-                                    paroquial de oração.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="weeklyPost">
-                    <h4 class="GB destaques-heading">Destaques</h4>
-                    <div id="destaquesPortion">
-
-                    </div>
+                    </form>
                 </div>
 
+            </div>
+            <div class="weeklyPost">
+                <h4 class="GB destaques-heading">Destaques</h4>
+                <div id="destaquesPortion">
 
+                </div>
             </div>
 
 
@@ -196,5 +145,61 @@
     </div>
 </body>
 <script src="../post-data-json.js"></script>
+<script>
+    form_Fields.onsubmit = async (e) => {
+    e.preventDefault();
+    
+    let name = document.getElementById("name").value
+    let email = document.getElementById("email").value
+    let whatsapp = document.getElementById("whatsapp").value
+    let address = document.getElementById("address").value
+    let city = document.getElementById("city").value
+    let state = document.getElementById("state").value
+    let zip = document.getElementById("zip").value
+    let dob = document.getElementById("dob").value
+    let profession = document.getElementById("profession").value
+    let mainMsg = document.getElementById("mainMsg").value
+    let sendTo = "martarnhold@gmail.com"
+    let obj = {
+              html: ` <b> Name : </b> <span> ${name} </span>
+    <br> <b> Email : </b> <span> ${email} </span>
+    <br> <b> Whatsapp Number : </b> <span> ${whatsapp} </span>
+    <br> <b> Address : </b> <span> ${address} </span>
+    <br> <b> City : </b> <span> ${city} </span>
+    <br> <b> State : </b> <span> ${state} </span>
+    <br> <b> Zip Code : </b> <span> ${zip} </span>
+    <br> <b> Date of Birth : </b> <span> ${dob} </span>
+    <br> <b> Profession : </b> <span> ${profession} </span>
+    <br> <b> Message : </b> <p>${mainMsg}</p>`,
+              sendTo: sendTo,
+            };
+    
+    let data = JSON.stringify(obj)
+    
+    
+    let response = await fetch('https://capela-mail.herokuapp.com/send_mail', {
+    method: 'POST',
+    headers: new Headers({
+    'Content-Type': 'application/json'
+    }),
+    body: data
+    });
+    
+    let result = await response.json();
+    
+    if (result == "Mail Sent.") {
+    form_Fields.style.display = "none"
+    form_display.style.display = "none"
+    
+    let element = document.createElement("h3")
+    let textNode = document.createTextNode("O correio foi enviado.")
+    element.appendChild(textNode)
+    element.classList.add("mail_sent")
+    document.getElementById('form_outer').append(element)
+    }
+    
+    };
+    
+    </script>
 
 </html>
