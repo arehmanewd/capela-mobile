@@ -27,6 +27,14 @@
     background-color: #daf4ff;
     border-radius: 15px;
 }
+.formBody1{
+    width: 100%;
+    height: 900px;
+    text-align: left;
+    padding: 16px;
+    background-color: #f9dae9;
+    border-radius: 15px;
+}
 
 .form-field{
     width: 100%;
@@ -81,4 +89,9 @@ input:focus{
     padding-bottom: 10px;
     padding-top: 10px;
     color: #3884c1 !important;
+}
+.destaques-heading1{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #ff1583 !important;
 }
