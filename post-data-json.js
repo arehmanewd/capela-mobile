@@ -715,14 +715,14 @@ let mainData = {
         title: "Conversando com Deus",
         details: `Este texto foi escrito bem antes de imaginarmos que passaríamos por uma pandemia. No entanto, sua mensagem nos ajuda a enfrentar este tempo difícil, pois Deus está sempre presente em nossas vidas e envia sinais para dele nos lembrarmos.`,
         date: "20 de Setembro de 2020",
-        route: host + "/espiritualidade-20.html",
+        route: host + "/Espirtualidade/espiritualidade-20.html",
       },
       27: {
         img: host + "/img/esp-A.jpg",
         title: "Espiritualidade e ecologia integral",
         details: `É urgente fortalecer relações comunitárias, cooperativas de produção, trabalho colaborativo,`,
         date: "27 de Setembro de 2020",
-        route: host + "/espiritualidade-september-27.html",
+        route: host + "/Espirtualidade/espiritualidade-september-27.html",
       },
     },
     October: {
@@ -731,21 +731,21 @@ let mainData = {
         title: "Espiritualidade da convivência intercultural",
         details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
         date: "04 de outubro de 2020",
-        route: host + "/espiritualidade-outubro-4.html",
+        route: host + "/Espirtualidade/espiritualidade-outubro-4.html",
       },
       11: {
         img: host + "/img/25_ago_2020_Passaros voam.jpg",
         title: "Pássaros voam em direção à luz",
         details: `Pássaro que é pássaro sabe que a vida está perto da luz. Nós nem sempre observamos isso. Estamos perdendo muito daquilo que a vida sempre nos ensinou: que ela somente tem sentido se for em direção à Luz. Veja a reflexão do Pe. Deolino Baldissera.`,
         date: "11 de outubro de 2020",
-        route: host + "/espiritualidade-11.html",
+        route: host + "/Espirtualidade/espiritualidade-11.html",
       },
       18: {
         img: host + "/img/11_ago_2020_Perdoar e mais que pedir_A.jpg",
         title: "Perdoar é mais que pedir perdão... um perdão sem limites",
         details: `A vida de Jesus e seus ensinamentos tem a marca do Perdão generoso, incondicional e sem limites.`,
         date: "18 de outubro de 2020",
-        route: host + "/espiritualidade-18.html",
+        route: host + "/Espirtualidade/espiritualidade-18.html",
       },
     },
   },
@@ -1955,8 +1955,8 @@ let vocoes = document.getElementById("vocoes");
 let contatos = document.getElementById("contatos");
 
 indexPage.setAttribute("href", `${host}/index.html`);
-contatos.setAttribute("href", `${host}/contatos.html`);
-quemSomos.setAttribute("href", `${host}/capela-virtual-quem-somos.html`);
+contatos.setAttribute("href", `${host}/capela-virtual-contato.html`);
+quemSomos.setAttribute("href", `${host}/capela-virtual-quem-somos.html`); 
 vocoes.setAttribute("href", `${host}/capela-virtual-Vocacoes.html`);
 let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
@@ -1975,7 +1975,7 @@ for (let i = currentDate; i > 0; i--) {
     console.log(mainData.espirtualData[espirtualLatestMonth][i]);
     espirtualLink.setAttribute(
       "href",
-      host + "/espiritualidade-" + i + ".html"
+      host + "/Espirtualidade/espiritualidade-" + i + ".html"
     );
     break;
   }
