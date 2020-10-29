@@ -9,12 +9,24 @@
     font-weight: bold;
     color:#666666;
     }
+    .mhead{
+        font-weight: 600;
+        text-align: center;
+    padding-top: 5%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    }
     .para{
+        
+    color:#666666;
+    }
+    .btnlg{
+        background-image: linear-gradient(#5ca9e3, #04518b);
     
-        color:#666666;
-        }
-        .btnlg{
-            background-color:#529FD9;
-            border-radius: 8px;
-            color: white;
-        }
+        border-radius: 8px;
+        color: white;
+        border: 0;
+    }
+    .ddlg{
+        margin-top: 10px;
+    }
