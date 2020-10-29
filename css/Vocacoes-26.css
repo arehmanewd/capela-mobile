@@ -14,7 +14,9 @@ color:#666666;
 color:#666666;
 }
 .btnlg{
-    background-color:#529FD9;
+    background-image: linear-gradient(#5ca9e3, #04518b);
+
     border-radius: 8px;
     color: white;
+    border: 0;
 }
