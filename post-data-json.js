@@ -1954,6 +1954,15 @@ var date = new Date();
 let currentDate = date.getDate();
 
 let santoLink = document.getElementById("sant");
+let quemSomos = document.getElementById("quemSomos");
+let indexPage = document.getElementById("indexPage");
+let vocoes = document.getElementById("vocoes");
+let contatos = document.getElementById("contatos");
+
+indexPage.setAttribute('href',`${host}/index.html`)
+contatos.setAttribute('href',`${host}/contatos.html`)
+quemSomos.setAttribute('href',`${host}/capela-virtual-quem-somos.html`) 
+vocoes.setAttribute('href',`${host}/capela-virtual-Vocacoes.html`) 
 let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
 
@@ -2003,5 +2012,6 @@ if (mainData.oracoesMissionarias.October[currentDate]) {
 if (!mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
+
 
 

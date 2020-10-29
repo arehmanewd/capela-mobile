@@ -54,31 +54,31 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html"
+                <a class="nav-link" id="indexPage"
                   ><img src="./img/home-icon.png" alt="" width="25px" />
                   <span class="sr-only">(current)</span></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="quem-somos.html">Quem Somos</a>
+                <a class="nav-link" id="quemSomos">Quem Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="OracoesMissionarias.html">Orações Missionárias</a>
+                <a class="nav-link" id="oracoes">Orações Missionárias</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="santo-do-dia.html">Santo do Dia</a>
+                <a class="nav-link" id="sant">Santo do Dia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Vocações</a>
+                <a class="nav-link" id="vocoes">Vocações</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Missão</a>
+            <a class="nav-link" id="missao">Missão</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Espiritualidade</a>
+               <a class="nav-link" id="espirual-link">Espiritualidade</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contatos</a>
+                <a class="nav-link" id="contatos">Contatos</a>
               </li>
             </ul>
           </div>
@@ -255,8 +255,8 @@
 
   document.getElementById(
     "banner"
-  ).innerHTML += `<div class="main-banner-div" id="main-banner-div" style="background-image: url(./img/${october[day].image}.jpg); background-size: cover; height:400px;">
-                    <div class="main-banner-heading-div ${october[day].footer}">
+  ).innerHTML += `<div class="main-banner-div  ${october[day].footer}" id="main-banner-div" style="background-image: url(./img/${october[day].image}.jpg); background-size: cover; height:400px;">
+                    <div class="main-banner-heading-div">
                       <p class="intecao-heading" id="intecao-heading">
                         Intenção Missionária
                       </p>
@@ -275,7 +275,7 @@
                         </i>
                       </p>
                     </div>
-                        <p class="continent" id="continent">
+                        <p class="continent " id="continent">
                           ${october[day].footer}
                         </p>
                   </div>`;
