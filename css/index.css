@@ -117,14 +117,14 @@ font-size: 20px;
     /* border: 1px solid red; */
   }
   .intecao-heading{
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     font-family: "nuevaBold";
     padding-top: 10px;
     margin-bottom: 0;
   
   }
   .intecao-sub-heading{
-    font-size: 35px;
+    font-size: 30px;
     font-family: "nuevaBold";
     
     margin-bottom: 0;
@@ -148,7 +148,7 @@ font-size: 20px;
     color: black;
       font-family:' nuevaItalicLight';
       font-weight: 400;
-      font-size: 23px;
+      font-size: 22px;
       padding: 20px;
       line-height: 1.2;
       text-align: center;
