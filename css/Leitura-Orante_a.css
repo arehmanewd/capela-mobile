@@ -34,6 +34,9 @@
     color: #666666;
     font-family: "Gotham-Medium";
 }
+#overall-container{
+  padding: 10px;
+}
 
 
 .myContainer-date-cal {
@@ -44,8 +47,7 @@
     color: #666666;
 }
 .imgview{
-    height: 218px;
-    width: 335px;
+    width: 100%;
 }
 .myContainer-bottom-div-img {
     height: 141px;
@@ -129,4 +131,49 @@ text-align: left;}
 }
 .mb-0{
     margin-bottom: 5px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.flex{
+    display: flex;
+    border-bottom: 2px solid lightgray;
+}
+.flex-img{
+    width: 20%;
+    padding: 5px;
+}
+.semana-flex-heading{
+    padding-left: 10px;
+    color: #666666;
+}
+.weeklyPost{
+    margin-left: 18px;
+    width: 86%;
+    text-align: left;
+}
+.destaques-heading{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #3884c1 !important;
+}
+.hrf{
+    margin-left: 5%;
+    margin-right: 5%;
+    color:#666666;
+    background-color: #666666;
+}
+
+.postDate{
+    text-align: left;
+    font-size: 12px;
 }
