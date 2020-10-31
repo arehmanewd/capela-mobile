@@ -23,19 +23,13 @@
     /* font-family: 'Gotham Medium'; */
 }
 .myContainer-date {
-    line-height: 0.5;
+    line-height:  1;
     font-size: 18px;
     font-weight: 500;
     color: #666666;
     font-family: GothamMedium;
 }
-.myContainer-date {
-    line-height: 0.5;
-    font-size: 18px;
-    font-weight: 500;
-    color: #666666;
-    font-family: GothamMedium;
-}
+
 .myContainer-date-cal {
     line-height: 0.5;
     font-family: "Gotham Book italic";
