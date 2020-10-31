@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../javascript-calendar.css" type="text/css" />
+    <link rel="stylesheet" href="../css/Leitura-Orante_a.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- navbar Starts -->
+      <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg" id="nav">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="width: 50px"
+          >
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            <img src="../img/menu.png" width="100%" alt="" />
+          </button>
+          <img src="../img/navlogo.png" class="navLogo" />
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" id="indexPage"
+                  ><img
+                    src="./images/01_Novembro_2020_Leit_oran.jpg"
+                    alt=""
+                    width="25px"
+                  />
+                  <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="quemSomos">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="oracoes">Orações Missionárias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="sant">Santo do Dia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="vocoes">Vocações</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="missao">Missão</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="espirual-link">Espiritualidade</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="contatos">Contatos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar ends -->
+
+      <div class="row pt-3" id="overall-container">
+        <div class="col-md-12 col-sm-6">
+          <h4 class="GM checkhead">Leitura Orante</h4>
+          <div class="myContainer-heading">
+            <p class="myContainer-date pb-0 mb-0 GB" id="date">
+              Leituras do Dia
+            </p>
+
+            <p class="myContainer-date pb-0 mb-0 GB">
+              Segunda-feira - 33ª Semana do Tempo Comum
+            </p>
+            <p class="myContainer-date pb-0 mb-0 GB">(Verde – Ofício do dia)</p>
+
+            <p class="myContainer-date-cal GB">
+              <span class="cal-icon fa fa-calendar"></span>
+              <i>16 de novembro de 2020 </i>
+            </p>
+
+            <img
+              src="./images/16_Novembro_2020_Leit_oran.jpg"
+              class="imgview"
+            />
+            <p class="pt-3 para GBR">
+              <b class="headings">Leitura Orante do Evangelho</b><br />
+              Ouça o áudio da oração e reflexão do padre Francisco das Chagas
+            </p>
+            <audio id="audio_play">
+              <source
+                src="../audio/25_09_2020_Leitura_Orante.mp4"
+                type="audio/ogg"
+              />
+            </audio>
+            <img
+              src="../img/LISTEN.png"
+              class="imgclick2"
+              alt=""
+              onclick="play()"
+              id="play"
+            />
+
+            <p class="pt-3 para GBR">
+              <b class="headings">Oração do dia</b><br />
+              Senhor, nosso Deus, fazei que a nossa alegria consista em vos
+              servir de todo coração, pois só teremos felicidade completa
+              servindo a vós, o criador de todas as coisas. Por Nosso Senhor
+              Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.
+            </p>
+            <p class="pt-3 para GBR">
+              <b class="headings"
+                >Leitura: Apocalipse 1,1-4; 2,1-5</b
+              >
+            </p>
+            <p class="s-heading GBR">
+              <sup>1</sup> Revelação que Deus confiou a Jesus Cristo, para que mostre
+              aos seus
+              servos as coisas que devem acontecer em breve. Jesus as deu a conhecer,
+              através do seu anjo, ao seu servo João. <sup>2</sup> Este dá testemunho
+              de que tudo
+              quanto viu é palavra de Deus e testemunho de Jesus Cristo. <sup>3</sup>
+              Feliz aquele
+              que lê e aqueles que escutam as palavras desta profecia e também
+              praticam o que nela está escrito. Pois o momento está chegando.
+              <sup>4</sup> João às
+              sete Igrejas que estão na região da Ásia: A vós, graça e paz da parte
+              daquele que é, que era e que vem; da parte dos sete espíritos que estão
+              diante do trono de Deus. 2,<sup>1</sup> Ouvi o Senhor que me dizia:
+              Escreve ao anjo
+              da Igreja que está em Éfeso: Assim fala aquele que tem na mão direita as
+              sete estrelas, aquele que está andando no meio dos sete candelabros de
+              ouro: <sup>2</sup> Conheço a tua conduta, o teu esforço e a tua
+              perseverança. Sei
+              que não suportas os maus. Colocaste à prova alguns que se diziam
+              apóstolos e descobriste que não eram apóstolos, mas
+              mentirosos.<sup>3</sup> És
+              perseverante. Sofreste por causa do meu nome e não desanimaste.
+              <sup>4</sup> Todavia, há uma coisa que eu reprovo: abandonaste o teu
+              primeiro amor.
+              <sup>5</sup> Lembra-te de onde caíste! Converte-te e volta à tua prática
+              inicial.
+              Se, pelo contrário, não te converteres, virei depressa e arrancarei o
+              teu candelabro do seu lugar. <b>Palavra
+                  do Senhor.</b>
+            </p>
+
+            <p class="pt-3 para GBR">
+              <b class="headings">Salmo Responsorial: 111(112)
+              </b>
+            </p>
+            <b class="sheading GM"
+              ><i>Ao vencedor concederei comer da árvore da vida! </i></b
+            >
+            <br />
+            <p class="s-heading GBR">
+              Feliz é todo aquele que não anda conforme os conselhos dos perversos; que não entra no caminho dos malvados nem junto aos zombadores vai sentar-se; mas encontra seu prazer na lei de Deus e a medita, dia e noite, sem cessar
+
+
+            </p>
+
+            <br />
+            <b class="sheading GM"
+              ><i>Ao vencedor concederei comer da árvore da vida! </i></b
+            >
+            <br />
+            <p class="s-heading GBR">
+              Eis que ele é semelhante a uma árvore que à beira da torrente está plantada; ela sempre dá seus frutos a seu tempo, e jamais as suas folhas vão murchar. Eis que tudo o que ele faz vai prosperar.
+            </p>
+            <br />
+            <b class="sheading GM"
+              ><i>Ao vencedor concederei comer da árvore da vida! </i></b
+            >
+            <br />
+            <p class="s-heading GBR">
+              Mas bem outra é a sorte dos perversos. Ao contrário, são iguais à palha seca espalhada e dispersada pelo vento. Pois Deus vigia o caminho dos eleitos, mas a estrada dos malvados leva à morte.
+            </p>
+
+            <b class="sheading GM"
+              ><i>Ao vencedor concederei comer da árvore da vida! </i></b
+            >
+
+            <p class="pt-3 para GBR">
+              <b class="headings"> Evangelho: Lucas 18,35-43 </b>
+            </p>
+            <br />
+
+            <p class="s-heading GBR">
+              <sup>35</sup> Quando Jesus se aproximava de Jericó, um cego estava sentado à beira do
+              caminho, pedindo esmolas. <sup>36</sup> Ouvindo a multidão passar, ele perguntou o que
+              estava acontecendo.<sup>37</sup> Disseram-lhe que Jesus nazareno estava passando por ali.
+              <sup>38</sup> Então o cego gritou: “Jesus, filho de Davi, tem piedade de mim!” <sup>39</sup> As pessoas
+              que iam na frente mandavam que ele ficasse calado. Mas ele gritava mais ainda:
+              “Filho de Davi, tem piedade de mim!” <sup>40</sup> Jesus parou e mandou que levassem o cego
+              até ele. Quando o cego chegou perto, Jesus perguntou: <sup>41</sup> “O que queres que eu
+              faça por ti?” O cego respondeu: “Senhor, eu quero enxergar de novo”. <sup>42</sup> Jesus
+              disse: “Enxerga, pois, de novo. A tua fé te salvou”. <sup>43</sup> No mesmo instante, o cego
+              começou a ver de novo e seguia Jesus, glorificando a Deus. Vendo isso, todo o
+              povo deu louvores a Deus
+              <b> – Palavra da Salvação.</b>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-sm-6 text-center">
+          <p class="blog-heading">Leituras do mês</p>
+
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="modelbtn btn btn-primary"
+            data-toggle="modal"
+            data-target="#exampleModal"
+          >
+            Calendar
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div class="calendar">
+                    <!-- CAlendar -->
+
+                    <div class="icalendar">
+                      <div class="icalendar__month">
+                        <div class="icalendar__prev" onclick="moveDate('prev')">
+                          <span>&#10094;</span>
+                        </div>
+                        <div class="icalendar__current-date">
+                          <h2 id="icalendarMonth"></h2>
+                          <div>
+                            <div id="icalendarDateStr"></div>
+                          </div>
+                        </div>
+                        <div class="icalendar__next" onclick="moveDate('next')">
+                          <span>&#10095;</span>
+                        </div>
+                      </div>
+                      <div class="icalendar__week-days">
+                        <div>D</div>
+                        <div>S</div>
+                        <div>T</div>
+                        <div>Q</div>
+                        <div>Q</div>
+                        <div>S</div>
+                        <div>S</div>
+                      </div>
+                      <div class="icalendar__days"></div>
+
+                      <script
+                        src="../javascript-calendar.js"
+                        type="text/javascript"
+                      ></script>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p class="blog-heading">TAGS</p>
+          <div>
+            <p class="tagpara GBR">
+              missao Amazonia evengel covid-19 indigenas novica papa francisco
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12">
+          <h5 class="destaques-heading">Destaques</h5>
+          <div id="destaquesPortion"></div>
+        </div>
+      </div>
+      <div class="background-img">
+        <div>
+          <p
+            style="
+              text-align: center;
+              color: #fff;
+              font-family: Myriad Pro Regular;
+              font-size: small;
+              padding: 10px 10px 0px 10px;
+            "
+          >
+            Província Stella Matutina<br />
+            Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br />
+            Tel. (11) 5547-7222
+          </p>
+          <div class="icons">
+            <span><img src="../img/Icone_Facebook.png" alt="" /></span>
+            <span><img src="../img/Icone_Twitter.png" alt="" /></span>
+            <span><img src="../img/Icone_Insta.png" alt="" /></span>
+            <span><img src="../img/Icone_Blog.png" alt="" /></span>
+            <span><img src="../img/Icone_Youtube.png" alt="" /></span>
+            <span><img src="../img/Icone_Site.png" alt="" /></span>
+          </div>
+        </div>
+        <hr />
+        <div id="last-icon-div">
+          <p
+            style="
+              text-align: center;
+              color: #fff;
+              font-family: Myriad Pro Regular;
+              font-size: small;
+              padding: 10px 10px 0px 10px;
+            "
+          >
+            Província Spiritus Divinae Sapientiae<br />
+            Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |<br />
+            Tel. (42) 3326 4091
+          </p>
+          <div class="icons">
+            <span><img src="../img/Icone_Facebook.png" alt="" /></span>
+            <span><img src="../img/Icone_Blog.png" alt="" /></span>
+            <span><img src="../img/Icone_Youtube.png" alt="" /></span>
+            <span><img src="../img/Icone_Site.png" alt="" /></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="../post-data-json.js"></script>
