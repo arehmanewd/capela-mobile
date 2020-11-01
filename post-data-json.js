@@ -235,16 +235,15 @@ let mainData = {
             "Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
           date: "05 de outubro de 2020",
           route: host + "/Dia-October/Dia-5a.html",
-        }, {
-          img:
-            host +
-            "/img/05_Post_Dia_Santo_Outubro_2020_B.jpg",
+        },
+        {
+          img: host + "/img/05_Post_Dia_Santo_Outubro_2020_B.jpg",
           title: "Santa Faustina Kowalska",
           details:
             "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
           date: "05 de outubro de 2020",
           route: host + "/Dia-October/Dia-5b.html",
-        }
+        },
       ],
       7: {
         img: host + "/img/07_Post_Dia_Santo_Outubro_2020.jpg",
@@ -500,7 +499,7 @@ let mainData = {
       // 15: {
       //   img: host + "/img/12.Orações Mis.JPG",
       //   title: "Prece Missionária",
-      //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque 
+      //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque
       //       nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
       //       os povos.`,
       //   date: "15 de Outubro de 2020",
@@ -525,7 +524,8 @@ let mainData = {
         route:
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-18.html",
-      }, 20: {
+      },
+      20: {
         img: host + "/img/4_dia_Novena_Missionaria.jpg",
         title: "A vida missionária consagrada",
         details: `A vida missionária consagrada é fonte de bênção para a Igreja. São homens e mulheres que deixam tudo para seguir Jesus Cristo e se colocam a serviço dos mais necessitados. No quarto dia da novena, refletimos sobre a missão junto aos migrantes `,
@@ -534,40 +534,40 @@ let mainData = {
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-20.html",
       },
-      22: [
-        {
-          img: host + "/img/22_img_oracoes_n_14.JPG",
-          title: "Oração pela Missão",
-          details: `Senhor Jesus, cansado das viagens missionárias, <br>
-              sentastes junto ao poço de Jacó <br>
-              e dissestes à samaritana: <br>
-              “Dá-me de beber”.`,
-          date: "22 de Outubro de 2020",
-          route:
-            host +
-            "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html",
-        },
-        {
-          img: host + "/img/22_img_oracoes_n_14.JPG",
-          title: "Oração pelas Vocações Missionárias",
-          details: `Senhor, que chamaste os apóstolos <br>
-                  para serem pescadores de gente <br>
-                  e construtores de um mundo novo, <br>`,
-          date: "22 de Outubro de 2020",
-          route:
-            host +
-            "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html",
-        },
-        {
-          img: host + "/img/5_dia_Novena_Missionaria.jpg",
-          title: "A vida missionária da Infância e Adolescência Missionária (IAM)",
-          details: `No quinto dia da Novena Missionária, vamos conhecer o testemunho e a ação das crianças e dos adolescentes, e como se organizam para realizar a missão: “Criança e adolescente rezando e ajudando criança e adolescente”. Rezemos juntos! `,
-          date: "22 de Outubro de 2020",
-          route:
-            host +
-            "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22a.html",
-        },
-      ],
+      21: {
+        img: host + "/img/22_img_oracoes_n_14.JPG",
+        title: "Oração pelas Vocações Missionárias",
+        details: `Senhor, que chamaste os apóstolos <br>
+                para serem pescadores de gente <br>
+                e construtores de um mundo novo, <br>`,
+        date: "21 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-21.html",
+      },
+      22: {
+        img: host + "/img/5_dia_Novena_Missionaria.jpg",
+        title:
+          "A vida missionária da Infância e Adolescência Missionária (IAM)",
+        details: `No quinto dia da Novena Missionária, vamos conhecer o testemunho e a ação das crianças e dos adolescentes, e como se organizam para realizar a missão: “Criança e adolescente rezando e ajudando criança e adolescente”. Rezemos juntos! `,
+        date: "22 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html",
+      },
+      // 23: {
+      //   img: host + "/img/22_img_oracoes_n_14.JPG",
+      //   title: "Oração pela Missão",
+      //   details: `Senhor Jesus, cansado das viagens missionárias, <br>
+      //         sentastes junto ao poço de Jacó <br>
+      //         e dissestes à samaritana: <br>
+      //         “Dá-me de beber”.`,
+      //   date: "23 de Outubro de 2020",
+      //   route:
+      //     host +
+      //     "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-23.html",
+      // },
+
       24: {
         img: host + "/img/6_dia_Novena_Missionaria.jpg",
         title: "A vida missionária dos ministros ordenados",
@@ -1669,7 +1669,7 @@ if (currentDay == "Thursday") {
 // </a>\
 // </div>'
 
-let tercoHTML =`<a href="${ tercoData[dayTerco].route}"><div class="flex sortpost tercoData" >
+let tercoHTML = `<a href="${tercoData[dayTerco].route}"><div class="flex sortpost tercoData" >
  <div class="flex-img">
    <img src="${tercoData[dayTerco].img}" width="100%" alt="" />
  </div>
@@ -1791,30 +1791,27 @@ for (var category in mainData) {
     var counter = 1;
 
     for (var getdays in bymonth) {
-
       var dayname = getdays;
       if (Array.isArray(bymonth[getdays])) {
         for (var arrCat in bymonth[getdays]) {
-          var postTitle =bymonth[getdays][arrCat].title;
-          var postImage =bymonth[getdays][arrCat].img;
-          var postRoute =bymonth[getdays][arrCat].route;
-          var postDetails =bymonth[getdays][arrCat].details;
+          var postTitle = bymonth[getdays][arrCat].title;
+          var postImage = bymonth[getdays][arrCat].img;
+          var postRoute = bymonth[getdays][arrCat].route;
+          var postDetails = bymonth[getdays][arrCat].details;
           var makedate = dayname + "/" + months[monthname] + "/" + "2020";
-          var postDate =bymonth[getdays][arrCat].date;
-          console.log('***********************');
-          console.log(bymonth[getdays][arrCat])
+          var postDate = bymonth[getdays][arrCat].date;
+          console.log("***********************");
+          console.log(bymonth[getdays][arrCat]);
         }
-      }
-      else{
+      } else {
         var postTitle = bymonth[getdays].title;
-      var postImage = bymonth[getdays].img;
-      var postRoute = bymonth[getdays].route;
-      var postDetails = bymonth[getdays].details;
-      var makedate = dayname + "/" + months[monthname] + "/" + "2020";
-      var postDate = bymonth[getdays].date;
-
+        var postImage = bymonth[getdays].img;
+        var postRoute = bymonth[getdays].route;
+        var postDetails = bymonth[getdays].details;
+        var makedate = dayname + "/" + months[monthname] + "/" + "2020";
+        var postDate = bymonth[getdays].date;
       }
-      
+
       var chkdate = "2020-" + months[monthname] + "-" + dayname;
       var today = new Date();
       var lastWeek = new Date(
@@ -1836,8 +1833,7 @@ for (var category in mainData) {
           details: postDetails,
         };
         // console.log(catarr[makedate])
-        console.log('--------------------');
-       
+        console.log("--------------------");
 
         let postTitleShort;
         if (postTitle.length >= 28) {
@@ -1847,9 +1843,8 @@ for (var category in mainData) {
         }
         var postdateSort = "2020-" + months[monthname] + "-" + dayname;
         // console.log(mypost)
-  
-        showhtml +=
-        `<a href="${postRoute}"><div class="flex sortpost ${categoryname}" data-event-date="${postdateSort}">
+
+        showhtml += `<a href="${postRoute}"><div class="flex sortpost ${categoryname}" data-event-date="${postdateSort}">
         <div class="flex-img">
           <img src="${postImage}" width="100%" alt="" />
         </div>
@@ -1858,12 +1853,12 @@ for (var category in mainData) {
           <p class="postDate GBI">
             <i class="fa fa-calendar"></i> ${postDate}</p>
         </div>
-        </div></a>`
+        </div></a>`;
 
         //MAIN
         // console.log(showhtml)
 
-        showhtml2 +=  `<div class="post ${categoryname}1" data-event-date="${postdateSort}">
+        showhtml2 += `<div class="post ${categoryname}1" data-event-date="${postdateSort}">
         <img src="${postImage}" class="postImage" alt="">
         <div class="postDetails">
             <h5 class="GM">${postTitle}</h5>
@@ -1959,34 +1954,32 @@ let indexPage = document.getElementById("indexPage");
 let vocoes = document.getElementById("vocoes");
 let contatos = document.getElementById("contatos");
 
-indexPage.setAttribute('href',`${host}/index.html`)
-contatos.setAttribute('href',`${host}/contatos.html`)
-quemSomos.setAttribute('href',`${host}/capela-virtual-quem-somos.html`) 
-vocoes.setAttribute('href',`${host}/capela-virtual-Vocacoes.html`) 
+indexPage.setAttribute("href", `${host}/index.html`);
+contatos.setAttribute("href", `${host}/contatos.html`);
+quemSomos.setAttribute("href", `${host}/capela-virtual-quem-somos.html`);
+vocoes.setAttribute("href", `${host}/capela-virtual-Vocacoes.html`);
 let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
 
-
-console.log(Object.keys(mainData.espirtualData).length)
-let espirtualLatestMonth = ''
+console.log(Object.keys(mainData.espirtualData).length);
+let espirtualLatestMonth = "";
 for (month in mainData.espirtualData) {
-  espirtualLatestMonth = month
+  espirtualLatestMonth = month;
 }
 
-console.log('.......................')
-console.log(mainData.espirtualData[espirtualLatestMonth])
+console.log(".......................");
+console.log(mainData.espirtualData[espirtualLatestMonth]);
 for (let i = currentDate; i > 0; i--) {
-
   // console.log(mainData.espirtualData[espirtualLatestMonth][i])
   if (mainData.espirtualData[espirtualLatestMonth][i]) {
-    console.log(mainData.espirtualData[espirtualLatestMonth][i])
-    espirtualLink.setAttribute("href", host + "/espiritualidade-" + i + ".html");
+    console.log(mainData.espirtualData[espirtualLatestMonth][i]);
+    espirtualLink.setAttribute(
+      "href",
+      host + "/espiritualidade-" + i + ".html"
+    );
     break;
   }
-
 }
-
-
 
 if (mainData.santoData.October[currentDate]) {
   santoLink.setAttribute(
@@ -2004,14 +1997,11 @@ if (mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute(
     "href",
     host +
-    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-" +
-    currentDate +
-    ".html"
+      "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-" +
+      currentDate +
+      ".html"
   );
 }
 if (!mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
-
-
-
