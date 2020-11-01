@@ -1,0 +1,29 @@
+
+.pageBody{
+
+    /* text-align: center; */
+    padding-top: 25px;
+    padding-left: 19px;
+    padding-right: 19px;
+    color: #666666;
+}
+.pageTitle{
+    border-bottom: 1px solid #666666;
+    padding-bottom: 13px;
+    text-align: center;
+  ;
+}
+.pageTitle1{
+    padding-bottom: 13px;
+  
+}
+.firstp{
+font-size:12px;
+}
+.newborder{
+    border-bottom: 1px solid #666666;
+    padding-bottom: 13px;
+}
+.lists{
+    font-weight: bolder;
+}
