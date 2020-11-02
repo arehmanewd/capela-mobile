@@ -677,6 +677,24 @@ let mainData = {
         video: true,
       },
     },
+    November:{
+      7:{
+        img: host + "/img/07_nov_2020_Vocacoes_Vocacao pessoal e especifica.jpg",
+        title: "Vocação pessoal e vocação específica",
+        details: `Toda pessoa recebe de Deus uma vocação para colocar a serviço das pessoas, mas algumas são chamadas a um estilo especial de vida, como religiosas, ministros ordenados, missionárias e missionários leigos… E você, já descobriu sua vocação?`,
+        date: "07 de Novembro de 2020",
+        route: host + "/Vocacoes-November/Vocacoes-7.html",
+        video: false,
+      },
+      14:{
+        img: host + "/img/v-14.png",
+        title: "Missionárias contam como descobriram a vocação",
+        details: `Toda pessoa recebe de Deus uma vocação muito significativa. Três irmãs compartilham sua vocação para uma Congregação internacional chamada  Missionárias Servas do Espírito Santo. Assista como cada uma fala sobre como surgiu sua vocação para a  vida religiosa...`,
+        date: "14 de Novembro de 2020",
+        route: host + "/Vocacoes-November/Vocacoes-14.html",
+        video: true,
+      }
+    }
   },
   espirtualData: {
     // August: {
@@ -1953,11 +1971,13 @@ let quemSomos = document.getElementById("quemSomos");
 let indexPage = document.getElementById("indexPage");
 let vocoes = document.getElementById("vocoes");
 let contatos = document.getElementById("contatos");
+let missao = document.getElementById("missao");
 
 indexPage.setAttribute("href", `${host}/index.html`);
 contatos.setAttribute("href", `${host}/capela-virtual-contato.html`);
 quemSomos.setAttribute("href", `${host}/capela-virtual-quem-somos.html`); 
 vocoes.setAttribute("href", `${host}/capela-virtual-Vocacoes.html`);
+missao.setAttribute("href", `${host}/capela-virtual-nossa-missao.html`);
 let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
 
