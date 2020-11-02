@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/nav.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="../javascript-calendar.css" type="text/css">
+  <link rel="stylesheet" href="../css/Leitura-Orante_a.css" />
+  <link rel="stylesheet" href="../css/font.css" />
+
+</head>
+
+<body>
+  <div class="container">
+    <!-- navbar Starts -->
+    <div class="container" id="nav-container">
+
+      <nav class="navbar navbar-expand-lg" id="nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="width: 50px;">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          <img src="../img/menu.png" width="100%" alt="">
+        </button>
+        <img src="../img/navlogo.png" class="navLogo" />
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" id="indexPage"><img src="./images/01_Novembro_2020_Leit_oran.jpg" alt=""
+                  width="25px" />
+                <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="quemSomos">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="oracoes">Orações Missionárias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="sant">Santo do Dia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="vocoes">Vocações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="missao">Missão</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="espirual-link">Espiritualidade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contatos">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- navbar ends -->
+
+    <div class="" id="overall-container">
+
+      <div class="col-md-12 col-sm-6">
+        <h4 class="GM pageHeading">Leitura Orante</h4>
+        <div class="myContainer-heading">
+
+          <p class="myContainer-date pb-0 mb-0 GB" id="date">
+            Leituras do Dia
+          </p>
+
+
+          <p class="myContainer-date pb-0 mb-0 GB">
+
+            Quinta - feira 30ª do Tempo Comum
+          </p>
+          <p class="myContainer-date  GB">
+            (Verde -Ofício do dia )
+
+          </p>
+          <p class="myContainer-date-cal GB">
+            <span class="cal-icon fa fa-calendar"></span>
+            <i>
+              29 de outubro de 2020
+            </i>
+          </p>
+
+          <img src="./images/29_Outubro_2020_Leit_Oran.jpg" class="imgview">
+          <p class="pt-3 para GBR"><b class="headings">Leitura Orante do Evangelho</b><br>
+
+            Ouça o áudio da oração e reflexão do padre Francisco das Chagas
+          </p>
+          <audio id="audio_play">
+            <source src="../audio/25_09_2020_Leitura_Orante.mp4" type="audio/ogg">
+
+          </audio>
+          <img src="./img/LISTEN.png" class="imgclick2" alt="" onclick="play()" id="play">
+ <img src="./images/PAUSE.png"  class="imgclick1" style="display:none" alt="" onclick="pause()" id="pause">
+
+          <p class="pt-3 para GBR"><b class="headings">Oração do dia</b><br>
+
+            Deus eterno e todo-poderoso, aumentai em nós a fé, a esperança e a caridade, e dai-nos amar o que ordenais para conseguirmos o que prometeis. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.</p>
+          <p class="pt-3 para GBR"><b class="headings">Leitura: Ef 6,10-20</b> </p>
+          <p class="s-heading GBR">
+            <sup>10</sup>  Para terminar, irmãos, confortai-vos no Senhor e, no domínio de sua força, 
+            <sup>11</sup>revesti-vos da armadura de Deus, para estardes em condições de enfrentar as manobras
+             do diabo. 
+             <sup>12</sup>Pois não é a homens que enfrentamos, mas as autoridades, os poderes, as dominações
+              deste mundo de trevas, os espíritos do mal que estão nos céus.<sup>13</sup> Revesti, portanto,
+               a armadura de Deus, a fim de que no dia mau possais resistir e permanecer firmes em tudo.<sup>14</sup>
+                De pé, portanto! Cingi os vossos rins com a verdade, revesti-vos com a couraça da justiça 
+                <sup>15</sup>e calçai os vossos pés com a prontidão em anunciar o Evangelho da paz. 
+                <sup>16</sup>Tomai o escudo da fé, o qual vos permitirá apagar todas as flechas ardentes do maligno.
+                <sup>17</sup> Tomai, enfim, o capacete da salvação e o gládio do espírito, isto é, a Palavra de Deus. 18Com preces e súplicas de vária ordem, orai em todas as circunstâncias, no Espírito, e vigiai com toda a perseverança, intercedendo por todos os santos. 19Orai também por mim, para que a palavra seja colocada em minha boca para anunciar corajosamente o mistério do Evangelho, 20do qual sou embaixador acorrentado. Possa eu, como é minha obrigação, proclamá-lo com toda a ousadia.
+                   <b>– Palavra do Senhor.</b> 
+          </p>
+
+
+          <p class="pt-3 para GBR"><b class="headings">Salmo Responsorial: 143(144)</b><br><br>
+            <b class="sheading GM"><i>Bendito seja o Senhor, meu rochedo!</i></b>
+            <br>
+          <p class="s-heading GBR">
+            Bendito seja o Senhor, meu rochedo, que adestrou minhas mãos para a luta e os meus dedos treinou para a guerra!
+
+
+          </p>
+
+
+          <br>
+          <b class="sheading GM"><i>Bendito seja o Senhor, meu rochedo!</i></b>
+          <br>
+          <p class="s-heading GBR">
+
+            Ele é meu amor, meu refúgio, libertador, fortaleza e abrigo; é meu escudo: é nele que espero, ele submete as nações a meus pés.
+
+          </p>
+          <br>
+          <b class="sheading GM"><i>Bendito seja o Senhor, meu rochedo!</i></b>
+          <br>
+          <p class="s-heading GBR">
+
+            Um canto novo, meu Deus, vou cantar-vos, nas dez cordas da harpa louvar-vos, a vós que dais a vitória aos reis e salvais vosso servo Davi. </p>
+          <b class="sheading GM"><i>Bendito seja o Senhor, meu rochedo!</i></b>
+          <br>
+
+          </p>
+          <p class="pt-3 para GBR"><b class="headings">Evangelho: Lucas 13,31-35</b>
+          <p class="s-heading GBR">
+            <sup>31</sup>    Naquela hora, alguns fariseus aproximaram-se e disseram a Jesus:
+                                     “Tu deves ir embora daqui, porque Herodes quer te matar”.<sup>32</sup>  Jesus disse: 
+                                     “Ide dizer a essa raposa: eu expulso demônios e faço curas hoje e amanhã;
+                                      e no terceiro dia terminarei o meu trabalho. <sup>33</sup> Entretanto, preciso caminhar hoje,
+                                       amanhã e depois de amanhã, porque não convém que um profeta morra fora de Jerusalém.<sup> 34</sup> 
+                                       Jerusalém, Jerusalém! Tu que matas os profetas e apedrejas os que te foram enviados!
+                                        Quantas vezes eu quis reunir teus filhos como a 
+                                        galinha reúne os pintainhos debaixo das asas, mas tu não quiseste!<sup>35</sup>  Eis que vossa casa ficará 
+                                        abandonada. Eu vos digo, não me vereis mais, até que chegue o tempo em que vós mesmos direis: 
+                                        ‘Bendito aquele que vem em nome do Senhor'”.  <b>– Palavra da salvação.</b>
+          </p>
+
+
+
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="col-md-12 col-sm-6  text-center">
+        <p class="blog-heading">
+          Leituras do mês
+        </p>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="modelbtn btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Calendar
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+              <div class="modal-body">
+                <div class="calendar">
+                  <!-- CAlendar -->
+
+                  <div class="icalendar">
+                    <div class="icalendar__month">
+                      <div class="icalendar__prev" onclick="moveDate('prev')">
+                        <span>&#10094</span>
+                      </div>
+                      <div class="icalendar__current-date">
+                        <h2 id="icalendarMonth"></h2>
+                        <div>
+                          <div id="icalendarDateStr"></div>
+                        </div>
+
+                      </div>
+                      <div class="icalendar__next" onclick="moveDate('next')">
+                        <span>&#10095</span>
+                      </div>
+                    </div>
+                    <div class="icalendar__week-days">
+                      <div>D</div>
+                      <div>S</div>
+                      <div>T</div>
+                      <div>Q</div>
+                      <div>Q</div>
+                      <div>S</div>
+                      <div>S</div>
+                    </div>
+                    <div class="icalendar__days"></div>
+
+
+                    <script src="../javascript-calendar.js" type="text/javascript"></script>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="blog-heading">
+          TAGS
+        </p>
+        <div>
+
+          <p class="tagpara GBR">missao Amazonia evengel covid-19 indigenas novica papa francisco</p>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-md-12 ">
+        <h5 class="destaques-heading">
+          Destaques
+        </h5>
+        <div id="destaquesPortion">
+
+        </div>
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+    </div>
+    <div class="background-img">
+      <div>
+        <p
+          style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
+          Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11)
+          5547-7222
+        </p>
+        <div class="icons">
+          <span><img src="../img/Icone_Facebook.png" alt=""></span>
+          <span><img src="../img/Icone_Twitter.png" alt=""></span>
+          <span><img src="../img/Icone_Insta.png" alt=""></span>
+          <span><img src="../img/Icone_Blog.png" alt=""></span>
+          <span><img src="../img/Icone_Youtube.png" alt=""></span>
+          <span><img src="../img/Icone_Site.png" alt=""></span>
+        </div>
+      </div>
+      <hr>
+      <div id="last-icon-div">
+        <p
+          style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
+          Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |<br />
+          Tel. (42) 3326 4091
+        </p>
+        <div class="icons">
+          <span><img src="../img/Icone_Facebook.png" alt=""></span>
+          <span><img src="../img/Icone_Blog.png" alt=""></span>
+          <span><img src="../img/Icone_Youtube.png" alt=""></span>
+          <span><img src="../img/Icone_Site.png" alt=""></span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
+<script src="../post-data-json.js"></script>
