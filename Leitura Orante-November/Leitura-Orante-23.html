@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="../css/nav.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../javascript-calendar.css" type="text/css" />
-    <link rel="stylesheet" href="../css/Leitura-Orante_a.css" />
+    <link rel="stylesheet" href="../css/Leitura-Orante.css" />
     <link rel="stylesheet" href="../css/font.css" />
   </head>
   <body>
@@ -56,11 +56,7 @@
             <ul class="navbar-nav">
               <li class="nav-item active">
                 <a class="nav-link" id="indexPage"
-                  ><img
-                    src="./images/01_Novembro_2020_Leit_oran.jpg"
-                    alt=""
-                    width="25px"
-                  />
+                  ><img src="../img/home-icon.png" alt="" width="25px" />
                   <span class="sr-only">(current)</span></a
                 >
               </li>
@@ -93,119 +89,90 @@
 
       <div class="row pt-3" id="overall-container">
         <div class="col-md-12 col-sm-6">
-          <h4 class="GM pageHeading">Leitura Orante</h4>
+          <h4 class="GM pageHeading">Leitura Orante do Evangelho</h4>
+
           <div class="myContainer-heading">
-            <p class="myContainer-date pb-0 mb-0 GB" id="date">
-              Leituras do Dia
-            </p>
-
-            <p class="myContainer-date pb-0 mb-0 GB">
-              Domingo - Nosso Senhor Jesus Cristo, Rei do Universo
-            </p>
-            <p class="myContainer-date pb-0 mb-0 GB">(branco - ofício da solenidade)</p>
-
+            <p class="myContainer-date GB">Segunda-feira</p>
+            <p class="myContainer-date GB">São Clemente</p>
+            <p class="myContainer-date GB">(verde – ofício do dia)</p>
             <p class="myContainer-date-cal GB">
               <span class="cal-icon fa fa-calendar"></span>
-              <i>22 de novembro de 2020 </i>
+              <i class="GBI">23 de Outubro de 2020</i>
             </p>
-
             <img
-              src="./images/22_Novembro_2020_Leit_oran.jpg"
+              src="./images/23_Novembro_2020_Leit_oran.jpg"
               class="imgview"
             />
-            <p class="pt-3 para GBR">
-              <b class="headings">Leitura Orante do Evangelho</b><br />
-              Ouça o áudio da oração e reflexão do padre Francisco das Chagas
-            </p>
-            <audio id="audio_play">
-              <source
-                src="../audio/25_09_2020_Leitura_Orante.mp4"
-                type="audio/ogg"
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-6 pt-4">
+          <img
+            src="..//img/Fransico.jpg"
+            class="myContainer-bottom-div-img"
+            alt=""
+          />
+          <img
+            src="..//img/books.jpg"
+            class="pt-3 myContainer-bottom-div-img"
+            alt=""
+          />
+        </div>
+        <div class="col-6 pt-5">
+          <div class="">
+            <p class="flex-div-heading GM">Pe.Francisco das Chagas</p>
+            <p class="flex-div-detail"></p>
+            <p class="paraset">
+              <audio id="audio_play">
+                <source
+                  src="../audio/25_09_2020_Leitura_Orante.mp4"
+                  type="audio/ogg"
+                />
+              </audio>
+              <img
+                src="../img/LISTEN.png"
+                class="imgclick1"
+                alt=""
+                onclick="play()"
+                id="play"
               />
-            </audio>
-            <img
-              src="../img/LISTEN.png"
-              class="imgclick2"
-              alt=""
-              onclick="play()"
-              id="play"
-            />
-
-            <p class="pt-3 para GBR">
-              <b class="headings">Oração do dia</b><br />
-              Deus eterno e todo-poderoso, que dispusestes restaurar todas as coisas em vosso amado Filho, rei do universo, fazei que todas as criaturas, libertas da escravidão e servindo à vossa majestade, vos glorifiquem eternamente. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.
-                      <p class="pt-3 para GBR">
-              <b class="headings">Primeira leitura: Ezequiel 34,11-12.15-17</b>
             </p>
-            <p class="s-heading GBR">
-              <sup>11</sup> Assim diz o Senhor Deus: “Vede! Eu mesmo vou procurar minhas ovelhas e
-              tomar conta delas. <sup>12</sup>Como o pastor toma conta do rebanho, de dia, quando
-              se encontra no meio das ovelhas dispersas, assim vou cuidar de minhas
-              ovelhas e vou resgatá-las de todos os lugares em que foram dispersadas
-              num dia de nuvens e escuridão. <sup>15</sup>Eu mesmo vou apascentar as minhas
-              ovelhas e fazê-las repousar – oráculo do Senhor Deus. <sup>16</sup>Vou procurar a
-              ovelha perdida, reconduzir a extraviada, enfaixar a da perna quebrada,
-              fortalecer a doente e vigiar a ovelha gorda e forte. Vou apascentá-las
-              conforme o direito. <sup>17</sup>Quanto a vós, minhas ovelhas – assim diz o Senhor
-              Deus –, eu farei justiça entre uma ovelha e outra, entre carneiros e
-              bodes”. <b> –
-                  Palavra
-                  do Senhor.</b>
-          </p>
-            </p>
+          </div>
+          <div class="">
+            <p class="addflex-div-heading GM">Leituras do dia:</p>
+            <p class="flex-div-detail GBR">
+              1ª Leitura: Ap 14,1-3.4b-5<br />
 
-            <p class="pt-3 para GBR">
-              <b class="headings">Salmo Responsorial: 23(24)</b>
-            </p>
-            <b class="sheading GM"
-              ><i>É assim a geração dos que buscam vossa face, ó Senhor, Deus de Israel.</i></b
-            >
-            <br />
-            <p class="s-heading GBR">
-              Ao Senhor pertence a terra e o que ela encerra, o mundo inteiro com os seres que o povoam; porque ele a tornou firme sobre os mares e, sobre as águas, a mantém inabalável.
-            <br />
-            <b class="sheading GM"
-              ><i>É assim a geração dos que buscam vossa face, ó Senhor, Deus de Israel.</i></b
-            >
-            <br />
-            <p class="s-heading GBR">
-              “Quem subirá até o monte do Senhor, quem ficará em sua santa habitação?” “Quem tem mãos puras e inocente coração, quem não dirige sua mente para o crime.
-                <b class="sheading GM"
-              ><i>É assim a geração dos que buscam vossa face, ó Senhor, Deus de Israel.</i></b
-            >
-            <br />
-            <p class="s-heading GBR">
-              Sobre este desce a bênção do Senhor e a recompensa de seu Deus e salvador.”
-               “É assim a geração dos que o procuram e do Deus de Israel buscam a face.”       </p>
-                   <b class="sheading GM">
-              <i>É assim a geração dos que buscam vossa face, ó Senhor, Deus de Israel.</i></b>
-            
-            
+              Salmo 23, 1-4b.5-6 (R. 1cf.6)<br />
 
-            <p class="pt-3 para GBR">
-              <b class="headings">Evangelho: Lucas 21,1-4</b>
-            </p>
-           
+              Evangelho: Lc 21,1-4
 
-            <p class="s-heading GBR">
-              Naquele tempo, <sup>1</sup>Jesus ergueu os olhos e viu pessoas ricas depositando
-              ofertas no
-              tesouro do templo. <sup>2</sup>Viu também uma pobre viúva que depositou duas
-              pequenas
-              moedas. <sup>3</sup>Diante disso, ele disse: “Em verdade vos digo que essa pobre
-              viúva
-              ofertou mais do que todos. <sup>4</sup>Pois todos eles depositaram, como oferta
-              feita a
-              Deus, aquilo que lhes sobrava. Mas a viúva, na sua pobreza, ofertou tudo quanto
-              tinha para viver”.
-              <b> – Palavra da Salvação.</b>
+
+
+
+            </p>
+            <p class="paraset">
+              <audio id="audio_play">
+                <source
+                  src="../audio/25_09_2020_Leitura_Orante.mp4"
+                  type="audio/ogg"
+                />
+              </audio>
+              <a href="Leitura-Orante-23a.html">
+                <img
+                  src="../img/letuiro.png"
+                  class="imgclick1"
+                  alt=""
+                  onclick="play()"
+                  id="play"
+                />
+              </a>
             </p>
           </div>
         </div>
 
         <div class="col-md-12 col-sm-6 text-center">
           <p class="blog-heading">Leituras do mês</p>
-
           <!-- Button trigger modal -->
           <button
             type="button"
@@ -213,7 +180,7 @@
             data-toggle="modal"
             data-target="#exampleModal"
           >
-            Calendar
+            Calender
           </button>
 
           <!-- Modal -->
@@ -276,17 +243,16 @@
               </div>
             </div>
           </div>
-
           <p class="blog-heading">TAGS</p>
           <div>
-            <p class="tagpara GBR">
+            <p class="tagpara">
               missao Amazonia evengel covid-19 indigenas novica papa francisco
             </p>
           </div>
         </div>
 
         <div class="col-12 col-md-12">
-          <h5 class="destaques-heading">Destaques</h5>
+          <h5 class="destaques-heading GM">Destaques</h5>
           <div id="destaquesPortion"></div>
         </div>
       </div>
