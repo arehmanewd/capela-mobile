@@ -88,7 +88,7 @@
 .tagpara{
 /* font-family: "Gotham-Medium"; */
 font-size: 21px;
-/* font-weight: bold; */
+font-weight: bold;
 /* opacity:.8; */
 text-align: left;
 color: #666666;
@@ -127,6 +127,8 @@ color: #666666;
 .destaques-heading{
     padding-bottom: 10px;
     padding-top: 10px;
+    font-size: 23px;
+    font-weight: bold;
     color: #3884c1 !important;
 }
 .hrf{
