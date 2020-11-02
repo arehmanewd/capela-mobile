@@ -2005,3 +2005,15 @@ if (mainData.oracoesMissionarias.October[currentDate]) {
 if (!mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
+
+   function play() {
+        document.getElementById('play').style.display = 'none'
+        document.getElementById('pause').style.display = ''
+        document.getElementById('audio_play').play()
+    }
+
+    function pause() {
+        document.getElementById('play').style.display = ''
+        document.getElementById('pause').style.display = 'none'
+        document.getElementById('audio_play').pause()
+    }
