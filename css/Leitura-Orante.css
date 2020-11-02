@@ -23,11 +23,11 @@
     /* font-family: 'Gotham Medium'; */
 }
 .myContainer-date {
-    line-height:  1;
-    font-size: 18px;
+    line-height:  0.5;
+    font-size: 16px;
     font-weight: 500;
     color: #666666;
-    font-family: GothamMedium;
+    /* font-family: GothamMedium; */
 }
 
 .myContainer-date-cal {
@@ -86,11 +86,12 @@
     text-align: left;
 }
 .tagpara{
-font-family: "Gotham-Medium";
-font-size: 22px;
-font-weight: bold;
+/* font-family: "Gotham-Medium"; */
+font-size: 21px;
+/* font-weight: bold; */
 /* opacity:.8; */
 text-align: left;
+color: #666666;
 }
 .modelbtn {
     width: 100%;
