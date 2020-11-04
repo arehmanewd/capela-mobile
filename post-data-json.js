@@ -758,7 +758,7 @@ let mainData = {
     },
     November: {
       1: {
-        img: host + "/img/01_nov_Quando a morte chega sem aviso.jpg",
+        img: host + "/img/01_nov_ess.jpg",
         title: "Quando a morte chega sem aviso",
         details: `O que dizer a uma pessoa que perdeu alguém querido? Nem sempre as palavras aparecem na hora que se quer dizer algo para aliviar a dor. Pequenos gestos, às vezes, expressam melhor a comunhão no sofrimento. Veja a reflexão do Pe. Deolino Baldissera.`,
         date: "01 de novembro de 2020",
@@ -1651,16 +1651,9 @@ let mainData = {
       },
     },
     November: {
-      1: {
-        img: host + "/img/missao-10.png",
-        title: "Experiências Interculturais ",
-        details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo.`,
-        date: "1 de Novembro 20",
-        route: host + "/Missao-November/missao-10.html",
-        video: true,
-      },
+   
       3: {
-        img: host + "/img/03_Nov_2020 Experiências Interculturais .jpg",
+        img: host + "/img/03_Nov_2020 Experiências Interculturais .png",
         title: "Experiências Interculturais",
         details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo. Neste vídeo apresentamos o depoimentos de algumas irmãs de outros países e de algumas missionárias brasileiras que realizaram missão fora do Brasil. Todas elas narram os desafios e as alegrias da vivência intercultural que experimentaram em sua própria vida e missão.`,
         date: "03 de novembro de 2020",
@@ -1668,7 +1661,7 @@ let mainData = {
         video: true,
       },
       10: {
-        img: host + "/img/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
+        img: host + "/img/missao-10-nov.jpg",
         title: "SSpS abrem nova comunidade na capital paulista ",
         details: `As missionárias servas do Espírito Santo abriram uma nova comunidade na capital paulista. As irmãs vão acompanhar mais de perto as famílias das crianças atendidas pelo Centro Educacional Madre Theresia. São José Freinademetz é o patrono da nova casa.`,
         date: "10 de Novembro 20",
