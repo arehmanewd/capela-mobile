@@ -740,7 +740,7 @@ let mainData = {
         title: "Espiritualidade e ecologia integral",
         details: `É urgente fortalecer relações comunitárias, cooperativas de produção, trabalho colaborativo,`,
         date: "27 de Setembro de 2020",
-        route: host + "/Espirtualidade-September/espiritualidade-september-27.html",
+        route: host + "/Espirtualidade-September/espiritualidade-27.html",
       },
     },
     October: {
