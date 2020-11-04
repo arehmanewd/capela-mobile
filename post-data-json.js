@@ -677,8 +677,8 @@ let mainData = {
         video: true,
       },
     },
-    November:{
-      7:{
+    November: {
+      7: {
         img: host + "/img/07_nov_2020_Vocacoes_Vocacao pessoal e especifica.jpg",
         title: "Vocação pessoal e vocação específica",
         details: `Toda pessoa recebe de Deus uma vocação para colocar a serviço das pessoas, mas algumas são chamadas a um estilo especial de vida, como religiosas, ministros ordenados, missionárias e missionários leigos… E você, já descobriu sua vocação?`,
@@ -686,7 +686,7 @@ let mainData = {
         route: host + "/Vocacoes-November/Vocacoes-7.html",
         video: false,
       },
-      14:{
+      14: {
         img: host + "/img/v-14.png",
         title: "Missionárias contam como descobriram a vocação",
         details: `Toda pessoa recebe de Deus uma vocação muito significativa. Três irmãs compartilham sua vocação para uma Congregação internacional chamada  Missionárias Servas do Espírito Santo. Assista como cada uma fala sobre como surgiu sua vocação para a  vida religiosa...`,
@@ -694,7 +694,26 @@ let mainData = {
         route: host + "/Vocacoes-November/Vocacoes-14.html",
         video: true,
       }
-    }
+    },
+    December: {
+      12: {
+        img: host + "/img/12_Dez_2020_Vocações .jpg",
+        title: "Você já imaginou como é a preparação para ser uma irmã missionária? ",
+        details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão. `,
+        date: "12 de dezembro de 2020",
+        route: host + "/Vocacoes-December/Vocacoes-12.html",
+        video: false,
+      },
+      19: {
+        img: host + "/img/19_Dez_Foto_Vocacional.jpg",
+        title: "Acompanhamento Juvenil",
+        details: `Ser promotor (a) ou animador (a) juvenil é desenvolver um ministério no serviço e discipulado missionário da Igreja. É apresentar ao jovem. É apresentar ao jovem a referência do “Ser Igreja” na vivência de comunhão e compromisso eclesial.`,
+        date: "19 de Novembro de 2020",
+        route: host + "/Vocacoes-December/Vocacoes-19.html",
+        video: true,
+      }
+    },
+
   },
   espirtualData: {
 
@@ -737,6 +756,59 @@ let mainData = {
         route: host + "/Espirtualidade-October/espiritualidade-18.html",
       },
     },
+    November: {
+      1: {
+        img: host + "/img/01_nov_Quando a morte chega sem aviso.jpg",
+        title: "Quando a morte chega sem aviso",
+        details: `O que dizer a uma pessoa que perdeu alguém querido? Nem sempre as palavras aparecem na hora que se quer dizer algo para aliviar a dor. Pequenos gestos, às vezes, expressam melhor a comunhão no sofrimento. Veja a reflexão do Pe. Deolino Baldissera.`,
+        date: "01 de novembro de 2020",
+        route: host + "/Espirtualidade-November/espiritualidade-1.html",
+      },
+      8: {
+        img: host + "/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
+        title: "A espiritualidade cristã",
+        details: `Na Contemporaneidade, parece que falar de espiritualidade é se referir a esoterismo. Será porque o esoterismo tudo o permite e a religião impõe deveres e proíbe coisas que são prazerosas? Mas, e se a espiritualidade for além da religião?`,
+        date: "08 de novembro de 2020",
+        route: host + "/Espirtualidade-November/espiritualidade-8.html",
+      },
+      15: {
+        img: host + "/img/15_nov_2020_Espiritualidade_O amor não está de quarentena.jpg",
+        title: "O amor não está de quarentena",
+        details: `A pandemia não atingiu o amor nem há perigo de que ele seja afetado. Quando o amor move as pessoas, elas se transformam e revelam o lado bom da vida, e enchem de esperança quando o caos quer dominar. Veja o artigo do Pe. Deolino Pedro Baldissera.`,
+        date: "15 de novembro de 2020",
+        route: host + "/Espirtualidade-November/espiritualidade-15.html",
+      },
+      22: {
+        img: host + "/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
+        title: "Água benta evapora…",
+        details: `A vida, tomada como um pote de água benta, é assim. Há de se cuidar! Que saibamos cuidar do pote de água benta que é nossa vida. Veja a reflexão de Maria José Brant (Deka). `,
+        date: "22 de novembro de 2020",
+        route: host + "/Espirtualidade-November/espiritualidade-22.html",
+      },
+    },
+    December: {
+      6: {
+        img: host + "/img/06_Dez_2020_Espiritualidade(2).jpg",
+        title: "A fé que cura",
+        details: `Após uma série de exames, a equipe médica disse que, no mundo, havia somente vinte casos como o de Antônio. Mas, como o diagnóstico principal é o do “Médico dos médicos”, permanecíamos confiantes. Veja o depoimento da missionária Suely Belchior. `,
+        date: "06 de dezembro de 2020",
+        route: host + "/Espirtualidade-December/espiritualidade-6.html",
+      },
+      13: {
+        img: host + "/img/13_Dez_2020_Espiritualidade.jpg",
+        title: "Ecumenismo: um novo caminho de fé",
+        details: `O conceito de ecumenismo evolui com a sociedade. Encontro-acolhimento, respeito, justiça e ética são alguns pilares que sustentam a busca da fraternidade universal e podem ser compreensíveis em todas as línguas. Veja o artigo de Mariano Gaioski.`,
+        date: "13 de dezembro de 2020",
+        route: host + "/Espirtualidade-December/espiritualidade-13.html",
+      },
+      20: {
+        img: host + "/img/20_Dez_2020_Espiritualidade(1).jpg",
+        title: "A paz depende também de nós",
+        details: `Se você está cansado de ver tantas notícias de violência e tragédias, e se sente impotente, leia este artigo e descubra como colaborar com a paz no mundo, cultivando-a dentro de si e a seu redor. Depois reze e compartilhe a “Oração pela Paz”.  `,
+        date: "20 de dezembro de 2020",
+        route: host + "/Espirtualidade-December/espiritualidade-20.html",
+      },
+    }
   },
   leituraData: {
     August: {
@@ -1578,6 +1650,48 @@ let mainData = {
         video: true,
       },
     },
+    November: {
+      1: {
+        img: host + "/img/missao-10.png",
+        title: "Experiências Interculturais ",
+        details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo.`,
+        date: "1 de Novembro 20",
+        route: host + "/Missao-November/missao-10.html",
+        video: true,
+      },
+      3: {
+        img: host + "/img/03_Nov_2020 Experiências Interculturais .jpg",
+        title: "Experiências Interculturais",
+        details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo. Neste vídeo apresentamos o depoimentos de algumas irmãs de outros países e de algumas missionárias brasileiras que realizaram missão fora do Brasil. Todas elas narram os desafios e as alegrias da vivência intercultural que experimentaram em sua própria vida e missão.`,
+        date: "03 de novembro de 2020",
+        route: host + "/Missao-November/missao-3.html",
+        video: true,
+      },
+      10: {
+        img: host + "/img/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
+        title: "SSpS abrem nova comunidade na capital paulista ",
+        details: `As missionárias servas do Espírito Santo abriram uma nova comunidade na capital paulista. As irmãs vão acompanhar mais de perto as famílias das crianças atendidas pelo Centro Educacional Madre Theresia. São José Freinademetz é o patrono da nova casa.`,
+        date: "10 de Novembro 20",
+        route: host + "/Missao-November/missao-10.html",
+      },
+      11: {
+        img: host + "/img/11_Nov_Missão_Haiti_Foto_02_.jpg",
+        title: "PROJETO MISSIONÁRIO INTERCONGREGACIONAL NO HAITI",
+        details: `Neste artigo nos propomos a uma breve retomada histórica e partilha da experiência intercongregacional e missionária, realizada no Haiti, a partir do terremoto acontecido em 2010. `,
+        date: "11 de novembro de 2020",
+        route: host + "/Missao-November/missao-11.html",
+      },
+    },
+    December: {
+
+      1: {
+        img: host + "/img/01_Dez_2020_Missão.png",
+        title: " É possível aprender e crescer no amor até o fim de nossa vida. ",
+        details: `É possível aprender e crescer no amor até o fim de nossa vida. Nunca é tarde demais para aprofundar nossa entrega a Deus. Esse é o testemunho que a irmã Veramaria nos deixou antes de falecer, aos 92 anos. Assista ao vídeo e leia sua biografia.`,
+        date: "1 de dezembro de 2020",
+        route: host + "/Missao-December/missao-1.html",
+      },
+    }
   },
 };
 
@@ -1946,7 +2060,7 @@ let missao = document.getElementById("missao");
 
 indexPage.setAttribute("href", `${host}/index.html`);
 contatos.setAttribute("href", `${host}/capela-virtual-contato.html`);
-quemSomos.setAttribute("href", `${host}/capela-virtual-quem-somos.html`); 
+quemSomos.setAttribute("href", `${host}/capela-virtual-quem-somos.html`);
 vocoes.setAttribute("href", `${host}/capela-virtual-Vocacoes.html`);
 missao.setAttribute("href", `${host}/capela-virtual-nossa-missao.html`);
 let oracoes = document.getElementById("oracoes");
@@ -1988,23 +2102,23 @@ if (mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute(
     "href",
     host +
-      "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-" +
-      currentDate +
-      ".html"
+    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-" +
+    currentDate +
+    ".html"
   );
 }
 if (!mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
 
-   function play() {
-        document.getElementById('play').style.display = 'none'
-        document.getElementById('pause').style.display = ''
-        document.getElementById('audio_play').play()
-    }
+function play() {
+  document.getElementById('play').style.display = 'none'
+  document.getElementById('pause').style.display = ''
+  document.getElementById('audio_play').play()
+}
 
-    function pause() {
-        document.getElementById('play').style.display = ''
-        document.getElementById('pause').style.display = 'none'
-        document.getElementById('audio_play').pause()
-    }
+function pause() {
+  document.getElementById('play').style.display = ''
+  document.getElementById('pause').style.display = 'none'
+  document.getElementById('audio_play').pause()
+}
