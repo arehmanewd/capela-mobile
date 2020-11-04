@@ -697,36 +697,7 @@ let mainData = {
     }
   },
   espirtualData: {
-    // August: {
-    //   4: {
-    //     img: host + "/img/person.jpg",
-    //     title: "Conversando com Deus",
-    //     details: `Este texto foi escrito bem antes de imaginarmos que passaríamos por uma pandemia. No entanto, sua mensagem nos ajuda a enfrentar este tempo difícil, pois Deus está sempre presente em nossas vidas e envia sinais para dele nos lembrarmos.`,
-    //     date: "04 de agosto de 2020",
-    //     route: host + "/espiritualidade-4.html",
-    //   },
-    //   11: {
-    //     img: host + "/img/11_ago_2020_Perdoar e mais que pedir_A.jpg",
-    //     title: "Perdoar é mais que pedir perdão... um perdão sem limites",
-    //     details: `A vida de Jesus e seus ensinamentos tem a marca do Perdão generoso, incondicional e sem limites.`,
-    //     date: "11 de agosto de 2020",
-    //     route: host + "/espiritualidade-11.html",
-    //   },
-    //   18: {
-    //     img: host + "/img/18_ago_2020_capa.jpg",
-    //     title: "Espiritualidade da convivência intercultural",
-    //     details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
-    //     date: "18 de agosto de 2020",
-    //     route: host + "/espiritualidade-18.html",
-    //   },
-    //   25: {
-    //     img: host + "/img/25_ago_2020_Passaros voam.jpg",
-    //     title: "Pássaros voam em direção à luz",
-    //     details: `Pássaro que é pássaro sabe que a vida está perto da luz. Nós nem sempre observamos isso. Estamos perdendo muito daquilo que a vida sempre nos ensinou: que ela somente tem sentido se for em direção à Luz. Veja a reflexão do Pe. Deolino Baldissera.`,
-    //     date: "25 de agosto de 2020",
-    //     route: host + "/espiritualidade-25.html",
-    //   },
-    // },
+
     September: {
       20: {
         img: host + "/img/person.jpg",
