@@ -677,6 +677,25 @@ let mainData = {
         video: true,
       },
     },
+    November: {
+      7: {
+        img: host + "/img/07_nov_2020_Vocacoes_Vocacao pessoal e especifica.jpg",
+        title: "Vocação pessoal e vocação específica",
+        details: `Toda pessoa recebe de Deus uma vocação para colocar a serviço das pessoas, mas algumas são chamadas a um estilo especial de vida, como religiosas, ministros ordenados, missionárias e missionários leigos… E você, já descobriu sua vocação?`,
+        date: "07 de Novembro de 2020",
+        route: host + "/Vocacoes-November/Vocacoes-7.html",
+        video: false,
+      },
+      14: {
+        img: host + "/img/v-14.png",
+        title: "Missionárias contam como descobriram a vocação",
+        details: `Toda pessoa recebe de Deus uma vocação muito significativa. Três irmãs compartilham sua vocação para uma Congregação internacional chamada  Missionárias Servas do Espírito Santo. Assista como cada uma fala sobre como surgiu sua vocação para a  vida religiosa...`,
+        date: "14 de Novembro de 2020",
+        route: host + "/Vocacoes-November/Vocacoes-14.html",
+        video: true,
+      }
+    },
+
   },
   espirtualData: {
     // August: {
@@ -746,6 +765,36 @@ let mainData = {
         details: `A vida de Jesus e seus ensinamentos tem a marca do Perdão generoso, incondicional e sem limites.`,
         date: "18 de outubro de 2020",
         route: host + "/Espirtualidade/espiritualidade-18.html",
+      },
+    },
+    November: {
+      1: {
+        img: host + "/img/01_nov_Quando a morte chega sem aviso.jpg",
+        title: "Quando a morte chega sem aviso",
+        details: `O que dizer a uma pessoa que perdeu alguém querido? Nem sempre as palavras aparecem na hora que se quer dizer algo para aliviar a dor. Pequenos gestos, às vezes, expressam melhor a comunhão no sofrimento. Veja a reflexão do Pe. Deolino Baldissera.`,
+        date: "01 de novembro de 2020",
+        route: host + "/Espirtualidade-November/espiritualidade-1.html",
+      },
+      8: {
+        img: host + "/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
+        title: "A espiritualidade cristã",
+        details: `Na Contemporaneidade, parece que falar de espiritualidade é se referir a esoterismo. Será porque o esoterismo tudo o permite e a religião impõe deveres e proíbe coisas que são prazerosas? Mas, e se a espiritualidade for além da religião?`,
+        date: "08 de novembro de 2020",
+        route: host + "/Espirtualidade-November/espiritualidade-8.html",
+      },
+      15: {
+        img: host + "/img/15_nov_2020_Espiritualidade_O amor não está de quarentena.jpg",
+        title: "O amor não está de quarentena",
+        details: `A pandemia não atingiu o amor nem há perigo de que ele seja afetado. Quando o amor move as pessoas, elas se transformam e revelam o lado bom da vida, e enchem de esperança quando o caos quer dominar. Veja o artigo do Pe. Deolino Pedro Baldissera.`,
+        date: "15 de novembro de 2020",
+        route: host + "/Espirtualidade-November/espiritualidade-15.html",
+      },
+      22: {
+        img: host + "/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
+        title: "Água benta evapora…",
+        details: `A vida, tomada como um pote de água benta, é assim. Há de se cuidar! Que saibamos cuidar do pote de água benta que é nossa vida. Veja a reflexão de Maria José Brant (Deka). `,
+        date: "22 de novembro de 2020",
+        route: host + "/Espirtualidade-November/espiritualidade-22.html",
       },
     },
   },
@@ -1587,6 +1636,38 @@ let mainData = {
         date: "13 de outubro de 2020",
         route: host + "/Missao-October/missao-13.html",
         video: true,
+      },
+    },
+    November: {
+      1: {
+        img: host + "/img/missao-10.png",
+        title: "Experiências Interculturais ",
+        details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo.`,
+        date: "1 de Novembro 20",
+        route: host + "/Missao-November/missao-10.html",
+        video: true,
+      },
+      3: {
+        img: host + "/img/03_Nov_2020 Experiências Interculturais .jpg",
+        title: "Experiências Interculturais",
+        details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo. Neste vídeo apresentamos o depoimentos de algumas irmãs de outros países e de algumas missionárias brasileiras que realizaram missão fora do Brasil. Todas elas narram os desafios e as alegrias da vivência intercultural que experimentaram em sua própria vida e missão.`,
+        date: "03 de novembro de 2020",
+        route: host + "/Missao-November/missao-3.html",
+        video: true,
+      },
+      10: {
+        img: host + "/img/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
+        title: "SSpS abrem nova comunidade na capital paulista ",
+        details: `As missionárias servas do Espírito Santo abriram uma nova comunidade na capital paulista. As irmãs vão acompanhar mais de perto as famílias das crianças atendidas pelo Centro Educacional Madre Theresia. São José Freinademetz é o patrono da nova casa.`,
+        date: "10 de Novembro 20",
+        route: host + "/Missao-November/missao-10.html",
+      },
+      11: {
+        img: host + "/img/11_Nov_Missão_Haiti_Foto_02_.jpg",
+        title: "PROJETO MISSIONÁRIO INTERCONGREGACIONAL NO HAITI",
+        details: `Neste artigo nos propomos a uma breve retomada histórica e partilha da experiência intercongregacional e missionária, realizada no Haiti, a partir do terremoto acontecido em 2010. `,
+        date: "11 de novembro de 2020",
+        route: host + "/Missao-November/missao-11.html",
       },
     },
   },
