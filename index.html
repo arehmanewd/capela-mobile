@@ -31,8 +31,9 @@
     <link rel="stylesheet" href="./css/font.css" />
     <link rel="stylesheet" href="./css/multiplePost.css" />
     <link rel="stylesheet" href="./css/footer.css">
+    
   </head>
-  <body>
+  <body onload="PageLoad()">
     <div class="sky-background">
       <!-- navbar Starts -->
       <div class="container" id="nav-container">
@@ -281,3 +282,13 @@
                         </p>
                   </div>`;
 </script>
+<script>
+ 
+
+  function PageLoad() {
+        setTimeout(doNothing, 1000000);
+  }
+  function doNothing() {
+    console.log("hiiiiiiii")
+  }
+      </script>

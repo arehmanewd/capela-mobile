@@ -695,6 +695,24 @@ let mainData = {
         video: true,
       }
     },
+    December: {
+      12: {
+        img: host + "/img/12_Dez_2020_Vocações .jpg",
+        title: "Você já imaginou como é a preparação para ser uma irmã missionária? ",
+        details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão. `,
+        date: "12 de dezembro de 2020",
+        route: host + "/Vocacoes-December/Vocacoes-12.html",
+        video: false,
+      },
+      19: {
+        img: host + "/img/19_Dez_Foto_Vocacional.jpg",
+        title: "Acompanhamento Juvenil",
+        details: `Ser promotor (a) ou animador (a) juvenil é desenvolver um ministério no serviço e discipulado missionário da Igreja. É apresentar ao jovem. É apresentar ao jovem a referência do “Ser Igreja” na vivência de comunhão e compromisso eclesial.`,
+        date: "19 de Novembro de 2020",
+        route: host + "/Vocacoes-December/Vocacoes-19.html",
+        video: true,
+      }
+    },
 
   },
   espirtualData: {
@@ -734,14 +752,14 @@ let mainData = {
         title: "Conversando com Deus",
         details: `Este texto foi escrito bem antes de imaginarmos que passaríamos por uma pandemia. No entanto, sua mensagem nos ajuda a enfrentar este tempo difícil, pois Deus está sempre presente em nossas vidas e envia sinais para dele nos lembrarmos.`,
         date: "20 de Setembro de 2020",
-        route: host + "/Espirtualidade/espiritualidade-20.html",
+        route: host + "/Espirtualidade-September/espiritualidade-20.html",
       },
       27: {
         img: host + "/img/esp-A.jpg",
         title: "Espiritualidade e ecologia integral",
         details: `É urgente fortalecer relações comunitárias, cooperativas de produção, trabalho colaborativo,`,
         date: "27 de Setembro de 2020",
-        route: host + "/Espirtualidade/espiritualidade-september-27.html",
+        route: host + "/Espirtualidade-September/espiritualidade-27.html",
       },
     },
     October: {
@@ -750,21 +768,21 @@ let mainData = {
         title: "Espiritualidade da convivência intercultural",
         details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
         date: "04 de outubro de 2020",
-        route: host + "/Espirtualidade/espiritualidade-outubro-4.html",
+        route: host + "/Espirtualidade-October/espiritualidade-outubro-4.html",
       },
       11: {
         img: host + "/img/25_ago_2020_Passaros voam.jpg",
         title: "Pássaros voam em direção à luz",
         details: `Pássaro que é pássaro sabe que a vida está perto da luz. Nós nem sempre observamos isso. Estamos perdendo muito daquilo que a vida sempre nos ensinou: que ela somente tem sentido se for em direção à Luz. Veja a reflexão do Pe. Deolino Baldissera.`,
         date: "11 de outubro de 2020",
-        route: host + "/Espirtualidade/espiritualidade-11.html",
+        route: host + "/Espirtualidade-October/espiritualidade-11.html",
       },
       18: {
         img: host + "/img/11_ago_2020_Perdoar e mais que pedir_A.jpg",
         title: "Perdoar é mais que pedir perdão... um perdão sem limites",
         details: `A vida de Jesus e seus ensinamentos tem a marca do Perdão generoso, incondicional e sem limites.`,
         date: "18 de outubro de 2020",
-        route: host + "/Espirtualidade/espiritualidade-18.html",
+        route: host + "/Espirtualidade-October/espiritualidade-18.html",
       },
     },
     November: {
@@ -797,237 +815,260 @@ let mainData = {
         route: host + "/Espirtualidade-November/espiritualidade-22.html",
       },
     },
+    December: {
+      6: {
+        img: host + "/img/06_Dez_2020_Espiritualidade(2).jpg",
+        title: "A fé que cura",
+        details: `Após uma série de exames, a equipe médica disse que, no mundo, havia somente vinte casos como o de Antônio. Mas, como o diagnóstico principal é o do “Médico dos médicos”, permanecíamos confiantes. Veja o depoimento da missionária Suely Belchior. `,
+        date: "06 de dezembro de 2020",
+        route: host + "/Espirtualidade-December/espiritualidade-6.html",
+      },
+      13: {
+        img: host + "/img/13_Dez_2020_Espiritualidade.jpg",
+        title: "Ecumenismo: um novo caminho de fé",
+        details: `O conceito de ecumenismo evolui com a sociedade. Encontro-acolhimento, respeito, justiça e ética são alguns pilares que sustentam a busca da fraternidade universal e podem ser compreensíveis em todas as línguas. Veja o artigo de Mariano Gaioski.`,
+        date: "13 de dezembro de 2020",
+        route: host + "/Espirtualidade-December/espiritualidade-13.html",
+      },
+      20: {
+        img: host + "/img/20_Dez_2020_Espiritualidade(1).jpg",
+        title: "A paz depende também de nós",
+        details: `Se você está cansado de ver tantas notícias de violência e tragédias, e se sente impotente, leia este artigo e descubra como colaborar com a paz no mundo, cultivando-a dentro de si e a seu redor. Depois reze e compartilhe a “Oração pela Paz”.  `,
+        date: "20 de dezembro de 2020",
+        route: host + "/Espirtualidade-December/espiritualidade-20.html",
+      },
+    }
   },
   leituraData: {
     August: {
       1: {
-        img: host + "/Leitura-Orante/images/01_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/01_agosto_2020.jpg",
         title: "17ª Semana do Tempo Comum",
         details:
           "Santo Afonso Maria de Ligório (bispo, doutor e fundador) (Branca - ofício da memória)",
         date: "1 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-1a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-1a.html",
       },
       2: {
-        img: host + "/Leitura-Orante/images/02_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/02_agosto_2020.jpg",
         title: "18º Domingo Do Tempo Comum",
         details: "(Verde - ofício dominical comum)",
         date: "2 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-2a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-2a.html",
       },
       3: {
-        img: host + "/Leitura-Orante/images/03_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/03_agosto_2020.jpg",
         title: "Segunda-feira da 18ª Semana Comum",
         details: "(Verde – ofício do dia)",
         date: "3 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-3a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-3a.html",
       },
       4: {
-        img: host + "/Leitura-Orante/images/04_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/04_agosto_2020.jpg",
         title: "Terça-feira da 18a Semana do Tempo Comum",
         details:
           "São João Maria Vianey (Presbítero e confessor) (Branco – ofício da memória)",
         date: "4 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-4a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-4a.html",
       },
       5: {
-        img: host + "/Leitura-Orante/images/05_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/05_agosto_2020.jpg",
         title: "Quarta-feira da 18a Semana do Tempo Comum",
         details: "(Verde – ofício do dia da semana)",
         date: "5 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-5a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-5a.html",
       },
       6: {
-        img: host + "/Leitura-Orante/images/06_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/06_agosto_2020.jpg",
         title: "Quinta-feira da 18a Semana do Tempo Comum",
         details:
           "Transfiguração do Senhor (Branco, glória, prefácio próprio – ofício da festa)",
         date: "6 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-6a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-6a.html",
       },
       7: {
-        img: host + "/Leitura-Orante/images/07_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/07_agosto_2020.jpg",
         title: "Sexta-feira da 18a Semana do Tempo Comum",
         details: "(verde – ofício do dia)",
         date: "7 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-7a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-7a.html",
       },
       8: {
-        img: host + "/Leitura-Orante/images/08_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/08_agosto_2020.jpg",
         title: "Sábado da 18a Semana do Tempo Comum",
         details:
           "São Domingos, Presbítero e Fundador (Branco – ofício da memória)",
         date: "8 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-8a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-8a.html",
       },
       9: {
-        img: host + "/Leitura-Orante/images/09_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/09_agosto_2020.jpg",
         title: "19º Domingo do tempo comum",
         details: "(Verde, glória, creio - 3ª semana do saltério)",
         date: "9 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-9a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-9a.html",
       },
       10: {
-        img: host + "/Leitura-Orante/images/10_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/10_agosto_2020.jpg",
         title:
           "Segunda-feira da 19ª Semana do Tempo Comum São Lourenço, Diácono e Mártir",
         details: "São Lourenço, Diácono e Mártir(Vermelho - ofício da festa)",
         date: "10 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-10a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-10a.html",
       },
       11: {
-        img: host + "/Leitura-Orante/images/11_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/11_agosto_2020.jpg",
         title: "Terça-feira da 19ª Semana do Tempo Comum",
         details:
           "Santa Clara - Virgem e Fundadora (Branco - ofício da memória)",
         date: "11 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-11a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-11a.html",
       },
       12: {
-        img: host + "/Leitura-Orante/images/12_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/12_agosto_2020.jpg",
         title: "Quarta-feira da 19ª Semana do Tempo Comum",
         details: "(Verde - ofício do dia)",
         date: "12 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-12a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-12a.html",
       },
       13: {
-        img: host + "/Leitura-Orante/images/13_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/13_agosto_2020.jpg",
         title: "Quinta-feira da 19ª Semana do Tempo Comum",
         details:
           "Santa Dulce dos Pobres (Branco - ofício dos Religiosos ou Santos)",
         date: "13 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-13a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-13a.html",
       },
       14: {
-        img: host + "/Leitura-Orante/images/14_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/14_agosto_2020.jpg",
         title: "Sexta-feira da 19ª Semana do Tempo Comum",
         details:
           "São Maximiliano Maria Kolbe, Presbítero e Mártir (vermelho - ofício da memória)",
         date: "14 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-14a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-14a.html",
       },
       15: {
-        img: host + "/Leitura-Orante/images/15_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/15_agosto_2020.jpg",
         title: "Sábado da 19a Semana do Tempo Comum",
         details: "(Verde – ofício do dia)",
         date: "15 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-15a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-15a.html",
       },
       16: {
-        img: host + "/Leitura-Orante/images/16_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/16_agosto_2020.jpg",
         title: "Domingo da 20ª Semana do Tempo Comum",
         details:
           "Solenidade da Assunção de Maria (Branco, ofício da solenidade)",
         date: "16 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-16a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-16a.html",
       },
       17: {
-        img: host + "/Leitura-Orante/images/17_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/17_agosto_2020.jpg",
         title: "Segunda-feira da 20ª Semana do Tempo Comum",
         details: "(verde - ofício do dia)",
         date: "17 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-17a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-17a.html",
       },
       18: {
-        img: host + "/Leitura-Orante/images/18_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/18_agosto_2020.jpg",
         title: "Terça-feira da 20ª Semana do Tempo Comum",
         details: "(Verde - ofício do dia)",
         date: "18 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-18a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-18a.html",
       },
 
       19: {
-        img: host + "/Leitura-Orante/images/19_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/19_agosto_2020.jpg",
         title: "Quarta-feira da 20ª Semana do Tempo Comum",
         details: "(verde - ofício do dia)",
         date: "19 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-19a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-19a.html",
       },
       20: {
-        img: host + "/Leitura-Orante/images/20_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/20_agosto_2020.jpg",
         title: "Quinta-feira da 20ª Semana do Tempo Comum",
         details:
           "São Bernardo, Abade e Doutor (Branco - ofício da memória)    ",
         date: "20 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-20a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-20a.html",
       },
       21: {
-        img: host + "/Leitura-Orante/images/21_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/21_agosto_2020.jpg",
         title: "Sexta-feira da 20ª Semana do Tempo Comum",
         details: "São Pio 10º, Papa (Branco - ofício da memória)",
         date: "21 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-21a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-21a.html",
       },
       22: {
-        img: host + "/Leitura-Orante/images/22_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/22_agosto_2020.jpg",
         title: "Sábado da 20ª Semana do Tempo Comum",
         details: "Nossa Senhora Rainha (Branco - ofício da memória)",
         date: "22 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-22a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-22a.html",
       },
       23: {
-        img: host + "/Leitura-Orante/images/23_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/23_agosto_2020.jpg",
         title: "Domingo da 21ª Semana do Tempo Comum",
         details: "(Verde)",
         date: "23 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-23a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-23a.html",
       },
       24: {
-        img: host + "/Leitura-Orante/images/24_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/24_agosto_2020.jpg",
         title: "Segunda-feira da 21ª Semana do Tempo Comum",
         details: "São Bartolomeu, Apóstolo (Vermelho - Ofício da festa)",
         date: "24 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-24a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-24a.html",
       },
       25: {
-        img: host + "/Leitura-Orante/images/25_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/25_agosto_2020.jpg",
         title: "Terça-feira da 21ª Semana do Tempo Comum",
         details: "(Verde - Ofício do dia)",
         date: "25 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-25a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-25a.html",
       },
       26: {
-        img: host + "/Leitura-Orante/images/26_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/26_agosto_2020.jpg",
         title: "Quarta-feira da 21ª Semana do Tempo Comum",
         details: "(Verde - Ofício do dia)",
         date: "26 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-26a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-26a.html",
       },
       27: {
-        img: host + "/Leitura-Orante/images/27_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/27_agosto_2020.jpg",
         title: "Quinta-feira da 21ª Semana do Tempo Comum",
         details:
           "Santa Mônica, Esposa, Mãe e Viúva (Branco - Ofício da memória)",
         date: "27 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-27a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-27a.html",
       },
       28: {
-        img: host + "/Leitura-Orante/images/28_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/28_agosto_2020.jpg",
         title: "Sexta-feira da 21ª Semana do Tempo Comum",
         details: "Santo Agostinho, Bispo e Doutor (Branco - Ofício da memória)",
         date: "28 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-28a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-28a.html",
       },
       29: {
-        img: host + "/Leitura-Orante/images/29_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/29_agosto_2020.jpg",
         title: "Sábado da 21ª Semana do Tempo Comum",
         details: "Martírio de São João Batista (Vermelho - Ofício da memória)",
         date: "29 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-29a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-29a.html",
       },
       30: {
-        img: host + "/Leitura-Orante/images/30_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/30_agosto_2020.jpg",
         title: "Domingo da 22º Domingo do Tempo Comum",
         details: "(Verde-Ofício dominical comum)",
         date: "30 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-30a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-30a.html",
       },
       31: {
-        img: host + "/Leitura-Orante/images/31_agosto_2020.jpg",
+        img: host + "/Leitura-Orante-August/images/31_agosto_2020.jpg",
         title: "Segunda-feira da 22ª Semana do Tempo Comum",
         details: "(Verde-Ofício do dia)",
         date: "31 de agosto de  2020",
-        route: host + "/Leitura-Orante/leitura-orante-31a.html",
+        route: host + "/Leitura-Orante-August/leitura-orante-31a.html",
       },
     },
 
@@ -1670,6 +1711,16 @@ let mainData = {
         route: host + "/Missao-November/missao-11.html",
       },
     },
+    December: {
+
+      1: {
+        img: host + "/img/01_Dez_2020_Missão.png",
+        title: " É possível aprender e crescer no amor até o fim de nossa vida. ",
+        details: `É possível aprender e crescer no amor até o fim de nossa vida. Nunca é tarde demais para aprofundar nossa entrega a Deus. Esse é o testemunho que a irmã Veramaria nos deixou antes de falecer, aos 92 anos. Assista ao vídeo e leia sua biografia.`,
+        date: "1 de dezembro de 2020",
+        route: host + "/Missao-December/missao-1.html",
+      },
+    }
   },
 };
 
@@ -2034,11 +2085,13 @@ let quemSomos = document.getElementById("quemSomos");
 let indexPage = document.getElementById("indexPage");
 let vocoes = document.getElementById("vocoes");
 let contatos = document.getElementById("contatos");
+let missao = document.getElementById("missao");
 
 indexPage.setAttribute("href", `${host}/index.html`);
 contatos.setAttribute("href", `${host}/capela-virtual-contato.html`);
-quemSomos.setAttribute("href", `${host}/capela-virtual-quem-somos.html`); 
+quemSomos.setAttribute("href", `${host}/capela-virtual-quem-somos.html`);
 vocoes.setAttribute("href", `${host}/capela-virtual-Vocacoes.html`);
+missao.setAttribute("href", `${host}/capela-virtual-nossa-missao.html`);
 let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
 
@@ -2078,23 +2131,23 @@ if (mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute(
     "href",
     host +
-      "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-" +
-      currentDate +
-      ".html"
+    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-" +
+    currentDate +
+    ".html"
   );
 }
 if (!mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
 
-   function play() {
-        document.getElementById('play').style.display = 'none'
-        document.getElementById('pause').style.display = ''
-        document.getElementById('audio_play').play()
-    }
+function play() {
+  document.getElementById('play').style.display = 'none'
+  document.getElementById('pause').style.display = ''
+  document.getElementById('audio_play').play()
+}
 
-    function pause() {
-        document.getElementById('play').style.display = ''
-        document.getElementById('pause').style.display = 'none'
-        document.getElementById('audio_play').pause()
-    }
+function pause() {
+  document.getElementById('play').style.display = ''
+  document.getElementById('pause').style.display = 'none'
+  document.getElementById('audio_play').pause()
+}

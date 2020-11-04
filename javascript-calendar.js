@@ -73,7 +73,7 @@ function renderDate() {
         } else {
             if(months[dt.getMonth()] == 'Agosto'){
                 console.log(months[dt.getMonth()] )
-                cells += `<a class='a-date' href="../Leitura Orante-August/Leitura-Orante-`+i+`.html">`+i+`</a>`;
+                cells += `<a class='a-date' href="../Leitura-Orante-August/leitura-orante-`+i+`.html">`+i+`</a>`;
                 // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
             }
             else if(months[dt.getMonth()] == "Setembro" ){
