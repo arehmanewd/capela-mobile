@@ -126,10 +126,11 @@
                          </p>
                          <p class="paraset">
                            <audio id="audio_play">
-                             <source src="../audio/25_09_2020_Leitura_Orante.mp4" type="audio/ogg">
+                             <source src="./audio/11_10_2020_Leitura_Orante.mp4" type="audio/ogg">
    
                            </audio>
                            <img src="../img/LISTEN.png" class="imgclick1" alt="" onclick="play()" id="play">
+                           <img src="./images/PAUSE.png"  class="imgclick1" style="display:none" alt="" onclick="pause()" id="pause">
                      
    
                          </p>
@@ -141,11 +142,11 @@
                           Leituras do dia:
                          </p>
                          <p class="flex-div-detail GBR">
-                          1ª Leitura:Est 5,1b-2;7,2b-3
+                          1ª Leitura:Est 5,1b-2;7,2b-3<br>
 
-                          Salmo: 44(45),11-12a.12b-13.14-15a.15b-16
+                          Salmo: 44(45),11-12a.12b-13.14-15a.15b-16<br>
                           
-                          Evangelho: Lc 6,39-42
+                          Evangelho: Lc 6,39-42<br>
                           
                           Evangelho: Mt 22,1-14
                           
@@ -155,12 +156,9 @@
 
                          </p>
                          <p class="paraset">
-                           <audio id="audio_play">
-                             <source src="../audio/25_09_2020_Leitura_Orante.mp4" type="audio/ogg">
-   
-                           </audio>
+                          <a href="./leitura-orante-11a.html">
                            <img src="../img/letuiro.png"  class="imgclick1" alt="" onclick="play()" id="play">
-   
+                          </a>
                          </p>
    
    
@@ -287,5 +285,18 @@
   
     </div>
 </body>
+<script>
+  function play() {
+    document.getElementById('play').style.display = 'none'
+    document.getElementById('pause').style.display = ''
+    document.getElementById('audio_play').play()
+  }
+
+  function pause() {
+    document.getElementById('play').style.display = ''
+    document.getElementById('pause').style.display = 'none'
+    document.getElementById('audio_play').pause()
+  }
+</script>
 </html>
 <script src="../post-data-json.js"></script>
