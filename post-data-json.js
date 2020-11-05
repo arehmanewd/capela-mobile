@@ -261,6 +261,14 @@ let mainData = {
         date: "10 de outubro de 2020",
         route: host + "/Dia-October/Dia-10.html",
       },
+      11: {
+        img: host + "/img/11_Post_Dia_Santo_Outubro_2020.jpg",
+        title: "São João XXIII, Papa",
+        details:
+          " Ângelo Giuseppe Roncalli, mais conhecido como São João XXIII, nasceu na Itália, em 1881. Em 1904, foi ordenado padre. Com um espírito de simplicidade, disponibilidade e muita alegria, ocupou diversos cargos. Durante a Segunda Guerra Mundial, ajudou muitos judeus. Em 1953, foi feito cardeal e, em 1958, após a morte do Papa Pio XII, foi eleito Sumo Pontífice.",
+        date: "11 de outubro de 2020",
+        route: host + "/Dia-October/Dia-11.html",
+      },
       12: {
         img: host + "/img/12_Post_Dia_Santo_Outubro_2020.jpg",
         title: "Nossa Senhora Aparecida",
@@ -383,7 +391,7 @@ let mainData = {
           details:
             "Hoje celebramos a memória de Santa Cecília, padroeira da música sacra e da poesia. Conta-se que Cecília foi martirizada e sepultada nas catacumbas de São Calisto, em Roma. Que ela interceda por nós, para que também possamos testemunhar nossa fé.",
           date: "22 de Novembro de 2020",
-          route: host + "/Dia-November/Dia-22a.html",
+          route: host + "/Dia-November/Dia-22b.html",
         },
       ],
       25: {
@@ -496,17 +504,17 @@ let mainData = {
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-14.html",
       },
-      // 15: {
-      //   img: host + "/img/12.Orações Mis.JPG",
-      //   title: "Prece Missionária",
-      //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque
-      //       nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
-      //       os povos.`,
-      //   date: "15 de Outubro de 2020",
-      //   route:
-      //     host +
-      //     "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-15.html",
-      // },
+      15: {
+        img: host + "/img/12.Orações Mis.JPG",
+        title: "Prece Missionária",
+        details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque
+            nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
+            os povos.`,
+        date: "15 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-15.html",
+      },
       16: {
         img: host + "/img/2_dia_Novena_Missionaria.jpg",
         title: "A vida missionária das famílias",
@@ -618,6 +626,44 @@ let mainData = {
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-30.html",
       },
     },
+    November:{
+      5: {
+        img: host + "/img/5 Nov 2020_ orações Missionária  .jpg",
+        title: "Senhor que amas",
+        details: `Senhor que amas, ajuda-nos a perceber, em nossa missão, as ocasiões de amar. De amar espontaneamente com o olhar e o coração aqueles que encontramos.`,
+        date: "5 de Novembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-5.html",
+      },
+      12: {
+        img: host + "/img/12 Nov 2020_Orações Missionárias.jpg",
+        title: "Unge-me",
+        details: `  Senhor, unge minha cabeça para que todos os meus pensamentos saiam da fonte do teu ser, para encher-me com graça e paz. `,
+        date: "12 de Novembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-12.html",
+      },
+      19: {
+        img: host + "/img/19 Nov 2020_Orações Missionárias.jpg",
+        title: "Súplica Missionária",
+        details: ` Senhor Jesus, Bom Pastor e nosso irmão, viestes habitar no meio de nós, para ser caminho de vida e esperança para todos.`,
+        date: "19 de Novembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-19.html",
+      },
+       26: {
+        img: host + "/img/26 Nov 2020_Orações Missionárias.jpg",
+        title: "Oração Vocacional por intercessão de Madre Maria",
+        details: `Ó Trindade, nós te louvamos e te agradecemos porque olhaste com amor para a bem-aventurada Madre Maria concedendo-lhe fidelidade às inspirações do Espírito Santo, ardor missionário e disponibilidade no serviço da evangelização`,
+        date: "26 de Novembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-26.html",
+      },
+    }
   },
   vocoesData: {
     September: {
