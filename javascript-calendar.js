@@ -78,15 +78,15 @@ function renderDate() {
             }
             else if(months[dt.getMonth()] == "Setembro" ){
                 console.log(months[dt.getMonth()] )
-                cells += `<a class='a-date' href="../Leitura Orante-September/Leitura-Orante-`+i+`.html">`+i+`</a>`;
+                cells += `<a class='a-date' href="../Leitura-Orante-September/Leitura-Orante-`+i+`.html">`+i+`</a>`;
             }
             else if(months[dt.getMonth()] == "Outubro" ){
                 console.log(months[dt.getMonth()] )
-                cells += `<a class='a-date' href="../Leitura Orante-October/Leitura-Orante-`+i+`.html">`+i+`</a>`;
+                cells += `<a class='a-date' href="../Leitura-Orante-October/Leitura-Orante-`+i+`.html">`+i+`</a>`;
             }
             else if(months[dt.getMonth()] == "Novembro" ){
                 console.log(months[dt.getMonth()] )
-                cells += `<a class='a-date' href="../Leitura Orante-November/Leitura-Orante-`+i+`.html">`+i+`</a>`;
+                cells += `<a class='a-date' href="../Leitura-Orante-November/Leitura-Orante-`+i+`.html">`+i+`</a>`;
             }
        
             else{

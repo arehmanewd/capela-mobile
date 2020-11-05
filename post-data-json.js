@@ -1997,16 +1997,21 @@ for (var category in mainData) {
         var postdateSort = "2020-" + months[monthname] + "-" + dayname;
         // console.log(mypost)
 
-        showhtml += `<a href="${postRoute}"><div class="flex sortpost ${categoryname}" data-event-date="${postdateSort}">
+        showhtml += `<a href="${postRoute}">
+        <div class="flex sortpost ${categoryname}" data-event-date="${postdateSort}">
+
         <div class="flex-img">
           <img src="${postImage}" width="100%" alt="" />
         </div>
+
         <div class="semana-flex-heading">
           <h6>${postTitleShort}</h6>
           <p class="postDate GBI">
             <i class="fa fa-calendar"></i> ${postDate}</p>
         </div>
-        </div></a>`;
+        
+        </div>
+        </a>`;
 
         //MAIN
         // console.log(showhtml)
