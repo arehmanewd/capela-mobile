@@ -1678,14 +1678,6 @@ let mainData = {
         date: "06 de outubro de 2020",
         route: host + "/Missao-October/missao-6.html",
       },
-      27: {
-        img: host + "/img/TM_Irma Ashrita Soreng.jpg",
-        title: "Testemunho Missionário - Ir. Ashrita",
-        details: `Ir. Ashrita Soreng é da Índia e está no Brasil como missionária. Trabalha na formação de jovens e na animação vocacional.`,
-        date: "27 de outubro de 2020",
-        route: host + "/Missao-October/missao-27.html",
-        video: true,
-      },
       13: {
         img: host + "/img/missao-sep.jpg",
 
@@ -1695,6 +1687,15 @@ let mainData = {
         route: host + "/Missao-October/missao-13.html",
         video: true,
       },
+      27: {
+        img: host + "/img/TM_Irma Ashrita Soreng.jpg",
+        title: "Testemunho Missionário - Ir. Ashrita",
+        details: `Ir. Ashrita Soreng é da Índia e está no Brasil como missionária. Trabalha na formação de jovens e na animação vocacional.`,
+        date: "27 de outubro de 2020",
+        route: host + "/Missao-October/missao-27.html",
+        video: true,
+      },
+    
     },
     November: {
    
@@ -1719,6 +1720,16 @@ let mainData = {
         details: `Neste artigo nos propomos a uma breve retomada histórica e partilha da experiência intercongregacional e missionária, realizada no Haiti, a partir do terremoto acontecido em 2010. `,
         date: "11 de novembro de 2020",
         route: host + "/Missao-November/missao-11.html",
+      }, 
+       29: {
+        img: host + "/img/person2.png",
+        title: "Uma vida consagrada ao povo da periferia",
+        details: `O itinerário vocacional e missionário de Ir. Monika Kopf é
+        praticamente o mesmo da vida religiosa consagrada no Brasil, com
+        os seus desafios, avanços e buscas, passando por momentos de
+        profundas transformações.`,
+        date: "29 de Novembro de 2020",
+        route: host + "/Missao-November/missao-29.html",
       },
     },
     December: {
