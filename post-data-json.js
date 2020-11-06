@@ -2044,7 +2044,7 @@ for (var category in mainData) {
         </div></a>`;
 
         //MAIN
-        console.log(showhtml)
+        // console.log(showhtml)
 
         showhtml2 += `<div class="post ${categoryname}1" data-event-date="${postdateSort}">
         <img src="${postImage}" class="postImage" alt="">
