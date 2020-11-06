@@ -739,7 +739,26 @@ let mainData = {
         date: "14 de Novembro de 2020",
         route: host + "/Vocacoes-November/Vocacoes-14.html",
         video: true,
-      }
+      },
+      21: {
+        img:
+          host + "/img/21_nov_ Foto_Vocações.jpg",
+        title: " Vocação pessoal e vocação específica",
+        details: `Todas as pessoas são chamadas por Deus à vida e têm uma missão a realizar. Mesmo quem não acredita ou não conhece a Deus é amado e cuidado por Ele. Deus não faz diferença entre as pessoas e “Faz o sol brilhar sobre os bons e os maus” (cf. Mt 5,45-46), distribuindo generosamente seus dons a todos.`,
+        date: "21 de Novembro de 2020",
+        route: host + "/Vocacoes-November/Vocacoes-21.html",
+        video: false,
+      },
+      28: {
+        img: host + "/img/Vocacoes-21.jpg",
+        title: "  Amadas e chamadas por Deus",
+        details: `Chamadas de diferentes países e culturas, as Irmãs Missionárias do Espírito Santo são mulheres
+        escolhidas como instrumento do Espírito Santo para servir. Enviadas para irradiar a presença do Pai, do
+        Filho e do Espírito Santo, atuam nos cinco continentes, compondo uma congregação internacional.`,
+        date: "28 de Novembro de 2020",
+        route: host + "/Vocacoes-November/Vocacoes-28.html",
+        video: true,
+      },
     },
     December: {
       12: {
@@ -1721,6 +1740,15 @@ let mainData = {
         date: "11 de novembro de 2020",
         route: host + "/Missao-November/missao-11.html",
       }, 
+      27: {
+        img: host + "/img/TM_Irma Ashrita Soreng.jpg",
+        title: "Testemunho Missionário - Ir. Ashrita",
+        details: `    Ir. Ashrita Soreng é da Índia e está no Brasil como missionária. Trabalha na formação de jovens e na
+        animação vocacional.`,
+        date: "27 de novembro de 2020",
+        route: host + "/Missao-November/missao-27.html",
+        video: true,
+      },
        29: {
         img: host + "/img/person2.png",
         title: "Uma vida consagrada ao povo da periferia",
@@ -2009,7 +2037,7 @@ for (var category in mainData) {
           <p class="postDate GBI">
             <i class="fa fa-calendar"></i> ${postDate}</p>
         </div>
-        
+
         </div>
         </a>`;
 
@@ -2141,28 +2169,28 @@ for (let i = currentDate; i > 0; i--) {
   }
 }
 
-if (mainData.santoData.October[currentDate]) {
+if (mainData.santoData.November[currentDate]) {
   santoLink.setAttribute(
     "href",
-    host + "/Dia-October/Dia-" + currentDate + ".html"
+    host + "/Dia-November/Dia-" + currentDate + ".html"
   );
 }
-if (!mainData.santoData.October[currentDate]) {
+if (!mainData.santoData.November[currentDate]) {
   santoLink.setAttribute("href", host + "/Santo-Do-Dia-main.html");
 }
 
 // for oracoesMissionarias
 
-if (mainData.oracoesMissionarias.October[currentDate]) {
+if (mainData.oracoesMissionarias.November[currentDate]) {
   oracoes.setAttribute(
     "href",
     host +
-    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-" +
+    "/oracoes-missionarias-November/capela-virtual-oracoes-missionarias-" +
     currentDate +
     ".html"
   );
 }
-if (!mainData.oracoesMissionarias.October[currentDate]) {
+if (!mainData.oracoesMissionarias.November[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
 
@@ -2176,4 +2204,29 @@ function pause() {
   document.getElementById('play').style.display = ''
   document.getElementById('pause').style.display = 'none'
   document.getElementById('audio_play').pause()
+}
+var http = new XMLHttpRequest();
+var http2 = new XMLHttpRequest();
+
+function iO(){
+
+  var leitura = document.getElementById('leitura');
+  let url2 = "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html";
+        http.open("HEAD", url, false);
+        http.send();
+        http2.open("HEAD", url2, false);
+        http2.send();
+        // console.log(http.status) 
+        // console.log(http2.status)
+  
+        if (http2.status === 200) {
+          // console.log("Lutera file exists");
+          leitura.setAttribute("href", "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html")
+  
+        }
+        if (http2.status === 404) {
+          // console.log("Lutera file does not exists");
+          leitura.setAttribute("href", "./Leitura-Orante/leitura-orante-main.html")
+  
+        }
 }
