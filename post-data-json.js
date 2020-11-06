@@ -2159,11 +2159,11 @@ console.log(".......................");
 console.log(mainData.espirtualData[espirtualLatestMonth]);
 for (let i = currentDate; i > 0; i--) {
   // console.log(mainData.espirtualData[espirtualLatestMonth][i])
-  if (mainData.espirtualData[November][i]) {
+  if (mainData.espirtualData.November[i]) {
     console.log(mainData.espirtualData[espirtualLatestMonth][i]);
     espirtualLink.setAttribute(
       "href",
-      host + "/Espirtualidade-November/espiritualidade-" + i + ".html"
+      host + "/Espirtualidade-November/espirtualidade-" + i + ".html"
     );
     break;
   }
