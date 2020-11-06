@@ -2159,13 +2159,18 @@ console.log(".......................");
 console.log(mainData.espirtualData[espirtualLatestMonth]);
 for (let i = currentDate; i > 0; i--) {
   // console.log(mainData.espirtualData[espirtualLatestMonth][i])
-  if (mainData.espirtualData[espirtualLatestMonth][i]) {
+  if (mainData.espirtualData[November][i]) {
     console.log(mainData.espirtualData[espirtualLatestMonth][i]);
     espirtualLink.setAttribute(
       "href",
-      host + "/Espirtualidade/espiritualidade-" + i + ".html"
+      host + "/Espirtualidade-November/espiritualidade-" + i + ".html"
     );
     break;
+  }
+  else {
+    console.log("File  Nahi mili  ")
+
+    espirtualLink.setAttribute("href", host + "/Espiritualidade.html");
   }
 }
 
@@ -2176,7 +2181,7 @@ if (mainData.santoData.November[currentDate]) {
   );
 }
 if (!mainData.santoData.November[currentDate]) {
-  santoLink.setAttribute("href", host + "/Santo-Do-Dia-main.html");
+  santoLink.setAttribute("href", host + "/Dia-de-santo.html");
 }
 
 // for oracoesMissionarias
