@@ -91,7 +91,8 @@ for (var category in mainData['vocoesData']) {
       const date2 = new Date().getTime();
       if (date1 < date2) {
 
-        showhtml +=`<a href="${objec[getdays].route}" class="santoPrevious"><div class="flex sortpost" data-event-date="${postdateSort}">
+        showhtml +=`<a href="${objec[getdays].route}" class="santoPrevious sortpost" data-event-date="${postdateSort}">
+        <div class="flex " >
         <div class="flex-img">
           <img src="${objec[getdays].img}" width="100%" alt="" />
         </div>

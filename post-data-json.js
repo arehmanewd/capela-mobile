@@ -626,7 +626,7 @@ let mainData = {
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-30.html",
       },
     },
-    November:{
+    November: {
       5: {
         img: host + "/img/5 Nov 2020_ orações Missionária  .jpg",
         title: "Senhor que amas",
@@ -654,7 +654,7 @@ let mainData = {
           host +
           "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-19.html",
       },
-       26: {
+      26: {
         img: host + "/img/26 Nov 2020_Orações Missionárias.jpg",
         title: "Oração Vocacional por intercessão de Madre Maria",
         details: `Ó Trindade, nós te louvamos e te agradecemos porque olhaste com amor para a bem-aventurada Madre Maria concedendo-lhe fidelidade às inspirações do Espírito Santo, ardor missionário e disponibilidade no serviço da evangelização`,
@@ -663,7 +663,7 @@ let mainData = {
           host +
           "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-26.html",
       },
-    }
+    },
   },
   vocoesData: {
     September: {
@@ -725,7 +725,8 @@ let mainData = {
     },
     November: {
       7: {
-        img: host + "/img/07_nov_2020_Vocacoes_Vocacao pessoal e especifica.jpg",
+        img:
+          host + "/img/07_nov_2020_Vocacoes_Vocacao pessoal e especifica.jpg",
         title: "Vocação pessoal e vocação específica",
         details: `Toda pessoa recebe de Deus uma vocação para colocar a serviço das pessoas, mas algumas são chamadas a um estilo especial de vida, como religiosas, ministros ordenados, missionárias e missionários leigos… E você, já descobriu sua vocação?`,
         date: "07 de Novembro de 2020",
@@ -741,8 +742,7 @@ let mainData = {
         video: true,
       },
       21: {
-        img:
-          host + "/img/21_nov_ Foto_Vocações.jpg",
+        img: host + "/img/21_nov_ Foto_Vocações.jpg",
         title: " Vocação pessoal e vocação específica",
         details: `Todas as pessoas são chamadas por Deus à vida e têm uma missão a realizar. Mesmo quem não acredita ou não conhece a Deus é amado e cuidado por Ele. Deus não faz diferença entre as pessoas e “Faz o sol brilhar sobre os bons e os maus” (cf. Mt 5,45-46), distribuindo generosamente seus dons a todos.`,
         date: "21 de Novembro de 2020",
@@ -763,7 +763,8 @@ let mainData = {
     December: {
       12: {
         img: host + "/img/12_Dez_2020_Vocações .png",
-        title: "Você já imaginou como é a preparação para ser uma irmã missionária? ",
+        title:
+          "Você já imaginou como é a preparação para ser uma irmã missionária? ",
         details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão. `,
         date: "12 de dezembro de 2020",
         route: host + "/Vocacoes-December/Vocacoes-12.html",
@@ -776,12 +777,10 @@ let mainData = {
         date: "19 de Novembro de 2020",
         route: host + "/Vocacoes-December/Vocacoes-19.html",
         video: true,
-      }
+      },
     },
-
   },
   espirtualData: {
-
     September: {
       20: {
         img: host + "/img/person.jpg",
@@ -830,21 +829,27 @@ let mainData = {
         route: host + "/Espirtualidade-November/espiritualidade-1.html",
       },
       8: {
-        img: host + "/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
+        img:
+          host +
+          "/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
         title: "A espiritualidade cristã",
         details: `Na Contemporaneidade, parece que falar de espiritualidade é se referir a esoterismo. Será porque o esoterismo tudo o permite e a religião impõe deveres e proíbe coisas que são prazerosas? Mas, e se a espiritualidade for além da religião?`,
         date: "08 de novembro de 2020",
         route: host + "/Espirtualidade-November/espiritualidade-8.html",
       },
       15: {
-        img: host + "/img/15_nov_2020_Espiritualidade_O amor não está de quarentena.jpg",
+        img:
+          host +
+          "/img/15_nov_2020_Espiritualidade_O amor não está de quarentena.jpg",
         title: "O amor não está de quarentena",
         details: `A pandemia não atingiu o amor nem há perigo de que ele seja afetado. Quando o amor move as pessoas, elas se transformam e revelam o lado bom da vida, e enchem de esperança quando o caos quer dominar. Veja o artigo do Pe. Deolino Pedro Baldissera.`,
         date: "15 de novembro de 2020",
         route: host + "/Espirtualidade-November/espiritualidade-15.html",
       },
       22: {
-        img: host + "/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
+        img:
+          host +
+          "/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
         title: "Água benta evapora…",
         details: `A vida, tomada como um pote de água benta, é assim. Há de se cuidar! Que saibamos cuidar do pote de água benta que é nossa vida. Veja a reflexão de Maria José Brant (Deka). `,
         date: "22 de novembro de 2020",
@@ -873,7 +878,7 @@ let mainData = {
         date: "20 de dezembro de 2020",
         route: host + "/Espirtualidade-December/espiritualidade-20.html",
       },
-    }
+    },
   },
   leituraData: {
     August: {
@@ -1714,10 +1719,8 @@ let mainData = {
         route: host + "/Missao-October/missao-27.html",
         video: true,
       },
-    
     },
     November: {
-   
       3: {
         img: host + "/img/03_Nov_2020 Experiências Interculturais .png",
         title: "Experiências Interculturais",
@@ -1739,7 +1742,7 @@ let mainData = {
         details: `Neste artigo nos propomos a uma breve retomada histórica e partilha da experiência intercongregacional e missionária, realizada no Haiti, a partir do terremoto acontecido em 2010. `,
         date: "11 de novembro de 2020",
         route: host + "/Missao-November/missao-11.html",
-      }, 
+      },
       27: {
         img: host + "/img/TM_Irma Ashrita Soreng.jpg",
         title: "Testemunho Missionário - Ir. Ashrita",
@@ -1749,7 +1752,7 @@ let mainData = {
         route: host + "/Missao-November/missao-27.html",
         video: true,
       },
-       29: {
+      29: {
         img: host + "/img/person2.png",
         title: "Uma vida consagrada ao povo da periferia",
         details: `O itinerário vocacional e missionário de Ir. Monika Kopf é
@@ -1761,15 +1764,15 @@ let mainData = {
       },
     },
     December: {
-
       1: {
         img: host + "/img/01_Dez_2020_Missão.png",
-        title: " É possível aprender e crescer no amor até o fim de nossa vida. ",
+        title:
+          " É possível aprender e crescer no amor até o fim de nossa vida. ",
         details: `É possível aprender e crescer no amor até o fim de nossa vida. Nunca é tarde demais para aprofundar nossa entrega a Deus. Esse é o testemunho que a irmã Veramaria nos deixou antes de falecer, aos 92 anos. Assista ao vídeo e leia sua biografia.`,
         date: "1 de dezembro de 2020",
         route: host + "/Missao-December/missao-1.html",
       },
-    }
+    },
   },
 };
 
@@ -2025,8 +2028,8 @@ for (var category in mainData) {
         var postdateSort = "2020-" + months[monthname] + "-" + dayname;
         // console.log(mypost)
 
-        showhtml += `<a href="${postRoute}">
-        <div class="flex sortpost ${categoryname}" data-event-date="${postdateSort}">
+        showhtml += `<a href="${postRoute}" class="sortpost ${categoryname}" data-event-date="${postdateSort}">
+        <div class="flex  " >
 
         <div class="flex-img">
           <img src="${postImage}" width="100%" alt="" />
@@ -2038,11 +2041,10 @@ for (var category in mainData) {
             <i class="fa fa-calendar"></i> ${postDate}</p>
         </div>
 
-        </div>
-        </a>`;
+        </div></a>`;
 
         //MAIN
-        // console.log(showhtml)
+        console.log(showhtml)
 
         showhtml2 += `<div class="post ${categoryname}1" data-event-date="${postdateSort}">
         <img src="${postImage}" class="postImage" alt="">
@@ -2083,10 +2085,10 @@ window.setTimeout(function () {
       .remove();
   }
 
-  chat_order("destaquesPortion", "sortpost");
   chat_order("destaquesMain", "sortpost1");
+  chat_order("destaquesPortion", "sortpost");
   jQuery("#destaquesPortion")
-    .find(".CV-Video-Link-Post")
+    .find(".flex")
     .each(function (i) {
       if (i > 6) {
         jQuery(this).remove();
@@ -2166,9 +2168,8 @@ for (let i = currentDate; i > 0; i--) {
       host + "/Espirtualidade-November/espiritualidade-" + i + ".html"
     );
     break;
-  }
-  else {
-    console.log("File  Nahi mili  ")
+  } else {
+    console.log("File  Nahi mili  ");
 
     espirtualLink.setAttribute("href", host + "/Espiritualidade.html");
   }
@@ -2190,9 +2191,9 @@ if (mainData.oracoesMissionarias.November[currentDate]) {
   oracoes.setAttribute(
     "href",
     host +
-    "/oracoes-missionarias-November/capela-virtual-oracoes-missionarias-" +
-    currentDate +
-    ".html"
+      "/oracoes-missionarias-November/capela-virtual-oracoes-missionarias-" +
+      currentDate +
+      ".html"
   );
 }
 if (!mainData.oracoesMissionarias.November[currentDate]) {
@@ -2200,38 +2201,39 @@ if (!mainData.oracoesMissionarias.November[currentDate]) {
 }
 
 function play() {
-  document.getElementById('play').style.display = 'none'
-  document.getElementById('pause').style.display = ''
-  document.getElementById('audio_play').play()
+  document.getElementById("play").style.display = "none";
+  document.getElementById("pause").style.display = "";
+  document.getElementById("audio_play").play();
 }
 
 function pause() {
-  document.getElementById('play').style.display = ''
-  document.getElementById('pause').style.display = 'none'
-  document.getElementById('audio_play').pause()
+  document.getElementById("play").style.display = "";
+  document.getElementById("pause").style.display = "none";
+  document.getElementById("audio_play").pause();
 }
 var http = new XMLHttpRequest();
 var http2 = new XMLHttpRequest();
 
-function iO(){
+function iO() {
+  var leitura = document.getElementById("leitura");
+  let url2 =
+    "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html";
+  http.open("HEAD", url, false);
+  http.send();
+  http2.open("HEAD", url2, false);
+  http2.send();
+  // console.log(http.status)
+  // console.log(http2.status)
 
-  var leitura = document.getElementById('leitura');
-  let url2 = "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html";
-        http.open("HEAD", url, false);
-        http.send();
-        http2.open("HEAD", url2, false);
-        http2.send();
-        // console.log(http.status) 
-        // console.log(http2.status)
-  
-        if (http2.status === 200) {
-          // console.log("Lutera file exists");
-          leitura.setAttribute("href", "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html")
-  
-        }
-        if (http2.status === 404) {
-          // console.log("Lutera file does not exists");
-          leitura.setAttribute("href", "./Leitura-Orante/leitura-orante-main.html")
-  
-        }
+  if (http2.status === 200) {
+    // console.log("Lutera file exists");
+    leitura.setAttribute(
+      "href",
+      "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html"
+    );
+  }
+  if (http2.status === 404) {
+    // console.log("Lutera file does not exists");
+    leitura.setAttribute("href", "./Leitura-Orante/leitura-orante-main.html");
+  }
 }
