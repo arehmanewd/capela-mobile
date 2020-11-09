@@ -77,6 +77,14 @@ input:focus {
   font-size: 12px;
   float: right;
 }
+.button1{
+  background: #ff1583;
+  color: white;
+  border: none;
+}
+.destaques-heading1,.formInstructions1{
+  color: #ff1583;
+}
 
 .pedidos_formBody {
   width: 100%;
