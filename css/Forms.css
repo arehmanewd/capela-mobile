@@ -85,6 +85,9 @@ input:focus {
 .destaques-heading1,.formInstructions1{
   color: #ff1583;
 }
+#contato-form{
+  height: 615px;
+}
 
 .pedidos_formBody {
   width: 100%;
