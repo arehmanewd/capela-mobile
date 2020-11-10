@@ -52,6 +52,7 @@ function onLoad() {
                 </div>`
                     })
                 }
+                
 
                 else {
                     div.innerHTML += `<div class="post">

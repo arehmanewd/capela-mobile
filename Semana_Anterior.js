@@ -158,31 +158,9 @@ for (var category in mainData) {
         var postdateSort = "2020-" + months[monthname] + "-" + dayname;
 
         // console.log(mypost)
-        showPrevious +=
-          '<div class="CV-Video-Link-Post sortpost ' +
-          categoryname +
-          '" data-event-date="' +
-          postdateSort +
-          '">\
-<a href=' +
-          postRoute +
-          '>\
-<img src="' +
-          postImage +
-          '" alt="" class="thubmailVideo-Image" />\
-<p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
-' +
-          postTitleShort +
-          '\
-</p>\
-<p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-<span class="cal-icon fa fa-calendar date-text"></span> ' +
-          postDate +
-          " \
-</p>\
-</a>\
-</div>";
-        showPrevious += `<a href="${postRoute}" class="santoPrevious"><div class="flex sortpost ${categoryname}" data-event-date="${postdateSort}">
+
+        showPrevious += `<a href="${postRoute}" class="santoPrevious">
+<div class="flex sortpost ${categoryname}" data-event-date="${postdateSort}">
 <div class="flex-img">
 <img src="${postImage}" width="100%" alt="" />
 </div>

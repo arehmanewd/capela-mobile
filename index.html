@@ -31,9 +31,10 @@
     <link rel="stylesheet" href="./css/font.css" />
     <link rel="stylesheet" href="./css/multiplePost.css" />
     <link rel="stylesheet" href="./css/footer.css">
-    
+ 
   </head>
-  <body onload="PageLoad()">
+
+  <body onload="bt()">
     <div class="sky-background">
       <!-- navbar Starts -->
       <div class="container" id="nav-container">
@@ -189,12 +190,12 @@
                     Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11) 5547-7222
                 </p>
                 <div class="icons">
-                    <span><img src="./img/Icone_Facebook.png" alt=""></span>
-                    <span><img src="./img/Icone_Twitter.png" alt=""></span>
-                    <span><img src="./img/Icone_Insta.png" alt=""></span>
-                    <span><img src="./img/Icone_Blog.png" alt=""></span>
-                    <span><img src="./img/Icone_Youtube.png" alt=""></span>
-                    <span><img src="./img/Icone_Site.png" alt=""></span>
+                            <a href="https://www.facebook.com/sspsbrasilnorte"><span><img src="./img/Icone_Facebook.png" alt=""></span></a>
+            <a href="https://twitter.com/sspsbrasilnorte"><span><img src="./img/Icone_Twitter.png" alt=""></span></a>
+          <a href="https://www.instagram.com/sspsbrasilnorte/"><span><img src="./img/Icone_Insta.png" alt=""></span></a> 
+            <a href="https://blog.ssps.org.br/"><span><img src="./img/Icone_Blog.png" alt=""></span></a>
+             <a href="https://www.youtube.com/SspsBrasilNorte"><span><img src="./img/Icone_Youtube.png" alt=""></span></a>  
+              <a href="http://www.ssps.org.br/"><span><img src="./img/Icone_Site.png" alt=""></span></a>
                 </div>
             </div>
             <hr>
@@ -203,10 +204,10 @@
                     Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |<br/> Tel. (42) 3326 4091
                 </p>
                 <div class="icons">
-                    <span><img src="./img/Icone_Facebook.png" alt=""></span>
-                    <span><img src="./img/Icone_Blog.png" alt=""></span>
-                    <span><img src="./img/Icone_Youtube.png" alt=""></span>
-                    <span><img src="./img/Icone_Site.png" alt=""></span>
+                  <a href="https://www.facebook.com/msspsbrs"><span><img src="./img/Icone_Facebook.png" alt=""></span></a>
+                  <a href="https://www.mssps.org.br/noticias"><span><img src="./img/Icone_Blog.png" alt=""></span></a>
+                  <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"><span><img src="./img/Icone_Youtube.png" alt=""></span></a> 
+                  <a href="https://www.mssps.org.br/" ><span><img src="./img/Icone_Site.png" alt=""></span></a>
                 </div>
             </div>
         </div>
@@ -282,13 +283,50 @@
                         </p>
                   </div>`;
 </script>
-<script>
- 
 
-  function PageLoad() {
-        setTimeout(doNothing, 1000000);
+<script>
+  var http = new XMLHttpRequest();
+  var http2 = new XMLHttpRequest();
+
+  function bt() {
+    var date = new Date();
+    console.log(date.toGMTString())
+    console.log('-----------------------')
+    console.log(date)
+    let currentDate = date.getDate().toLocaleString("en-US", {timeZone: "America/Sao_Paulo"});
+    let currentTime = date.getTime("en-US", {timeZone: "America/Sao_Paulo"});
+    let MYcurrentTime = date.getTime();
+    console.log("Date:",currentDate)
+    console.log("Time:",currentTime)
+    console.log("MyTime:",MYcurrentTime)
+
+    // var iframeTag = document.getElementById("iframeTag");
+    // iframeTag.setAttribute("src", "./banner-september/" + currentDate + ".html");
+
+
+
+    let tag = document.getElementById("sant");
+    var leitura = document.getElementById('leitura');
+    let url = "Dia-October/Dia-" + currentDate + ".html";
+    let url2 = "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html";
+    http.open("HEAD", url, false);
+    http.send();
+    http2.open("HEAD", url2, false);
+    http2.send();
+    // console.log(http.status) 
+    // console.log(http2.status)
+
+    if (http2.status === 200) {
+      // console.log("Lutera file exists");
+      leitura.setAttribute("href", "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html")
+
+    }
+    if (http2.status === 404) {
+      // console.log("Lutera file does not exists");
+      leitura.setAttribute("href", "./Leitura-Orante/leitura-Orante-main.html")
+
+    }
+ 
+   
   }
-  function doNothing() {
-    console.log("hiiiiiiii")
-  }
-      </script>
+</script>
