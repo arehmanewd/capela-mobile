@@ -2053,7 +2053,7 @@ for (var category in mainData) {
         //MAIN
         // console.log(showhtml)
 
-        showhtml2 += `<div class="post ${categoryname}1" data-event-date="${postdateSort}">
+        showhtml2 += `<div class="post ${categoryname}1 sortpost1" data-event-date="${postdateSort}">
         <img src="${postImage}" class="postImage" alt="">
         <div class="postDetails">
             <h5 class="GM">${postTitle}</h5>
