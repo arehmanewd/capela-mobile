@@ -13,28 +13,28 @@ function onLoad() {
 
     let counter = 0;
     let postDiv = 1;
-    let month = 10;
+    let month = 11;
     let div = document.getElementById("multiplePosts");
 
 
-    if (month == 10) {
+    if (month == 11) {
         for (let oct = currentDate; oct >= 1; oct--) {
             if (oct == 1) {
-                month = 9;
+                month = 10;
             }
             // let url = "oracoes-missionarias-september/capela-virtual-oracoes-missionarias-" + sep + ".html";
             // http.open("HEAD", url, false);
             // http.send();
-            if (mainData.vocoesData.October[oct]) {
+            if (mainData.vocoesData.November[oct]) {
                 if (counter % 7 == 0 && counter != 0) {
                     postDiv = postDiv + 1
                 }
 
                 ++counter;
-                if (Array.isArray(mainData.vocoesData.October[oct])) {
+                if (Array.isArray(mainData.vocoesData.November[oct])) {
 
-                    console.log(mainData.vocoesData.October[oct])
-                    mainData.vocoesData.October[oct].map((post, index) => {
+                    console.log(mainData.vocoesData.November[oct])
+                    mainData.vocoesData.November[oct].map((post, index) => {
                         console.log(post)
 
                         div.innerHTML += `  <div class="post">
@@ -55,15 +55,15 @@ function onLoad() {
 
                 else {
                     div.innerHTML += `<div class="post">
-               <img src="${mainData.vocoesData.October[oct].img}" class="postImage" alt="">
+               <img src="${mainData.vocoesData.November[oct].img}" class="postImage" alt="">
                <div class="postDetails">
-                   <h5 class="GM">${mainData.vocoesData.October[oct].title}</h5>
-                   <p class="postDate GBI"><i class="fa fa-calendar"></i> ${mainData.vocoesData.October[oct].date}</p>
+                   <h5 class="GM">${mainData.vocoesData.November[oct].title}</h5>
+                   <p class="postDate GBI"><i class="fa fa-calendar"></i> ${mainData.vocoesData.November[oct].date}</p>
                    <hr>
                    <p class="postParagraph GBR">
-                   ${mainData.vocoesData.October[oct].details}
+                   ${mainData.vocoesData.November[oct].details}
                    </p>
-                   <a href="${mainData.vocoesData.October[oct].route}" id='santo-link'><button class="postButton GM">LEIA MAIS</button></a>
+                   <a href="${mainData.vocoesData.November[oct].route}" id='santo-link'><button class="postButton GM">LEIA MAIS</button></a>
                </div>
                </div>`
 
@@ -75,28 +75,28 @@ function onLoad() {
     }
 
 
-    if (month == 9) {
+    if (month == 10) {
         for (let sep = 31; sep >= 1; sep--) {
             // let url2 = "oracoes-missionarias-September/capela-virtual-oracoes-missionarias-" + sep + ".html";
             // http2.open("HEAD", url2, false);
             // http2.send();
-            if (mainData.vocoesData.September[sep]) {
+            if (mainData.vocoesData.October[sep]) {
                 if (counter % 7 == 0) {
                     postDiv = postDiv + 1
                 }
                 // let div = document.getElementById("card-outer-" + postDiv);
                 ++counter;
-                // console.log(mainData.vocoesData.September[sep].img+"-------------------------")
+                // console.log(mainData.vocoesData.October[sep].img+"-------------------------")
                 div.innerHTML += `<div class="post">
-            <img src="${mainData.vocoesData.September[sep].img}" class="postImage" alt="">
+            <img src="${mainData.vocoesData.October[sep].img}" class="postImage" alt="">
             <div class="postDetails">
-                <h5 class="GM">${mainData.vocoesData.September[sep].title}</h5>
-                <p class="postDate GBI"><i class="fa fa-calendar"></i> ${mainData.vocoesData.September[sep].date}</p>
+                <h5 class="GM">${mainData.vocoesData.October[sep].title}</h5>
+                <p class="postDate GBI"><i class="fa fa-calendar"></i> ${mainData.vocoesData.October[sep].date}</p>
                 <hr>
                 <p class="postParagraph GBR">
-                ${mainData.vocoesData.September[sep].details}
+                ${mainData.vocoesData.October[sep].details}
                 </p>
-                <a href="${mainData.vocoesData.September[sep].route}" id='santo-link'><button class="postButton GM">LEIA MAIS</button></a>
+                <a href="${mainData.vocoesData.October[sep].route}" id='santo-link'><button class="postButton GM">LEIA MAIS</button></a>
             </div>
             </div>`
             }
