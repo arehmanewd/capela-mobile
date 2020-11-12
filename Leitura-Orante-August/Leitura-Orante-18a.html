@@ -1,337 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="../css/nav.css" />
-        <link rel="stylesheet" href="../css/footer.css" />
-        <link rel="stylesheet" href="../javascript-calendar.css" type="text/css">
-          <link rel="stylesheet" href="../css/Leitura-Orante_a.css" />
-          <link rel="stylesheet" href="../css/font.css" />
-        </head>
-        <body>
-          <div class="container">
-            <!-- navbar Starts -->
-            <div class="container" id="nav-container">
-              <nav
-          class="navbar navbar-expand-lg"
-          id="nav"
-        
-          >
-                <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          style="width: 50px;"
-          >
-                  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                  <img src="../img/menu.png" width="100%" alt="">
-                  </button>
-                  <img src="../img/navlogo.png" class="navLogo"/>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item active">
-                        <a class="nav-link" id="indexPage">
-                          <img src="./images/01_Novembro_2020_Leit_oran.jpg" alt="" width="25px" />
-                          <span class="sr-only">(current)</span>
-                        </a
-                >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="quemSomos">Quem Somos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="oracoes">Orações Missionárias</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="sant">Santo do Dia</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="vocoes">Vocações</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="missao">Missão</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="espirual-link">Espiritualidade</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="contatos">Contatos</a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
-              <!-- navbar ends -->
-              <div class="row pt-3" id="overall-container">
-                <div class="col-md-12 col-sm-6">
 
-                  <h4 class="  GM pageHeading">Leitura Orante
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/nav.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="../javascript-calendar.css" type="text/css">
+  <link rel="stylesheet" href="../css/Leitura-Orante_a.css" />
+  <link rel="stylesheet" href="../css/font.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- navbar Starts -->
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg" id="nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="width: 50px;">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          <img src="../img/menu.png" width="100%" alt="">
+        </button>
+        <img src="../img/navlogo.png" class="navLogo" />
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" id="indexPage">
+                <img src="./images/01_Novembro_2020_Leit_oran.jpg" alt="" width="25px" />
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="quemSomos">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="oracoes">Orações Missionárias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="sant">Santo do Dia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="vocoes">Vocações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="missao">Missão</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="espirual-link">Espiritualidade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contatos">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- navbar ends -->
+    <div class="row pt-3" id="overall-container">
+      <div class="col-md-12 col-sm-6">
+
+        <h4 class="  GM pageHeading">Leitura Orante
 
 
-</h4>
-                  <div class="myContainer-heading">
-                    <p class="myContainer-date pb-0 mb-0 GB" id="date">
-Leituras do Dia
-                        </p>
-                    <p class="myContainer-date pb-0 mb-0 GB">
-Terça-feira da 20ª Semana do Tempo Comum
-                        </p>
-                    <p class="myContainer-date pb-0 mb-0 GB">
-(Verde - ofício do dia)
-                        </p>
-                    <!-- <p class="myContainer-date pb-0 mb-0 GB">
+        </h4>
+        <div class="myContainer-heading">
+          <p class="myContainer-date pb-0 mb-0 GB" id="date">
+            Leituras do Dia
+          </p>
+          <p class="myContainer-date pb-0 mb-0 GB">
+            Terça-feira da 20ª Semana do Tempo Comum
+          </p>
+          <p class="myContainer-date pb-0 mb-0 GB">
+            (Verde - ofício do dia)
+          </p>
+          <!-- <p class="myContainer-date pb-0 mb-0 GB">
                           (Branco, glória, prefácio próprio – ofício da festa)
                         </p>
                         -->
-                    <p class="myContainer-date-cal GB">
-                      <span class="cal-icon fa fa-calendar"></span>
-                      <i>
- 18 de agosto de 2020
-                          </i>
-                    </p>
-                    <img src="images/18_agosto_2020.jpg" class="imgview">
-                       <div>
-          <p class="pt-3 para GBR"><b class="headings">Leitura Orante do Evangelho</b><br>
-
-            Ouça o áudio da oração e reflexão do padre Francisco das Chagas
+          <p class="myContainer-date-cal GBI">
+            <span class="cal-icon fa fa-calendar"></span>
+            <i>
+              18 de agosto de 2020
+            </i>
           </p>
-          <audio id="audio_play">
-            <source src="./audio/01_10_2020_Leitura_Orante.mp4" type="audio/ogg">
- 
-          </audio>
+          <img src="images/18_agosto_2020.jpg" class="imgview">
+          <div>
+            <p class="pt-3 para GBR"><b class="headings">Leitura Orante do Evangelho</b><br>
 
-          <img src="./images/LISTEN.png" class="imgclick1" alt="" onclick="play()" id="play">
+              Ouça o áudio da oração e reflexão do padre Francisco das Chagas
+            </p>
+            <audio id="audio_play">
+              <source src="./audio/18_08_2020_Leitura_Orante.mp4" type="audio/ogg">
 
- <img src="./images/PAUSE.png"  class="imgclick1" style="display:none" alt="" onclick="pause()" id="pause">
-</div>
-                      <p class="pt-3 para GBR">
-                        <b class="headings">Oração do dia
+            </audio>
 
-</b>
-                        <br>
+            <img src="./images/LISTEN.png" class="imgclick1" alt="" onclick="play()" id="play">
 
-Ó Deus, preparastes para quem vos ama bens que nossos olhos não podem ver; acendei em nossos corações a chama da caridade para que, amando-vos em tudo e acima de tudo, corramos ao encontro das vossas promessas, que superam todo desejo. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.
-                        </p>
-                        <p class="pt-3 para GBR">
-                          <b class="headings">Leitura: Ezequiel 28,1-10
-  </b>
-                        </p>
-                        <p class="s-heading GBR">
-                      <sup>1</sup> A palavra do Senhor foi-me dirigida nestes termos:<sup>2</sup> “Filho do homem, dize ao príncipe da cidade de Tiro: Assim fala o Senhor Deus: Porque o teu coração se tornou orgulhoso, tu disseste: ‘Eu sou um deus e ocupo o trono divino no coração dos mares’. Tu, porém, és um homem e não um deus, mas pensaste ter a mente igual à de um deus. <sup>3</sup>Sim, tu és mais sábio do que Daniel! Segredo algum te é obscuro. <sup>4</sup>Com talento e habilidade, adquiriste uma fortuna, acumulaste ouro e prata em teus tesouros. <sup>5</sup>Com grande tino comercial, aumentaste tua fortuna, e com ela teu coração se tornou soberbo. <sup>6</sup>Por isso, assim diz o Senhor Deus: Por teres igualado tua mente à de um deus, 7vou trazer contra ti os povos mais violentos dos estrangeiros. Eles puxarão suas espadas contra a tua bela sabedoria e profanarão o teu esplendor. <sup>8</sup>Eles te farão baixar à cova, e morrerás morte violenta no coração dos mares. <sup>9</sup>Porventura ousarás dizer: ‘Sou um deus!’ na presença de teus algozes, tu que és um homem e não deus, nas mãos dos que te apunhalam? <sup>10</sup>Morrerás da morte dos incircuncisos pela mão de estrangeiros, pois fui eu que falei – oráculo do Senhor Deus”.  
-                          <b>- Palavra do Senhor.</b>
-                        </p>
-                        <p class="pt-3 para GBR">
-                          <b class="headings">Salmo Responsorial: Dt 32
-</b>
-                          <br>
-                            <br>
-                              <b class="sheading GM">
-                                <i>Sou eu que tiro a vida, sou eu quem faz viver!
+            <img src="./images/PAUSE.png" class="imgclick1" style="display:none" alt="" onclick="pause()" id="pause">
+          </div>
+          <p class="pt-3 para GBR">
+            <b class="headings">Oração do dia
 
+            </b>
+            <br>
 
-
-
-!</i>
-                              </b>
-                              <br>
-                                <p class="s-heading GBR">
-Pensei: “Vou espalhá-los pela terra, farei cessar sua memória inteiramente”. Mas receava a reação dos inimigos, a má interpretação dos adversários.
-
-                        </p>
-                                <br>
-                                  <b class="sheading GM">
-                                    <i>Sou eu que tiro a vida, sou eu quem faz viver!
-
-
-!</i>
-                                  </b>
-                                  <br>
-                                    <p class="s-heading GBR">
-Ele diriam: Nossa mão prevaleceu, não foi o Senhor Deus que isto fez. Porque meu povo é gente sem juízo, é gente que não tem discernimento
-
-                       </p>
-                                    <br>
-                                      <b class="sheading GM">
-                                        <i>Sou eu que tiro a vida, sou eu quem faz viver!
+            Ó Deus, preparastes para quem vos ama bens que nossos olhos não podem ver; acendei em nossos corações a
+            chama da caridade para que, amando-vos em tudo e acima de tudo, corramos ao encontro das vossas promessas,
+            que superam todo desejo. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.
+          </p>
+          <p class="pt-3 para GBR">
+            <b class="headings">Leitura: Ezequiel 28,1-10
+            </b>
+          </p>
+          <p class="s-heading GBR">
+            <sup>1</sup> A palavra do Senhor foi-me dirigida nestes termos:<sup>2</sup> “Filho do homem, dize ao
+            príncipe da cidade de Tiro: Assim fala o Senhor Deus: Porque o teu coração se tornou orgulhoso, tu disseste:
+            ‘Eu sou um deus e ocupo o trono divino no coração dos mares’. Tu, porém, és um homem e não um deus, mas
+            pensaste ter a mente igual à de um deus. <sup>3</sup>Sim, tu és mais sábio do que Daniel! Segredo algum te é
+            obscuro. <sup>4</sup>Com talento e habilidade, adquiriste uma fortuna, acumulaste ouro e prata em teus
+            tesouros. <sup>5</sup>Com grande tino comercial, aumentaste tua fortuna, e com ela teu coração se tornou
+            soberbo. <sup>6</sup>Por isso, assim diz o Senhor Deus: Por teres igualado tua mente à de um deus, 7vou
+            trazer contra ti os povos mais violentos dos estrangeiros. Eles puxarão suas espadas contra a tua bela
+            sabedoria e profanarão o teu esplendor. <sup>8</sup>Eles te farão baixar à cova, e morrerás morte violenta
+            no coração dos mares. <sup>9</sup>Porventura ousarás dizer: ‘Sou um deus!’ na presença de teus algozes, tu
+            que és um homem e não deus, nas mãos dos que te apunhalam? <sup>10</sup>Morrerás da morte dos incircuncisos
+            pela mão de estrangeiros, pois fui eu que falei – oráculo do Senhor Deus”.
+            <b>- Palavra do Senhor.</b>
+          </p>
+          <p class="pt-3 para GBR">
+            <b class="headings">Salmo Responsorial: Dt 32
+            </b>
+            <br>
+            <br>
+            <b class="sheading GM">
+              <i>Sou eu que tiro a vida, sou eu quem faz viver!
 
 
-!</i>
-                                      </b>
-                                      <p class="s-heading GBR">
-
-Como pode um homem só perseguir mil, como dois podem fazer fugir dez mil? Não é porque sua rocha os vendeu, não é porque o Senhor os entregou?
-
-                       </p>
-                                      <b class="sheading GM">
-                                        <i>Sou eu que tiro a vida, sou eu quem faz viver!
-
-!</i>
-                                      </b>
-
-                                      <p class="s-heading GBR">
-
-Já vem o dia em que serão arruinados e o seu destino se apressa em chegar. Porque o Senhor fará justiça ao seu povo e salvará todos aqueles que o servem.
 
 
-                       </p>
+                !</i>
+            </b>
+            <br>
+          <p class="s-heading GBR">
+            Pensei: “Vou espalhá-los pela terra, farei cessar sua memória inteiramente”. Mas receava a reação dos
+            inimigos, a má interpretação dos adversários.
 
-                        <b class="sheading GM">
-                                        <i>Sou eu que tiro a vida, sou eu quem faz viver!
-
-!</i>
-                                      </b>
-
-
-                                      <br>
-                                        <br>
-                                        </p>
-                                        <p class="pt-3 para GBR">
-                                          <b class="headings">Evangelho: Mateus 19,23-30
+          </p>
+          <br>
+          <b class="sheading GM">
+            <i>Sou eu que tiro a vida, sou eu quem faz viver!
 
 
-</b>
-                                          <br>
-                                            <br>
-                                              <p class="s-heading GBR">
-                  Naquele tempo, <sup>23</sup>Jesus disse aos discípulos: “Em verdade vos digo, dificilmente um rico entrará no Reino dos céus. <sup>24</sup>E digo ainda, é mais fácil um camelo entrar pelo buraco de uma agulha do que um rico entrar no Reino de Deus”. <sup>25</sup>Ouvindo isso, os discípulos ficaram muito espantados e perguntaram: “Então, quem pode ser salvo?” <sup>26</sup>Jesus olhou para eles e disse: “Para os homens isso é impossível, mas para Deus tudo é possível”. <sup>27</sup>Pedro tomou a palavra e disse a Jesus: “Vê! Nós deixamos tudo e te seguimos. O que haveremos possível”. Pedro tomou a palavra e disse a Jesus: “Vê! Nós deixamos tudo e te seguimos. O que haveremos possível”. <sup>28</sup>Pedro tomou a palavra e disse a Jesus: “Vê! Nós deixamos tudo e te seguimos. O que haveremos de receber?” Jesus respondeu: “Em verdade vos digo, quando o mundo for renovado e o Filho do Homem se sentar no trono de sua glória, também vós, que me seguistes, havereis de sentar-vos em doze tronos, para julgar as doze tribos de Israel.<sup>29</sup> E todo aquele que tiver deixado casas, irmãos, irmãs, pai, mãe, filhos, campos, por causa do meu nome, receberá cem vezes mais e terá como herança a vida eterna. <sup>30</sup>Muitos que agora são os primeiros serão os últimos. E muitos que agora são os últimos serão os primeiros”.
-                    
-                                                <b>– Palavra da Salvação.</b>
-                                              </p>
-                                            </p>
-                                          </div>
-                                        </div>
-                                        <div class="col-md-12 col-sm-6  text-center">
-                                          <p class="blog-heading">
-                  Leituras do mês
-                </p>
-                                          <!-- Button trigger modal -->
-                                          <button type="button" class="modelbtn btn btn-primary" data-toggle="modal" data-target="#exampleModal">
- Calendar
-</button>
-                                          <!-- Modal -->
-                                          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog" role="document">
-                                              <div class="modal-content">
-                                                <div class="modal-body">
-                                                  <div class="calendar">
-                                                    <!-- CAlendar -->
-                                                    <div class="icalendar">
-                                                      <div class="icalendar__month">
-                                                        <div class="icalendar__prev" onclick="moveDate('prev')">
-                                                          <span>&#10094</span>
-                                                        </div>
-                                                        <div class="icalendar__current-date">
-                                                          <h2 id="icalendarMonth"></h2>
-                                                          <div>
-                                                            <div id="icalendarDateStr"></div>
-                                                          </div>
-                                                        </div>
-                                                        <div class="icalendar__next" onclick="moveDate('next')">
-                                                          <span>&#10095</span>
-                                                        </div>
-                                                      </div>
-                                                      <div class="icalendar__week-days">
-                                                        <div>D</div>
-                                                        <div>S</div>
-                                                        <div>T</div>
-                                                        <div>Q</div>
-                                                        <div>Q</div>
-                                                        <div>S</div>
-                                                        <div>S</div>
-                                                      </div>
-                                                      <div class="icalendar__days"></div>
-                                                      <script src="../javascript-calendar.js" type="text/javascript"></script>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                                <div class="modal-footer">
-                                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <p class="blog-heading">
-                  TAGS
-                </p>
-                                          <div>
-                                            <p class="tagpara GBR">missao Amazonia evengel covid-19 indigenas novica papa francisco</p>
-                                          </div>
-                                        </div>
-                                        <div class="col-12 col-md-12 ">
-                                          <h5 class="destaques-heading" >
-                        Destaques
-                    </h5>
-                                          <div id="destaquesPortion"></div>
-                                        </div>
-                                      </div>
-                                      <div class="background-img">
-                                        <div>
-                                          <p style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
-                      Província Stella Matutina
-                                            <br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |
-                                            <br> Tel. (11) 5547-7222
-                  
-                                            </p>
-                                            <div class="icons">
-                                              <span>
-                                                <img src="../img/Icone_Facebook.png" alt="">
-                                                </span>
-                                                <span>
-                                                  <img src="../img/Icone_Twitter.png" alt="">
-                                                  </span>
-                                                  <span>
-                                                    <img src="../img/Icone_Insta.png" alt="">
-                                                    </span>
-                                                    <span>
-                                                      <img src="../img/Icone_Blog.png" alt="">
-                                                      </span>
-                                                      <span>
-                                                        <img src="../img/Icone_Youtube.png" alt="">
-                                                        </span>
-                                                        <span>
-                                                          <img src="../img/Icone_Site.png" alt="">
-                                                          </span>
-                                                        </div>
-                                                      </div>
-                                                      <hr>
-                                                        <div id="last-icon-div">
-                                                          <p style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
-                      Província Spiritus Divinae Sapientiae
-                                                            <br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |
-                                                            <br/> Tel. (42) 3326 4091
-                  
-                                                          </p>
-                                                          <div class="icons">
-                                                            <span>
-                                                              <img src="../img/Icone_Facebook.png" alt="">
-                                                              </span>
-                                                              <span>
-                                                                <img src="../img/Icone_Blog.png" alt="">
-                                                                </span>
-                                                                <span>
-                                                                  <img src="../img/Icone_Youtube.png" alt="">
-                                                                  </span>
-                                                                  <span>
-                                                                    <img src="../img/Icone_Site.png" alt="">
-                                                                    </span>
-                                                                  </div>
-                                                                </div>
-                                                              </div>
-                                                            </div>
-                                                          </body>
-                                                        </html>
-                                                        <script src="../post-data-json.js"></script>
+              !</i>
+          </b>
+          <br>
+          <p class="s-heading GBR">
+            Ele diriam: Nossa mão prevaleceu, não foi o Senhor Deus que isto fez. Porque meu povo é gente sem juízo, é
+            gente que não tem discernimento
+
+          </p>
+          <br>
+          <b class="sheading GM">
+            <i>Sou eu que tiro a vida, sou eu quem faz viver!
+
+
+              !</i>
+          </b>
+          <p class="s-heading GBR">
+
+            Como pode um homem só perseguir mil, como dois podem fazer fugir dez mil? Não é porque sua rocha os vendeu,
+            não é porque o Senhor os entregou?
+
+          </p>
+          <b class="sheading GM">
+            <i>Sou eu que tiro a vida, sou eu quem faz viver!
+
+              !</i>
+          </b>
+
+          <p class="s-heading GBR">
+
+            Já vem o dia em que serão arruinados e o seu destino se apressa em chegar. Porque o Senhor fará justiça ao
+            seu povo e salvará todos aqueles que o servem.
+
+
+          </p>
+
+          <b class="sheading GM">
+            <i>Sou eu que tiro a vida, sou eu quem faz viver!
+
+              !</i>
+          </b>
+
+
+          <br>
+          <br>
+          </p>
+          <p class="pt-3 para GBR">
+            <b class="headings">Evangelho: Mateus 19,23-30
+
+
+            </b>
+            <br>
+            <br>
+          <p class="s-heading GBR">
+            Naquele tempo, <sup>23</sup>Jesus disse aos discípulos: “Em verdade vos digo, dificilmente um rico entrará
+            no Reino dos céus. <sup>24</sup>E digo ainda, é mais fácil um camelo entrar pelo buraco de uma agulha do que
+            um rico entrar no Reino de Deus”. <sup>25</sup>Ouvindo isso, os discípulos ficaram muito espantados e
+            perguntaram: “Então, quem pode ser salvo?” <sup>26</sup>Jesus olhou para eles e disse: “Para os homens isso
+            é impossível, mas para Deus tudo é possível”. <sup>27</sup>Pedro tomou a palavra e disse a Jesus: “Vê! Nós
+            deixamos tudo e te seguimos. O que haveremos possível”. Pedro tomou a palavra e disse a Jesus: “Vê! Nós
+            deixamos tudo e te seguimos. O que haveremos possível”. <sup>28</sup>Pedro tomou a palavra e disse a Jesus:
+            “Vê! Nós deixamos tudo e te seguimos. O que haveremos de receber?” Jesus respondeu: “Em verdade vos digo,
+            quando o mundo for renovado e o Filho do Homem se sentar no trono de sua glória, também vós, que me
+            seguistes, havereis de sentar-vos em doze tronos, para julgar as doze tribos de Israel.<sup>29</sup> E todo
+            aquele que tiver deixado casas, irmãos, irmãs, pai, mãe, filhos, campos, por causa do meu nome, receberá cem
+            vezes mais e terá como herança a vida eterna. <sup>30</sup>Muitos que agora são os primeiros serão os
+            últimos. E muitos que agora são os últimos serão os primeiros”.
+
+            <b>– Palavra da Salvação.</b>
+          </p>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-12 col-sm-6  text-center">
+        <p class="blog-heading">
+          Leituras do mês
+        </p>
+        <!-- Button trigger modal -->
+        <button type="button" class="modelbtn btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Calendar
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="calendar">
+                  <!-- CAlendar -->
+                  <div class="icalendar">
+                    <div class="icalendar__month">
+                      <div class="icalendar__prev" onclick="moveDate('prev')">
+                        <span>&#10094</span>
+                      </div>
+                      <div class="icalendar__current-date">
+                        <h2 id="icalendarMonth"></h2>
+                        <div>
+                          <div id="icalendarDateStr"></div>
+                        </div>
+                      </div>
+                      <div class="icalendar__next" onclick="moveDate('next')">
+                        <span>&#10095</span>
+                      </div>
+                    </div>
+                    <div class="icalendar__week-days">
+                      <div>D</div>
+                      <div>S</div>
+                      <div>T</div>
+                      <div>Q</div>
+                      <div>Q</div>
+                      <div>S</div>
+                      <div>S</div>
+                    </div>
+                    <div class="icalendar__days"></div>
+                    <script src="../javascript-calendar.js" type="text/javascript"></script>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="blog-heading">
+          TAGS
+        </p>
+        <div>
+          <p class="tagpara GBR">missao Amazonia evengel covid-19 indigenas novica papa francisco</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-12 ">
+        <h5 class="destaques-heading">
+          Destaques
+        </h5>
+        <div id="destaquesPortion"></div>
+      </div>
+    </div>
+    <div class="background-img">
+      <div>
+        <p
+          style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
+          Província Stella Matutina
+          <br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |
+          <br> Tel. (11) 5547-7222
+
+        </p>
+        <div class="icons">
+          <span>
+            <img src="../img/Icone_Facebook.png" alt="">
+          </span>
+          <span>
+            <img src="../img/Icone_Twitter.png" alt="">
+          </span>
+          <span>
+            <img src="../img/Icone_Insta.png" alt="">
+          </span>
+          <span>
+            <img src="../img/Icone_Blog.png" alt="">
+          </span>
+          <span>
+            <img src="../img/Icone_Youtube.png" alt="">
+          </span>
+          <span>
+            <img src="../img/Icone_Site.png" alt="">
+          </span>
+        </div>
+      </div>
+      <hr>
+      <div id="last-icon-div">
+        <p
+          style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
+          Província Spiritus Divinae Sapientiae
+          <br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |
+          <br /> Tel. (42) 3326 4091
+
+        </p>
+        <div class="icons">
+          <span>
+            <img src="../img/Icone_Facebook.png" alt="">
+          </span>
+          <span>
+            <img src="../img/Icone_Blog.png" alt="">
+          </span>
+          <span>
+            <img src="../img/Icone_Youtube.png" alt="">
+          </span>
+          <span>
+            <img src="../img/Icone_Site.png" alt="">
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<script src="../post-data-json.js"></script>

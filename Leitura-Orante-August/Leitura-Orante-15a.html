@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../css/nav.css" />
   <link rel="stylesheet" href="../css/footer.css" />
   <link rel="stylesheet" href="../javascript-calendar.css" type="text/css">
@@ -19,294 +20,316 @@
   <link rel="stylesheet" href="../css/font.css" />
 
 </head>
+
 <body>
-    <div class="container">
-           <!-- navbar Starts -->
-      <div class="container" id="nav-container">
-      
-        <nav
-          class="navbar navbar-expand-lg"
-          id="nav"
-        
-          >
-          <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          style="width: 50px;"
-          >
+  <div class="container">
+    <!-- navbar Starts -->
+    <div class="container" id="nav-container">
+
+      <nav class="navbar navbar-expand-lg" id="nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="width: 50px;">
           <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
           <img src="../img/menu.png" width="100%" alt="">
         </button>
-        <img src="../img/navlogo.png" class="navLogo"/>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-               <a class="nav-link" id="indexPage"><img src="../img/home-icon.png" alt="" width="25px" />
-                  <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="quemSomos">Quem Somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="oracoes">Orações Missionárias</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="sant">Santo do Dia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="vocoes">Vocações</a>
-              </li>
-              <li class="nav-item">
-            <a class="nav-link" id="missao">Missão</a>
-              </li>
-              <li class="nav-item">
-               <a class="nav-link" id="espirual-link">Espiritualidade</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="contatos">Contatos</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <!-- navbar ends -->
-      
-            <div class="row pt-3" id="overall-container">
-                
-                 <div class="col-md-12 col-sm-6">
-                  <h4 class="  GM pageHeading">Leitura Orante
+        <img src="../img/navlogo.png" class="navLogo" />
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" id="indexPage"><img src="../img/home-icon.png" alt="" width="25px" />
+                <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="quemSomos">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="oracoes">Orações Missionárias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="sant">Santo do Dia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="vocoes">Vocações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="missao">Missão</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="espirual-link">Espiritualidade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contatos">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- navbar ends -->
+
+    <div class="row pt-3" id="overall-container">
+
+      <div class="col-md-12 col-sm-6">
+        <h4 class="  GM pageHeading">Leitura Orante
 
 
-</h4>
-                    
-                    <div class="myContainer-heading">
-                
-                        <p class="myContainer-date pb-0 mb-0 GB" id="date">
-Leitura do dia
-                        </p>
-                        
-                        <p class="myContainer-date pb-0 mb-0 GB">
-Sábado da 19a Semana do Tempo Comum
-                        </p>
-                        <p class="myContainer-date pb-0 mb-0 GB">
-(Verde – ofício do dia)
-                        </p>
-                        <!-- <p class="myContainer-date pb-0 mb-0 GB">
+        </h4>
+
+        <div class="myContainer-heading">
+
+          <p class="myContainer-date pb-0 mb-0 GB" id="date">
+            Leitura do dia
+          </p>
+
+          <p class="myContainer-date pb-0 mb-0 GB">
+            Sábado da 19a Semana do Tempo Comum
+          </p>
+          <p class="myContainer-date pb-0 mb-0 GB">
+            (Verde – ofício do dia)
+          </p>
+          <!-- <p class="myContainer-date pb-0 mb-0 GB">
                           (Branco, glória, prefácio próprio – ofício da festa)
                         </p>
                         -->
-                        <p class="myContainer-date-cal GBI">
-                          <span class="cal-icon fa fa-calendar"></span>
-                          <i>
- 15 de agosto de 2020
-                          </i>
-                        </p>
-                        
-                        <img src="images/15_agosto_2020.jpg" class="imgview">
-                      <div>
-          <p class="pt-3 para GBR"><b class="headings">Leitura Orante do Evangelho</b><br>
-
-            Ouça o áudio da oração e reflexão do padre Francisco das Chagas
+          <p class="myContainer-date-cal GBI">
+            <span class="cal-icon fa fa-calendar"></span>
+            <i>
+              15 de agosto de 2020
+            </i>
           </p>
-          <audio id="audio_play">
-            <source src="./audio/01_10_2020_Leitura_Orante.mp4" type="audio/ogg">
- 
-          </audio>
 
-          <img src="./images/LISTEN.png" class="imgclick1" alt="" onclick="play()" id="play">
+          <img src="images/15_agosto_2020.jpg" class="imgview">
+          <div>
+            <p class="pt-3 para GBR"><b class="headings">Leitura Orante do Evangelho</b><br>
 
- <img src="./images/PAUSE.png"  class="imgclick1" style="display:none" alt="" onclick="pause()" id="pause">
-</div>
-                        
-                        <p class="pt-3 para GBR"><b class="headings">Oração do dia
+              Ouça o áudio da oração e reflexão do padre Francisco das Chagas
+            </p>
+            <audio id="audio_play">
+              <source src="./audio/15_08_2020_Leitura_Orante.mp4" type="audio/ogg">
 
-</b><br>
+            </audio>
 
-Deus eterno e todo-poderoso, a quem ousamos chamar de Pai, dai-nos cada vez mais um coração de filhos, para alcançarmos um dia a herança que prometestes. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.
-                        </p>
-                        <p class="pt-3 para GBR"><b class="headings">Leitura: Ezequiel 18,1-10.13b.30-32
+            <img src="./images/LISTEN.png" class="imgclick1" alt="" onclick="play()" id="play">
 
-</b> </p>
-                        <p class="s-heading GBR">
-                       <sup>1</sup>A palavra do Senhor foi-me dirigida nestes termos <sup>2</sup>Que provérbio é este que andais repetindo em Israel: ‘Os pais comeram uvas verdes, e os dentes dos filhos ficaram embotados’? <sup>3</sup>Juro por minha vida – oráculo do Senhor Deus -, já não haverá quem repita esse provérbio em Israel. <sup>4</sup>Todas as vidas me pertencem. Tanto a vida do pai como a vida do filho são minhas. Aquele que pecar é que deve morrer. <sup>5</sup>Se um homem é justo e pratica o direito e a justiça, <sup>6</sup>não participa de refeições rituais sobre os montes, não levanta os olhos para os ídolos da casa de Israel, não desonra a mulher do próximo nem se aproxima da mulher menstruada; <sup>77</sup>se não oprime ninguém, devolve o penhor devido, não pratica roubos, dá alimento ao faminto e cobre de vestes o que está nu; <sup>8</sup>se não empresta com usura nem cobra juros, afasta sua mão da injustiça e julga imparcialmente entre homem e mulher; <sup>9</sup>se vive conforme as minhas leis e guarda os meus preceitos, praticando-os fielmente, tal homem é justo e, com certeza, viverá – oráculo do Senhor Deus. <sup>10</sup>Mas, se tiver um filho violento e assassino, que pratica uma dessas ações, <sup>13</sup>porque fez todas essas coisas abomináveis, com certeza morrerá; ele é responsável pela sua própria morte. <sup>30</sup>Pois bem, vou julgar cada um de vós, ó casa de Israel, segundo a sua conduta – oráculo do Senhor Deus. Arrependei-vos, convertei-vos de todas as vossas transgressões, a fim de não terdes ocasião de cair em pecado. <sup>31</sup>Afastai-vos de todos os pecados que praticais. Criai para vós um coração novo e um espírito novo. Por que haveis de morrer, ó casa de Israel? <sup>32</sup>Pois eu não sinto prazer na morte de ninguém – oráculo do Senhor Deus. Convertei-vos e vivereis!”<b>– Palavra do Senhor.</b>
-                        </p>
+            <img src="./images/PAUSE.png" class="imgclick1" style="display:none" alt="" onclick="pause()" id="pause">
+          </div>
 
-                        
-                        <p class="pt-3 para GBR"><b class="headings">Salmo Responsorial: 50(51)
+          <p class="pt-3 para GBR"><b class="headings">Oração do dia
 
-</b><br><br>
-                          <b class="sheading GM"><i>Ó Senhor, criai em mim um coração que seja puro!
+            </b><br>
+
+            Deus eterno e todo-poderoso, a quem ousamos chamar de Pai, dai-nos cada vez mais um coração de filhos, para
+            alcançarmos um dia a herança que prometestes. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do
+            Espírito Santo.
+          </p>
+          <p class="pt-3 para GBR"><b class="headings">Leitura: Ezequiel 18,1-10.13b.30-32
+
+            </b> </p>
+          <p class="s-heading GBR">
+            <sup>1</sup>A palavra do Senhor foi-me dirigida nestes termos <sup>2</sup>Que provérbio é este que andais
+            repetindo em Israel: ‘Os pais comeram uvas verdes, e os dentes dos filhos ficaram embotados’?
+            <sup>3</sup>Juro por minha vida – oráculo do Senhor Deus -, já não haverá quem repita esse provérbio em
+            Israel. <sup>4</sup>Todas as vidas me pertencem. Tanto a vida do pai como a vida do filho são minhas. Aquele
+            que pecar é que deve morrer. <sup>5</sup>Se um homem é justo e pratica o direito e a justiça,
+            <sup>6</sup>não participa de refeições rituais sobre os montes, não levanta os olhos para os ídolos da casa
+            de Israel, não desonra a mulher do próximo nem se aproxima da mulher menstruada; <sup>77</sup>se não oprime
+            ninguém, devolve o penhor devido, não pratica roubos, dá alimento ao faminto e cobre de vestes o que está
+            nu; <sup>8</sup>se não empresta com usura nem cobra juros, afasta sua mão da injustiça e julga
+            imparcialmente entre homem e mulher; <sup>9</sup>se vive conforme as minhas leis e guarda os meus preceitos,
+            praticando-os fielmente, tal homem é justo e, com certeza, viverá – oráculo do Senhor Deus.
+            <sup>10</sup>Mas, se tiver um filho violento e assassino, que pratica uma dessas ações, <sup>13</sup>porque
+            fez todas essas coisas abomináveis, com certeza morrerá; ele é responsável pela sua própria morte.
+            <sup>30</sup>Pois bem, vou julgar cada um de vós, ó casa de Israel, segundo a sua conduta – oráculo do
+            Senhor Deus. Arrependei-vos, convertei-vos de todas as vossas transgressões, a fim de não terdes ocasião de
+            cair em pecado. <sup>31</sup>Afastai-vos de todos os pecados que praticais. Criai para vós um coração novo e
+            um espírito novo. Por que haveis de morrer, ó casa de Israel? <sup>32</sup>Pois eu não sinto prazer na morte
+            de ninguém – oráculo do Senhor Deus. Convertei-vos e vivereis!”<b>– Palavra do Senhor.</b>
+          </p>
 
 
-!</i></b>
-                        <br>
-                        <p class="s-heading GBR">
-Criai em mim um coração que seja puro, dai-me de novo um espírito decidido. Ó Senhor, não me afasteis de vossa face nem retires de mim o vosso Santo Espírito!
+          <p class="pt-3 para GBR"><b class="headings">Salmo Responsorial: 50(51)
 
-                        </p>
-                         
-                         <br>
-                          <b class="sheading GM"><i>Ó Senhor, criai em mim um coração que seja puro!
-!</i></b>
-                       <br>
-                       <p class="s-heading GBR">
-Dai-me de novo a alegria de ser salvo e confirmai-me com espírito generoso! Ensinarei vosso caminho aos pecadores, e para vós se voltarão os transviados.
-                       </p>
-                      <br>
-                      <b class="sheading GM"><i>Ó Senhor, criai em mim um coração que seja puro!
-!</i></b> 
-                      <p class="s-heading GBR">
+            </b><br><br>
+            <b class="sheading GM"><i>Ó Senhor, criai em mim um coração que seja puro!
 
-Pois não são de vosso agrado os sacrifícios, e, se oferto um holocausto, o rejeitais. meu sacrifício é minha alma penitente, não desprezeis um coração arrependido!
-                       </p>
 
-                       <b class="sheading GM"><i>Ó Senhor, criai em mim um coração que seja puro!
-!</i></b> 
-                      <br>
-                      <br>
-                    </p>
-                    <p class="pt-3 para GBR"><b class="headings">Evangelho: Mateus 19,13-15
+                !</i></b>
+            <br>
+          <p class="s-heading GBR">
+            Criai em mim um coração que seja puro, dai-me de novo um espírito decidido. Ó Senhor, não me afasteis de
+            vossa face nem retires de mim o vosso Santo Espírito!
 
-</b><br>
-                    <br>
-                    <p class="s-heading GBR">
-                    Naquele tempo,<sup>13</sup>levaram crianças a Jesus, para que impusesse as mãos sobre elas e fizesse uma oração. Os discípulos, porém, as repreendiam. <sup>14</sup>Então Jesus disse: “Deixai as crianças e não as proibais de virem a mim, porque delas é o Reino dos céus”. <sup>15</sup>E depois de impor as mãos sobre elas, Jesus partiu dali. 
-                    <b>- Palavra do Senhor!</b>
-                    </p>
-                    </p>
+          </p>
+
+          <br>
+          <b class="sheading GM"><i>Ó Senhor, criai em mim um coração que seja puro!
+              !</i></b>
+          <br>
+          <p class="s-heading GBR">
+            Dai-me de novo a alegria de ser salvo e confirmai-me com espírito generoso! Ensinarei vosso caminho aos
+            pecadores, e para vós se voltarão os transviados.
+          </p>
+          <br>
+          <b class="sheading GM"><i>Ó Senhor, criai em mim um coração que seja puro!
+              !</i></b>
+          <p class="s-heading GBR">
+
+            Pois não são de vosso agrado os sacrifícios, e, se oferto um holocausto, o rejeitais. meu sacrifício é minha
+            alma penitente, não desprezeis um coração arrependido!
+          </p>
+
+          <b class="sheading GM"><i>Ó Senhor, criai em mim um coração que seja puro!
+              !</i></b>
+          <br>
+          <br>
+          </p>
+          <p class="pt-3 para GBR"><b class="headings">Evangelho: Mateus 19,13-15
+
+            </b><br>
+            <br>
+          <p class="s-heading GBR">
+            Naquele tempo,<sup>13</sup>levaram crianças a Jesus, para que impusesse as mãos sobre elas e fizesse uma
+            oração. Os discípulos, porém, as repreendiam. <sup>14</sup>Então Jesus disse: “Deixai as crianças e não as
+            proibais de virem a mim, porque delas é o Reino dos céus”. <sup>15</sup>E depois de impor as mãos sobre
+            elas, Jesus partiu dali.
+            <b>- Palavra do Senhor!</b>
+          </p>
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="col-md-12 col-sm-6  text-center">
+        <p class="blog-heading">
+          Leituras do mês
+        </p>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="modelbtn btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Calendar
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+              <div class="modal-body">
+                <div class="calendar">
+                  <!-- CAlendar -->
+
+                  <div class="icalendar">
+                    <div class="icalendar__month">
+                      <div class="icalendar__prev" onclick="moveDate('prev')">
+                        <span>&#10094</span>
+                      </div>
+                      <div class="icalendar__current-date">
+                        <h2 id="icalendarMonth"></h2>
+                        <div>
+                          <div id="icalendarDateStr"></div>
+                        </div>
 
                       </div>
- 
-                 </div>
-    
-                 
-               <div class="col-md-12 col-sm-6  text-center">
-                <p class="blog-heading">
-                  Leituras do mês
-                </p>
-             
-                <!-- Button trigger modal -->
-<button type="button" class="modelbtn btn btn-primary" data-toggle="modal" data-target="#exampleModal">
- Calendar
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-     
-      <div class="modal-body">
-        <div class="calendar">
-          <!-- CAlendar -->
-
-       <div class="icalendar">
-         <div class="icalendar__month">
-           <div class="icalendar__prev" onclick="moveDate('prev')">
-             <span>&#10094</span>
-           </div>
-           <div class="icalendar__current-date">
-             <h2 id="icalendarMonth"></h2>
-             <div>
-               <div id="icalendarDateStr"></div>
-             </div>
-
-           </div>
-           <div class="icalendar__next" onclick="moveDate('next')">
-             <span>&#10095</span>
-           </div>
-         </div>
-         <div class="icalendar__week-days">
-           <div>D</div>
-           <div>S</div>
-           <div>T</div>
-           <div>Q</div>
-           <div>Q</div>
-           <div>S</div>
-           <div>S</div>
-         </div>
-         <div class="icalendar__days"></div>
-
-
-         <script src="../javascript-calendar.js" type="text/javascript"></script>
-       </div>
-
-     </div>
-   
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-                    
-                <p class="blog-heading">
-                  TAGS
-                </p>
-                <div>
-                
-                  <p class="tagpara GBR">missao Amazonia evengel covid-19 indigenas novica papa francisco</p>
-                </div>
-                </div>
-          
-                
-                <div class="col-12 col-md-12 ">
-                    <h5 class="destaques-heading" >
-                        Destaques
-                    </h5>
-                    <div id="destaquesPortion">
-
+                      <div class="icalendar__next" onclick="moveDate('next')">
+                        <span>&#10095</span>
+                      </div>
                     </div>
+                    <div class="icalendar__week-days">
+                      <div>D</div>
+                      <div>S</div>
+                      <div>T</div>
+                      <div>Q</div>
+                      <div>Q</div>
+                      <div>S</div>
+                      <div>S</div>
+                    </div>
+                    <div class="icalendar__days"></div>
 
-                   
-                   
-                    
-                   
-                    
-                    
+
+                    <script src="../javascript-calendar.js" type="text/javascript"></script>
+                  </div>
+
                 </div>
-               
-               
-                      
-                     
 
-              
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
             </div>
-            <div class="background-img">
-              <div>
-                  <p style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
-                      Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11) 5547-7222
-                  </p>
-                  <div class="icons">
-                        <a href="https://www.facebook.com/sspsbrasilnorte"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
-            <a href="https://twitter.com/sspsbrasilnorte"><span><img src="../img/Icone_Twitter.png" alt=""></span></a>
-          <a href="https://www.instagram.com/sspsbrasilnorte/"><span><img src="../img/Icone_Insta.png" alt=""></span></a> 
-            <a href="https://blog.ssps.org.br/"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
-             <a href="https://www.youtube.com/SspsBrasilNorte"><span><img src="../img/Icone_Youtube.png" alt=""></span></a>  
-              <a href="http://www.ssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
-                  </div>
-              </div>
-              <hr>
-              <div id="last-icon-div">
-                  <p style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
-                      Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |<br/> Tel. (42) 3326 4091
-                  </p>
-                  <div class="icons">
-                         <a href="https://www.facebook.com/msspsbrs"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
-                <a href="https://www.mssps.org.br/noticias"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
-                <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"><span><img src="../img/Icone_Youtube.png" alt=""></span></a> 
-                <a href="https://www.mssps.org.br/" ><span><img src="../img/Icone_Site.png" alt=""></span></a>
-                  </div>
-              </div>
           </div>
-  
+        </div>
+
+        <p class="blog-heading">
+          TAGS
+        </p>
+        <div>
+
+          <p class="tagpara GBR">missao Amazonia evengel covid-19 indigenas novica papa francisco</p>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-md-12 ">
+        <h5 class="destaques-heading">
+          Destaques
+        </h5>
+        <div id="destaquesPortion">
+
+        </div>
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
     </div>
+    <div class="background-img">
+      <div>
+        <p
+          style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
+          Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11)
+          5547-7222
+        </p>
+        <div class="icons">
+          <a href="https://www.facebook.com/sspsbrasilnorte"><span><img src="../img/Icone_Facebook.png"
+                alt=""></span></a>
+          <a href="https://twitter.com/sspsbrasilnorte"><span><img src="../img/Icone_Twitter.png" alt=""></span></a>
+          <a href="https://www.instagram.com/sspsbrasilnorte/"><span><img src="../img/Icone_Insta.png"
+                alt=""></span></a>
+          <a href="https://blog.ssps.org.br/"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
+          <a href="https://www.youtube.com/SspsBrasilNorte"><span><img src="../img/Icone_Youtube.png" alt=""></span></a>
+          <a href="http://www.ssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
+        </div>
+      </div>
+      <hr>
+      <div id="last-icon-div">
+        <p
+          style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
+          Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |<br />
+          Tel. (42) 3326 4091
+        </p>
+        <div class="icons">
+          <a href="https://www.facebook.com/msspsbrs"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
+          <a href="https://www.mssps.org.br/noticias"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
+          <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"><span><img
+                src="../img/Icone_Youtube.png" alt=""></span></a>
+          <a href="https://www.mssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </body>
+
 </html>
 <script src="../post-data-json.js"></script>
