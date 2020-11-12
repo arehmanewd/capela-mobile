@@ -2538,7 +2538,7 @@ for (let i = currentDate; i > 0; i--) {
     // console.log(mainData.espirtualData[espirtualLatestMonth][i]);
     espirtualLink.setAttribute(
       "href",
-      host + "/capelaMobile/Espirtualidade-November/espiritualidade-" + i + ".html"
+      host + "/Espirtualidade-November/espiritualidade-" + i + ".html"
     );
     break;
   } else {
