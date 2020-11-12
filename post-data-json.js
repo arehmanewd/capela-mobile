@@ -2546,7 +2546,7 @@ if (mainData.oracoesMissionarias.November[currentDate]) {
   oracoes.setAttribute(
     "href",
     host +
-      "/oracoes-missionarias-November/capela-virtual-oracoes-missionarias-" +
+      "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-" +
       currentDate +
       ".html"
   );
