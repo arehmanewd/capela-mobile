@@ -10,10 +10,11 @@
     /* margin-bottom: 20px; */
 }
 .orac-blue-heading{
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: 600;
     color: #3c8cca;
-    font-size: 12px;
+    font-size: 14px !important;
+    text-align: justify;
     /* margin-top: -17px; */
 }
 .orac-container{
