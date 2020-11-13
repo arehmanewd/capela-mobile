@@ -2113,7 +2113,9 @@ let mainData = {
       3: {
         img: host + "/img/03_Nov_2020 Experiências Interculturais .png",
         title: "Experiências Interculturais",
-        details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo. Neste vídeo apresentamos o depoimentos de algumas irmãs de outros países e de algumas missionárias brasileiras que realizaram missão fora do Brasil. Todas elas narram os desafios e as alegrias da vivência intercultural que experimentaram em sua própria vida e missão.`,
+        details: `A interculturalidade e a internacionalidade fazem parte da identidade das 
+        Missionárias Servas do Espírito Santo. Neste vídeo apresentamos o depoimentos de
+         algumas irmãs de outros países e de algumas missionárias brasileiras que realizaram missão fora do Brasil.`,
         date: "03 de novembro de 2020",
         route: host + "/Missao-November/missao-3.html",
         video: true,
@@ -2243,7 +2245,7 @@ if (currentDay == "Thursday") {
 // </a>\
 // </div>'
 
-let tercoHTML = `<a href="${tercoData[dayTerco].route}"><div class="flex sortpost tercoData" >
+let tercoHTML = `<a href="${tercoData[dayTerco].route}" class="sortpost tercoData"><div class="flex " >
  <div class="flex-img">
    <img src="${tercoData[dayTerco].img}" width="100%" alt="" />
  </div>
