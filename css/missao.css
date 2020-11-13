@@ -46,11 +46,12 @@
   padding-right: 3px;
   margin-bottom: 0px;
   font-family: "Gotham-Medium";
-  font-size: 11px;
+  font-size: 14px;
   padding-top: 10px;
   font-weight: 600;
 }
 .list-flex {
+  font-size: 14px !important;
   display: flex;
   color: #008dcc;
   font-family: "Gotham Bold";
@@ -89,6 +90,7 @@
 }
 .postTitle {
   color: #666666;
+  text-align: left;
 }
 .postDate {
   color: #666666;
