@@ -1,189 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>oracoes-missionarias</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="../css/nav.css" />
-    <link rel="stylesheet" href="../css/multiplePost.css" />
-    <link rel="stylesheet" href="../css/font.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="../css/footer.css" />
-    <link rel="stylesheet" href="../css/orac-sub.css" />
-    <script src="../post-data-json.js"></script>
-  </head>
-  <body>
-    <div>
-      <!-- navbar starts -->
-        <div class="container" id="nav-container">
-        <nav class="navbar navbar-expand-lg" id="nav">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            style="width: 50px"
-          >
-            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-            <img src="../img/menu.png" width="100%" alt="" />
-          </button>
-          <img src="../img/navlogo.png" class="navLogo" />
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" id="indexPage"
-                  ><img src="../img/home-icon.png" alt="" width="25px" />
-                  <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="quemSomos" >Quem Somos</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                 
-                  id="oracoes"
-                  >Orações Missionárias</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  id="sant"
-                  >Dia de Santo</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="vocoes">Vocações</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="missao">Missão</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  id="espirual-link"
-                  >Espiritualidade</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="contatos">Contatos</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <!-- navbar Ends -->
-      <div class="orac-container">
-        <div>
-          <h4 class="orac-heading">Oracoes Missionarias</h4>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>oracoes-missionarias</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../css/nav.css" />
+  <link rel="stylesheet" href="../css/multiplePost.css" />
+  <link rel="stylesheet" href="../css/font.css" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="../css/orac-sub.css" />
+</head>
+
+<body>
+  <div>
+    <!-- navbar starts -->
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg" id="nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="width: 50px">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          <img src="../img/menu.png" width="100%" alt="" />
+        </button>
+        <img src="../img/navlogo.png" class="navLogo" />
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" id="indexPage"><img src="../img/home-icon.png" alt="" width="25px" />
+                <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="quemSomos">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="oracoes">Orações Missionárias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="sant">Dia de Santo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="vocoes">Vocações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="missao">Missão</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="espirual-link">Espiritualidade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contatos">Contatos</a>
+            </li>
+          </ul>
         </div>
-        <div class="orac-container">
-          
-          <h5 class="orac-article-heading">A vida missionária dos idosos e enfermos</h5>
-          <p class="postDate GBI">
-            <i class="fa fa-calendar"></i> 30 de Outubro de 2020
+      </nav>
+    </div>
+    <!-- navbar Ends -->
+    <div class="orac-container">
+      <div>
+        <h4 class="orac-heading">Oracoes Missionarias</h4>
+      </div>
+      <div class="orac-container">
+
+        <h5 class="orac-article-heading">A vida missionária dos idosos e enfermos</h5>
+        <p class="postDate GBI">
+          <i class="fa fa-calendar"></i> 30 de Outubro de 2020
+        </p>
+        <div class="orac-article-img">
+          <img src="../img/9_dia_Novena_Missionaria.jpg" width="100%" alt="" />
+        </div>
+        <div class="orac-content-1 GBR">
+          <p>
+          <h5 class="GM bold"> Oração inicial</h5>
+          Espírito Santo, sopro de vida, que fazes novas todas as coisas, abre nossos corações às tuas inspirações para
+          que, ao escutar e aprofundar tua Palavra, aumentem em nós o ardor missionário e o cuidado com a Casa Comum,
+          nossa terra, e o amor a todas as tuas criaturas, sobretudo cada pessoa criada à tua imagem e semelhança.
+          Espírito de Sabedoria, guia nossos passos nos caminhos da missão. Amém.
+          <br> <br>
+          <h5 class="GM bold">Reflexão</h5>
+          No Brasil, já somos 30 milhões de idosos e um grande número de pessoas portadoras de enfermidades que
+          necessitam de atenções e cuidados diferenciados em todos os aspectos, sobretudo no campo da saúde.
+          <br> <br>
+          Os grupos de Idosos e Enfermos Missionários (IEM) são um serviço missionário que a Igreja oferece, por meio da
+          Pontifícia Obra da Propagação da Fé, aos anciãos, enfermos e todas as pessoas com limitações físicas, com a
+          finalidade de animá-los, despertá-los e acompanhá-los para que, a partir de sua situação particular, possam
+          viver sua vocação missionária, cooperando efetivamente com toda a Igreja.
+          <br> <br>
+          O serviço nasceu na França, pela iniciativa de uma jovem enferma que, após uma visita a Lourdes, compreendeu
+          que seu sofrimento humano podia dar sentido à sua vida e também ser um efetivo meio para a salvação do mundo.
+          <br> <br>
+          <h5 class="GM bold"> Palavra de Deus: Lc 4, 16-21</h5>
+          <sup>24</sup> Agora me alegro em meus sofrimentos por vocês e completo em meu corpo o que resta das aflições
+          de Cristo, em favor de seu corpo, que é a Igreja.
+          <sup>25</sup> Dela me tornei ministro de acordo com a responsabilidade por Deus a mim atribuída, de
+          apresentar-lhes plenamente a palavra de Deus, 26 o mistério que esteve oculto durante épocas e gerações, mas
+          que agora foi manifestado a seus santos.
+          <sup>27</sup> A eles quis Deus dar a conhecer, entre os gentios, a gloriosa riqueza deste mistério, que é
+          Cristo em vocês, a esperança da glória.
+          <sup>28</sup> Nós o proclamamos, advertindo e ensinando a cada um com toda a sabedoria, a fim de que
+          apresentemos todo homem perfeito em Cristo.
+          <sup>29</sup> Para isso eu me esforço, lutando conforme a sua força, que atua poderosamente em mim.
+
+          <br> <br>
+          <h5 class="GM bold">Para meditar</h5>
+          Paulo se alegra em seus sofrimentos como ocasião de participar dos sofrimentos de Jesus, pelo bem da Igreja.
+          Como assumo as dificuldades e os sofrimentos da vida? Sou capaz de oferecê-los a Deus como oferta para o bem
+          dos outros? Sou solidário, solidária com os doentes e enfermos?
+
           </p>
           <div class="orac-article-img">
-            <img src="../img/9_dia_Novena_Missionaria.jpg" width="100%" alt="" />
-          </div>
-          <div class="orac-content-1 GBR">
-                        <p> <h5 class="GM bold"> Oração inicial</h5>
-                          Espírito Santo, sopro de vida, que fazes novas todas as coisas, abre nossos corações às tuas inspirações para que, ao escutar e aprofundar tua Palavra, aumentem em nós o ardor missionário e o cuidado com a Casa Comum, nossa terra, e o amor a todas as tuas criaturas, sobretudo cada pessoa criada à tua imagem e semelhança. Espírito de Sabedoria, guia nossos passos nos caminhos da missão. Amém.
-                          <br> <br>
-                          <h5 class="GM bold">Reflexão</h5>
-                          No Brasil, já somos 30 milhões de idosos e um grande número de pessoas portadoras de enfermidades que necessitam de atenções e cuidados diferenciados em todos os aspectos, sobretudo no campo da saúde.
-                          <br> <br>
-                          Os grupos de Idosos e Enfermos Missionários (IEM) são um serviço missionário que a Igreja oferece, por meio da Pontifícia Obra da Propagação da Fé, aos anciãos, enfermos e todas as pessoas com limitações físicas, com a finalidade de animá-los, despertá-los e acompanhá-los para que, a partir de sua situação particular, possam viver sua vocação missionária, cooperando efetivamente com toda a Igreja.
-                          <br> <br>
-                          O serviço nasceu na França, pela iniciativa de uma jovem enferma que, após uma visita a Lourdes, compreendeu que seu sofrimento humano podia dar sentido à sua vida e também ser um efetivo meio para a salvação do mundo.
-                          <br> <br>
-                          <h5 class="GM bold"> Palavra de Deus: Lc 4, 16-21</h5>
-                         <sup>24</sup>  Agora me alegro em meus sofrimentos por vocês e completo em meu corpo o que resta das aflições de Cristo, em favor de seu corpo, que é a Igreja.
-                         <sup>25</sup> Dela me tornei ministro de acordo com a responsabilidade por Deus a mim atribuída, de apresentar-lhes plenamente a palavra de Deus, 26 o mistério que esteve oculto durante épocas e gerações, mas que agora foi manifestado a seus santos.
-                         <sup>27</sup> A eles quis Deus dar a conhecer, entre os gentios, a gloriosa riqueza deste mistério, que é Cristo em vocês, a esperança da glória.
-                         <sup>28</sup> Nós o proclamamos, advertindo e ensinando a cada um com toda a sabedoria, a fim de que apresentemos todo homem perfeito em Cristo.
-                         <sup>29</sup> Para isso eu me esforço, lutando conforme a sua força, que atua poderosamente em mim.
+            <img src="../img/novena_missionaria_2020_dentro_artigo.jpg" width="100%" alt="" />
+            <p>
+            <h5 class="GM bold">Oração do Mês Missionário</h5>
+            Deus Pai, Filho e Espírito Santo,
+            fonte transbordante da missão,
+            ajuda-nos a compreender
+            que a vida é missão,
+            dom e compromisso.
+            Que Maria, nossa intercessora
+            na cidade, no campo,
+            na Amazônia e em toda parte,
+            ajude cada um de nós
+            a ser testemunhas proféticas
+            do Evangelho,
+            numa Igreja sinodal
+            e em estado permanente de missão.
+            Eis-me aqui, Senhor, envia-me!
+            Amém.
 
-                          <br> <br>
-                          <h5 class="GM bold">Para meditar</h5>
-                          Paulo se alegra em seus sofrimentos como ocasião de participar dos sofrimentos de Jesus, pelo bem da Igreja. 
-                          Como assumo as dificuldades e os sofrimentos da vida? Sou capaz de oferecê-los a Deus como oferta para o bem dos outros? Sou solidário, solidária com os doentes e enfermos? 
-                                                  
-                        </p>
-                        <div class="orac-article-img">
-                          <img src="../img/novena_missionaria_2020_dentro_artigo.jpg" width="100%" alt="" />
-                          <p>
-                          <h5 class="GM bold">Oração do Mês Missionário</h5>
-                          Deus Pai, Filho e Espírito Santo,
-                          fonte transbordante da missão,
-                          ajuda-nos a compreender
-                          que a vida é missão,
-                          dom e compromisso.
-                          Que Maria, nossa intercessora
-                          na cidade, no campo,
-                          na Amazônia e em toda parte,
-                          ajude cada um de nós
-                          a ser testemunhas proféticas
-                          do Evangelho,
-                          numa Igreja sinodal
-                          e em estado permanente de missão.
-                          Eis-me aqui, Senhor, envia-me!
-                          Amém.
-                            
-                          </p>
+            </p>
 
-                          <p>                          
-                            <h5 class="GM bold">Assista ao vídeo</h5>
-                            As dificuldades próprias da idade e os sofrimentos causados pelas doenças também são um caminho de amor e oportunidade para o testemunho missionário. </p>
-                          <iframe src="https://www.youtube.com/embed/Q8OhfnSNLNY" frameborder="0"></iframe>
+            <p>
+            <h5 class="GM bold">Assista ao vídeo</h5>
+            As dificuldades próprias da idade e os sofrimentos causados pelas doenças também são um caminho de amor e
+            oportunidade para o testemunho missionário. </p>
+            <iframe src="https://www.youtube.com/embed/Q8OhfnSNLNY" frameborder="0"></iframe>
 
-                          <p class="GM" style="color: red; font-size: 15px;" download="">
-                            Para rezar a novena completa com a sua família, comunidade ou grupos on-line, baixe o livrinho: 
-      
-      
-                          </p>
+            <p class="GM" style="color: red; font-size: 15px;" download="">
+              Para rezar a novena completa com a sua família, comunidade ou grupos on-line, baixe o livrinho:
 
 
-                          <a href="../novena-missionaria-2020.pdf" style="text-decoration: underline; color: black;">
+            </p>
 
-                            <p class="GM">
-                              Novena Missionária 2020
-                            </p>
-      
-                          </a>
+
+            <a href="../novena-missionaria-2020.pdf" style="text-decoration: underline; color: black;">
+
+              <p class="GM">
+                Novena Missionária 2020
+              </p>
+
+            </a>
           </div>
           <span class="spacingSpan GM">
             <a href="../oracoes-missionarias.html"><button class="btn-leia-mais">
@@ -195,44 +174,48 @@
           </span>
         </div>
         <div class="weeklyPost">
-            <h4 class="GB destaques-heading">Destaques</h4>
-            <div id="destaquesPortion">
+          <h4 class="GB destaques-heading">Destaques</h4>
+          <div id="destaquesPortion">
 
-            </div>
+          </div>
         </div>
       </div>
     </div>
     <div class="background-img">
-        <div>
-            <p
-                style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
-                Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11)
-                5547-7222
-            </p>
-            <div class="icons">
-               <a href="https://www.facebook.com/sspsbrasilnorte"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
-            <a href="https://twitter.com/sspsbrasilnorte"><span><img src="../img/Icone_Twitter.png" alt=""></span></a>
-          <a href="https://www.instagram.com/sspsbrasilnorte/"><span><img src="../img/Icone_Insta.png" alt=""></span></a> 
-            <a href="https://blog.ssps.org.br/"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
-             <a href="https://www.youtube.com/SspsBrasilNorte"><span><img src="../img/Icone_Youtube.png" alt=""></span></a>  
-              <a href="http://www.ssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
-            </div>
+      <div>
+        <p
+          style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
+          Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11)
+          5547-7222
+        </p>
+        <div class="icons">
+          <a href="https://www.facebook.com/sspsbrasilnorte"><span><img src="../img/Icone_Facebook.png"
+                alt=""></span></a>
+          <a href="https://twitter.com/sspsbrasilnorte"><span><img src="../img/Icone_Twitter.png" alt=""></span></a>
+          <a href="https://www.instagram.com/sspsbrasilnorte/"><span><img src="../img/Icone_Insta.png"
+                alt=""></span></a>
+          <a href="https://blog.ssps.org.br/"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
+          <a href="https://www.youtube.com/SspsBrasilNorte"><span><img src="../img/Icone_Youtube.png" alt=""></span></a>
+          <a href="http://www.ssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
         </div>
-        <hr>
-        <div>
-            <p
-                style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
-                Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR
-                |<br /> Tel. (42) 3326 4091
-            </p>
-            <div class="icons">
-                 <a href="https://www.facebook.com/msspsbrs"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
-                <a href="https://www.mssps.org.br/noticias"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
-                <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"><span><img src="../img/Icone_Youtube.png" alt=""></span></a> 
-                <a href="https://www.mssps.org.br/" ><span><img src="../img/Icone_Site.png" alt=""></span></a>
-            </div>
+      </div>
+      <hr>
+      <div>
+        <p
+          style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
+          Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR
+          |<br /> Tel. (42) 3326 4091
+        </p>
+        <div class="icons">
+          <a href="https://www.facebook.com/msspsbrs"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
+          <a href="https://www.mssps.org.br/noticias"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
+          <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"><span><img
+                src="../img/Icone_Youtube.png" alt=""></span></a>
+          <a href="https://www.mssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
         </div>
+      </div>
     </div>
-  </body>
+</body>
+
 </html>
 <script src="../post-data-json.js"></script>
