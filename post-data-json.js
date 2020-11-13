@@ -1,5 +1,8 @@
 let host = "http://" + window.location.host;
-// let host = "http://" + window.location.host+'/capelaMobile';
+if (host == "http://capelamissionaria.org.br") {
+  console.log("we're Live!!!!!!!!!!!!!!!");
+  host = "http://" + window.location.host + "/capelaMobile";
+}
 let mainData = {
   santoData: {
     August: {
@@ -810,7 +813,7 @@ let mainData = {
         title: "Espiritualidade da convivência intercultural",
         details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
         date: "04 de outubro de 2020",
-        route: host + "/Espirtualidade-October/espiritualidade-outubro-4.html",
+        route: host + "/Espirtualidade-October/espiritualidade-4.html",
       },
       11: {
         img: host + "/img/25_ago_2020_Passaros voam.jpg",
@@ -1686,12 +1689,12 @@ let mainData = {
         date: "31 de outubro de 2020",
         route: host + "/Leitura-Orante-October/Leitura-Orante-31a.html",
       },
-
     },
     November: {
       1: {
         img:
-          host + "/Leitura-Orante-November/images/01_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/01_Novembro_2020_Leit_Oran.jpg",
         title: "Domingo - Todos os Santos e Santas",
         details:
           "Deus eterno e todo-poderoso, que nos dais celebrar numa só festa os méritos de todos os santos, concedei-nos, por intercessores tão numerosos, a plenitude da vossa misericórdia. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1700,7 +1703,8 @@ let mainData = {
       },
       2: {
         img:
-          host + "/Leitura-Orante-November/images/02_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/02_Novembro_2020_Leit_Oran.jpg",
         title: "Segunda - Comemoração de todos os fiéis defuntos",
         details:
           "Ó Deus, escutai com bondade nossas preces e aumentai a nossa fé no Cristo ressuscitado, para que seja mais viva nossa esperança dos vossos filhos e filhas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1709,9 +1713,9 @@ let mainData = {
       },
       3: {
         img:
-          host + "/Leitura-Orante-November/images/03_Novembro_2020_Leit_Oran.jpg",
-        title:
-          "Terça-feira - 31ª Semana do Tempo Comum",
+          host +
+          "/Leitura-Orante-November/images/03_Novembro_2020_Leit_Oran.jpg",
+        title: "Terça-feira - 31ª Semana do Tempo Comum",
         details:
           "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "3 de Novembro de 2020",
@@ -1719,7 +1723,8 @@ let mainData = {
       },
       4: {
         img:
-          host + "/Leitura-Orante-November/images/04_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/04_Novembro_2020_Leit_Oran.jpg",
         title: "Quarta-feira - São Carlos Borromeu",
         details:
           "Conservai, ó Deus, no vosso povo o espírito que animava São Carlos Borromeu, para que a vossa Igreja, continuamente renovada e sempre fiel ao Evangelho, possa mostrar ao mundo a verdadeira face do Cristo. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1728,9 +1733,9 @@ let mainData = {
       },
       5: {
         img:
-          host + "/Leitura-Orante-November/images/05_Novembro_2020_Leit_Oran.jpg",
-        title:
-          "Quinta-feira - 31ª Semana do Tempo Comum",
+          host +
+          "/Leitura-Orante-November/images/05_Novembro_2020_Leit_Oran.jpg",
+        title: "Quinta-feira - 31ª Semana do Tempo Comum",
         details:
           "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "5 de Novembro de 2020",
@@ -1738,7 +1743,8 @@ let mainData = {
       },
       6: {
         img:
-          host + "/Leitura-Orante-November/images/06Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/06_Novembro_2020_Leit_Oran.jpg",
         title: "Sexta-feira - 31ª Semana do Tempo Comum",
         details:
           "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas.",
@@ -1747,9 +1753,9 @@ let mainData = {
       },
       7: {
         img:
-          host + "/Leitura-Orante-November/images/07Novembro_2020_Leit_Oran.jpg",
-        title:
-          "Sábado - 31ª Semana do Tempo Comum",
+          host +
+          "/Leitura-Orante-November/images/07_Novembro_2020_Leit_Oran.jpg",
+        title: "Sábado - 31ª Semana do Tempo Comum",
         details:
           "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "7 de Novembro de 2020",
@@ -1765,7 +1771,8 @@ let mainData = {
       },
       9: {
         img:
-          host + "/Leitura-Orante-November/images/09_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/09_Novembro_2020_Leit_Oran.jpg",
         title: "Segunda-feira - Dedicação da Basílica do Latrão",
         details:
           "Ó Deus, que edificais o vosso templo eterno com pedras vivas e escolhidas, difundi na vossa Igreja o Espírito que lhe destes, para que o vosso povo cresça sempre mais, construindo a Jerusalém celeste.",
@@ -1774,7 +1781,8 @@ let mainData = {
       },
       10: {
         img:
-          host + "/Leitura-Orante-November/images/10_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/10_Novembro_2020_Leit_Oran.jpg",
         title: "Terça-feira - São Leão Magno",
         details:
           "Ó Deus, que jamais permitis que as potências do mal prevaleçam contra a vossa Igreja, fundada sobre a rocha inabalável dos apóstolos, dai-lhe, sob os méritos do Papa São Leão, permanecer firme na verdade e gozar paz para sempre.",
@@ -1783,7 +1791,8 @@ let mainData = {
       },
       11: {
         img:
-          host + "/Leitura-Orante-November/images/11_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/11_Novembro_2020_Leit_Oran.jpg",
         title: "Quarta-feira - São Martinho de Tours, Bispo",
         details:
           "Ó Deus, que fostes glorificado pela vida e morte do Bispo São Martinho, renovai em nossos corações as maravilhas da vossa graça, de modo que nem a morte nem a vida nos possam separar do vosso amor.",
@@ -1792,9 +1801,9 @@ let mainData = {
       },
       12: {
         img:
-          host + "/Leitura-Orante-November/images/12_Novembro_2020_Leit_Oran.jpg",
-        title:
-          "Quinta-feira - São Josafá, Bispo e Mártir",
+          host +
+          "/Leitura-Orante-November/images/12_Novembro_2020_Leit_Oran.jpg",
+        title: "Quinta-feira - São Josafá, Bispo e Mártir",
         details:
           "Suscitai, ó Deus, na vossa Igreja, o Espírito que impeliu o Bispo São Josafá a dar a vida por suas ovelhas e concedei que, por sua intercessão, fortificados pelo mesmo espírito, estejamos prontos a dar a nossa vida pelos nossos irmãos. ",
         date: "12 de Novembro de 2020",
@@ -1802,7 +1811,8 @@ let mainData = {
       },
       13: {
         img:
-          host + "/Leitura-Orante-November/images/13_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/13_Novembro_2020_Leit_Oran.jpg",
         title: "Sexta-feira - 32ª Semana do Tempo Comum",
         details:
           "Deus de poder e misericórdia, afastai de nós todo obstáculo para que, inteiramente disponíveis, nos dediquemos ao vosso serviço. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1811,7 +1821,8 @@ let mainData = {
       },
       14: {
         img:
-          host + "/Leitura-Orante-November/images/14_Novembro_2020_leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/14_Novembro_2020_leit_Oran.jpg",
         title: "Sábado - 32ª Semana do Tempo Comum",
         details:
           "Deus de poder e misericórdia, afastai de nós todo obstáculo para que, inteiramente disponíveis, nos dediquemos ao vosso serviço. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1820,8 +1831,7 @@ let mainData = {
       },
       15: {
         img: host + "/Leitura-Orante-November/images/15_Novembro_Leit_Oran.jpg",
-        title:
-          "Domingo - 33ª Semana do Tempo Comum",
+        title: "Domingo - 33ª Semana do Tempo Comum",
         details:
           "Senhor, nosso Deus, fazei que a nossa alegria consista em vos servir de todo coração, pois só teremos felicidade completa servindo a vós, o criador de todas as coisas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "15 de Novembro de 2020",
@@ -1829,7 +1839,8 @@ let mainData = {
       },
       16: {
         img:
-          host + "/Leitura-Orante-November/images/16_Novembro_2020_leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/16_Novembro_2020_leit_Oran.jpg",
         title: "Segunda-feira - 33ª Semana do Tempo Comum",
         details:
           "Senhor, nosso Deus, fazei que a nossa alegria consista em vos servir de todo coração, pois só teremos felicidade completa servindo a vós, o criador de todas as coisas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1838,9 +1849,9 @@ let mainData = {
       },
       17: {
         img:
-          host + "/Leitura-Orante-November/images/17_Novembro_2020_Leit_Oran.jpg",
-        title:
-          "Terça-feira - Santa Isabel da Hungria, Esposa e Religiosa",
+          host +
+          "/Leitura-Orante-November/images/17_Novembro_2020_Leit_Oran.jpg",
+        title: "Terça-feira - Santa Isabel da Hungria, Esposa e Religiosa",
         details:
           "Ó Deus, que destes à Santa Isabel da Hungria reconhecer e venerar o Cristo nos pobres, concedei-nos, por sua intercessão, servir os pobres e aflitos com incansável caridade. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "17 de Novembro de 2020",
@@ -1848,8 +1859,10 @@ let mainData = {
       },
       18: {
         img:
-          host + "/Leitura-Orante-November/images/18_Novembro_2020_Leit_Oran.jpg",
-        title: "Quarta-feira - Dedicação das Basílicas de São Pedro e São Paulo",
+          host +
+          "/Leitura-Orante-November/images/18_Novembro_2020_Leit_Oran.jpg",
+        title:
+          "Quarta-feira - Dedicação das Basílicas de São Pedro e São Paulo",
         details:
           "Ó deus, guardai sob a proteção dos apóstolos Pedro e Paulo a vossa Igreja, que deles recebeu a primeira semente do Evangelho, e concedei que por eles receba, até o fim dos tempos, a graça que a faz crescer. ",
         date: "18 de Novembro de 2020",
@@ -1858,8 +1871,10 @@ let mainData = {
 
       19: {
         img:
-          host + "/Leitura-Orante-November/images/19_Novembro_2020_Leit_Oran.jpg",
-        title: "Quinta-feira - Santos Roque, Afonso e João, Presbíteros e Mártires",
+          host +
+          "/Leitura-Orante-November/images/19_Novembro_2020_Leit_Oran.jpg",
+        title:
+          "Quinta-feira - Santos Roque, Afonso e João, Presbíteros e Mártires",
         details:
           "Senhor, que a vossa Palavra cresça nas terras onde os vossos mártires a semearam e seja multiplicada em frutos de justiça e de paz. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "19 de Novembro de 2020",
@@ -1867,7 +1882,8 @@ let mainData = {
       },
       20: {
         img:
-          host + "/Leitura-Orante-November/images/20_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/20_Novembro_2020_Leit_Oran.jpg",
         title: "Terça - feira 29ª do Tempo Comum",
         details:
           "Deus eterno e todo-poderoso, dai-nos a graça de estar sempre ao vosso dispor e vos servir de todo o coração. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -1876,7 +1892,8 @@ let mainData = {
       },
       21: {
         img:
-          host + "/Leitura-Orante-November/images/21_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/21_Novembro_2020_Leit_Oran.jpg",
         title: "Sábado - Apresentação de Nossa Senhora",
         details:
           "Ao celebrarmos, ó Deus, a gloriosa memória da Santa Virgem Maria, concedei-nos, por sua intercessão, participar da plenitude de vossa graça. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1885,7 +1902,8 @@ let mainData = {
       },
       22: {
         img:
-          host + "/Leitura-Orante-November/images/22_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/22_Novembro_2020_Leit_Oran.jpg",
         title: "Domingo - Nosso Senhor Jesus Cristo, Rei do Universo",
         details:
           "Deus eterno e todo-poderoso, que dispusestes restaurar todas as coisas em vosso amado Filho, rei do universo, fazei que todas as criaturas, libertas da escravidão e servindo à vossa majestade, vos glorifiquem eternamente.",
@@ -1894,7 +1912,8 @@ let mainData = {
       },
       23: {
         img:
-          host + "/Leitura-Orante-November/images/23_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/23_Novembro_2020_Leit_Oran.jpg",
         title: "Segunda-feira - 34ª Semana do Tempo Comum",
         details:
           "Levantai, ó Deus, o ânimo dos vossos filhos e filhas, para que, aproveitando melhor as vossas graças, obtenham de vossa paternal bondade mais poderosos auxílios. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1903,7 +1922,8 @@ let mainData = {
       },
       24: {
         img:
-          host + "/Leitura-Orante-November/images/24_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/24_Novembro_2020_Leit_Oran.jpg",
         title: "Terça-feira - Santo André Dung-Lac, Presbítero e Mártir",
         details:
           "Ó Deus, fonte e origem de toda paternidade, que destes aos santos mártires André e seus companheiros serem fiéis à cruz do vosso Filho até a efusão do sangue, concedei, por sua intercessão, que, propagando o vosso amor entre os irmãos, possamos ser chamados vossos filhos e filhas e realmente o sejamos.",
@@ -1912,7 +1932,8 @@ let mainData = {
       },
       25: {
         img:
-          host + "/Leitura-Orante-November/images/25_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/25_Novembro_2020_Leit_Oran.jpg",
         title: "Quarta-feira - 34ª Semana do Tempo Comum",
         details:
           "Levantai, ó Deus, o ânimo dos vossos filhos e filhas, para que, aproveitando melhor as vossas graças, obtenham de vossa paternal bondade mais poderosos auxílios. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1921,7 +1942,8 @@ let mainData = {
       },
       26: {
         img:
-          host + "/Leitura-Orante-November/images/26_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/26_Novembro_2020_Leit_Oran.jpg",
         title: "Quinta-feira - Missa em Ação de Graças",
         details:
           "Ó Deus, pai de todos os dons, nós vos proclamamos fonte de tudo o que temos e somos; ensinai-nos a reconhecer vossos imensos benefícios e amar-vos de todo o coração e com todas as forças.",
@@ -1930,7 +1952,8 @@ let mainData = {
       },
       27: {
         img:
-          host + "/Leitura-Orante-November/images/27_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/27_Novembro_2020_Leit_Oran.jpg",
         title: "Sexta-feira - 34ª Semana do Tempo Comum",
         details:
           "Levantai, ó Deus, o ânimo dos vossos filhos e filhas, para que, aproveitando melhor as vossas graças, obtenham de vossa paternal bondade mais poderosos auxílios. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1939,7 +1962,8 @@ let mainData = {
       },
       28: {
         img:
-          host + "/Leitura-Orante-November/images/28_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/28_Novembro_2020_Leit_Oran.jpg",
         title: "Sábado - 34ª Semana do Tempo Comum",
         details:
           "Levantai, ó Deus, o ânimo dos vossos filhos e filhas, para que, aproveitando melhor as vossas graças, obtenham de vossa paternal bondade mais poderosos auxílios. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1948,7 +1972,8 @@ let mainData = {
       },
       29: {
         img:
-          host + "/Leitura-Orante-November/images/29_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/29_Novembro_2020_Leit_Oran.jpg",
         title: "Domingo - 1º Domingo do Advento",
         details:
           "Ó Deus todo-poderoso, concedei aos vossos fiéis o ardente desejo de possuir o Reino celeste, para que, acorrendo com as nossas boas obras ao encontro do Cristo que vem, sejamos reunidos à sua direita na comunidade dos justos.",
@@ -1957,19 +1982,18 @@ let mainData = {
       },
       30: {
         img:
-          host + "/Leitura-Orante-November/images/30_Novembro_2020_Leit_Oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/30_Novembro_2020_Leit_Oran.jpg",
         title: "Segunda-feira - Santo André, Apóstolo",
         details:
           "Nós vos suplicamos, ó Deus onipotente, que o apóstolo Santo andré, pregador do Evangelho e pastor da vossa Igreja, não cesse no céu de interceder por nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "30 de Novembro de 2020",
         route: host + "/Leitura-Orante-November/Leitura-Orante-30a.html",
       },
-
     },
     December: {
       1: {
-        img:
-          host + "/Leitura-Orante-December/images/01_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/01_Dezembro_2020.jpg",
         title: "Terça-feira - 1ª Semana do Advento",
         details:
           "Sede propício, ó Deus, às nossas súplicas e auxilai-nos em nossa tribulação. Consolados pela vinda do vosso Filho, sejamos purificados da antiga culpa. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1977,8 +2001,7 @@ let mainData = {
         route: host + "/Leitura-Orante-December/Leitura-Orante-1a.html",
       },
       2: {
-        img:
-          host + "/Leitura-Orante-December/images/02_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/02_Dezembro_2020.jpg",
         title: "Quarta-feira - 2ª Semana do Advento",
         details:
           "Senhor Deus, preparai os nossos corações com a força da vossa graça, para que, ao chegar o Cristo, vosso Filho, nos encontre dignos do banquete da vida eterna e ele mesmo nos sirva o alimento celeste. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1986,8 +2009,7 @@ let mainData = {
         route: host + "/Leitura-Orante-December/Leitura-Orante-2a.html",
       },
       3: {
-        img:
-          host + "/Leitura-Orante-December/images/03_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/03_Dezembro_2020.jpg",
         title: "Quinta-feira - São Francisco Xavier",
         details:
           "Nós vos suplicamos, ó Deus onipotente, que o apóstolo Santo andré, pregador do Evangelho e pastor da vossa Igreja, não cesse no céu de interceder por nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1995,8 +2017,7 @@ let mainData = {
         route: host + "/Leitura-Orante-December/Leitura-Orante-3a.html",
       },
       4: {
-        img:
-          host + "/Leitura-Orante-December/images/04_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/04_Dezembro_2020.jpg",
         title: "Sexta-feira - 1ª Semana do Advento",
         details:
           "Nós vos suplicamos, ó Deus onipotente, que o apóstolo Santo andré, pregador do Evangelho e pastor da vossa Igreja, não cesse no céu de interceder por nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -2004,8 +2025,7 @@ let mainData = {
         route: host + "/Leitura-Orante-December/Leitura-Orante-4a.html",
       },
       5: {
-        img:
-          host + "/Leitura-Orante-December/images/05_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/05_Dezembro_2020.jpg",
         title: "Sábado - 1ª Semana do Advento",
         details:
           "Nós vos suplicamos, ó Deus onipotente, que o apóstolo Santo andré, pregador do Evangelho e pastor da vossa Igreja, não cesse no céu de interceder por nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -2013,16 +2033,14 @@ let mainData = {
         route: host + "/Leitura-Orante-December/Leitura-Orante-5a.html",
       },
       6: {
-        img:
-          host + "/Leitura-Orante-December/images/06_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/06_Dezembro_2020.jpg",
         title: "Domingo - 2º Domingo do Advento Tempo Comum",
         details:
           "Nós vos suplicamos, ó Deus onipotente, que o apóstolo Santo andré, pregador do Evangelho e pastor da vossa Igreja, não cesse no céu de interceder por nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "06 de Dezembro de 2020",
         route: host + "/Leitura-Orante-December/Leitura-Orante-6a.html",
       },
-    }
-
+    },
   },
   missaoData: {
     September: {
@@ -2085,7 +2103,8 @@ let mainData = {
         video: true,
       },
       10: {
-        img: host + "/img/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
+        img:
+          host + "/img/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
         title: "SSpS abrem nova comunidade na capital paulista ",
         details: `As missionárias servas do Espírito Santo abriram uma nova comunidade na capital paulista. As irmãs vão acompanhar mais de perto as famílias das crianças atendidas pelo Centro Educacional Madre Theresia. São José Freinademetz é o patrono da nova casa.`,
         date: "10 de Novembro 20",
