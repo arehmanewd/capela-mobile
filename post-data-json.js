@@ -362,6 +362,22 @@ let mainData = {
         date: "10 de Novembro de 2020",
         route: host + "/Dia-November/Dia-10.html",
       },
+      11: {
+        img: host + "/img/11_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "São Martinho de Tours, bispo",
+        details:
+          "Martinho nasceu em Panônia, hoje Hungria, por volta do ano 316. Seus pais não eram cristãos, portanto foi somente na adolescência que ele teve contato mais direto com os seguidores de Jesus. Porém, quando seu pai o soube, opôs-se energicamente. Sendo geral no exército, queria que o filho Martinho seguisse a mesma carreira militar.",
+        date: "11 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-11.html",
+      },
+      12: {
+        img: host + "/img/12_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "São Josafá, bispo e mártir",
+        details:
+          "São Josafá nasceu na Ucrânia, por volta do ano 1580, de pais ortodoxos. Foi um buscador da verdade e da glória de Deus, por isso, certo dia se aproximou da Igreja católica e, ao conhecê-la, ficou encantado. Em 1604, ingressou no Mosteiro da Santíssima Trindade, na cidade de Vilna.",
+        date: "12 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-12.html",
+      },
       15: {
         img: host + "/img/15_Post_Dia_Santo_Novembro_2020.jpg",
         title: "Santo Alberto Magno, bispo e doutor da Igreja",
