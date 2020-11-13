@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/nav.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="../javascript-calendar.css" type="text/css">
+  <link rel="stylesheet" href="../css/Leitura-Orante_a.css" />
+  <link rel="stylesheet" href="../css/font.css" />
+
+</head>
+<body>
+    <div class="container">
+           <!-- navbar Starts -->
+      <div class="container" id="nav-container">
+      
+        <nav
+          class="navbar navbar-expand-lg"
+          id="nav"
+        
+          >
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="width: 50px;"
+          >
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          <img src="../img/menu.png" width="100%" alt="">
+        </button>
+        <img src="../img/navlogo.png" class="navLogo"/>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+               <a class="nav-link" id="indexPage"><img src="../img/home-icon.png" alt="" width="25px" />
+                  <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="quemSomos">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="oracoes">Orações Missionárias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="sant">Dia de Santo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="vocoes">Vocações</a>
+              </li>
+              <li class="nav-item">
+            <a class="nav-link" id="missao">Missão</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" id="espirual-link">Espiritualidade</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="contatos">Contatos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar ends -->
+      
+            <div class="row pt-3" id="overall-container">
+                
+                 <div class="col-md-12 col-sm-6">
+                    <h4 class="  GM pageHeading">Leitura Orante
+</h4>
+                    <div class="myContainer-heading">
+                
+                        <p class="myContainer-date pb-0 mb-0 GB" id="date">
+                          Leitura do Dia                                    
+                        </p>
+                        
+                        <p class="myContainer-date pb-0 mb-0 GB">
+Segunda-feira da 18ª Semana Comum                         
+                        </p>
+                        <p class="myContainer-date pb-0 mb-0 GB">
+                        
+                        (Verde – ofício do dia)
+
+
+                        </p>
+                       
+                        <p class="myContainer-date-cal GBI">
+                          <span class="cal-icon fa fa-calendar"></span>
+                          <i>
+ 3 de Agosto de 2020
+
+                          </i>
+                        </p>
+                        
+                        <img src="images/03_agosto_2020.jpg" class="imgview">
+                      <div>
+          <p class="pt-3 para GBR"><b class="headings">Leitura Orante do Evangelho</b><br>
+
+            Ouça o áudio da oração e reflexão do padre Francisco das Chagas
+          </p>
+          <audio id="audio_play">
+            <source src="./audio/03_08_2020_Leitura_Orante.mp4" type="audio/ogg">
+ 
+          </audio>
+
+          <img src="./images/LISTEN.png" class="imgclick1" alt="" onclick="play()" id="play">
+
+ <img src="./images/PAUSE.png"  class="imgclick1" style="display:none" alt="" onclick="pause()" id="pause">
+</div>
+                        
+                        <p class="pt-3 para GBR"><b class="headings">Oração do dia</b><br>
+
+Manifestai, ó Deus, vossa inesgotável bondade para com os filhos e filhas que vos imploram e se gloriam de vos ter como criador e guia, restaurando para eles a vossa criação e conservando-a renovada. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.
+                        </p>
+                        <p class="pt-3 para GBR"><b class="headings">Leitura: Jr 28,1-17
+</b> </p>
+                        <p class="s-heading GBR">
+                         <sup>1</sup>Nesse mesmo ano, no início do reinado de Sedecias, rei de Judá, no quinto mês do quarto ano, disse-me o profeta Ananias, filho de Azur, profeta de Gabaon, na casa do Senhor e na presença dos sacerdotes e de todo o povo: <sup>2</sup>“Isto diz o Senhor dos exércitos, Deus de Israel: Quebrei o jugo do rei da Babilônia. <sup>3</sup>Ainda dois anos e eu farei reconduzir a este lugar todos os vasos da casa do Senhor, que Nabucodonosor, rei da Babilônia, tirou deste lugar e transferiu para a Babilônia. <sup>4</sup>Também reconduzirei a este lugar Jeconias, filho de Joaquim e rei de Judá, juntamente com toda a massa de judeus desterrados para Babilônia, diz o Senhor, pois eu quebro o jugo do rei da Babilônia”. <sup>5</sup>Respondeu o profeta Jeremias ao profeta Ananias, na presença dos sacerdotes e de todo o povo que estava na casa do Senhor, <sup>6</sup>dizendo: “Amém, assim permita o Senhor! Realize ele as palavras que profetizaste, trazendo de volta os vasos para a casa do Senhor e todos os deportados da Babilônia para esta terra. <sup>70</sup>uve, porém, esta palavra que eu digo aos teus ouvidos e aos ouvidos de todo o povo: <sup>8</sup>os profetas que existiram antigamente, antes de mim e antes de ti, profetizaram sobre guerras, aflições e peste para muitos povos e reinos poderosos; <sup>9</sup>mas o profeta que profetiza paz, esse somente será reconhecido como profeta que, em verdade, o Senhor enviou quando sua palavra for verificada”. <sup>10</sup>Então o profeta Ananias retirou o jugo do pescoço do profeta Jeremias e quebrou-o; <sup>11</sup>e disse Ananias, na presença de todo o povo: “Isto diz o Senhor: Deste modo quebrarei o jugo de Nabucodonosor, rei da Babilônia, dentro de dois anos, livrando dele o pescoço de todos os povos”. E foi-se pelo seu caminho o profeta Jeremias. <sup>12</sup>Depois que o profeta Ananias havia retirado o jugo do pescoço do profeta Jeremias, dirigiu-se novamente a palavra do Senhor a Jeremias: <sup>13</sup>“Vai dizer a Ananias: Isto diz o Senhor: Quebraste um jugo de madeira, mas em seu lugar farás um de ferro. <sup>14</sup>Isto diz o Senhor dos exércitos, Deus de Israel: Pus um jugo de ferro sobre o pescoço de todas estas nações, para servirem a Nabucodonosor, rei da Babilônia, e lhe serão de fato submissas; além disso, dei-lhe também os animais do campo”. <sup>15</sup>Disse ainda o profeta Jeremias ao profeta Ananias: “Ouve, Ananias, não foste enviado pelo Senhor e, contudo, fizeste este povo confiar em mentiras. <sup>16</sup>Isto diz o Senhor: Eis que te farei partir desta terra; morrerás este ano, pois pregaste a infidelidade contra o Senhor”. <sup>17</sup>Naquele ano, no sétimo mês, morreu o profeta Ananias. <b>  – Palavra do Senhor.</b>
+                        </p>
+
+                        
+                        <p class="pt-3 para GBR"><b class="headings">Salmo Responsorial: 118(119)
+</b><br><br>
+                          <b class="sheading GM"><i>Ensinai-me a fazer vossa vontade!
+
+!</i></b>
+                        <br>
+                        <p class="s-heading GBR">
+                          Afastai-me do caminho da mentira e dai-me a vossa lei como um presente! Não retireis vossa verdade de meus lábios, pois eu confio em vossos justos julgamentos!
+
+
+                        </p>
+
+                         
+                         <br>
+                          <b class="sheading GM"><i>Ensinai-me a fazer vossa vontade!
+
+!</i></b>
+                       <br>
+                       <p class="s-heading GBR">
+
+Que se voltem para mim os que vos temem e conhecem, ó Senhor, vossa Aliança!. Meu coração seja perfeito em vossa lei, e não serei, de modo algum, envergonhado!
+
+                       </p>
+                      <br>
+                      <b class="sheading GM"><i>Ensinai-me a fazer vossa vontade!
+
+!</i></b>  
+                      <br>
+                      <p class="s-heading GBR">
+
+Espreitam-me os maus para perder-me, mas continuo sempre atento à vossa lei. De vossos julgamentos não me afasto, porque vós mesmo me ensinastes vossas leis.
+
+                      </p>
+                      <b class="sheading GM"><i>Ensinai-me a fazer vossa vontade!
+
+!</i></b>  
+                      <br>
+
+                    </p>
+                    <p class="pt-3 para GBR"><b class="headings">Evangelho: Mt 14,22-36
+</b><br>
+                    <br>
+                    <p class="s-heading GBR">
+                        Depois que a multidão comera até saciar-se, <sup>22</sup>Jesus mandou que os discípulos entrassem na barca e seguissem, à sua frente, para o outro lado do mar, enquanto ele despediria as multidões. <sup>23</sup>Depois de despedi-las, Jesus subiu ao monte para orar a sós. A noite chegou, e Jesus continuava ali, sozinho. <sup>24</sup>A barca, porém, já longe da terra, era agitada pelas ondas, pois o vento era contrário. <sup>25</sup>Pelas três horas da manhã, Jesus veio até os discípulos, andando sobre o mar. <sup>26</sup>Quando os discípulos o avistaram andando sobre o mar, ficaram apavorados e disseram: “É um fantasma”. E gritaram de medo. <sup>27</sup>Jesus, porém, logo lhes disse: “Coragem! Sou eu. Não tenhais medo!” 28Então Pedro lhe disse: “Senhor, se és tu, manda-me ir ao teu encontro, caminhando sobre a água”. <sup>29</sup>E Jesus respondeu: “Vem!” Pedro desceu da barca e começou a andar sobre a água, em direção a Jesus. <sup>30</sup>Mas, quando sentiu o vento, ficou com medo e, começando a afundar, gritou: “Senhor, salva-me!” <sup>31</sup>Jesus logo estendeu a mão, segurou Pedro e lhe disse: “Homem fraco na fé, por que duvidaste?” 32Assim que subiram na barca, o vento se acalmou. 33Os que estavam na barca prostraram-se diante dele, dizendo: “Verdadeiramente, tu és o Filho de Deus!” <sup>34</sup>Após a travessia, desembarcaram em Genesaré. <sup>350</sup>s habitantes daquele lugar reconheceram Jesus e espalharam a notícia por toda a região. Então levaram a ele todos os doentes; <sup>36</sup>e pediam que pudessem ao menos tocar a barra de sua veste. E todos os que a tocaram ficaram curados.
+                    <b>- Palavra da Salvação.</b>
+                    </p>
+
+                
+
+                    </p>
+                      </div>
+ 
+                 </div>
+    
+                 
+               <div class="col-md-12 col-sm-6  text-center">
+                <p class="blog-heading">
+                  Leituras do mês
+                </p>
+             
+                <!-- Button trigger modal -->
+<button type="button" class="modelbtn btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+ Calendar
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        <div class="calendar">
+          <!-- CAlendar -->
+
+       <div class="icalendar">
+         <div class="icalendar__month">
+           <div class="icalendar__prev" onclick="moveDate('prev')">
+             <span>&#10094</span>
+           </div>
+           <div class="icalendar__current-date">
+             <h2 id="icalendarMonth"></h2>
+             <div>
+               <div id="icalendarDateStr"></div>
+             </div>
+
+           </div>
+           <div class="icalendar__next" onclick="moveDate('next')">
+             <span>&#10095</span>
+           </div>
+         </div>
+         <div class="icalendar__week-days">
+           <div>D</div>
+           <div>S</div>
+           <div>T</div>
+           <div>Q</div>
+           <div>Q</div>
+           <div>S</div>
+           <div>S</div>
+         </div>
+         <div class="icalendar__days"></div>
+
+
+         <script src="../javascript-calendar.js" type="text/javascript"></script>
+       </div>
+
+     </div>
+   
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+                    
+                <p class="blog-heading">
+                  TAGS
+                </p>
+                <div>
+                
+                  <p class="tagpara GBR">missao Amazonia evengel covid-19 indigenas novica papa francisco</p>
+                </div>
+                </div>
+          
+                
+                <div class="col-12 col-md-12 ">
+                    <h5 class="destaques-heading" >
+                        Destaques
+                    </h5>
+                    <div id="destaquesPortion">
+
+                    </div>
+
+                   
+                   
+                    
+                   
+                    
+                    
+                </div>
+               
+               
+                      
+                     
+
+              
+            </div>
+            <div class="background-img">
+              <div>
+                  <p style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
+                      Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11) 5547-7222
+                  </p>
+                  <div class="icons">
+                        <a href="https://www.facebook.com/sspsbrasilnorte"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
+            <a href="https://twitter.com/sspsbrasilnorte"><span><img src="../img/Icone_Twitter.png" alt=""></span></a>
+          <a href="https://www.instagram.com/sspsbrasilnorte/"><span><img src="../img/Icone_Insta.png" alt=""></span></a> 
+            <a href="https://blog.ssps.org.br/"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
+             <a href="https://www.youtube.com/SspsBrasilNorte"><span><img src="../img/Icone_Youtube.png" alt=""></span></a>  
+              <a href="http://www.ssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
+                  </div>
+              </div>
+              <hr>
+              <div id="last-icon-div">
+                  <p style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
+                      Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |<br/> Tel. (42) 3326 4091
+                  </p>
+                  <div class="icons">
+                         <a href="https://www.facebook.com/msspsbrs"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
+                <a href="https://www.mssps.org.br/noticias"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
+                <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"><span><img src="../img/Icone_Youtube.png" alt=""></span></a> 
+                <a href="https://www.mssps.org.br/" ><span><img src="../img/Icone_Site.png" alt=""></span></a>
+                  </div>
+              </div>
+          </div>
+  
+    </div>
+</body>
+</html>
+<script src="../post-data-json.js"></script>
