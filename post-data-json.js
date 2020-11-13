@@ -1171,7 +1171,7 @@ let mainData = {
       4: {
         img:
           host +
-          "/Leitura-Orante-September/images/04_setembro_2020_Leit_Oran.jpg",
+          "/Leitura-Orante-September/images/04_setembro_2020_Leit_Oran.png",
         title: "Sexta-feira da 22ª Semana do Tempo Comum",
         details: "(Verde -Ofício do dia)",
         date: "4 de setembro de 2020",
@@ -1579,7 +1579,7 @@ let mainData = {
       },
       18: {
         img:
-          host + "/Leitura-Orante-October/images/18_Outubro_2020_Leit_Oran.jpg",
+          host + "/Leitura-Orante-October/images/18_Outubro_2020_leit_Oran.jpg",
         title: "Domingo - 29ª do Tempo Comum",
         details:
           "Deus eterno todo-poderoso, dai-nos a graça de estar sempre ao vosso dispor e vos servir de todo o coração por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -1643,7 +1643,7 @@ let mainData = {
       },
       25: {
         img:
-          host + "/Leitura-Orante-October/images/25_Outubro_2020_Leit_Oran.jpg",
+          host + "/Leitura-Orante-October/images/25_Outubro_2020_leit_Oran.jpg",
         title: "Domingo - 30º do Tempo Comum",
         details:
           "Deus Eterno e Todo-Poderoso, aumentai em nós a fé, a esperança e a caridade, e dai-nos amar o que ordenais para conseguirmos o que prometeis. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -1652,7 +1652,7 @@ let mainData = {
       },
       26: {
         img:
-          host + "/Leitura-Orante-October/images/26_Outubro_2020_Leit_Oran.jpg",
+          host + "/Leitura-Orante-October/images/26_Outubro_Leit_Oran.jpg",
         title: "Segunda - feira 30ª do Tempo Comum",
         details:
           "Deus eterno e todo-poderoso, aumentai em nós a fé, a esperança e a caridade, e dai-nos amar o que ordenais para conseguirmos o que prometeis. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -1778,7 +1778,7 @@ let mainData = {
         route: host + "/Leitura-Orante-November/Leitura-Orante-7a.html",
       },
       8: {
-        img: host + "/Leitura-Orante-November/images/08_Novembro_Leit_Oran.jpg",
+        img: host + "/Leitura-Orante-November/images/08_Novembro_Leit_oran.jpg",
         title: "Domingo - 32ª Semana do Tempo Comum",
         details:
           "Deus de poder e misericórdia, afastai de nós todo obstáculo para que, inteiramente disponíveis, nos dediquemos ao vosso serviço. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
