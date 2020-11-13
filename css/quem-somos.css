@@ -23,20 +23,29 @@
     margin-bottom: 20px;
 }
 .firstP {
-    opacity: .5;
+   color:#666666;
+   font-size: 17px;
+   text-align: justify;
     margin-bottom: 30px;;
 }
 .head1{
-    color: #408ac7; 
-    font-family: "Gotham-Medium;"
+    color: #408ac7 !important; 
+    text-align: center;
+    font-size: 0.9rem;
 }
 .firstP1 {
-    opacity: .5;
+   color:#666666;
+   font-size: 17px;
     padding-top:15px;
     text-align:center;
-    font-size: 12px;
-     font-family: "Gotham-Medium";
+    /* font-size: 12px; */
+     /* font-family: "Gotham-Medium"; */
    
+}
+.firstP1L{
+    font-size: 15px;
+    color: #666666;
+    margin-top: 5px;
 }
 .paraimg{
     width: 162px; height: 150px;
