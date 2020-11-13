@@ -1778,7 +1778,7 @@ let mainData = {
         route: host + "/Leitura-Orante-November/Leitura-Orante-7a.html",
       },
       8: {
-        img: host + "/Leitura-Orante-November/images/08_Novembro_Leit_oran.jpg",
+        img: host + "/Leitura-Orante-November/images/08_Novembro_2020_Leit_oran.jpg",
         title: "Domingo - 32ª Semana do Tempo Comum",
         details:
           "Deus de poder e misericórdia, afastai de nós todo obstáculo para que, inteiramente disponíveis, nos dediquemos ao vosso serviço. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
