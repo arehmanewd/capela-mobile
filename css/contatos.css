@@ -34,16 +34,16 @@
     padding-top:10px;
     font-size: 14px;
     font-weight: 600;
-    color:black;
+    color:#666666;
     text-align: center;
     line-height: 0.5;
-    opacity:.8;
+    /* opacity:.8; */
 }
 .setcon{
     margin-top:-49px;padding: 20px;;
 }
 .hr {
-    background: #666666;
+    background: #6666664a;
     height: 2px;
     width: 235px;
     position: relative;
@@ -58,5 +58,14 @@
 .bottomcontent{
     padding-top:35px;
     margin-left:-25px;
-    opacity:.8;
+    color:#666666;
+    
+}
+.color{
+    color:#666666;
+    
+}
+.border-cl{
+    border-color:#666666 !important;
+
 }
