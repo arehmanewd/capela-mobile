@@ -2395,7 +2395,7 @@ for (var category in mainData) {
 
         let postTitleShort;
         if (postTitle.length >= 28) {
-          postTitleShort = postTitle.substr(0, 25) + "...";
+          postTitleShort = postTitle.substr(0, 20) + "...";
         } else {
           postTitleShort = postTitle;
         }
