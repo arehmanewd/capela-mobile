@@ -2245,7 +2245,7 @@ if (currentDay == "Thursday") {
 // </a>\
 // </div>'
 
-let tercoHTML = `<a href="${tercoData[dayTerco].route}"><div class="flex sortpost tercoData" >
+let tercoHTML = `<a href="${tercoData[dayTerco].route}" class="sortpost tercoData"><div class="flex " >
  <div class="flex-img">
    <img src="${tercoData[dayTerco].img}" width="100%" alt="" />
  </div>
