@@ -1838,7 +1838,7 @@ let mainData = {
       14: {
         img:
           host +
-          "/Leitura-Orante-November/images/14_Novembro_2020_leit_Oran.jpg",
+          "/Leitura-Orante-November/images/14_Novembro_2020_Leit_Oran.jpg",
         title: "Sábado - 32ª Semana do Tempo Comum",
         details:
           "Deus de poder e misericórdia, afastai de nós todo obstáculo para que, inteiramente disponíveis, nos dediquemos ao vosso serviço. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
