@@ -1542,7 +1542,7 @@ let mainData = {
       },
       14: {
         img:
-          host + "/Leitura-Orante-October/images/14_Outubro_2020_leit_Oran.jpg",
+          host + "/Leitura-Orante-October/images/14_Outubro_2020_Leit_Oran.jpg",
         title: "Quarta - feira- 28ª Semana do Tempo Comum",
         details:
           "Ó Deus, sempre nos preceda e acompanhe ao vossa graça para que estejamos sempre atentos ao bem que devemos fazer. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.)",
@@ -1560,7 +1560,7 @@ let mainData = {
       },
       16: {
         img:
-          host + "/Leitura-Orante-October/images/16_Outubro_2020_leit_Oran.jpg",
+          host + "/Leitura-Orante-October/images/16_Outubro_2020_Leit_Oran.jpg",
         title: "Sexta - feira- 28ª Semana do Tempo Comum",
         details:
           "Ó Deus, sempre nos preceda e acompanhe ao vossa graça para que estejamos sempre atentos ao bem que devemos fazer. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo",
@@ -1579,7 +1579,7 @@ let mainData = {
       },
       18: {
         img:
-          host + "/Leitura-Orante-October/images/18_Outubro_2020_leit_Oran.jpg",
+          host + "/Leitura-Orante-October/images/18_Outubro_2020_Leit_Oran.jpg",
         title: "Domingo - 29ª do Tempo Comum",
         details:
           "Deus eterno todo-poderoso, dai-nos a graça de estar sempre ao vosso dispor e vos servir de todo o coração por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -1643,7 +1643,7 @@ let mainData = {
       },
       25: {
         img:
-          host + "/Leitura-Orante-October/images/25_Outubro_2020_leit_Oran.jpg",
+          host + "/Leitura-Orante-October/images/25_Outubro_2020_Leit_Oran.jpg",
         title: "Domingo - 30º do Tempo Comum",
         details:
           "Deus Eterno e Todo-Poderoso, aumentai em nós a fé, a esperança e a caridade, e dai-nos amar o que ordenais para conseguirmos o que prometeis. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -1856,7 +1856,7 @@ let mainData = {
       16: {
         img:
           host +
-          "/Leitura-Orante-November/images/16_Novembro_2020_leit_Oran.jpg",
+          "/Leitura-Orante-November/images/16_Novembro_2020_Leit_Oran.jpg",
         title: "Segunda-feira - 33ª Semana do Tempo Comum",
         details:
           "Senhor, nosso Deus, fazei que a nossa alegria consista em vos servir de todo coração, pois só teremos felicidade completa servindo a vós, o criador de todas as coisas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -2409,7 +2409,7 @@ for (var category in mainData) {
           details: postDetails,
         };
         // console.log(catarr[makedate])
-        console.log("--------------------");
+        // console.log("--------------------");
 
         let postTitleShort;
         if (postTitle.length >= 28) {
@@ -2543,14 +2543,14 @@ missao.setAttribute("href", `${host}/capela-virtual-nossa-missao.html`);
 let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
 
-console.log(Object.keys(mainData.espirtualData).length);
+// console.log(Object.keys(mainData.espirtualData).length);
 let espirtualLatestMonth = "";
 for (month in mainData.espirtualData) {
   espirtualLatestMonth = month;
 }
 
-console.log(".......................");
-console.log(mainData.espirtualData[espirtualLatestMonth]);
+// console.log(".......................");
+// console.log(mainData.espirtualData[espirtualLatestMonth]);
 for (let i = currentDate; i > 0; i--) {
   // console.log(mainData.espirtualData[espirtualLatestMonth][i])
   if (mainData.espirtualData.November[i]) {
