@@ -386,6 +386,22 @@ let mainData = {
         date: "15 de Novembro de 2020",
         route: host + "/Dia-November/Dia-15.html",
       },
+      16: {
+        img: host + "/img/16_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "Santa Gertrudes, virgem",
+        details:
+          "Hoje a Igreja celebra Santa Gertrudes, uma mulher que, passando toda sua vida num mosteiro, encontrou alegria e liberdade verdadeiras junto do Senhor Jesus. Essa espiritualidade é um belo legado que deixou ao povo de Deus, à Igreja.  ",
+        date: "16 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-16.html",
+      },
+      17: {
+        img: host + "/img/17_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "Santa Isabel da Hungria",
+        details:
+          "Hoje a Igreja celebra a memória de Santa Isabel da Hungria, a rainha que renunciou a títulos e riquezas para dedicar-se, com amor e generosidade, a servir a Deus, servindo aos mais pobres e enfermos. Isso lhe mereceu ser chamada “a mulher maior”. ",
+        date: "17 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-17.html",
+      },
       19: {
         img: host + "/img/19_Post_Dia_Santo_Novembro_2020.jpg",
         title: "Santos Roque Gonzáles, Afonso Rodríguez e João del Castillo ",
