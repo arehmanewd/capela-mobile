@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,299 +13,296 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/nav.css" />
-  <link rel="stylesheet" href="../css/footer.css" />
-  <link rel="stylesheet" href="../javascript-calendar.css" type="text/css">
-  <link rel="stylesheet" href="../css/Leitura-Orante_a.css" />
-  <link rel="stylesheet" href="../css/font.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../javascript-calendar.css" type="text/css">
+    <link rel="stylesheet" href="../css/Leitura-Orante_a.css" />
+    <link rel="stylesheet" href="../css/font.css" />
 
 </head>
+
 <body>
     <div class="container">
-           <!-- navbar Starts -->
-      <div class="container" id="nav-container">
-      
-        <nav
-          class="navbar navbar-expand-lg"
-          id="nav"
-        
-          >
-          <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          style="width: 50px;"
-          >
+        <!-- navbar Starts -->
+        <div class="container" id="nav-container">
+
+            <nav class="navbar navbar-expand-lg" id="nav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="width: 50px;">
           <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
           <img src="../img/menu.png" width="100%" alt="">
         </button>
-        <img src="../img/navlogo.png" class="navLogo"/>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-               <a class="nav-link" id="indexPage"><img src="../img/home-icon.png" alt="" width="25px" />
-                  <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="quemSomos">Quem Somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="oracoes">Orações Missionárias</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="sant">Dia de Santo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="vocoes">Vocações</a>
-              </li>
-              <li class="nav-item">
-            <a class="nav-link" id="missao">Missão</a>
-              </li>
-              <li class="nav-item">
-               <a class="nav-link" id="espirual-link">Espiritualidade</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="contatos">Contatos</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <!-- navbar ends -->
-      
-            <div class="row pt-3" id="overall-container">
-                
-                 <div class="col-md-12 col-sm-6">
-                    <h4 class="GM pageHeading">Leitura Orante</h4>
-                    <div class="myContainer-heading">
-                
-                        <p class="myContainer-date pb-0 mb-0 GB" id="date">
-                          Leituras do Dia                                     
-                        </p>
-                        
-                        <p class="myContainer-date pb-0 mb-0 GB">
-                          Domingo - 2º Domingo do Advento
-                         
-                        </p>
-                        <p class="myContainer-date pb-0 mb-0 GB">
-                        
-                          (Roxo - Prefácio do Advento)
-                        </p>
-                       
-                        <p class="myContainer-date-cal GBI">
-                          <span class="cal-icon fa fa-calendar"></span>
-                          <i>
+                <img src="../img/navlogo.png" class="navLogo" />
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" id="indexPage"><img src="../img/home-icon.png" alt="" width="25px" />
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="quemSomos">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="oracoes">Orações Missionárias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="sant">Dia de Santo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="vocoes">Vocações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="missao">Missão</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="espirual-link">Espiritualidade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contatos">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- navbar ends -->
+
+        <div class="row pt-3" id="overall-container">
+
+            <div class="col-md-12 col-sm-6">
+                <h4 class="GM pageHeading">Leitura Orante</h4>
+                <div class="myContainer-heading">
+
+                    <p class="myContainer-date pb-0 mb-0 GB" id="date">
+                        Leituras do Dia
+                    </p>
+
+                    <p class="myContainer-date pb-0 mb-0 GB">
+                        Domingo - 2º Domingo do Advento
+
+                    </p>
+                    <p class="myContainer-date pb-0 mb-0 GB">
+
+                        (Roxo - Prefácio do Advento)
+                    </p>
+
+                    <p class="myContainer-date-cal GBI">
+                        <span class="cal-icon fa fa-calendar"></span>
+                        <i>
                             06 de dezembro de 2020
                           </i>
-                        </p>
-                        
-                        <img src="./images/06_Dezembro_2020.jpg" class="imgview">
-                        <p class="pt-3 para GBR"><b class="headings">Oração do dia</b><br>
-                          Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.
-                        </p>
-                        <audio id="audio_play">
-                          <source src="../audio/25_09_2020_Leitura_Orante.mp4" type="audio/ogg">
+                    </p>
+
+                    <img src="./images/06_Dezembro_2020.jpg" class="imgview">
+                    <p class="pt-3 para GBR"><b class="headings">Oração do dia</b><br> Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos
+                        da plenitude de sua vida. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.
+                    </p>
+                    <audio id="audio_play">
+                          <source src="./audio/06_12_2020_Leitura_Orante.32.mp4" type="audio/ogg">
 
                         </audio>
-                        <img src="./images/LISTEN.png" class="imgclick1" alt="" onclick="play()" id="play">
- <img src="./images/PAUSE.png"  class="imgclick1" style="display:none" alt="" onclick="pause()" id="pause">
-                        
-                        
-                        <p class="pt-3 para GBR"><b class="headings">Primeira leitura: Isaías 40,1-5.9-11</b> </p>
-                        <p class="s-heading GBR">
-                          <sup>1</sup>″Consolai o meu povo, consolai-o – diz o vosso Deus. <sup>2</sup>Falai ao coração de Jerusalém e dizei em alta voz que sua servidão acabou e a expiação de suas culpas foi cumprida; ela recebeu das mãos do Senhor o dobro por todos os seus pecados”. <sup>3</sup>Grita uma voz: “Preparai no deserto o caminho do Senhor, aplainai na solidão a estrada de nosso Deus. <sup>4</sup>Nivelem-se todos os vales, rebaixem-se todos os montes e colinas; endireite-se o que é torto e alisem-se as asperezas: <sup>5</sup>a glória do Senhor então se manifestará, e todos os homens verão juntamente o que a boca do Senhor falou. <sup>9</sup>Sobe a um alto monte, tu, que trazes a boa-nova a Sião; levanta com força a tua voz, tu, que trazes a boa-nova a Jerusalém, ergue a voz, não temas; dize às cidades de Judá: ‘Eis o vosso Deus, <sup>10</sup>eis que o Senhor Deus vem com poder, seu braço tudo domina; eis, com ele, sua conquista, eis à sua frente a vitória. <sup>11</sup>Como um pastor, ele apascenta o rebanho, reúne, com a força dos braços, os cordeiros e carrega-os ao colo; ele mesmo tange as ovelhas-mães””.  – <b>Palavra do Senhor.</b>
-                  
-                        </p>
+                    <img src="./images/LISTEN.png" class="imgclick1" alt="" onclick="play()" id="play">
+                    <img src="./images/PAUSE.png" class="imgclick1" style="display:none" alt="" onclick="pause()" id="pause">
 
-                        
-                        <p class="pt-3 para GBR"><b class="headings">Salmo Responsorial: 84(85)</b><br><br>
-                          <b class="sheading GM"><i>Mostrai-nos, ó Senhor, vossa bondade e a vossa salvação nos concedei!</i></b>
+
+                    <p class="pt-3 para GBR"><b class="headings">Primeira leitura: Isaías 40,1-5.9-11</b> </p>
+                    <p class="s-heading GBR">
+                        <sup>1</sup>″Consolai o meu povo, consolai-o – diz o vosso Deus. <sup>2</sup>Falai ao coração de Jerusalém e dizei em alta voz que sua servidão acabou e a expiação de suas culpas foi cumprida; ela recebeu das mãos do Senhor o dobro
+                        por todos os seus pecados”. <sup>3</sup>Grita uma voz: “Preparai no deserto o caminho do Senhor, aplainai na solidão a estrada de nosso Deus. <sup>4</sup>Nivelem-se todos os vales, rebaixem-se todos os montes e colinas; endireite-se
+                        o que é torto e alisem-se as asperezas: <sup>5</sup>a glória do Senhor então se manifestará, e todos os homens verão juntamente o que a boca do Senhor falou. <sup>9</sup>Sobe a um alto monte, tu, que trazes a boa-nova a Sião; levanta
+                        com força a tua voz, tu, que trazes a boa-nova a Jerusalém, ergue a voz, não temas; dize às cidades de Judá: ‘Eis o vosso Deus, <sup>10</sup>eis que o Senhor Deus vem com poder, seu braço tudo domina; eis, com ele, sua conquista,
+                        eis à sua frente a vitória. <sup>11</sup>Como um pastor, ele apascenta o rebanho, reúne, com a força dos braços, os cordeiros e carrega-os ao colo; ele mesmo tange as ovelhas-mães””. – <b>Palavra do Senhor.</b>
+
+                    </p>
+
+
+                    <p class="pt-3 para GBR"><b class="headings">Salmo Responsorial: 84(85)</b><br><br>
+                        <b class="sheading GM"><i>Mostrai-nos, ó Senhor, vossa bondade e a vossa salvação nos concedei!</i></b>
                         <br>
-                        <p class="s-heading GBR">Quero ouvir o que o Senhor irá falar: é a paz que ele vai anunciar;
-                          a paz para o seu povo e seus amigos, para os que voltam ao Senhor seu coração. Está perto a salvação dos que o temem, e a glória habitará em nossa terra.
-                           
-                          
-                          
-                          </p>  
+                        <p class="s-heading GBR">Quero ouvir o que o Senhor irá falar: é a paz que ele vai anunciar; a paz para o seu povo e seus amigos, para os que voltam ao Senhor seu coração. Está perto a salvação dos que o temem, e a glória habitará em nossa terra.
+
 
 
                         </p>
 
-                         
-                         <br>
-                          <b class="sheading GM"><i>Mostrai-nos, ó Senhor, vossa bondade e a vossa salvação nos concedei!</i></b>
-                       <br>
-                       <p class="s-heading GBR">
-                        A verdade e o amor se encontrarão, a justiça e a paz se abraçarão;
-                        da terra brotará a fidelidade, e a justiça olhará dos altos céus.
-                        
-                        
-                        
-                      </p>
-                      <br>
-                      <b class="sheading GM"><i>Mostrai-nos, ó Senhor, vossa bondade e a vossa salvação nos concedei!</i></b>  
-                      <br>
-                      <p class="s-heading GBR">
-                        O Senhor nos dará tudo o que é bom, e a nossa terra nos dará suas colheitas;
-                        a justiça andará na sua frente e a salvação há de seguir os passos seus.
 
-                        
- 
-                          </p>
-                          
+                    </p>
 
-                      <b class="sheading GM"><i>Mostrai-nos, ó Senhor, vossa bondade e a vossa salvação nos concedei!</i></b>  
-                      <br>
+
+                    <br>
+                    <b class="sheading GM"><i>Mostrai-nos, ó Senhor, vossa bondade e a vossa salvação nos concedei!</i></b>
+                    <br>
+                    <p class="s-heading GBR">
+                        A verdade e o amor se encontrarão, a justiça e a paz se abraçarão; da terra brotará a fidelidade, e a justiça olhará dos altos céus.
+
+
+
+                    </p>
+                    <br>
+                    <b class="sheading GM"><i>Mostrai-nos, ó Senhor, vossa bondade e a vossa salvação nos concedei!</i></b>
+                    <br>
+                    <p class="s-heading GBR">
+                        O Senhor nos dará tudo o que é bom, e a nossa terra nos dará suas colheitas; a justiça andará na sua frente e a salvação há de seguir os passos seus.
+
+
+
+                    </p>
+
+
+                    <b class="sheading GM"><i>Mostrai-nos, ó Senhor, vossa bondade e a vossa salvação nos concedei!</i></b>
+                    <br>
 
                     </p>
                     <p class="pt-3 para GBR"><b class="headings">Segunda leitura: 2 Pedro 3,8-14</b><br>
-                    <br>
-                    <p class="s-heading GBR">
-                      <sup>8</sup>Uma coisa vós não podeis desconhecer, caríssimos: para o Senhor, um dia é como mil anos e mil anos como um dia. <sup>9</sup>O Senhor não tarda a cumprir sua promessa, como pensam alguns, achando que demora. Ele está usando de paciência para convosco, pois não deseja que alguém se perca. Ao contrário, quer que todos venham a converter-se. <sup>10</sup>O dia do Senhor chegará como um ladrão, e então os céus acabarão com barulho espantoso; os elementos, devorados pelas chamas, se dissolverão, e a terra será consumida com tudo o que nela se fez. <sup>11</sup>Se desse modo tudo se vai desintegrar, qual não deve ser o vosso empenho numa vida santa e piedosa, <sup>12</sup>enquanto esperais com anseio a vinda do dia de Deus, quando os céus em chama se vão derreter e os elementos, consumidos pelo fogo, se fundirão? <sup>13</sup>O que nós esperamos, de acordo com a sua promessa, são novos céus e uma nova terra, onde habitará a justiça. <sup>14</sup>Caríssimos, vivendo nessa esperança, esforçai-vos para que ele vos encontre numa vida pura e sem mancha e em paz. –
-                                        <b> Palavra da Salvação.</b>
-                    </p>
-                    <p class="pt-3 para GBR"><b class="headings">Evangelho: Marcos 1,1-8</b><br>
-                      <br>
-                      <p class="s-heading GBR">
-                        <sup>1</sup>Início do Evangelho de Jesus Cristo, Filho de Deus. <sup>2</sup>Está escrito no livro do profeta Isaías: “Eis que envio meu mensageiro à tua frente, para preparar o teu caminho. <sup>3</sup>Esta é a voz daquele que grita no deserto: ‘Preparai o caminho do Senhor, endireitai suas estradas!'” <sup>4</sup>Foi assim que João Batista apareceu no deserto, pregando um batismo de conversão para o perdão dos pecados. <sup>5</sup>Toda a região da Judeia e todos os moradores de Jerusalém iam ao seu encontro. Confessavam os seus pecados e João os batizava no rio Jordão. <sup>6</sup>João se vestia com uma pele de camelo e comia gafanhotos e mel do campo. <sup>7</sup>E pregava, dizendo: “Depois de mim virá alguém mais forte do que eu. Eu nem sou digno de me abaixar para desamarrar suas sandálias. <sup>8</sup>Eu vos batizei com água, mas ele vos batizará com o Espírito Santo”. –
-                        <b> Palavra da Salvação.</b>
-                      </p>
+                        <br>
+                        <p class="s-heading GBR">
+                            <sup>8</sup>Uma coisa vós não podeis desconhecer, caríssimos: para o Senhor, um dia é como mil anos e mil anos como um dia. <sup>9</sup>O Senhor não tarda a cumprir sua promessa, como pensam alguns, achando que demora. Ele
+                            está usando de paciência para convosco, pois não deseja que alguém se perca. Ao contrário, quer que todos venham a converter-se. <sup>10</sup>O dia do Senhor chegará como um ladrão, e então os céus acabarão com barulho espantoso;
+                            os elementos, devorados pelas chamas, se dissolverão, e a terra será consumida com tudo o que nela se fez. <sup>11</sup>Se desse modo tudo se vai desintegrar, qual não deve ser o vosso empenho numa vida santa e piedosa, <sup>12</sup>enquanto
+                            esperais com anseio a vinda do dia de Deus, quando os céus em chama se vão derreter e os elementos, consumidos pelo fogo, se fundirão? <sup>13</sup>O que nós esperamos, de acordo com a sua promessa, são novos céus e uma nova
+                            terra, onde habitará a justiça. <sup>14</sup>Caríssimos, vivendo nessa esperança, esforçai-vos para que ele vos encontre numa vida pura e sem mancha e em paz. –
+                            <b> Palavra da Salvação.</b>
+                        </p>
+                        <p class="pt-3 para GBR"><b class="headings">Evangelho: Marcos 1,1-8</b><br>
+                            <br>
+                            <p class="s-heading GBR">
+                                <sup>1</sup>Início do Evangelho de Jesus Cristo, Filho de Deus. <sup>2</sup>Está escrito no livro do profeta Isaías: “Eis que envio meu mensageiro à tua frente, para preparar o teu caminho. <sup>3</sup>Esta é a voz daquele
+                                que grita no deserto: ‘Preparai o caminho do Senhor, endireitai suas estradas!'” <sup>4</sup>Foi assim que João Batista apareceu no deserto, pregando um batismo de conversão para o perdão dos pecados. <sup>5</sup>Toda a
+                                região da Judeia e todos os moradores de Jerusalém iam ao seu encontro. Confessavam os seus pecados e João os batizava no rio Jordão. <sup>6</sup>João se vestia com uma pele de camelo e comia gafanhotos e mel do campo.
+                                <sup>7</sup>E pregava, dizendo: “Depois de mim virá alguém mais forte do que eu. Eu nem sou digno de me abaixar para desamarrar suas sandálias. <sup>8</sup>Eu vos batizei com água, mas ele vos batizará com o Espírito Santo”.
+                                –
+                                <b> Palavra da Salvação.</b>
+                            </p>
 
-                
 
-                    </p>
-                    
-                      </div>
- 
-                 </div>
-    
-                 
-               <div class="col-md-12 col-sm-6  text-center">
+
+                        </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-12 col-sm-6  text-center">
                 <p class="blog-heading">
-                  Leituras do mês
+                    Leituras do mês
                 </p>
-             
+
                 <!-- Button trigger modal -->
-<button type="button" class="modelbtn btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                <button type="button" class="modelbtn btn btn-primary" data-toggle="modal" data-target="#exampleModal">
  Calendar
 </button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-     
-      <div class="modal-body">
-        <div class="calendar">
-          <!-- CAlendar -->
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
 
-       <div class="icalendar">
-         <div class="icalendar__month">
-           <div class="icalendar__prev" onclick="moveDate('prev')">
-             <span>&#10094</span>
-           </div>
-           <div class="icalendar__current-date">
-             <h2 id="icalendarMonth"></h2>
-             <div>
-               <div id="icalendarDateStr"></div>
-             </div>
+                            <div class="modal-body">
+                                <div class="calendar">
+                                    <!-- CAlendar -->
 
-           </div>
-           <div class="icalendar__next" onclick="moveDate('next')">
-             <span>&#10095</span>
-           </div>
-         </div>
-         <div class="icalendar__week-days">
-           <div>D</div>
-           <div>S</div>
-           <div>T</div>
-           <div>Q</div>
-           <div>Q</div>
-           <div>S</div>
-           <div>S</div>
-         </div>
-         <div class="icalendar__days"></div>
+                                    <div class="icalendar">
+                                        <div class="icalendar__month">
+                                            <div class="icalendar__prev" onclick="moveDate('prev')">
+                                                <span>&#10094</span>
+                                            </div>
+                                            <div class="icalendar__current-date">
+                                                <h2 id="icalendarMonth"></h2>
+                                                <div>
+                                                    <div id="icalendarDateStr"></div>
+                                                </div>
+
+                                            </div>
+                                            <div class="icalendar__next" onclick="moveDate('next')">
+                                                <span>&#10095</span>
+                                            </div>
+                                        </div>
+                                        <div class="icalendar__week-days">
+                                            <div>D</div>
+                                            <div>S</div>
+                                            <div>T</div>
+                                            <div>Q</div>
+                                            <div>Q</div>
+                                            <div>S</div>
+                                            <div>S</div>
+                                        </div>
+                                        <div class="icalendar__days"></div>
 
 
-         <script src="../javascript-calendar.js" type="text/javascript"></script>
-       </div>
+                                        <script src="../javascript-calendar.js" type="text/javascript"></script>
+                                    </div>
 
-     </div>
-   
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-                    
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <p class="blog-heading">
-                  TAGS
+                    TAGS
                 </p>
                 <div>
-                
-                  <p class="tagpara GBR">missao Amazonia evengel covid-19 indigenas novica papa francisco</p>
-                </div>
-                </div>
-          
-                
-                <div class="col-12 col-md-12 ">
-                    <h5 class="destaques-heading" >
-                        Destaques
-                    </h5>
-                    <div id="destaquesPortion">
 
-                    </div>
-
-                   
-                   
-                    
-                   
-                    
-                    
+                    <p class="tagpara GBR">missao Amazonia evengel covid-19 indigenas novica papa francisco</p>
                 </div>
-               
-               
-                      
-                     
-
-              
             </div>
-            <div class="background-img">
-              <div>
-                  <p style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
-                      Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11) 5547-7222
-                  </p>
-                  <div class="icons">
-                        <a href="https://www.facebook.com/sspsbrasilnorte"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
-            <a href="https://twitter.com/sspsbrasilnorte"><span><img src="../img/Icone_Twitter.png" alt=""></span></a>
-          <a href="https://www.instagram.com/sspsbrasilnorte/"><span><img src="../img/Icone_Insta.png" alt=""></span></a> 
-            <a href="https://blog.ssps.org.br/"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
-             <a href="https://www.youtube.com/SspsBrasilNorte"><span><img src="../img/Icone_Youtube.png" alt=""></span></a>  
-              <a href="http://www.ssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
-                  </div>
-              </div>
-              <hr>
-              <div id="last-icon-div">
-                  <p style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
-                      Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |<br/> Tel. (42) 3326 4091
-                  </p>
-                  <div class="icons">
-                         <a href="https://www.facebook.com/msspsbrs"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
-                <a href="https://www.mssps.org.br/noticias"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
-                <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"><span><img src="../img/Icone_Youtube.png" alt=""></span></a> 
-                <a href="https://www.mssps.org.br/" ><span><img src="../img/Icone_Site.png" alt=""></span></a>
-                  </div>
-              </div>
-          </div>
-  
+
+
+            <div class="col-12 col-md-12 ">
+                <h5 class="destaques-heading">
+                    Destaques
+                </h5>
+                <div id="destaquesPortion">
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="background-img">
+            <div>
+                <p style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
+                    Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11) 5547-7222
+                </p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/sspsbrasilnorte"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
+                    <a href="https://twitter.com/sspsbrasilnorte"><span><img src="../img/Icone_Twitter.png" alt=""></span></a>
+                    <a href="https://www.instagram.com/sspsbrasilnorte/"><span><img src="../img/Icone_Insta.png" alt=""></span></a>
+                    <a href="https://blog.ssps.org.br/"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
+                    <a href="https://www.youtube.com/SspsBrasilNorte"><span><img src="../img/Icone_Youtube.png" alt=""></span></a>
+                    <a href="http://www.ssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
+                </div>
+            </div>
+            <hr>
+            <div id="last-icon-div">
+                <p style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
+                    Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |<br/> Tel. (42) 3326 4091
+                </p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/msspsbrs"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
+                    <a href="https://www.mssps.org.br/noticias"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
+                    <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"><span><img src="../img/Icone_Youtube.png" alt=""></span></a>
+                    <a href="https://www.mssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
+
 </html>
 <script src="../post-data-json.js"></script>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/nav.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="../javascript-calendar.css" type="text/css">
+  <link rel="stylesheet" href="../css/Leitura-Orante_a.css" />
+  <link rel="stylesheet" href="../css/font.css" />
+
+</head>
+<body>
+    <div class="container">
+           <!-- navbar Starts -->
+      <div class="container" id="nav-container">
+      
+        <nav
+          class="navbar navbar-expand-lg"
+          id="nav"
+        
+          >
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="width: 50px;"
+          >
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          <img src="../img/menu.png" width="100%" alt="">
+        </button>
+        <img src="../img/navlogo.png" class="navLogo"/>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+               <a class="nav-link" id="indexPage"><img src="../img/home-icon.png" alt="" width="25px" />
+                  <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="quemSomos">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="oracoes">Orações Missionárias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="sant">Dia de Santo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="vocoes">Vocações</a>
+              </li>
+              <li class="nav-item">
+            <a class="nav-link" id="missao">Missão</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" id="espirual-link">Espiritualidade</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="contatos">Contatos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar ends -->
+      
+            <div class="row pt-3" id="overall-container">
+                
+                 <div class="col-md-12 col-sm-6">
+                    <h4 class="GM pageHeading">Leitura Orante</h4>
+                    <div class="myContainer-heading">
+                
+                        <p class="myContainer-date pb-0 mb-0 GB" id="date">
+                          Leituras do Dia                                     
+                        </p>
+                        
+                        <p class="myContainer-date pb-0 mb-0 GB">
+                          Quarta-feira - 2ª Semana do Advento
+                         
+                        </p>
+                        <p class="myContainer-date pb-0 mb-0 GB">
+                        
+                          (roxo - prefácio do Advento - ofício do dia)
+                        </p>
+                       
+                        <p class="myContainer-date-cal GBI">
+                          <span class="cal-icon fa fa-calendar"></span>
+                          <i>
+                            02 de dezembro de 2020
+                          </i>
+                        </p>
+                        
+                        <img src="./images/02_Dezembro_2020.jpg" class="imgview">
+                        <p class="pt-3 para GBR"><b class="headings">Oração do dia</b><br>
+                          Senhor Deus, preparai os nossos corações com a força da vossa graça, para que, ao chegar o Cristo, vosso Filho, nos encontre dignos do banquete da vida eterna e ele mesmo nos sirva o alimento celeste. 
+                          Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.
+                        </p>
+                        <audio id="audio_play">
+                          <source src="../audio/25_09_2020_Leitura_Orante.mp4" type="audio/ogg">
+
+                        </audio>
+                        <img src="./images/LISTEN.png" class="imgclick1" alt="" onclick="play()" id="play">
+ <img src="./images/PAUSE.png"  class="imgclick1" style="display:none" alt="" onclick="pause()" id="pause">
+                        
+                        
+                        <p class="pt-3 para GBR"><b class="headings">Primeira leitura: Isaías 25,6-10</b> </p>
+                        <p class="s-heading GBR">
+                          Naquele dia, <sup>6</sup>o Senhor dos exércitos dará neste monte, para todos os povos, um banquete de ricas iguarias, regado com vinho puro, servido de pratos deliciosos e dos mais finos vinhos. <sup>7</sup>Ele removerá, neste monte, a ponta da cadeia que ligava todos os povos, a teia em que tinha envolvido todas as nações. <sup>8</sup>O Senhor Deus eliminará para sempre a morte, e enxugará as lágrimas de todas as faces, e acabará com a desonra do seu povo em toda a terra; o Senhor o disse. <sup>9</sup>Naquele dia se dirá: “Este é o nosso Deus, esperamos nele, até que nos salvou; este é o Senhor, nele temos confiado: vamos alegrar-nos e exultar por nos ter salvo”. <sup>10</sup>E a mão do Senhor repousará sobre este monte. – <b>  Palavra do Senhor.</b>
+                  
+                        </p>
+
+                        
+                        <p class="pt-3 para GBR"><b class="headings">Salmo Responsorial: 22(23)</b><br><br>
+                          <b class="sheading GM"><i>Na casa do Senhor habitarei pelos tempos infinitos.</i></b>
+                        <br>
+                        <p class="s-heading GBR">
+                          O Senhor é o pastor que me conduz; não me falta coisa alguma.
+                          Pelos prados e campinas verdejantes ele me leva a descansar.
+                          Para as águas repousantes me encaminha e restaura as minhas forças. 
+                          </p>  
+
+
+                        </p>
+
+                         
+                         <br>
+                          <b class="sheading GM"><i>Na casa do Senhor habitarei pelos tempos infinitos.</i></b>
+                       <br>
+                       <p class="s-heading GBR">
+
+                        Ele me guia no caminho mais seguro pela honra do seu nome.
+                        Mesmo que eu passe pelo vale tenebroso, nenhum mal eu temerei.
+                        Estais comigo com bastão e com cajado, eles me dão a segurança!
+                        
+                      </p>
+                      <br>
+                      <b class="sheading GM"><i>Na casa do Senhor habitarei pelos tempos infinitos.</i></b>  
+                      <br>
+                      <p class="s-heading GBR">
+
+                        Preparais à minha frente uma mesa, bem à vista do inimigo;
+                          com óleo vós ungis minha cabeça, e o meu cálice transborda.
+ 
+                          </p>
+                          <b class="sheading GM"><i>Na casa do Senhor habitarei pelos tempos infinitos.</i></b>  
+                      <br>
+                      <p class="s-heading GBR">
+
+                        Felicidade e todo bem hão de seguir-me / por toda a minha vida; / e na casa do Senhor habitarei / pelos tempos infinitos. 
+ 
+                          </p>
+
+                      <b class="sheading GM"><i>Na casa do Senhor habitarei pelos tempos infinitos.</i></b>  
+                      <br>
+
+                    </p>
+                    <p class="pt-3 para GBR"><b class="headings">Evangelho: Mateus 15,29-37</b><br>
+                    <br>
+                    <p class="s-heading GBR">
+                      Naquele tempo, <sup>29</sup>Jesus foi para as margens do mar da Galileia, subiu a montanha e sentou-se. <sup>30</sup>Numerosas multidões aproximaram-se dele, levando consigo coxos, aleijados, cegos, mudos e muitos outros doentes. Então os colocaram aos pés de Jesus. E ele os curou. <sup>31</sup>O povo ficou admirado quando viu os mudos falando, os aleijados sendo curados, os coxos andando e os cegos enxergando. E glorificaram o Deus de Israel. <sup>32</sup>Jesus chamou seus discípulos e disse: “Tenho compaixão da multidão, porque já faz três dias que está comigo, e nada tem para comer. Não quero mandá-los embora com fome, para que não desmaiem pelo caminho”. <sup>33</sup>Os discípulos disseram: “Onde vamos buscar, neste deserto, tantos pães para saciar tão grande multidão?” <sup>34</sup>Jesus perguntou: “Quantos pães tendes?” Eles responderam: “Sete e alguns peixinhos”. <sup>35</sup>E Jesus mandou que a multidão se sentasse pelo chão. <sup>36</sup>Depois pegou os sete pães e os peixes, deu graças, partiu-os e os dava aos discípulos, e os discípulos, às multidões. <sup>37</sup>Todos comeram e ficaram satisfeitos; e encheram sete cestos com os pedaços que sobraram. –  <b>  Palavra da salvação.</b>
+                    </p>
+
+                
+
+                    </p>
+                    
+                      </div>
+ 
+                 </div>
+    
+                 
+               <div class="col-md-12 col-sm-6  text-center">
+                <p class="blog-heading">
+                  Leituras do mês
+                </p>
+             
+                <!-- Button trigger modal -->
+<button type="button" class="modelbtn btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+ Calendar
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        <div class="calendar">
+          <!-- CAlendar -->
+
+       <div class="icalendar">
+         <div class="icalendar__month">
+           <div class="icalendar__prev" onclick="moveDate('prev')">
+             <span>&#10094</span>
+           </div>
+           <div class="icalendar__current-date">
+             <h2 id="icalendarMonth"></h2>
+             <div>
+               <div id="icalendarDateStr"></div>
+             </div>
+
+           </div>
+           <div class="icalendar__next" onclick="moveDate('next')">
+             <span>&#10095</span>
+           </div>
+         </div>
+         <div class="icalendar__week-days">
+           <div>D</div>
+           <div>S</div>
+           <div>T</div>
+           <div>Q</div>
+           <div>Q</div>
+           <div>S</div>
+           <div>S</div>
+         </div>
+         <div class="icalendar__days"></div>
+
+
+         <script src="../javascript-calendar.js" type="text/javascript"></script>
+       </div>
+
+     </div>
+   
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+                    
+                <p class="blog-heading">
+                  TAGS
+                </p>
+                <div>
+                
+                  <p class="tagpara GBR">missao Amazonia evengel covid-19 indigenas novica papa francisco</p>
+                </div>
+                </div>
+          
+                
+                <div class="col-12 col-md-12 ">
+                    <h5 class="destaques-heading" >
+                        Destaques
+                    </h5>
+                    <div id="destaquesPortion">
+
+                    </div>
+
+                   
+                   
+                    
+                   
+                    
+                    
+                </div>
+               
+               
+                      
+                     
+
+              
+            </div>
+            <div class="background-img">
+              <div>
+                  <p style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
+                      Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11) 5547-7222
+                  </p>
+                  <div class="icons">
+                        <a href="https://www.facebook.com/sspsbrasilnorte"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
+            <a href="https://twitter.com/sspsbrasilnorte"><span><img src="../img/Icone_Twitter.png" alt=""></span></a>
+          <a href="https://www.instagram.com/sspsbrasilnorte/"><span><img src="../img/Icone_Insta.png" alt=""></span></a> 
+            <a href="https://blog.ssps.org.br/"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
+             <a href="https://www.youtube.com/SspsBrasilNorte"><span><img src="../img/Icone_Youtube.png" alt=""></span></a>  
+              <a href="http://www.ssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
+                  </div>
+              </div>
+              <hr>
+              <div id="last-icon-div">
+                  <p style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
+                      Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |<br/> Tel. (42) 3326 4091
+                  </p>
+                  <div class="icons">
+                         <a href="https://www.facebook.com/msspsbrs"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
+                <a href="https://www.mssps.org.br/noticias"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
+                <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"><span><img src="../img/Icone_Youtube.png" alt=""></span></a> 
+                <a href="https://www.mssps.org.br/" ><span><img src="../img/Icone_Site.png" alt=""></span></a>
+                  </div>
+              </div>
+          </div>
+  
+    </div>
+</body>
+</html>
+<script src="../post-data-json.js"></script>
