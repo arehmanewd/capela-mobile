@@ -455,6 +455,117 @@ let mainData = {
       },
     },
   },
+  December: {
+    3: {
+      img: host + "/img/03_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "São Francisco Xavier",
+      details:
+        "Fazendo memória a São Francisco Xavier, queremos destacar esse santo que dedicou sua vida ao serviço da evangelização dos povos do extremo Oriente. Que seu testemunho inspire a vida dos jovens para a missão. São Francisco Xavier, intercedei por nós! ",
+      date: "03 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+    6: {
+      img: host + "/img/06_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "São Nicolau, bispo",
+      details:
+        "Hoje a Igreja celebra o bispo São Nicolau, homem generoso que soube reconhecer que os bens verdadeiros estão em Cristo Jesus. Que seu exemplo de bondade e partilha nos guie no caminho que conduz à salvação. ",
+      date: "06 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+    7: {
+      img: host + "/img/07_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "Santo Ambrósio, bispo e doutor da Igreja",
+      details:
+        "A Igreja hoje faz memória de Santo Ambrósio, bispo e doutor. Ele se destacou por sua fé e dedicação às Sagradas Escrituras. Exerceu seu pastoreio imbuído de força e sabedoria. Santo Ambrósio, intercedei por todos nós! ",
+      date: "07 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+    8: {
+      img: host + "/img/08_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "Imaculada Conceição de Maria",
+      details:
+        "Celebramos hoje a Solenidade da Imaculada Conceição de Maria, a escolhida de Deus para ser a Mãe de Jesus. No seu sim ao projeto do Pai e pela força do Espírito Santo, é Mãe de Deus e da Igreja. Que Maria interceda por todos nós!",
+      date: "08 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+    12: {
+      img: host + "/img/12_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "Nossa Senhora de Guadalupe",
+      details:
+        "Em 12 de dezembro, celebra-se o Dia de Nossa Senhora de Guadalupe. Trata-se de uma aparição da Virgem Maria ocorrida no México, em 1531. Guadalupe é a padroeira do México. Mais tarde, o Papa Pio XII a chamou Imperatriz das Américas. ",
+      date: "12 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+    13: {
+      img: host + "/img/13_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "Santa Luzia, virgem e mártir",
+      details:
+        "Desde a Antiguidade, desenvolveu-se o culto a Santa Luzia. Acredita-se que ela sofreu o martírio em Siracusa, durante a perseguição de Diocleciano. O episódio da cegueira com que é identificada possivelmente esteja vinculado ao seu nome Luzia (luz).  ",
+      date: "13 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+    17: {
+      img: host + "/img/17_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "São Lázaro ",
+      details:
+        "Hoje a Igreja celebra São Lázaro, descrito na Bíblia como um amigo do Senhor. Hospedou Jesus em sua casa e, após ser ressuscitado, tornou-se sinal pelo qual muitos passaram a acreditar em Cristo. Que ele nos ensine a acolher o Senhor.  ",
+      date: "17 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+    20: {
+      img: host + "/img/20_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "São Filogônio, bispo ",
+      details:
+        "Hoje a Igreja recorda São Filogônio, advogado sírio e bispo de Antioquia. Com sabedoria e eloquência, participou nos acirrados debates para defender a fé católica diante da controvérsia ariana. Que seu exemplo de fé fortaleça nossa caminhada.  ",
+      date: "20 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+    26: {
+      img: host + "/img/26_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "São Filogônio, bispo",
+      details:
+        "Santo Estêvão, o primeiro mártir cristão, é celebrado logo após o Natal. Estava entre os primeiros diáconos da Igreja primitiva e se destacava pela fé e testemunho de vida. Ao morrer, seguindo o exemplo de Jesus, perdoou os que lhe atiravam pedras. ",
+      date: "26 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+    27: {
+      img: host + "/img/27_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "São João Evangelista",
+      details:
+        "Hoje a Igreja celebra São João Evangelista. Ele é um dos doze apóstolos que deixando tudo e seguiram Jesus. É autor de três epístolas, do Apocalipse e do quarto Evangelho. Ele se denomina como “O Discípulo Amado” e “O Discípulo que Dá Testemunho”. ",
+      date: "27 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+    28: {
+      img: host + "/img/28_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "Santos Inocentes ",
+      details:
+        "Os Santos Inocentes representam todas as vítimas da violência, especialmente as crianças que não têm como se defender. Mesmo sem saber, as crianças mortas em Belém deram a vida por Jesus. Que elas nos ajudem a combater a violência e a opressão.  ",
+      date: "28 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+    29: {
+      img: host + "/img/29_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "Sagrada Família  ",
+      details:
+        "A festa deste domingo mostra o valor da família, uma vez que Jesus quis vir ao mundo numa família. Nos tempos atuais, em que as famílias enfrentam tantas crises, podemos nos inspirar no jeito de viver da família de Nazaré. E sua família, como vai? ",
+      date: "29 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+    31: {
+      img: host + "/img/31_Post_Dia_Santo_Dezembro_2020.jpg",
+      title: "São Silvestre",
+      details:
+        "São Silvestre, além de dar nome à famosa corrida internacional realizada todo ano em São Paulo, foi um Papa da Igreja Católica que viveu no século IV. Graças à sua prudência e moderação, conduziu a Igreja em tempos de profundas mudanças.",
+      date: "31 de Dezembro de 2020",
+      route: host + "/Dia-November/Dia-1.html",
+    },
+
+
+  
+  },
+
+
 
   oracoesMissionarias: {
     September: {
@@ -690,7 +801,7 @@ let mainData = {
           "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-19.html",
       },
       26: {
-        img: host + "/img/26 Nov 2020_Orações Missionárias.jpg",
+        img: host + "/img/26 Nov 2020_Orações Missionárias .JPG",
         title: "Oração Vocacional por intercessão de Madre Maria",
         details: `Ó Trindade, nós te louvamos e te agradecemos porque olhaste com amor para a bem-aventurada Madre Maria concedendo-lhe fidelidade às inspirações do Espírito Santo, ardor missionário e disponibilidade no serviço da evangelização`,
         date: "26 de Novembro de 2020",
@@ -698,6 +809,17 @@ let mainData = {
           host +
           "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-26.html",
       },
+      December:{
+        2: {
+          img: host + "/img/26 Nov 2020_Orações Missionárias .JPG",
+          title: "Oração Vocacional por intercessão de Madre Maria",
+          details: `Ó Trindade, nós te louvamos e te agradecemos porque olhaste com amor para a bem-aventurada Madre Maria concedendo-lhe fidelidade às inspirações do Espírito Santo, ardor missionário e disponibilidade no serviço da evangelização`,
+          date: "26 de Novembro de 2020",
+          route:
+            host +
+            "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-26.html",
+        },
+      }
     },
   },
   vocoesData: {
@@ -803,23 +925,44 @@ let mainData = {
       },
     },
     December: {
-      12: {
-        img: host + "/img/12_Dez_2020_Vocações .png",
+      5: {
+        img: host + "/img/05_Dez_2020_Foto_Vocação.png",
         title:
-          "Você já imaginou como é a preparação para ser uma irmã missionária? ",
-        details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão. `,
-        date: "12 de dezembro de 2020",
+          "Irmã Zilda Hornai",
+        details: `Neste Mês das Vocações, conheça um pouco da experiência da irmã Zilda Hornai, vinda do Timor Leste. Ela conta como foi seu chamado à vida religiosa e em quem se inspira para superar os desafios que enfrenta em nosso país. Imperdível! `,
+        date: "5 de dezembro de 2020",
         route: host + "/Vocacoes-December/Vocacoes-12.html",
         video: false,
       },
-      19: {
-        img: host + "/img/19_Dez_Foto_Vocacional.jpg",
-        title: "Acompanhamento Juvenil",
-        details: `Ser promotor (a) ou animador (a) juvenil é desenvolver um ministério no serviço e discipulado missionário da Igreja. É apresentar ao jovem. É apresentar ao jovem a referência do “Ser Igreja” na vivência de comunhão e compromisso eclesial.`,
-        date: "19 de Novembro de 2020",
-        route: host + "/Vocacoes-December/Vocacoes-19.html",
+      12: {
+        img: host + "/img/12_Dez_2020_Vocações .png",
+        title:
+          "Você já imaginou como é a preparação ",
+        details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão.  `,
+        date: "12 de dezembro de 2020",
+        route: host + "/Vocacoes-December/Vocacoes-12.html",
         video: true,
       },
+      19: {
+        img: host + "/img/19_Dez_Foto_Vocacional.jpg",
+        title:
+          "Neste artigo irmã Adriana ",
+        details: ` Neste artigo irmã Adriana, promotora vocacional destaca a importância da presença do animador juvenil no discernimento vocacional das jovens.  `,
+        date: "19 de dezembro de 2020",
+        route: host + "/Vocacoes-December/Vocacoes-12.html",
+        video: false,
+      },
+      26: {
+        img: host + "/img/26_Dez_2020_Vídeo_Vocações.png",
+        title:
+          "Natural de Angola ",
+        details: `Natural de Angola, veio ao Brasil para cross cultural experiência e estudou fisioterapia e atuou na pastoral paroquial e na Infância e Adolescência Missionária. Irmã Mitilene retorna ao seu país de origem em 2021. `,
+        date: "26 de dezembro de 2020",
+        route: host + "/Vocacoes-December/Vocacoes-12.html",
+        video: true,
+      },
+     
+     
     },
   },
   espirtualData: {
@@ -891,7 +1034,7 @@ let mainData = {
       22: {
         img:
           host +
-          "/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
+          "/img/22_nov_2020_agua_benta.jpg",
         title: "Água benta evapora…",
         details: `A vida, tomada como um pote de água benta, é assim. Há de se cuidar! Que saibamos cuidar do pote de água benta que é nossa vida. Veja a reflexão de Maria José Brant (Deka). `,
         date: "22 de novembro de 2020",
@@ -900,14 +1043,14 @@ let mainData = {
     },
     December: {
       6: {
-        img: host + "/img/06_Dez_2020_Espiritualidade(2).jpg",
-        title: "A fé que cura",
-        details: `Após uma série de exames, a equipe médica disse que, no mundo, havia somente vinte casos como o de Antônio. Mas, como o diagnóstico principal é o do “Médico dos médicos”, permanecíamos confiantes. Veja o depoimento da missionária Suely Belchior. `,
+        img: host + "/img/06_Dez_2020_Espiritualidade(2).png",
+        title: "Advento: preparar-se para a chegada do noivo",
+        details: `O Advento abre o ano litúrgico. É uma ideia muito limitada dizer que este período é uma preparação para o Natal. Nestas quatro semanas, de fato, celebramos diferentes formas de encontro com o Senhor, o noivo apaixonado que, sem aviso, vem até nós.  `,
         date: "06 de dezembro de 2020",
         route: host + "/Espirtualidade-December/espiritualidade-6.html",
       },
       13: {
-        img: host + "/img/13_Dez_2020_Espiritualidade.jpg",
+        img: host + "/img/13_Dez_2020_Espiritualidade.png",
         title: "Ecumenismo: um novo caminho de fé",
         details: `O conceito de ecumenismo evolui com a sociedade. Encontro-acolhimento, respeito, justiça e ética são alguns pilares que sustentam a busca da fraternidade universal e podem ser compreensíveis em todas as línguas. Veja o artigo de Mariano Gaioski.`,
         date: "13 de dezembro de 2020",
@@ -919,6 +1062,13 @@ let mainData = {
         details: `Se você está cansado de ver tantas notícias de violência e tragédias, e se sente impotente, leia este artigo e descubra como colaborar com a paz no mundo, cultivando-a dentro de si e a seu redor. Depois reze e compartilhe a “Oração pela Paz”.  `,
         date: "20 de dezembro de 2020",
         route: host + "/Espirtualidade-December/espiritualidade-20.html",
+      },
+      27: {
+        img: host + "/img/20_Dez_2020_Espiritualidade(1).jpg",
+        title: "Afetividade e relações",
+        details: `Nesta pandemia, como estão nossa afetividade, nossas relações? Temos paciência com as crianças e os idosos? Somos humildes ao aprender um serviço que não era executado? É preciso serenidade e discernimento. Veja o artigo de Maria Terezinha Corrêa.`,
+        date: "27 de dezembro de 2020",
+        route: host + "/Espirtualidade-December/espiritualidade-27.html",
       },
     },
   },

@@ -2,217 +2,174 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/quem-somos.css" />
-  <link rel="stylesheet" href="../css/nav.css" />
-  <link rel="stylesheet" href="../css/footer.css" />
-  <link rel="stylesheet" href="../css/multiplePost.css" />
-  <link rel="stylesheet" href="../css/Vocacoes-10.css" />
-  <link rel="stylesheet" href="../css/font.css" />
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santos do Mês</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/missaoSub.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/footer.css">
 
 </head>
 
-<body>
-  <div class="container">
-    <!-- navbar Starts -->
-    <div class="container" id="nav-container">
-
-      <nav class="navbar navbar-expand-lg" id="nav">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="width: 50px;">
-          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-          <img src="../img/menu.png" width="100%" alt="">
-        </button>
-        <img src="../img/navlogo.png" class="navLogo" />
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" id="indexPage"><img src="../img/home-icon.png" alt="" width="25px" />
-                <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="quemSomos">Quem Somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="oracoes">Orações Missionárias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="sant">Dia de Santo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="vocoes">Vocações</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="missao">Missão</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="espirual-link">Espiritualidade</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="contatos">Contatos</a>
-            </li>
-          </ul>
+<body onload="onLoad()">
+    <div>
+        <!-- navbar starts -->
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg" id="nav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="width: 50px;">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    <img src="../img/menu.png" width="100%" alt="">
+                </button>
+                <img src="../img/navlogo.png" class="navLogo" />
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" id="indexPage"><img src="../img/home-icon.png" alt="" width="25px" />
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="quemSomos">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="oracoes">Orações Missionárias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="sant">Dia de Santo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="vocoes">Vocações</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" id="missao">Missão</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="espirual-link">Espiritualidade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contatos">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-      </nav>
-    </div>
-    <!-- navbar ends -->
+        <!-- navbar Ends -->
 
-    <div class="" id="overall-container">
+        <div class="container pageBody">
+            <h4 class="GB pageHeading">Vocações</h4>
 
-      <div class="col-md-12 col-sm-6">
-        <h4 class="QuemHeading  ">Vocações
-        </h4>
-        <!-- <hr class="border-dark mt-0"> -->
-
-
-      </div>
-
-      <div class="col-md-12 col-sm-6  ">
-
-        <h5 class="head GM">Acompanhamento Juvenil</h5>
-        <p class="postDate GBI">
-          <i class="fa fa-calendar"></i> 19 de Dezembro de 2020
-        </p>
-        <img src="../img/19_Dez_Foto_Vocacional.jpg" width="100%">
-        <br>
-        <br>
-        <p class="GBR">
-          Ser promotor (a) ou animador (a) juvenil é desenvolver um ministério no serviço e discipulado missionário da
-          Igreja. É apresentar ao jovem. É apresentar ao jovem a referência do “Ser Igreja” na vivência de comunhão e
-          compromisso eclesial.
-
-          <br><br> O Documento 85 da CNBB, Evangelização da Juventude - Desafios e Perspectivas Pastorais, refere - se
-          ao ministério do acompanhamento juvenil como ápice da evangelização. No entanto, há algumas preocupações
-          cuidadosas, por parte da Igreja: não há processo de educação na fé sem acompanhamento; a grande dificuldade de
-          evangelizar as novas gerações e a falta de pessoas com perfil adequado para este ministério (nº 205).
-
-          <br> <br> Quem acompanha jovens deve acreditar no seu potencial, amar, ir ao encontro, sendo presença afetiva
-          e efetiva, lutando e defendendo a vida. O acompanhamento juvenil é um sinal do seguimento e do discipulado de
-          Jesus Cristo, que é o Caminho, Verdade e a Vida.
-
-          <br><br> Observando o perfil da juventude brasileira, é nítida a carência de pessoas que entendam o jovem em
-          seu processo formativo, suas buscas, dúvidas, inseguranças, medos e conflitos. Nesta perspectiva, ao invés de
-          julgar o animador juvenil deve amá-lo em sua singularidade e dignidade, incentivando seu protagonismo na
-          família e na comunidade eclesial.
-
-          <br><br> A presença afetiva deve permear atitudes de amor e de compaixão, sem predileções e absolutismo. É
-          preciso formar para o compromisso e a responsabilidade, com discernimento e coerência.
-
-          <br><br> Podemos destacar algumas destas atitudes na missão de Jesus, nas seguintes passagens bíblicas: Bom
-          Pastor: encontra a ovelha perdida (Lucas 15, 3-7); Mulher Samaritana; Jesus a acolhe e dialoga (João 4,1-42);
-          Leprosos: Jesus aproxima, toca e cura (Lucas 5, 12-16); Mulher Adúltera: Jesus defende sua vida, demonstra
-          misericórdia, perdão e oferece vida nova (João 8,1-11). Em tais palavras-chave podemos perceber quão
-          importante são as atitudes de aproximação, amorosas e compassivas para com os mais necessitados.
-
-          <br> <br> O mundo valoriza demasiadamente o imediatismo. Com facilidade, nossa juventude cai no individualismo
-          e no sentimentalismo que atrapalha o processo de formação integral. É preciso romper com a cultura do medo e
-          da indiferença, que insiste em aterrorizar e amedrontar; oferecer falsas propostas de felicidade, iludindo e
-          articulando armadilhas ideológicas extremistas, incutindo o fanatismo e afastando os jovens dos valores
-          cristãos.
-
-          <br><br> Aquele (a) que acompanha, deve auxiliar, orientar e oportunizar ao jovem o desenvolvimento do seu
-          projeto de vida, em consonância com o projeto de Jesus Cristo. Ajudá-lo (a) a descobrir sua vocação, de modo a
-          ser capaz de livremente optar por Jesus, entregando sua vida sem reservas a serviço do Reino de Deus.
-
-          <br> <br> O (a) promotor (a), assessor (a), animador (a), deve ser alguém que vivenciou o processo de
-          discernimento vocacional e procura integrar sua fé com a vida, que experienciou uma espiritualidade encarnada
-          na realidade da Igreja e celebra a partilha da fé junto às juventudes, sedentas de amor e paz (Doc. 85, nº
-          207). É alguém que dedica especial atenção ao cultivo da leitura orante da Palavra de Deus e orientação
-          personalizada.
-
-          <br><br> A Conferência de Aparecida, olhando a realidade das juventudes, pede-nos especial atenção para com os
-          adolescentes e jovens, que formam a maioria da nossa população, e encontram-se na fase da descoberta da
-          própria identidade. Destaca o potencial juvenil para o presente e o futuro da Igreja de nossos povos, como
-          discípulos missionários de Jesus Cristo.
-
-          <br><br> Com uma presença afetiva e efetiva junto à juventude, a Igreja que ama com cuidado materno (ternura
-          de Deus Pai/Mãe) e com atenção de pastor, não apenas escolherá o (a) jovem como prioridade em seus documentos,
-          mas expressará concretamente sua preocupação e zelo pelas juventudes.
-
-          <br><br> A juventude quer caminhar, viver e servir. Contudo, é preciso um efetivo acompanhamento, acolhimento,
-          orientação e formação. Destarte, devemos possibilitar uma formação adequada e integral às juventudes para que
-          sejam evangelizadoras e sinal do Reino junto a outros jovens.
-
-          <br> <br> Se aderirmos à vivência e concretização da Civilização do Amor, na construção de uma sociedade mais
-          justa, fraterna e solidária, seremos todos e todas uma Igreja, veementemente, Missionária, Vocacional e Jovem.
-
-          <br><br> Irmã Adriana Regina da Silva
-
-        </p>
-
-        <br>
-        <br>
-        <a href="../Vocacoes-main.html">
-          <span>
-            <button class="btnlg">Outras Publicações</button>
-          </span></a>
-
-      </div>
-      <div class="col-12 col-md-12 ">
-        <h5 class="Destaques">
-          Publicações Anteriores
-        </h5>
-        <div id="postdiv"></div>
+            <div class="postContent">
+                <h4 class="postHeading GBR">
+                   <b> Acompanhamento Juvenil
+                </b></h4>
+                <p class="postDate GBI">
+                    <i class="fa fa-calendar"></i> 19 de Dezembro de 2020
+                  </p>
 
 
+                <div class="postDetails">
+                    <div><img src="../img/19_Dez_Foto_Vocacional.jpg" class="img-fluid" alt=""></div>
+                    <p class="GBR">
+                        Ser promotor (a) ou animador (a) juvenil é desenvolver um ministério no serviço e discipulado missionário da Igreja. É apresentar ao jovem. É apresentar ao jovem a referência do “Ser Igreja” na vivência de comunhão e compromisso eclesial. 
+                    </p>
+                    <p class="GBR">
+                        O Documento 85 da CNBB, Evangelização da Juventude - Desafios e Perspectivas Pastorais, refere - se ao ministério do acompanhamento juvenil como ápice da evangelização. No entanto, há algumas preocupações cuidadosas, por parte da Igreja: não há processo de educação na fé sem acompanhamento; a grande dificuldade de evangelizar as novas gerações e a falta de pessoas com perfil adequado para este ministério (nº 205). 
+                        </p>
+                    <p class="GBR">Quem acompanha jovens deve acreditar no seu potencial, amar, ir ao encontro, sendo presença afetiva e efetiva, lutando e defendendo a vida. O acompanhamento juvenil é um sinal do seguimento e do discipulado de Jesus Cristo, que é o Caminho, Verdade e a Vida.</p>
+                    <p class="GBR">Observando o perfil da juventude brasileira, é nítida a carência de pessoas que entendam o jovem em seu processo formativo, suas buscas, dúvidas, inseguranças, medos e conflitos. Nesta perspectiva, ao invés de julgar o animador juvenil deve amá-lo em sua singularidade e dignidade, incentivando seu protagonismo na família e na comunidade eclesial.</p>
+                    <p class="GBR">A presença afetiva deve permear atitudes de amor e de compaixão, sem predileções e absolutismo. É preciso formar para o compromisso e a responsabilidade, com discernimento e coerência.</p>
+                    <p class="GBR">Podemos destacar algumas destas atitudes na missão de Jesus, nas seguintes passagens bíblicas: Bom Pastor: encontra a ovelha perdida (Lucas 15, 3-7); Mulher Samaritana; Jesus a acolhe e dialoga (João 4,1-42); Leprosos: Jesus aproxima, toca e cura (Lucas 5, 12-16); Mulher Adúltera: Jesus defende sua vida, demonstra misericórdia, perdão e oferece vida nova (João 8,1-11). Em tais palavras-chave podemos perceber quão importante são as atitudes de aproximação, amorosas e compassivas para com os mais necessitados. </p>
+                    <p class="GBR">O mundo valoriza demasiadamente o imediatismo. Com facilidade, nossa juventude cai no individualismo e no sentimentalismo que atrapalha o processo de formação integral. É preciso romper com a cultura do medo e da indiferença, que insiste em aterrorizar e amedrontar; oferecer falsas propostas de felicidade, iludindo e articulando armadilhas ideológicas extremistas, incutindo o fanatismo e afastando os jovens dos valores cristãos. </p>
+                    <p class="GBR">Aquele (a) que acompanha, deve auxiliar, orientar e oportunizar ao jovem o desenvolvimento do seu projeto de vida, em consonância com o projeto de Jesus Cristo. Ajudá-lo (a) a descobrir sua vocação, de modo a ser capaz de livremente optar por Jesus, entregando sua vida sem reservas a serviço do Reino de Deus. </p>
+                    <p class="GBR">O (a) promotor (a), assessor (a), animador (a), deve ser alguém que vivenciou o processo de discernimento vocacional e procura integrar sua fé com a vida, que experienciou uma espiritualidade encarnada na realidade da Igreja e celebra a partilha da fé junto às juventudes, sedentas de amor e paz (Doc. 85, nº 207). É alguém que dedica especial atenção ao cultivo da leitura orante da Palavra de Deus e orientação personalizada.</p>
+                    <p class="GBR">A Conferência de Aparecida, olhando a realidade das juventudes, pede-nos especial atenção para com os adolescentes e jovens, que formam a maioria da nossa população, e encontram-se na fase da descoberta da própria identidade. Destaca o potencial juvenil para o presente e o futuro da Igreja de nossos povos, como discípulos missionários de Jesus Cristo.  </p>
+                    <p class="GBR">Com uma presença afetiva e efetiva junto à juventude, a Igreja que ama com cuidado materno (ternura de Deus Pai/Mãe) e com atenção de pastor, não apenas escolherá o (a) jovem como prioridade em seus documentos, mas expressará concretamente sua preocupação e zelo pelas juventudes. </p>
+                    <p class="GBR">A juventude quer caminhar, viver e servir. Contudo, é preciso um efetivo acompanhamento, acolhimento, orientação e formação. Destarte, devemos possibilitar uma formação adequada e integral às juventudes para que sejam evangelizadoras e sinal do Reino junto a outros jovens.  </p>
+                    <p class="GBR">
+                        Se aderirmos à vivência e concretização da Civilização do Amor, na construção de uma sociedade mais justa, fraterna e solidária, seremos todos e todas uma Igreja, veementemente, Missionária, Vocacional e Jovem.
+                        </p>
+                    <div>
+                        <img src="../img/19_ Dez _Foto Assinatura.jpg"  class="img-fluid" alt="">
+                        <p class="GBR">
+                            <b>Irmã Adriana Regina da Silva é  Missionária Serva do Espírito Santo, 
+                                Promotora Vocacional.
+                                </b>
+                        </p>
+                    </div>
+                    <!-- <div>
+                        <img src="../img/05_Dez_2020_Foto.png" class="img-fluid" alt="">\
+                        <p class="GBR">
+                            Ir. Zilda renovou os votos de pobreza, obediência e castidade por mais um ano, enquanto se prepara para a consagração definitiva nos votos perpétuos.
+                        </p>
+                    </div> -->
+                   
+                    <br>
+                    <a href="../Vocacoes-main.html">
+                    <a href="../Vocacoes-main.html">
+                    <button class="postButton mt-3">Outras Publicações</button></a></a>
+                </div>
 
+            </div>
 
+            <div class="weeklyPost">
+                <h5 class="GB destaques-heading">Publicações Anteriores</h5>
+                <div id="postdiv">
 
+                </div>
 
-
-      </div>
-
-
-
-
-
+            </div>
+           
+        </div>
 
     </div>
     <div class="background-img">
-      <div>
-        <p
-          style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
-          Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11)
-          5547-7222
-        </p>
-        <div class="icons">
-         <a href="https://www.facebook.com/sspsbrasilnorte"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
+        <div>
+            <p
+                style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
+                Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11)
+                5547-7222
+            </p>
+            <div class="icons">
+               <a href="https://www.facebook.com/sspsbrasilnorte"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
             <a href="https://twitter.com/sspsbrasilnorte"><span><img src="../img/Icone_Twitter.png" alt=""></span></a>
           <a href="https://www.instagram.com/sspsbrasilnorte/"><span><img src="../img/Icone_Insta.png" alt=""></span></a> 
             <a href="https://blog.ssps.org.br/"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
              <a href="https://www.youtube.com/SspsBrasilNorte"><span><img src="../img/Icone_Youtube.png" alt=""></span></a>  
               <a href="http://www.ssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
+            </div>
         </div>
-      </div>
-      <hr>
-      <div id="last-icon-div">
-        <p
-          style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
-          Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |<br />
-          Tel. (42) 3326 4091
-        </p>
-        <div class="icons">
-             <a href="https://www.facebook.com/msspsbrs"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
+        <hr>
+        <div>
+            <p
+                style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
+                Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR
+                |<br /> Tel. (42) 3326 4091
+            </p>
+            <div class="icons">
+                 <a href="https://www.facebook.com/msspsbrs"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
                 <a href="https://www.mssps.org.br/noticias"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
                 <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"><span><img src="../img/Icone_Youtube.png" alt=""></span></a> 
                 <a href="https://www.mssps.org.br/" ><span><img src="../img/Icone_Site.png" alt=""></span></a>
+            </div>
         </div>
-      </div>
     </div>
-
-  </div>
 </body>
+<!-- <script src="../js/Missao.js"></script> -->
 
 </html>
 <script src="../post-data-json.js"></script>

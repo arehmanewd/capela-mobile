@@ -27,7 +27,7 @@
     font-weight: 500;
     color: #666666;
     text-align: center;
-    line-height: 0.5;
+    /* line-height: 0.5; */
     opacity:.9;
 }
 .contactcep{
@@ -52,12 +52,12 @@
     margin-top: 20px;
 }
 .btom-div-img {
-    width: 140px;
-    height: 90px;
+    width: 130px;
+    /* height: 90px; */
 }
 .bottomcontent{
-    padding-top:35px;
-    margin-left:-25px;
+    padding-top:25px;
+    margin-left:-21px;
     color:#666666;
     
 }
