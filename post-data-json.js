@@ -849,7 +849,7 @@ let mainData = {
         },
         December: {
             6: {
-                img: host + "/img/06_Dez_2020_Espiritualidade(2).jpg",
+                img: host + "/img/06_Dez_2020_Espiritualidade(2).png",
                 title: "A fé que cura",
                 details: `Após uma série de exames, a equipe médica disse que, no mundo, havia somente vinte casos como o de Antônio. Mas, como o diagnóstico principal é o do “Médico dos médicos”, permanecíamos confiantes. Veja o depoimento da missionária Suely Belchior. `,
                 date: "06 de dezembro de 2020",
