@@ -611,7 +611,7 @@ let mainData = {
                     "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-19.html",
             },
             26: {
-                img: host + "/img/26 Nov 2020_Orações Missionárias.jpg",
+                img: host + "/img/26 Nov 2020_Orações Missionárias .JPG",
                 title: "Oração Vocacional por intercessão de Madre Maria",
                 details: `Ó Trindade, nós te louvamos e te agradecemos porque olhaste com amor para a bem-aventurada Madre Maria concedendo-lhe fidelidade às inspirações do Espírito Santo, ardor missionário e disponibilidade no serviço da evangelização`,
                 date: "26 de Novembro de 2020",
@@ -626,7 +626,7 @@ let mainData = {
                 details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo`,
                 date: "3° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-5.html",
+                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-3.html",
             },
             10: {
                 img: host + "/img/10dez2020_Orações Missionárias .jpg",
@@ -634,7 +634,7 @@ let mainData = {
                 details: ` Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo. `,
                 date: "10° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-12.html",
+                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-10.html",
             },
             17: {
                 img: host + "/img/17 Dez 2020_ Orações Missionária .jpg",
@@ -642,7 +642,7 @@ let mainData = {
                 details: `  Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
                 date: "17° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-19.html",
+                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-17.html",
             },
             24: {
                 img: host + "/img/24 Dez 2020 _ Orações Missionária .jpg",
@@ -650,7 +650,7 @@ let mainData = {
                 details: ` Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
                 date: "24° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-26.html",
+                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-24.html",
             },
         },
     },
@@ -840,7 +840,7 @@ let mainData = {
             },
             22: {
                 img: host +
-                    "/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
+                    "/img/22_nov_2020_agua_benta.jpg",
                 title: "Água benta evapora…",
                 details: `A vida, tomada como um pote de água benta, é assim. Há de se cuidar! Que saibamos cuidar do pote de água benta que é nossa vida. Veja a reflexão de Maria José Brant (Deka). `,
                 date: "22 de novembro de 2020",
@@ -1802,7 +1802,7 @@ let mainData = {
         },
         December: {
             1: {
-                img: host + "/Leitura-Orante-December/images/01_Dezembro_2020.jpg",
+                img: host + "/Leitura-Orante-December/images/01_ Dezembro_2020.jpg",
                 title: "Terça-feira - 1ª Semana do Advento",
                 details: "Sede propício, ó Deus, às nossas súplicas e auxilai-nos em nossa tribulação. Consolados pela vinda do vosso Filho, sejamos purificados da antiga culpa. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "01 de Dezembro de 2020",
