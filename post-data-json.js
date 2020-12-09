@@ -360,23 +360,17 @@ let mainData = {
                 route: host + "/Dia-November/Dia-19.html",
             },
 
-            22: [{
+            22: {
                     img: host + "/img/22_Post_Dia_Santo_Novembro_2020.jpg",
                     title: "Solenidade de Jesus Cristo, Rei do Universo",
                     details: "Na Solenidade de Jesus Cristo, Rei do Universo, queremos recordar que o reinado de Jesus Cristo não está atrelado ao poder dominador, mas se coloca ao lado dos mais pobres e vulneráveis. Que esta festividade renove nosso seguimento a Jesus Cristo. ",
                     date: "22 de Novembro de 2020",
                     route: host + "/Dia-November/Dia-22.html",
                 },
-                {
-                    img: host + "/img/22_Post_Dia_Santo_Novembro_2020_B.jpg",
-                    title: "Santa Cecília",
-                    details: "Hoje celebramos a memória de Santa Cecília, padroeira da música sacra e da poesia. Conta-se que Cecília foi martirizada e sepultada nas catacumbas de São Calisto, em Roma. Que ela interceda por nós, para que também possamos testemunhar nossa fé.",
-                    date: "22 de Novembro de 2020",
-                    route: host + "/Dia-November/Dia-22b.html",
-                },
-            ],
+              
+            
             25: {
-                img: host + "/img/25_Post_Dia_Santo_Novembro_2020.jpg",
+                img: host + "/img/25_Post_Dia_Santo_Novembro_2020_B.jpg",
                 title: "Santa Catarina de Alexandria",
                 details: "Celebramos hoje Santa Catarina de Alexandria. Por causa do testemunho de sua fé, foi martirizada no início do século IV, assim como muitos cristãos. Peçamos que ela interceda por todos os cristãos hoje que continuam a ser perseguidos por sua fé. ",
                 date: "25 de Novembro de 2020",
@@ -626,7 +620,7 @@ let mainData = {
                 details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo`,
                 date: "3° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-5.html",
+                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-3.html",
             },
             10: {
                 img: host + "/img/10dez2020_Orações Missionárias .jpg",
@@ -634,7 +628,7 @@ let mainData = {
                 details: ` Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo. `,
                 date: "10° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-12.html",
+                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-10.html",
             },
             17: {
                 img: host + "/img/17 Dez 2020_ Orações Missionária .jpg",
@@ -642,7 +636,7 @@ let mainData = {
                 details: `  Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
                 date: "17° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-19.html",
+                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-17.html",
             },
             24: {
                 img: host + "/img/24 Dez 2020 _ Orações Missionária .jpg",
@@ -650,7 +644,7 @@ let mainData = {
                 details: ` Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
                 date: "24° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-26.html",
+                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-24.html",
             },
         },
     },
@@ -2338,11 +2332,11 @@ for (month in mainData.espirtualData) {
 // console.log(mainData.espirtualData[espirtualLatestMonth]);
 for (let i = currentDate; i > 0; i--) {
     // console.log(mainData.espirtualData[espirtualLatestMonth][i])
-    if (mainData.espirtualData.November[i]) {
+    if (mainData.espirtualData.December[i]) {
         // console.log(mainData.espirtualData[espirtualLatestMonth][i]);
         espirtualLink.setAttribute(
             "href",
-            host + "/Espirtualidade-November/espiritualidade-" + i + ".html"
+            host + "/Espirtualidade-December/espiritualidade-" + i + ".html"
         );
         break;
     } else {
@@ -2355,7 +2349,7 @@ for (let i = currentDate; i > 0; i--) {
 if (mainData.santoData.November[currentDate]) {
     santoLink.setAttribute(
         "href",
-        host + "/Dia-November/Dia-" + currentDate + ".html"
+        host + "/Dia-December/Dia-" + currentDate + ".html"
     );
 }
 if (!mainData.santoData.November[currentDate]) {
@@ -2364,16 +2358,16 @@ if (!mainData.santoData.November[currentDate]) {
 
 // for oracoesMissionarias
 
-if (mainData.oracoesMissionarias.November[currentDate]) {
+if (mainData.oracoesMissionarias.December[currentDate]) {
     oracoes.setAttribute(
         "href",
         host +
-        "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-" +
+        "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-" +
         currentDate +
         ".html"
     );
 }
-if (!mainData.oracoesMissionarias.November[currentDate]) {
+if (!mainData.oracoesMissionarias.December[currentDate]) {
     oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
 
@@ -2394,7 +2388,7 @@ var http2 = new XMLHttpRequest();
 function iO() {
     var leitura = document.getElementById("leitura");
     let url2 =
-        "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html";
+        "./Leitura-Orante-December/Leitura-Orante-" + currentDate + ".html";
     http.open("HEAD", url, false);
     http.send();
     http2.open("HEAD", url2, false);
@@ -2406,7 +2400,7 @@ function iO() {
         // console.log("Lutera file exists");
         leitura.setAttribute(
             "href",
-            "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html"
+            "./Leitura-Orante-December/Leitura-Orante-" + currentDate + ".html"
         );
     }
     if (http2.status === 404) {
