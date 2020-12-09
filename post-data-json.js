@@ -1843,6 +1843,205 @@ let mainData = {
                 date: "06 de Dezembro de 2020",
                 route: host + "/Leitura-Orante-December/Leitura-Orante-6a.html",
             },
+            7: {
+                img: host +
+                    "/Leitura-Orante-December/images/07_Dezembro_2020 .jpg",
+                title: " Segunda-feira - Santo Ambrósio",
+                details: "Ó Deus, que fizestes o Bispo Santo Ambrósio doutor da fé católica e exemplo de intrépido pastor, despertai na vossa Igreja homens segundo o vosso coração, que a governem com força e sabedoria.Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+                date: "07 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-7a.html",
+            },
+            8: {
+                img: host + "/Leitura-Orante-December/images/08_Dezembro_2020 .jpg",
+                title: "   Terça-feira - Imaculada Conceição de Nossa Senhora",
+                details: "Ó Deus, que preparastes uma digna habitação para o vosso Filho pela Imaculada Conceição da Virgem Maria, preservando-a de todo pecado em previsão dos méritos de Cristo, concedei-nos chegar até vós purificados também de toda culpa por sua materna intercessão. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+                date: "08 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-8a.html",
+            },
+            9: {
+                img: host +
+                    "/Leitura-Orante-December/images/09_Dezembro_2020 .jpg",
+                title: "   Quarta-feira - 2ª Semana do Advento",
+                details: "Ó Deus todo-poderoso, que nos mandais preparar o caminho do Cristo Senhor, fazei que, confortados pela presença do divino médico, nenhuma fraqueza possa abater-nos. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+                date: "09 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-9a.html",
+            },
+            10: {
+                img: host +
+                    "/Leitura-Orante-December/images/10_Dezembro _2020 .jpg",
+                title: " Quinta-feira - 2ª Semana do Advento",
+                details: " Despertai, ó Deus, os nossos corações, a fim de prepararmos os caminhos do vosso Filho, para que possamos, pelo seu advento, vos servir de coração purificado. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+                date: "10 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-10a.html",
+            },
+            11: {
+                img: host +
+                    "/Leitura-Orante-December/images/11_Dez_2020_Leitura Orante .jpg",
+                title: "Quarta-feira - São Martinho de Tours, Bispo",
+                details: "Ó Deus onipotente, dai ao vosso povo esperar vigilante a chegada do vosso Filho, para que, instruídos pelo próprio Salvador, corramos ao seu encontro com nossas lâmpadas acesas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+                date: "11 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-11a.html",
+            },
+            12: {
+                img: host +
+                    "/Leitura-Orante-December/images/12_Dezembro_2020.jpg",
+                title: "  Sábado - Nossa Senhora de Guadalupe",
+                details: "Ó Deus, que nos destes a Santa Virgem Maria para amparar-nos como Mãe solícita, concedei aos povos da América Latina, que hoje se alegram com a sua proteção, crescer constantemente na fé e alcançar o desejado progresso no caminho da justiça e da paz. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo. ",
+                date: "12 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-12a.html",
+            },
+            13: {
+                img: host +
+                    "/Leitura-Orante-December/images/13_Dezembro_2020.jpg",
+                title: "  Domingo - 3º Domingo do Advento",
+                details: "Ó Deus de bondade, que vedes o vosso povo esperando fervoroso o Natal do Senhor, dai chegarmos às alegrias da salvação e celebrá-las sempre com intenso júbilo na solene liturgia. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+                date: "13 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-13a.html",
+            },
+            14: {
+                img: host +
+                    "/Leitura-Orante-December/images/14_Dez_2020_Leitura_Orante.jpg",
+                title: " Segunda-feira - São João da Cruz, Presbítero e Doutor da Igreja",
+                details: "Ó Deus, que inspirastes ao presbítero São João da Cruz extraordinário amor pelo Cristo e total desapego de si mesmo, fazei que, imitando sempre o seu exemplo, cheguemos à contemplação de vossa glória. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+                date: "14 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-14a.html",
+            },
+            15: {
+                img: host + "/Leitura-Orante-December/images/15_Dezembro_2020_ Leitura Orante .jpg",
+                title: "Terça-feira - Terceira Semana do Advento",
+                details: "Ó Deus, que por meio do vosso Unigênito nos transfigurastes em nova criatura, considerai a obra do vosso amor e purificai-nos das manchas da antiga culpa no advento do vosso Filho. Que convosco vive e reina, na unidade do Espírito Santo.",
+                date: "15 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-15a.html",
+            },
+            16: {
+                img: host +
+                    "/Leitura-Orante-December/images/16_Dezembro_2020_Leitura Orante .jpg",
+                title: "Quarta-feira - Terceira Semana do Advento",
+                details: "Concedei-nos, ó Deus onipotente, que as próximas festas do vosso Filho nos sejam remédio nesta vida e prémio na vida eterna. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "16 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-16a.html",
+            },
+            17: {
+                img: host +
+                    "/Leitura-Orante-December/images/17_Dezembro_2020_Leitura Orante .jpg",
+                title: "   Quinta-feira - Terceira Semana do Advento",
+                details: "Ó Deus, criador e redentor do gênero humano, quisestes que o vosso Verbo se encarnasse no seio da Virgem. Sede favorável à nossa súplica, para que o vosso Filho Unigênito, tendo recebido nossa humanidade, nos faça participar da sua vida divina. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "17 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-17a.html",
+            },
+            18: {
+                img: host +
+                    "/Leitura-Orante-December/images/18_Dezembro_2020_Leitura Orante .jpg",
+                title: "Sexta-feira - Terceira Semana do Advento",
+                details: "Ó Deus todo poderoso, concedei aos que gememos na antiga escravidão, sob o jugo do pecado, a graça de ser libertados pelo novo natal do vosso Filho, que tão ansiosamente esperamos. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "18 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-18a.html",
+            },
+
+            19: {
+                img: host +
+                    "/Leitura-Orante-December/images/19_Dezembro_2020_Leitura Orante .jpg",
+                title: "  Sábado - Terceira Semana do Advento",
+                details: "Ó Deus, que revelastes ao mundo o esplendor da vossa glória pelo parto virginal de Maria, dai-nos venerar com fé pura e celebrar sempre com amor sincero o mistério tão profundo da encarnação. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "19 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-19a.html",
+            },
+            20: {
+                img: host +
+                    "/Leitura-Orante-December/images/20_Dezembro_2020_Leitura Orante .jpg",
+                title: "   4º Domingo do Advento",
+                details: " Derramai, ó Deus, a vossa graça em nossos corações para que, conhecendo, pela mensagem do anjo, a encarnação do vosso Filho, cheguemos, por sua paixão e cruz, à glória da ressurreição. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "20 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-20a.html",
+            },
+            21: {
+                img: host +
+                    "/Leitura-Orante-December/images/21_Dezembro_2020_Leitura Orante.jpg",
+                title: "Segunda-feira - 4ª Semana do Advento",
+                details: "Ouvi com bondade, ó Deus, as preces do vosso povo, para que, alegrando-nos hoje com a vinda do vosso Filho em nossa carne, alcancemos o prêmio da vida eterna, quando ele vier na sua glória. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "21 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-21a.html",
+            },
+            22: {
+                img: host +
+                    "/Leitura-Orante-December/images/22_Dezembro_2020_Leitura Orante .jpg",
+                title: "Terça-feira - 4ª Semana do Advento",
+                details: "Deus de misericórdia, vendo o ser humano entregue à morte, quisestes salvá-lo pela vinda do vosso Filho; fazei que, ao proclamar humildemente o mistério da encarnação, entremos em comunhão com o Redentor. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "22 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-22a.html",
+            },
+            23: {
+                img: host +
+                    "/Leitura-Orante-December/images/23_Dezembro_2020_Leitura Orante .jpg",
+                title: "Quarta-feira - Quarta Semana do Advento ",
+                details: "Deus eterno e todo-poderoso, ao aproximar-nos do natal do vosso Filho, concedei-nos obter a misericórdia do Verbo, que se encarnou no seio da Virgem e quis viver entre nós. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "23 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-23a.html",
+            },
+            24: {
+                img: host +
+                    "/Leitura-Orante-December/images/24_Dezembro_2020_Leitura Orante .jpg",
+                title: "Quinta-feira - Missa da Noite NATAL DO SENHOR",
+                details: "Ó Deus, que fizestes resplandecer esta noite santa com a claridade da verdadeira luz, concedei que, tendo vislumbrado na terra este mistério, possamos gozar no céu sua plenitude. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "24 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-24a.html",
+            },
+            25: {
+                img: host +
+                    "/Leitura-Orante-December/images/25_Dezembro_2020_Leitura Orante .jpg",
+                title: "   Sexta-feira Natal do Senhor",
+                details: "Ó Deus, que admiravelmente criastes o ser humano e mais admiravelmente restabelecestes a sua dignidade, dai-nos participar da divindade do vosso Filho, que se dignou assumir a nossa humanidade. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "25 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-25a.html",
+            },
+            26: {
+                img: host +
+                    "/Leitura-Orante-December/images/26_Dezembro_2020_Leitura Orante .jpg",
+                title: "Sábado - Santo Estêvão, Diácono e Protomártir",
+                details: "Ensinai-nos, ó Deus, a imitar o que celebramos, amando os nossos próprios inimigos, pois festejamos Santo Estêvão, vosso primeiro mártir, que soube rezar por seus perseguidores. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "26 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-26a.html",
+            },
+            27: {
+                img: host +
+                    "/Leitura-Orante-December/images/27_Dezembro_2020_Leitura Orante .jpg",
+                title: "Domingo SAGRADA FAMÍLIA DE JESUS, MARIA E JOSÉ",
+                details: "Ó Deus de bondade, que nos destes a Sagrada Família como exemplo, concedei-nos imitar em nossos lares as suas virtudes para que, unidos pelos laços do amor, possamos chegar um dia às alegrias da vossa casa. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "27 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-27a.html",
+            },
+            28: {
+                img: host +
+                    "/Leitura-Orante-December/images/28_dezembro_2020_Leitura Orante .jpg",
+                title: "Segunda-feira SANTOS INOCENTES, MÁRTIRES",
+                details: "Ó Deus, hoje os Santos Inocentes proclamaram vossa glória não por palavras, mas pela própria morte; dai-nos também testemunhar com a nossa vida o que os nossos lábios professam. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "28 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-28a.html",
+            },
+            29: {
+                img: host +
+                    "/Leitura-Orante-December/images/29_Dezembro_2020_Leitura Orante .jpg",
+                title: " Terça-feira OITAVA DO NATAL",
+                details: "Ó Deus invisível e todo-poderoso, que dissipastes as trevas do mundo, volvei para nós o vosso olhar, a fim de que proclamemos dignamente a maravilhosa natividade do vosso Filho Unigênito. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "29 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-29a.html",
+            },
+            30: {
+                img: host +
+                    "/Leitura-Orante-December/images/30_Dezembro_2020_leitura Orante .jpg",
+                title: "Quarta-feira OITAVA DO NATAL",
+                details: "Concedei, ó Deus todo-poderoso, que o novo nascimento de vosso Filho como homem nos liberte da antiga escravidão do pecado. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "30 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-30a.html",
+            },
+            31: {
+                img: host +
+                    "/Leitura-Orante-December/images/31_Dezembro_2020_Leitura orante .jpg",
+                title: " Quinta-feira OITAVA DO NATAL",
+                details: "Deus eterno e todo-poderoso, que estabelecestes o princípio e a plenitude de toda a religião na encarnação do vosso Filho, concedei que sejamos contados entre os discípulos daquele que é toda a salvação da humanidade. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "31 de dezembro de 2020",
+                route: host + "/Leitura-Orante-December/Leitura-Orante-31a.html",
+            },
         },
     },
     missaoData: {
