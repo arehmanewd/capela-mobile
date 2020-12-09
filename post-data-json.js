@@ -360,23 +360,17 @@ let mainData = {
                 route: host + "/Dia-November/Dia-19.html",
             },
 
-            22: [{
+            22: {
                     img: host + "/img/22_Post_Dia_Santo_Novembro_2020.jpg",
                     title: "Solenidade de Jesus Cristo, Rei do Universo",
                     details: "Na Solenidade de Jesus Cristo, Rei do Universo, queremos recordar que o reinado de Jesus Cristo não está atrelado ao poder dominador, mas se coloca ao lado dos mais pobres e vulneráveis. Que esta festividade renove nosso seguimento a Jesus Cristo. ",
                     date: "22 de Novembro de 2020",
                     route: host + "/Dia-November/Dia-22.html",
                 },
-                {
-                    img: host + "/img/22_Post_Dia_Santo_Novembro_2020_B.jpg",
-                    title: "Santa Cecília",
-                    details: "Hoje celebramos a memória de Santa Cecília, padroeira da música sacra e da poesia. Conta-se que Cecília foi martirizada e sepultada nas catacumbas de São Calisto, em Roma. Que ela interceda por nós, para que também possamos testemunhar nossa fé.",
-                    date: "22 de Novembro de 2020",
-                    route: host + "/Dia-November/Dia-22b.html",
-                },
-            ],
+              
+            
             25: {
-                img: host + "/img/25_Post_Dia_Santo_Novembro_2020.jpg",
+                img: host + "/img/25_Post_Dia_Santo_Novembro_2020_B.jpg",
                 title: "Santa Catarina de Alexandria",
                 details: "Celebramos hoje Santa Catarina de Alexandria. Por causa do testemunho de sua fé, foi martirizada no início do século IV, assim como muitos cristãos. Peçamos que ela interceda por todos os cristãos hoje que continuam a ser perseguidos por sua fé. ",
                 date: "25 de Novembro de 2020",
@@ -397,7 +391,113 @@ let mainData = {
                 route: host + "/Dia-November/Dia-30.html",
             },
         },
+        December: {
+      
+            3: {
+                img: host + "/img/03_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "São Francisco Xavier",
+                details: "Fazendo memória a São Francisco Xavier, queremos destacar esse santo que dedicou sua vida ao serviço da evangelização dos povos do extremo Oriente. Que seu testemunho inspire a vida dos jovens para a missão. São Francisco Xavier, intercedei por nós!",
+                date: "03 de Dezembro de 2020",
+                route: host + "/Dia-December/Dia-3.html",
+            },
+            6: {
+                img: host + "/img/06_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "São Nicolau, bispo",
+                details: "Hoje a Igreja celebra o bispo São Nicolau, homem generoso que soube reconhecer que os bens verdadeiros estão em Cristo Jesus. Que seu exemplo de bondade e partilha nos guie no caminho que conduz à salvação.",
+                date: "06 de Dezembro de 2020",
+                route: host + "/Dia-December/Dia-6.html",
+            },
+            7: {
+                img: host + "/img/07_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Santo Ambrósio, bispo e doutor da Igreja",
+                details: "A Igreja hoje faz memória de Santo Ambrósio, bispo e doutor. Ele se destacou por sua fé e dedicação às Sagradas Escrituras. Exerceu seu pastoreio imbuído de força e sabedoria. Santo Ambrósio, intercedei por todos nós! ",
+                date: "07 de Dezembro de 2020",
+                route: host + "/Dia-December/Dia-7.html",
+            },
+            8: {
+                img: host + "/img/08_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Imaculada Conceição de Maria",
+                details: "Celebramos hoje a Solenidade da Imaculada Conceição de Maria, a escolhida de Deus para ser a Mãe de Jesus. No seu sim ao projeto do Pai e pela força do Espírito Santo, é Mãe de Deus e da Igreja. Que Maria interceda por todos nós!",
+                date: "08 de Dezembro de 2020",
+                route: host + "/Dia-December/Dia-8.html",
+            },
+            12: {
+                img: host + "/img/12_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Nossa Senhora de Guadalupe",
+                details: "Celebra-se o Dia de Nossa Senhora de Guadalupe. Trata-se de uma aparição da Virgem Maria ocorrida no México, em 1531. Guadalupe é a padroeira do México. Mais tarde, o Papa Pio XII a chamou Imperatriz das Américas. ",
+                date: "12 de Dezembro de 2020",
+                route: host + "/Dia-December/Dia-12.html",
+            },
+            13: {
+                img: host + "/img/13_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Santa Luzia, virgem e mártir",
+                details: "Desde a Antiguidade, desenvolveu-se o culto a Santa Luzia. Acredita-se que ela sofreu o martírio em Siracusa, durante a perseguição de Diocleciano. O episódio da cegueira com que é identificada possivelmente esteja vinculado ao seu nome Luzia (luz).  ",
+                date: "13 de Dezembro de 2020",
+                route: host + "/Dia-December/Dia-13.html",
+            },
+            17: {
+                img: host + "/img/17_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "São Lázaro ",
+                details: "Hoje a Igreja celebra São Lázaro, descrito na Bíblia como um amigo do Senhor. Hospedou Jesus em sua casa e, após ser ressuscitado, tornou-se sinal pelo qual muitos passaram a acreditar em Cristo. Que ele nos ensine a acolher o Senhor.  ",
+                date: "17 de Dezembro de 2020",
+                route: host + "/Dia-December/Dia-17.html",
+            },
+            20: {
+                img: host + "/img/20_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "São Filogônio, bispo o ",
+                details: "Hoje a Igreja recorda São Filogônio, advogado sírio e bispo de Antioquia. Com sabedoria e eloquência, participou nos acirrados debates para defender a fé católica diante da controvérsia ariana. Que seu exemplo de fé fortaleça nossa caminhada.  ",
+                date: "20 de Dezembro de 2020",
+                route: host + "/Dia-December/Dia-20.html",
+            },
+            26: {
+                img: host + "/img/26_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Santo Estêvão ",
+                details: "Santo Estêvão, o primeiro mártir cristão, é celebrado logo após o Natal. Estava entre os primeiros diáconos da Igreja primitiva e se destacava pela fé e testemunho de vida. Ao morrer, seguindo o exemplo de Jesus, perdoou os que lhe atiravam pedras. ",
+                date: "26 de Dezembro de 2020",
+                route: host + "/Dia-December/Dia-26.html",
+            },
+            27: [
+                {
+                    img: host + "/img/27_Post_Dia_Santo_Dezembro_2020.jpg",
+                    title: "Sagrada Família  ",
+                    details: "A festa deste domingo mostra o valor da família, uma vez que Jesus quis vir ao mundo numa família. Nos tempos atuais, em que as famílias enfrentam tantas crises, podemos nos inspirar no jeito de viver da família de Nazaré. E sua família, como vai? ",
+                    date: "27 de Dezembro de 2020",
+                    route: host + "/Dia-December/Dia-27.html",
+                },
+                {
+                    img: host + "/img/27_Post_Dia_Santo_Dezembro_2020jpeg.jpeg",
+                    title: "São João Evangelista",
+                    details: "Hoje a Igreja celebra São João Evangelista. Ele é um dos doze apóstolos que deixando tudo e seguiram Jesus. É autor de três epístolas, do Apocalipse e do quarto Evangelho. Ele se denomina como “O Discípulo Amado” e “O Discípulo que Dá Testemunho”.  ",
+                    date: "27 de Dezembro de 2020",
+                    route: host + "/Dia-December/Dia-27.html",
+                },
+            ],
+            28: {
+                img: host + "/img/28_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Santos Inocentes",
+                details: "Os Santos Inocentes representam todas as vítimas da violência, especialmente as crianças que não têm como se defender. Mesmo sem saber, as crianças mortas em Belém deram a vida por Jesus. Que elas nos ajudem a combater a violência e a opressão.  ",
+                date: "28 de Dezembro de 2020",
+                route: host + "/Dia-December/Dia-28.html",
+            },
+            29: {
+                img: host + "/img/29_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Sagrada Família ",
+                details: "A festa deste domingo mostra o valor da família, uma vez que Jesus quis vir ao mundo numa família. Nos tempos atuais, em que as famílias enfrentam tantas crises, podemos nos inspirar no jeito de viver da família de Nazaré. E sua família, como vai?",
+                date: "29 de Dezembro de 2020",
+                route: host + "/Dia-December/Dia-29.html",
+            },
+            31: {
+                img: host + "/img/31_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "São Silvestre  ",
+                details: "São Silvestre, além de dar nome à famosa corrida internacional realizada todo ano em São Paulo, foi um Papa da Igreja Católica que viveu no século IV. Graças à sua prudência e moderação, conduziu a Igreja em tempos de profundas mudanças",
+                date: "31 de Dezembro de 2020",
+                route: host + "/Dia-December/Dia-31.html",
+            },
+        
+        },
     },
+   
+
 
     oracoesMissionarias: {
         September: {
@@ -611,7 +711,7 @@ let mainData = {
                     "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-19.html",
             },
             26: {
-                img: host + "/img/26 Nov 2020_Orações Missionárias .JPG",
+                img: host + "/img/26 Nov 2020_Orações Missionárias .jpg",
                 title: "Oração Vocacional por intercessão de Madre Maria",
                 details: `Ó Trindade, nós te louvamos e te agradecemos porque olhaste com amor para a bem-aventurada Madre Maria concedendo-lhe fidelidade às inspirações do Espírito Santo, ardor missionário e disponibilidade no serviço da evangelização`,
                 date: "26 de Novembro de 2020",
@@ -756,6 +856,15 @@ let mainData = {
             },
         },
         December: {
+            5: {
+                img: host + "/img/05_Dez_2020_Foto_Vocação.png",
+                title:
+                  "Irmã Zilda Hornai: confiança em Deus e desafios em nossa cultura",
+                details: `Neste Mês das Vocações, conheça um pouco da experiência da irmã Zilda Hornai, vinda do Timor Leste. Ela conta como foi seu chamado à vida religiosa e em quem se inspira para superar os desafios que enfrenta em nosso país. Imperdível!  `,
+                date: "5 de dezembro de 2020",
+                route: host + "/Vocacoes-December/Vocacoes-12.html",
+                video: false,
+              },
             12: {
                 img: host + "/img/12_Dez_2020_Vocações .png",
                 title: "Você já imaginou como é a preparação para ser uma irmã missionária? ",
@@ -772,6 +881,14 @@ let mainData = {
                 route: host + "/Vocacoes-December/Vocacoes-19.html",
                 video: true,
             },
+            26: {
+                img: host + "/img/26_Dez_2020_Vídeo_Vocações.png",
+                title: "Natural de Angola ",
+                details: `Natural de Angola, veio ao Brasil para cross cultural experiência e estudou fisioterapia e atuou na pastoral paroquial e na Infância e Adolescência Missionária. Irmã Mitilene retorna ao seu país de origem em 2021.  `,
+                date: "26 de dezembro de 2020",
+                route: host + "/Vocacoes-December/Vocacoes-19.html",
+                video: true,
+              },
         },
     },
     espirtualData: {
@@ -2147,6 +2264,24 @@ let mainData = {
                 details: `É possível aprender e crescer no amor até o fim de nossa vida. Nunca é tarde demais para aprofundar nossa entrega a Deus. Esse é o testemunho que a irmã Veramaria nos deixou antes de falecer, aos 92 anos. Assista ao vídeo e leia sua biografia.`,
                 date: "1 de dezembro de 2020",
                 route: host + "/Missao-December/missao-1.html",
+                video: true,
+
+            },
+            8: {
+                img: host + "/img/08_Dez_2020_foto CAPA.jpg",
+                title: "Comunidade Santana ",
+                details: `A Comunidade Santana, em São Paulo-SP, acolhe as missionárias servas do Espírito Santo que já trabalharam muito ao longo da vida e hoje necessitam de cuidados. Mas se engana quem pensa que elas levam uma vida monótona. Assista ao vídeo e veja! `,
+                date: "08 de dezembro de 2020",
+                route: host + "/Missao-December/missao-8.html",
+                video: false,
+            },
+            22: {
+                img: host + "/img/22_Dez_2020_Foto1 Artigo Henriette_CAPA.jpg",
+                title: " Um coração missionário  ",
+                details: `Sensível às necessidades das mulheres desamparadas, Henriette doa seu tempo e seus recursos para atender os fragilizados. Esse é o relato de um coração generoso que pratica um serviço de amor em favor dos mais necessitados.`,
+                date: "22 de dezembro de 2020",
+                route: host + "/Missao-December/missao-22.html",
+                video: false,
             },
         },
     },
@@ -2537,11 +2672,11 @@ for (month in mainData.espirtualData) {
 // console.log(mainData.espirtualData[espirtualLatestMonth]);
 for (let i = currentDate; i > 0; i--) {
     // console.log(mainData.espirtualData[espirtualLatestMonth][i])
-    if (mainData.espirtualData.November[i]) {
+    if (mainData.espirtualData.December[i]) {
         // console.log(mainData.espirtualData[espirtualLatestMonth][i]);
         espirtualLink.setAttribute(
             "href",
-            host + "/Espirtualidade-November/espiritualidade-" + i + ".html"
+            host + "/Espirtualidade-December/espiritualidade-" + i + ".html"
         );
         break;
     } else {
@@ -2554,7 +2689,7 @@ for (let i = currentDate; i > 0; i--) {
 if (mainData.santoData.November[currentDate]) {
     santoLink.setAttribute(
         "href",
-        host + "/Dia-November/Dia-" + currentDate + ".html"
+        host + "/Dia-December/Dia-" + currentDate + ".html"
     );
 }
 if (!mainData.santoData.November[currentDate]) {
@@ -2563,16 +2698,16 @@ if (!mainData.santoData.November[currentDate]) {
 
 // for oracoesMissionarias
 
-if (mainData.oracoesMissionarias.November[currentDate]) {
+if (mainData.oracoesMissionarias.December[currentDate]) {
     oracoes.setAttribute(
         "href",
         host +
-        "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-" +
+        "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-" +
         currentDate +
         ".html"
     );
 }
-if (!mainData.oracoesMissionarias.November[currentDate]) {
+if (!mainData.oracoesMissionarias.December[currentDate]) {
     oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
 
@@ -2593,7 +2728,7 @@ var http2 = new XMLHttpRequest();
 function iO() {
     var leitura = document.getElementById("leitura");
     let url2 =
-        "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html";
+        "./Leitura-Orante-December/Leitura-Orante-" + currentDate + ".html";
     http.open("HEAD", url, false);
     http.send();
     http2.open("HEAD", url2, false);
@@ -2605,7 +2740,7 @@ function iO() {
         // console.log("Lutera file exists");
         leitura.setAttribute(
             "href",
-            "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html"
+            "./Leitura-Orante-December/Leitura-Orante-" + currentDate + ".html"
         );
     }
     if (http2.status === 404) {

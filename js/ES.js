@@ -7,11 +7,62 @@ function onLoad() {
 
   let counter = 0;
   let postDiv = 1;
-  let month = 11;
+  let month = 12;
   let div = document.getElementById("multiplePosts");
 
-  if (month == 11) {
+  if (month == 12) {
     for (let oct = currentDate; oct >= 1; oct--) {
+      if (oct == 1) {
+        month = 11;
+      }
+      // let url = "oracoes-missionarias-september/capela-virtual-oracoes-missionarias-" + sep + ".html";
+      // http.open("HEAD", url, false);
+      // http.send();
+      if (mainData.espirtualData.December[oct]) {
+        if (counter % 7 == 0 && counter != 0) {
+          postDiv = postDiv + 1;
+        }
+
+        ++counter;
+        if (Array.isArray(mainData.espirtualData.December[oct])) {
+          console.log(mainData.espirtualData.December[oct]);
+          mainData.espirtualData.December[oct].map((post, index) => {
+            console.log(post);
+
+            div.innerHTML += `  <div class="post">
+                <img src="${post.img}" class="postImage" alt="">
+                <div class="postDetails">
+                    <h5 class="GM">${post.title}</h5>
+                    <p class="postDate GBI"><i class="fa fa-calendar"></i> ${post.date}</p>
+                    <hr>
+                    <p class="postParagraph GBR">
+                    ${post.details}
+                    </p>
+                    <a href="${post.route}" id='santo-link'><button class="postButton GM">LEIA MAIS</button></a>
+                </div>
+
+                </div>`;
+          });
+        } else {
+          div.innerHTML += `<div class="post">
+               <img src="${mainData.espirtualData.December[oct].img}" class="postImage" alt="">
+               <div class="postDetails">
+                   <h5 class="GM">${mainData.espirtualData.December[oct].title}</h5>
+                   <p class="postDate GBI"><i class="fa fa-calendar"></i> ${mainData.espirtualData.December[oct].date}</p>
+                   <hr>
+                   <p class="postParagraph GBR">
+                   ${mainData.espirtualData.December[oct].details}
+                   </p>
+                   <a href="${mainData.espirtualData.December[oct].route}" id='santo-link'><button class="postButton GM">LEIA MAIS</button></a>
+               </div>
+               </div>`;
+        }
+      }
+    }
+  } 
+
+  if (month == 11) {
+    for (let oct = 31; oct >= 1; oct--) {
       if (oct == 1) {
         month = 10;
       }
