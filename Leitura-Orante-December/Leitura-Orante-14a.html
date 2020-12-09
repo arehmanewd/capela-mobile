@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../javascript-calendar.css" type="text/css">
+    <link rel="stylesheet" href="../css/Leitura-Orante_a.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- navbar Starts -->
+        <div class="container" id="nav-container">
+
+            <nav class="navbar navbar-expand-lg" id="nav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="width: 50px;">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          <img src="../img/menu.png" width="100%" alt="">
+        </button>
+                <img src="../img/navlogo.png" class="navLogo" />
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" id="indexPage"><img src="../img/home-icon.png" alt="" width="25px" />
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="quemSomos">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="oracoes">Orações Missionárias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="sant">Dia de Santo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="vocoes">Vocações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="missao">Missão</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="espirual-link">Espiritualidade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contatos">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- navbar ends -->
+
+        <div class="row pt-3" id="overall-container">
+
+            <div class="col-md-12 col-sm-6">
+                <h4 class="GM pageHeading">Leitura Orante</h4>
+                <div class="myContainer-heading">
+
+                    <p class="myContainer-date pb-0 mb-0 GB" id="date">
+                        Leituras do Dia
+                    </p>
+
+                    <p class="myContainer-date pb-0 mb-0 GB">
+                        Segunda-feira - São João da Cruz, Presbítero e Doutor da Igreja
+
+                    </p>
+                    <p class="myContainer-date pb-0 mb-0 GB">
+                        (Branco - prefácio do Advento, ofício da memória)
+                    </p>
+
+                    <p class="myContainer-date-cal GBI">
+                        <span class="cal-icon fa fa-calendar"></span>
+                        <i>
+                          14 de dezembro de 2020
+                          </i>
+                    </p>
+
+                    <img src="./images/14_Dez_2020_Leitura_Orante.jpg" class="imgview">
+                    <p class="pt-3 para GBR"><b class="headings">Oração do dia</b><br>Ó Deus, que inspirastes ao presbítero São João da Cruz extraordinário amor pelo Cristo e total desapego de si mesmo, fazei que, imitando sempre o seu exemplo, cheguemos à contemplação de vossa
+                        glória. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.
+                    </p>
+                    <audio id="audio_play">
+                          <source src="../audio/25_09_2020_Leitura_Orante.mp4" type="audio/ogg">
+
+                        </audio>
+                    <img src="./images/LISTEN.png" class="imgclick1" alt="" onclick="play()" id="play">
+                    <img src="./images/PAUSE.png" class="imgclick1" style="display:none" alt="" onclick="pause()" id="pause">
+
+
+                    <p class="pt-3 para GBR"><b class="headings">Leitura: Números 24,2-7.15-17</b> </p>
+                    <p class="s-heading GBR">
+                        Naqueles dias, <sup>2</sup>Balaão levantou os olhos e viu Israel acampado por tribos. O espírito de Deus veio sobre ele, <sup>3</sup>e Balaão pronunciou seu poema: “Oráculo de Balaão, filho de Beor, oráculo do homem que tem os
+                        olhos abertos; <sup>4</sup>oráculo daquele que ouve as palavras de Deus, que vê o que o Poderoso lhe faz ver, que cai, e seus olhos se abrem. <sup>5</sup>Como são belas as tuas tendas, ó Jacó, e as tuas moradas, ó Israel! <sup>6</sup>Elas
+                        se estendem como vales, como jardins ao longo de um rio, como aloés que o Senhor plantou, como cedros junto das águas. <sup>7</sup>A água transborda de seus cântaros, e sua semente é ricamente regada. Seu rei é mais poderoso do
+                        que Agag, seu reino está em ascensão”. <sup>15</sup>E Balaão continuou pronunciando o seu poema: “Oráculo de Balaão, filho de Beor, oráculo do homem que tem os olhos abertos, <sup>16</sup>oráculo daquele que ouve as palavras de
+                        Deus e conhece os pensamentos do Altíssimo, que vê o que o Poderoso lhe faz ver, que cai, e seus olhos se abrem. <sup>17</sup>Eu o vejo, mas não agora; e o contemplo, mas não de perto. Uma estrela sai de Jacó, e um cetro se levanta
+                        de Israel”. – <b> Palavra do Senhor.</b>
+
+                    </p>
+
+
+                    <p class="pt-3 para GBR"><b class="headings">Salmo Responsorial: 24(25)</b><br><br>
+                        <b class="sheading GM"><i>Fazei-me conhecer a vossa estrada, ó Senhor!</i></b>
+                        <br>
+                        <p class="s-heading GBR">Mostrai-me, ó Senhor, vossos caminhos e fazei-me conhecer a vossa estrada! Vossa verdade me oriente e me conduza, porque sois o Deus da minha salvação.
+                        </p>
+
+
+                    </p>
+
+
+                    <br>
+                    <b class="sheading GM"><i>Fazei-me conhecer a vossa estrada, ó Senhor!</i></b>
+                    <br>
+                    <p class="s-heading GBR">
+                        Recordai, Senhor meu Deus, vossa ternura e a vossa compaixão, que são eternas! De mim lembrai-vos, porque sois misericórdia e sois bondade sem limites, ó Senhor!
+                    </p>
+                    <br>
+                    <b class="sheading GM"><i>Fazei-me conhecer a vossa estrada, ó Senhor!</i></b>
+                    <br>
+                    <p class="s-heading GBR">
+                        O Senhor é piedade e retidão e reconduz ao bom caminho os pecadores. Ele dirige os humildes na justiça, e aos pobres ele ensina o seu caminho.
+
+                    </p>
+
+
+                    <b class="sheading GM"><i>Fazei-me conhecer a vossa estrada, ó Senhor!</i></b>
+                    <br>
+
+                    </p>
+                    <p class="pt-3 para GBR"><b class="headings">Evangelho: Mateus 21,23-27</b><br>
+                        <br>
+                        <p class="s-heading GBR">
+                            Naquele tempo, <sup>23</sup>Jesus voltou ao templo. Enquanto ensinava, os sumos sacerdotes e os anciãos do povo aproximaram-se dele e perguntaram: “Com que autoridade fazes essas coisas? Quem te deu tal autoridade?” <sup>24</sup>Jesus
+                            respondeu-lhes: “Também eu vos farei uma pergunta. Se vós me responderdes, também eu vos direi com que autoridade faço essas coisas. <sup>25</sup>Donde vinha o batismo de João? Do céu ou dos homens?” Eles refletiam entre si:
+                            “Se dissermos ‘do céu’, ele nos dirá: ‘Por que não acreditastes nele?’ <sup>26</sup>Se dissermos ‘dos homens’, temos medo do povo, pois todos têm João Batista na conta de profeta”. <sup>27</sup>Eles então responderam a Jesus:
+                            “Não sabemos”. Ao que Jesus também respondeu: “Eu também não vos direi com que autoridade faço essas coisas”. – <b>  Palavra da Salvação.</b>
+                        </p>
+
+
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-12 col-sm-6  text-center">
+                <p class="blog-heading">
+                    Leituras do mês
+                </p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="modelbtn btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+ Calendar
+</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+
+                            <div class="modal-body">
+                                <div class="calendar">
+                                    <!-- CAlendar -->
+
+                                    <div class="icalendar">
+                                        <div class="icalendar__month">
+                                            <div class="icalendar__prev" onclick="moveDate('prev')">
+                                                <span>&#10094</span>
+                                            </div>
+                                            <div class="icalendar__current-date">
+                                                <h2 id="icalendarMonth"></h2>
+                                                <div>
+                                                    <div id="icalendarDateStr"></div>
+                                                </div>
+
+                                            </div>
+                                            <div class="icalendar__next" onclick="moveDate('next')">
+                                                <span>&#10095</span>
+                                            </div>
+                                        </div>
+                                        <div class="icalendar__week-days">
+                                            <div>D</div>
+                                            <div>S</div>
+                                            <div>T</div>
+                                            <div>Q</div>
+                                            <div>Q</div>
+                                            <div>S</div>
+                                            <div>S</div>
+                                        </div>
+                                        <div class="icalendar__days"></div>
+
+
+                                        <script src="../javascript-calendar.js" type="text/javascript"></script>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="blog-heading">
+                    TAGS
+                </p>
+                <div>
+
+                    <p class="tagpara GBR">missao Amazonia evengel covid-19 indigenas novica papa francisco</p>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-12 ">
+                <h5 class="destaques-heading">
+                    Destaques
+                </h5>
+                <div id="destaquesPortion">
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="background-img">
+            <div>
+                <p style="text-align: center;color:#fff;font-family: Myriad Pro Regular;font-size: small;  padding: 10px 10px 0px 10px;">
+                    Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |<br> Tel. (11) 5547-7222
+                </p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/sspsbrasilnorte"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
+                    <a href="https://twitter.com/sspsbrasilnorte"><span><img src="../img/Icone_Twitter.png" alt=""></span></a>
+                    <a href="https://www.instagram.com/sspsbrasilnorte/"><span><img src="../img/Icone_Insta.png" alt=""></span></a>
+                    <a href="https://blog.ssps.org.br/"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
+                    <a href="https://www.youtube.com/SspsBrasilNorte"><span><img src="../img/Icone_Youtube.png" alt=""></span></a>
+                    <a href="http://www.ssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
+                </div>
+            </div>
+            <hr>
+            <div id="last-icon-div">
+                <p style="text-align: center; color:#fff;font-family: Myriad Pro Regular;font-size: small; padding: 10px 10px 0px 10px;">
+                    Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |<br/> Tel. (42) 3326 4091
+                </p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/msspsbrs"><span><img src="../img/Icone_Facebook.png" alt=""></span></a>
+                    <a href="https://www.mssps.org.br/noticias"><span><img src="../img/Icone_Blog.png" alt=""></span></a>
+                    <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"><span><img src="../img/Icone_Youtube.png" alt=""></span></a>
+                    <a href="https://www.mssps.org.br/"><span><img src="../img/Icone_Site.png" alt=""></span></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+<script src="../post-data-json.js"></script>
