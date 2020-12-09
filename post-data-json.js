@@ -626,7 +626,7 @@ let mainData = {
                 details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo`,
                 date: "3° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-5.html",
+                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-3.html",
             },
             10: {
                 img: host + "/img/10dez2020_Orações Missionárias .jpg",
@@ -634,7 +634,7 @@ let mainData = {
                 details: ` Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo. `,
                 date: "10° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-12.html",
+                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-10.html",
             },
             17: {
                 img: host + "/img/17 Dez 2020_ Orações Missionária .jpg",
@@ -642,7 +642,7 @@ let mainData = {
                 details: `  Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
                 date: "17° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-19.html",
+                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-17.html",
             },
             24: {
                 img: host + "/img/24 Dez 2020 _ Orações Missionária .jpg",
@@ -650,7 +650,7 @@ let mainData = {
                 details: ` Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
                 date: "24° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-26.html",
+                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-24.html",
             },
         },
     },
