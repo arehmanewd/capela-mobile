@@ -76,7 +76,7 @@ function onLoad() {
     }
 
     if (month == 11) {
-        for (let oct = currentDate; oct >= 1; oct--) {
+        for (let oct = 31; oct >= 1; oct--) {
             if (oct == 1) {
                 month = 10;
             }

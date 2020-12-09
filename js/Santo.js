@@ -7,13 +7,13 @@ function onLoad() {
 
   let counter = 0;
   let postDiv = 1;
-  let month = 11;
+  let month = 12;
   let div = document.getElementById("multiplePosts");
 
   if (month == 12) {
     for (let oct = currentDate; oct >= 1; oct--) {
       if (oct == 1) {
-        month = 10;
+        month = 11;
       }
       // let url = "oracoes-missionarias-september/capela-virtual-oracoes-missionarias-" + sep + ".html";
       // http.open("HEAD", url, false);
@@ -65,7 +65,7 @@ function onLoad() {
     }
   }
   if (month == 11) {
-    for (let oct = currentDate; oct >= 1; oct--) {
+    for (let oct = 31; oct >= 1; oct--) {
       if (oct == 1) {
         month = 10;
       }
