@@ -921,6 +921,13 @@ let mainData = {
                 date: "01 de novembro de 2020",
                 route: host + "/Espirtualidade-November/espiritualidade-1.html",
             },
+            3: {
+                img: host + "/img/22_nov_2020_agua_benta.jpg",
+                title: "Experiências Interculturais",
+                details: `O que dizer a uma pessoa que perdeu alguém querido? Nem sempre as palavras aparecem na hora que se quer dizer algo para aliviar a dor. Pequenos gestos, às vezes, expressam melhor a comunhão no sofrimento. Veja a reflexão do Pe. Deolino Baldissera.`,
+                date: "03 de novembro de 2020",
+                route: host + "/Espirtualidade-November/espiritualidade-3.html",
+            },
             8: {
                 img: host +
                     "/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
@@ -944,6 +951,13 @@ let mainData = {
                 details: `A vida, tomada como um pote de água benta, é assim. Há de se cuidar! Que saibamos cuidar do pote de água benta que é nossa vida. Veja a reflexão de Maria José Brant (Deka). `,
                 date: "22 de novembro de 2020",
                 route: host + "/Espirtualidade-November/espiritualidade-22.html",
+            },
+            29: {
+                img: host + "/img/esp-29.jpg",
+                title: "  O sonho missionário de Madre Maria Helena",
+                details: `O que dizer a uma pessoa que perdeu alguém querido? Nem sempre as palavras aparecem na hora que se quer dizer algo para aliviar a dor. Pequenos gestos, às vezes, expressam melhor a comunhão no sofrimento. Veja a reflexão do Pe. Deolino Baldissera.`,
+                date: "29 de novembro de 2020",
+                route: host + "/Espirtualidade-November/espiritualidade-29.html",
             },
         },
         December: {
