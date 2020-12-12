@@ -195,27 +195,27 @@ let mainData = {
                 route: host + "/Dia-October/Dia-4.html",
             },
             5: [{
-                    img: host + "/img/05_Post_Dia_Santo_Outubro_2020.jpg",
-                    title: "São Benedito",
-                    details: "Hoje celebramos a memória de São Benedito que, com muita fé e humildade, seguiu sua vida consagrada na Ordem dos Frades Menores Capuchinhos, cuidando dos mais pobres. São Benedito, rogai por nós!",
-                    date: "05 de outubro de 2020",
-                    route: host + "/Dia-October/Dia-5.html",
-                },
-                {
-                    img: host +
-                        "/img/05_Post_Dia_Santo_Outubro_2020_Canonizacao_Santo_Arnaldo.jpg",
-                    title: "Canonização de Santo Arnaldo Janssen e São José Freinademetz",
-                    details: "Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
-                    date: "05 de outubro de 2020",
-                    route: host + "/Dia-October/Dia-5a.html",
-                },
-                {
-                    img: host + "/img/05_Post_Dia_Santo_Outubro_2020_B.jpg",
-                    title: "Santa Faustina Kowalska",
-                    details: "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
-                    date: "05 de outubro de 2020",
-                    route: host + "/Dia-October/Dia-5b.html",
-                },
+                img: host + "/img/05_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "São Benedito",
+                details: "Hoje celebramos a memória de São Benedito que, com muita fé e humildade, seguiu sua vida consagrada na Ordem dos Frades Menores Capuchinhos, cuidando dos mais pobres. São Benedito, rogai por nós!",
+                date: "05 de outubro de 2020",
+                route: host + "/Dia-October/Dia-5.html",
+            },
+            {
+                img: host +
+                    "/img/05_Post_Dia_Santo_Outubro_2020_Canonizacao_Santo_Arnaldo.jpg",
+                title: "Canonização de Santo Arnaldo Janssen e São José Freinademetz",
+                details: "Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
+                date: "05 de outubro de 2020",
+                route: host + "/Dia-October/Dia-5a.html",
+            },
+            {
+                img: host + "/img/05_Post_Dia_Santo_Outubro_2020_B.jpg",
+                title: "Santa Faustina Kowalska",
+                details: "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
+                date: "05 de outubro de 2020",
+                route: host + "/Dia-October/Dia-5b.html",
+            },
             ],
             7: {
                 img: host + "/img/07_Post_Dia_Santo_Outubro_2020.jpg",
@@ -361,14 +361,14 @@ let mainData = {
             },
 
             22: {
-                    img: host + "/img/22_Post_Dia_Santo_Novembro_2020.jpg",
-                    title: "Solenidade de Jesus Cristo, Rei do Universo",
-                    details: "Na Solenidade de Jesus Cristo, Rei do Universo, queremos recordar que o reinado de Jesus Cristo não está atrelado ao poder dominador, mas se coloca ao lado dos mais pobres e vulneráveis. Que esta festividade renove nosso seguimento a Jesus Cristo. ",
-                    date: "22 de Novembro de 2020",
-                    route: host + "/Dia-November/Dia-22.html",
-                },
-              
-            
+                img: host + "/img/22_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "Solenidade de Jesus Cristo, Rei do Universo",
+                details: "Na Solenidade de Jesus Cristo, Rei do Universo, queremos recordar que o reinado de Jesus Cristo não está atrelado ao poder dominador, mas se coloca ao lado dos mais pobres e vulneráveis. Que esta festividade renove nosso seguimento a Jesus Cristo. ",
+                date: "22 de Novembro de 2020",
+                route: host + "/Dia-November/Dia-22.html",
+            },
+
+
             25: {
                 img: host + "/img/25_Post_Dia_Santo_Novembro_2020_B.jpg",
                 title: "Santa Catarina de Alexandria",
@@ -392,7 +392,7 @@ let mainData = {
             },
         },
         December: {
-      
+
             3: {
                 img: host + "/img/03_Post_Dia_Santo_Dezembro_2020.jpg",
                 title: "São Francisco Xavier",
@@ -493,10 +493,10 @@ let mainData = {
                 date: "31 de Dezembro de 2020",
                 route: host + "/Dia-December/Dia-31.html",
             },
-        
+
         },
     },
-   
+
 
 
     oracoesMissionarias: {
@@ -859,12 +859,12 @@ let mainData = {
             5: {
                 img: host + "/img/05_Dez_2020_Foto_Vocação.png",
                 title:
-                  "Irmã Zilda Hornai: confiança em Deus e desafios em nossa cultura",
+                    "Irmã Zilda Hornai: confiança em Deus e desafios em nossa cultura",
                 details: `Neste Mês das Vocações, conheça um pouco da experiência da irmã Zilda Hornai, vinda do Timor Leste. Ela conta como foi seu chamado à vida religiosa e em quem se inspira para superar os desafios que enfrenta em nosso país. Imperdível!  `,
                 date: "5 de dezembro de 2020",
                 route: host + "/Vocacoes-December/Vocacoes-12.html",
                 video: false,
-              },
+            },
             12: {
                 img: host + "/img/12_Dez_2020_Vocações .png",
                 title: "Você já imaginou como é a preparação para ser uma irmã missionária? ",
@@ -888,7 +888,7 @@ let mainData = {
                 date: "26 de dezembro de 2020",
                 route: host + "/Vocacoes-December/Vocacoes-19.html",
                 video: true,
-              },
+            },
         },
     },
     espirtualData: {
@@ -962,6 +962,14 @@ let mainData = {
                 details: `A vida, tomada como um pote de água benta, é assim. Há de se cuidar! Que saibamos cuidar do pote de água benta que é nossa vida. Veja a reflexão de Maria José Brant (Deka). `,
                 date: "22 de novembro de 2020",
                 route: host + "/Espirtualidade-November/espiritualidade-22.html",
+            },
+            29: {
+                img: host +
+                    "/img/esp-29.jpg",
+                title: "O sonho missionário de …",
+                details: `Helena Stollenwerk, quando era criança, participava da Obra da Infância Missionária. Ao conhecer a `,
+                date: "29 de Novembro de 2020",
+                route: host + "/Espirtualidade-November/espiritualidade-29.html",
             },
         },
         December: {
@@ -2237,6 +2245,15 @@ let mainData = {
                 date: "11 de novembro de 2020",
                 route: host + "/Missao-November/missao-11.html",
             },
+            24: {
+                img: host + "/img/11_Nov_Missão_Haiti_Foto_02_.jpg",
+                title: "PROJETO MISSIONÁRIO INTERCONGREGACIONAL NO HAITI",
+                details: ` Acontecimento que abalou o mundo e mudou o futuro do país
+                No dia 12 de janeiro de 2010 o país do Haiti sofreu um terremo`,
+                date: "24 de novembro de 2020",
+                route: host + "/Missao-November/missao-24.html",
+                video: true,
+            },
             27: {
                 img: host + "/img/TM_Irma Ashrita Soreng.jpg",
                 title: "Testemunho Missionário - Ir. Ashrita",
@@ -2582,7 +2599,7 @@ for (var category in mainData) {
 showhtml += tercoHTML;
 
 // console.log(showhtml);
-window.setTimeout(function() {
+window.setTimeout(function () {
     jQuery("#destaquesPortion").html(showhtml);
     // document.getElementById('destaquesPortion').innerHTML +=
     // showhtml2 += tercoHTML2
@@ -2600,7 +2617,7 @@ window.setTimeout(function() {
     chat_order("destaquesPortion", "sortpost");
     jQuery("#destaquesPortion")
         .find(".flex")
-        .each(function(i) {
+        .each(function (i) {
             if (i > 6) {
                 jQuery(this).remove();
             }
@@ -2608,7 +2625,7 @@ window.setTimeout(function() {
 
     jQuery("#destaquesMain")
         .find(".post")
-        .each(function(i) {
+        .each(function (i) {
             if (i > 6) {
                 jQuery(this).remove();
             }
@@ -2620,7 +2637,7 @@ function chat_order(pid, pcls) {
     var container = $("#" + pid);
     var items = $("." + pcls);
 
-    items.each(function(i) {
+    items.each(function (i) {
         // Convert the string in 'data-event-date' attribute to a more
         // standardized date format
         var BCDate = $(this).attr("data-event-date");
@@ -2632,12 +2649,12 @@ function chat_order(pid, pcls) {
     });
 
     items
-        .sort(function(a, b) {
+        .sort(function (a, b) {
             a = parseFloat($(a).attr("data-event-date"));
             b = parseFloat($(b).attr("data-event-date"));
             return a > b ? -1 : a < b ? 1 : 0;
         })
-        .each(function() {
+        .each(function () {
             container.append(this);
         });
 }
