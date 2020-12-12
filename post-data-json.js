@@ -939,6 +939,13 @@ let mainData = {
                 date: "01 de novembro de 2020",
                 route: host + "/Espirtualidade-November/espiritualidade-1.html",
             },
+            3: {
+                img: host + "/img/22_nov_2020_agua_benta.jpg",
+                title: "Experiências Interculturais",
+                details: `O que dizer a uma pessoa que perdeu alguém querido? Nem sempre as palavras aparecem na hora que se quer dizer algo para aliviar a dor. Pequenos gestos, às vezes, expressam melhor a comunhão no sofrimento. Veja a reflexão do Pe. Deolino Baldissera.`,
+                date: "03 de novembro de 2020",
+                route: host + "/Espirtualidade-November/espiritualidade-3.html",
+            },
             8: {
                 img: host +
                     "/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
@@ -964,11 +971,10 @@ let mainData = {
                 route: host + "/Espirtualidade-November/espiritualidade-22.html",
             },
             29: {
-                img: host +
-                    "/img/esp-29.jpg",
-                title: "O sonho missionário de …",
-                details: `Helena Stollenwerk, quando era criança, participava da Obra da Infância Missionária. Ao conhecer a `,
-                date: "29 de Novembro de 2020",
+                img: host + "/img/esp-29.jpg",
+                title: "  O sonho missionário de Madre Maria Helena",
+                details: `O que dizer a uma pessoa que perdeu alguém querido? Nem sempre as palavras aparecem na hora que se quer dizer algo para aliviar a dor. Pequenos gestos, às vezes, expressam melhor a comunhão no sofrimento. Veja a reflexão do Pe. Deolino Baldissera.`,
+                date: "29 de novembro de 2020",
                 route: host + "/Espirtualidade-November/espiritualidade-29.html",
             },
         },
