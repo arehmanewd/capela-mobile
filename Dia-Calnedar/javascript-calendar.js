@@ -1,21 +1,21 @@
 'use strict';
-let dt = new Date('August 1, 2020 23:15:00');
+let dt = new Date('December 1, 2020 23:15:00');
 // import {mainData} from '../post-data-json'
 // console.log(mainData)
-let check=0;
+let check = 0;
 
 function renderDate() {
-    let currentDate=''
-    let currentDate2=''
+    let currentDate = ''
+    let currentDate2 = ''
     // For Production
-    
-    if(document.location.pathname.slice(41).length == 5){
-         currentDate=document.location.pathname.slice(41).slice(0,1)
-      
-        }
-        if(document.location.pathname.slice(41).length == 6){
-            currentDate=document.location.pathname.slice(41).slice(0,2)
-            console.log(currentDate)
+
+    if (document.location.pathname.slice(41).length == 5) {
+        currentDate = document.location.pathname.slice(41).slice(0, 1)
+
+    }
+    if (document.location.pathname.slice(41).length == 6) {
+        currentDate = document.location.pathname.slice(41).slice(0, 2)
+        console.log(currentDate)
     }
     // For Development
     // if(document.location.pathname.slice(48).length == 5){
@@ -27,7 +27,7 @@ function renderDate() {
     // if(document.location.pathname.slice(48).length == 6){
     //     currentDate2 = document.location.pathname.slice(48).slice(0,2)
     // }
-       
+
     let dateString = new Date();
 
     dt.setDate(1);
@@ -54,7 +54,7 @@ function renderDate() {
         "Abril",
         "Maio",
         "Junho",
-        "Julho", 
+        "Julho",
         "Agosto",
         "Setembro",
         "Outubro",
@@ -62,7 +62,7 @@ function renderDate() {
         "Dezembro"
     ];
 
-    document.getElementById("icalendarMonth").innerHTML = months[dt.getMonth()] ;
+    document.getElementById("icalendarMonth").innerHTML = months[dt.getMonth()];
     // document.getElementById("icalendarDateStr").innerHTML = dateString.toDateString();
 
     let cells = "";
@@ -71,65 +71,85 @@ function renderDate() {
     for (let x = day; x > 0; x--) {
         cells += "<div class='icalendar__prev-date'>" + (prevDate - x + 1) + "</div>";
     }
-    for (let i = 1; i <= endDate; i++) {   
-        let i2 = i+"a"
-        if (i == currentDate && months[dt.getMonth()] == 'Setembro' || i2 == currentDate2 ) {
+    for (let i = 1; i <= endDate; i++) {
+        let i2 = i + "a"
+        if (i == currentDate && months[dt.getMonth()] == 'Setembro' || i2 == currentDate2) {
             cells += "<a class='icalendar__today'>" + i + "</a>";
         } else {
-            setTimeout(()=>{
+            setTimeout(() => {
 
 
             })
-            
-            if(months[dt.getMonth()] == 'Agosto'){
-                if(check==0){
-                    setTimeout(()=>{
-                         console.log('--------------')
-                   jQuery(".icalendar__prev").click();
-                   jQuery(".icalendar__next").click();
-                   
-               },2000)
-               check=1;
-               }
-                if(mainData.santoData.August[i]){
-                     cells += `<a class='a-date' href="../../Dia-August/Dia-`+i+`.html">`+i+`</a>`;
+
+            if (months[dt.getMonth()] == 'Dezembro') {
+                if (check == 0) {
+                    setTimeout(() => {
+                        console.log('--------------')
+                        jQuery(".icalendar__prev").click();
+                        jQuery(".icalendar__next").click();
+
+                    }, 2000)
+                    check = 1;
                 }
-                else{
-                  cells += `<a class='a-date' style="color:#bbbbbb !important">`+i+`</a>`;
+                if (mainData.santoData.August[i]) {
+                    cells += `<a class='a-date' href="../../Dia-August/Dia-` + i + `.html">` + i + `</a>`;
                 }
-                   
-                     
-                      // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
-                  }
-                  else if(months[dt.getMonth()] == "Setembro" ){
-                    
-                    if(mainData.santoData.September[i]){
-                        cells += `<a class='a-date' href="../../Dia-September/Dia-`+i+`.html">`+i+`</a>`;
-                   }
-                   else{
-                     cells += `<a class='a-date' style="color:#bbbbbb !important">`+i+`</a>`;
-                   }
-                     
-                  }
-                  else if(months[dt.getMonth()] == "Outubro" ){
-                     
-                     
-                    if(mainData.santoData.October[i]){
-                        cells += `<a class='a-date' href="../Dia-October/Dia-`+i+`.html">`+i+`</a>`;
-                      
-                   }
-                   else{
-                     cells += `<a class='a-date' style="color:#bbbbbb !important">`+i+`</a>`;
-                   }
-               
-                     
-                  }
-                  
-                  else{
-                      cells += `<a class='a-date'>`+i+`</a>`;
-                  }
-            
-            
+                else {
+                    cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
+                }
+
+
+                // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
+            }
+            else if (months[dt.getMonth()] == "Setembro") {
+
+                if (mainData.santoData.September[i]) {
+                    cells += `<a class='a-date' href="../../Dia-September/Dia-` + i + `.html">` + i + `</a>`;
+                }
+                else {
+                    cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
+                }
+
+            }
+            else if (months[dt.getMonth()] == "Outubro") {
+
+
+                if (mainData.santoData.October[i]) {
+                    cells += `<a class='a-date' href="../Dia-October/Dia-` + i + `.html">` + i + `</a>`;
+
+                }
+                else {
+                    cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
+                }
+
+
+            }
+            else if (months[dt.getMonth()] == "Novembro") {
+
+                if (mainData.santoData.November[i]) {
+                    cells += `<a class='a-date' href="../../Dia-November/Dia-` + i + `.html">` + i + `</a>`;
+                }
+                else {
+                    cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
+                }
+
+            }
+            else if (months[dt.getMonth()] == "Dezembro") {
+
+                if (mainData.santoData.December[i]) {
+                    cells += `<a class='a-date' href="../../Dia-December/Dia-` + i + `.html">` + i + `</a>`;
+                }
+                else {
+                    cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
+                }
+
+            }
+
+            else {
+                cells += `<a class='a-date'>` + i + `</a>`;
+            }
+
+
 
         }
 
@@ -142,7 +162,7 @@ function renderDate() {
     }
 
     document.getElementsByClassName("icalendar__days")[0].innerHTML = cells;
-    
+
 }
 
 renderDate();
@@ -157,6 +177,6 @@ function moveDate(param) {
 
     renderDate();
 }
-const click=()=>{
+const click = () => {
     console.log('as')
 }
