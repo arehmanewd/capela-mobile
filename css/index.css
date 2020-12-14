@@ -1,44 +1,52 @@
 body {
-  margin: 0px;
+    margin: 0px;
 }
+
 
 /* Navbar Css */
 
 @font-face {
     font-family: "Myriad Pro Regular";
     src: url("../fonts/MYRIADPRO-REGULAR.OTF");
-  }
+}
 
-.navbar{
+.navbar {
     background-color: #01244e;
     /* display: flex; */
 }
-.nav-link{
+
+.nav-link {
     font-family: "Myriad Pro Regular";
     color: white;
 }
-.navLogo{
+
+.navLogo {
     width: 78%;
     position: relative;
     left: -16px;
 }
 
-body{
+body {
     margin: 0px;
 }
-#nav{
-  height: 50px;
+
+#nav {
+    height: 50px;
 }
-li{
+
+li {
     text-decoration: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.MUNDO{
-  color: white !important;
+
+.MUNDO {
+    color: white !important;
 }
-#navbarNav{
+
+#navbarNav {
     background-color: #01244e;
     height: 50px;
     text-align: center;
@@ -46,92 +54,123 @@ a{
     margin-left: -4.5%;
     margin-right: -4.3%;
 }
-.nav-pills{
+
+.nav-pills {
     color: white !important;
 }
-.nav-item{
-padding: 5px;
-flex: 1 1 auto;
-/* border: 1px solid red; */
-text-align: center;
-padding-left: 12px;
-font-size: 20px;
+
+.nav-item {
+    padding: 5px;
+    flex: 1 1 auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-left: 12px;
+    font-size: 20px;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     border: 1px solid white;
     margin-top: -3px;
 }
-@media only screen and (max-width:990px){
-    .nav-item{
+
+@media only screen and (max-width:990px) {
+    .nav-item {
         border-bottom: 1px solid white;
     }
-    #navbarNav{
+    #navbarNav {
         height: auto;
-        margin-top: 8px     ;
+        margin-top: 8px;
         /* border: 1px solid red !important; */
     }
-    #nav-container{
+    #nav-container {
         padding-right: 0px;
         position: relative;
         padding-left: 0px;
     }
 }
+
+
 /* Navbar Css Ends */
 
 @font-face {
     font-family: "nuevaBold";
     src: url('../fonts//Nueva\ Std\ Bold\ Condensed.ttf');
-  }
-#overall-container{
+}
+
+#overall-container {
     z-index: 50;
 }
-#nav-container{
+
+#nav-container {
     z-index: 99999999;
 }
 
 .sky-background {
-  background-image: url("../img/sky-blue-background.jpg") !important;
-  background-repeat: no-repeat;
-  /* background-position: center bottom; */
-  background-size: cover;
-  /* height: 370px; */
-  background-repeat: no-repeat;
+    background-image: url("../img/sky-blue-background.jpg") !important;
+    background-repeat: no-repeat;
+    /* background-position: center bottom; */
+    background-size: cover;
+    /* height: 370px; */
+    background-repeat: no-repeat;
 }
+
 .photo-container {
     border: 1px solid #d2d2d2;
     background-color: #fff;
     max-width: 443px;
     max-height: 400px;
-  }
-  .h-100 {
+}
+
+.h-100 {
     height: 100%;
-  }
-  .main-banner-div{
+}
+
+.main-banner-div {
     /* border: 1px solid green; */
     /* background-color: lightblue  ; */
     height: 100%;
-  }
-  .main-banner-heading-div{
-  
+}
+
+.main-banner-heading-div {
     text-align: center;
     /* border: 1px solid red; */
-  }
-  .intecao-heading{
+}
+
+.iconMute {
+    position: relative;
+    font-size: 17px;
+    color: white;
+    bottom: 30px;
+    left: 93%;
+    cursor: pointer;
+    width: 4%;
+}
+
+.iconUnmute {
+    position: relative;
+    font-size: 17px;
+    color: white;
+    bottom: 30px;
+    left: 93%;
+    cursor: pointer;
+    display: none;
+    width: 4%;
+}
+
+.intecao-heading {
     font-size: 2.4rem;
     font-family: "nuevaBold";
     padding-top: 10px;
     margin-bottom: 0;
-  
-  }
-  .intecao-sub-heading{
+}
+
+.intecao-sub-heading {
     font-size: 30px;
     font-family: "nuevaBold";
-    
     margin-bottom: 0;
-  
-  
-  }
-  .continent {
+}
+
+.continent {
     /* border: 1px solid red; */
     position: absolute;
     font-size: 25px;
@@ -142,22 +181,23 @@ font-size: 20px;
     /* background-color: red; */
     font-weight: bolder;
     width: 91%;
-  }
-  
-  .intecao-detail{
+}
+
+.intecao-detail {
     color: black;
-      font-family:' nuevaItalicLight';
-      font-weight: 400;
-      font-size: 22px;
-      padding: 20px;
-      line-height: 1.2;
-      text-align: center;
-      /* border: 1px solid red; */
-      height: auto;
-      font-weight: 500;
-      padding-top: 0;
-  }
-  .pedido-caption {
+    font-family: ' nuevaItalicLight';
+    font-weight: 400;
+    font-size: 22px;
+    padding: 20px;
+    line-height: 1.2;
+    text-align: center;
+    /* border: 1px solid red; */
+    height: auto;
+    font-weight: 500;
+    padding-top: 0;
+}
+
+.pedido-caption {
     margin: auto;
     position: absolute;
     top: 46px;
@@ -172,30 +212,37 @@ font-size: 20px;
     /* opacity: 0.9; */
     left: 77px;
 }
-  * {
+
+* {
     box-sizing: border-box;
-  }
+}
 
-  img {
+img {
     vertical-align: middle;
-  }
+}
 
-  /* Position the image container (needed to position the left and right arrows) */
- 
 
-  /* Hide the images by default */
-  .mySlides {
+/* Position the image container (needed to position the left and right arrows) */
+
+
+/* Hide the images by default */
+
+.mySlides {
     display: none;
-  }
+}
 
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
     cursor: pointer;
-  }
+}
 
-  /* Next & previous buttons */
-  .prev,
-  .next {
+
+/* Next & previous buttons */
+
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 65%;
@@ -213,118 +260,142 @@ font-size: 20px;
     background-color: grey;
     opacity: 0.7;
     border-radius: 100px;
-  }
-  .prev {
-    left: -5px;
-  }
-  .next {
-    right: -5px;
-  }
+}
 
-  /* Position the "next button" to the right */
-  .next {
+.prev {
+    left: -5px;
+}
+
+.next {
+    right: -5px;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
     right: -5px;
     border-radius: 100px;
     width: 60px;
     height: 60px;
-
     background-color: grey;
-  }
+}
 
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
+}
 
-  /* Number text (1/3 etc) */
-  .numbertext {
+
+/* Number text (1/3 etc) */
+
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
+}
 
-  /* Container for image text */
-  .caption-container {
+
+/* Container for image text */
+
+.caption-container {
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
     color: white;
-  }
+}
 
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  /* Six columns side by side */
-  .column {
+
+/* Six columns side by side */
+
+.column {
     float: left;
     width: 16.66%;
-  }
+}
 
-  /* Add a transparency effect for thumnbail images */
-  .demo {
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
     opacity: 0.6;
-  }
+}
 
-  .active,
-  .demo:hover {
+.active,
+.demo:hover {
     opacity: 1;
-  }
-  .carousel-container{
-      margin-top: 20px;
-  }
+}
 
-  .carousel-slide-img{
-      /* border: 1px solid green; */
-      width: 100%;
-  }
-  .content-label{
+.carousel-container {
+    margin-top: 20px;
+}
+
+.carousel-slide-img {
+    /* border: 1px solid green; */
+    width: 100%;
+}
+
+.content-label {
     background-color: #3a89c5;
     color: white !important;
     text-align: center;
-  }
-  .circle{
+}
+
+.circle {
     height: 30px;
     border-radius: 100px;
     width: 30px;
-  }
-  .hrl{
-      width: 100%;
-      border: 1px solid lightgray;
-      margin-bottom: 10px;
-      margin-top: 10px;
-  }
-  .semana-heading{
+}
+
+.hrl {
+    width: 100%;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.semana-heading {
     color: #3884c1 !important;
     font-weight: 600;
-  }
-  .semana-container{
-      margin-top: 10px;
-  }
-  .flex{
-      display: flex;
-      border-bottom: 2px solid lightgray;
-  }
-  .flex-img{
-      width: 20%;
-      padding: 5px;
-  }
-  .semana-flex-heading{
-      padding-left: 10px;
-      color: #666666;
-  }
-  .postDate{
+}
+
+.semana-container {
+    margin-top: 10px;
+}
+
+.flex {
+    display: flex;
+    border-bottom: 2px solid lightgray;
+}
+
+.flex-img {
+    width: 20%;
+    padding: 5px;
+}
+
+.semana-flex-heading {
+    padding-left: 10px;
+    color: #666666;
+}
+
+.postDate {
     text-align: left;
     font-size: 12px;
 }
-.destaques-heading{
-  margin-top: 10px;
-  text-align: left;
-  border-bottom: 2px solid lightgray;
-  padding-bottom: 10px;
+
+.destaques-heading {
+    margin-top: 10px;
+    text-align: left;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 10px;
 }
